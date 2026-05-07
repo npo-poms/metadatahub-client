@@ -1,6 +1,7 @@
 package nl.npo.metadatahub.poms;
 
 import java.util.*;
+import java.util.function.Consumer;
 import nl.vpro.domain.media.MediaBuilder;
 import nl.vpro.domain.media.Program;
 import org.apache.jena.query.QuerySolution;
@@ -16,16 +17,16 @@ public class Mapper {
 
     public Program toProgram(QuerySolution item) {
         var builder = MediaBuilder.program();
-        if (fields.contains("title")) {
-            builder.mainTitle(item.getLiteral("title").getString());
-        }
-        if (fields.contains("description")) {
-            builder.mainDescription(item.getLiteral("description").getString());
-        }
-        if (fields.contains("prid")) {
-            builder.mid(item.getLiteral("prid").getString());
-        }
+        set("title", item, builder::mainTitle);
+        set("description", item, builder::mainDescription);
+        set("prid", item, builder::mid);
         return builder.build();
 
+    }
+
+    protected void set(String field, QuerySolution item, Consumer<String> consumer) {
+        if (fields.contains(field)) {
+            consumer.accept(item.getLiteral(field).getString());
+        }
     }
 }
