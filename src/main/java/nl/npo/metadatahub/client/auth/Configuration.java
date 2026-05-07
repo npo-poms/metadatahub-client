@@ -34,11 +34,11 @@ public class Configuration {
         return new SparqlConfig(properties.getProperty("sparql.endpoint"));
     }
 
-    public SparqlQueryExecutor getSparqlQueryExecutor() {
+    public MetadataSparqlClient createClient() {
         TokenManager tokenManager = getTokenManager();
         SparqlConfig sparqlConfig = getSparqlConfig();
-        SparqlHttpClient httpClient = new SparqlHttpClient(tokenManager, sparqlConfig);
-        return new SparqlQueryExecutor(httpClient);
+        MetadataSparqlClient httpClient = new MetadataSparqlClient(tokenManager, sparqlConfig);
+        return httpClient;
     }
 
 

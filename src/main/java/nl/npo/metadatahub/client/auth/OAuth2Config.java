@@ -1,16 +1,11 @@
 package nl.npo.metadatahub.client.auth;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import static java.util.Objects.requireNonNull;
 import java.util.Properties;
 import lombok.NonNull;
-import org.apache.jena.vocabulary.OA;
 
 /**
- * OAuth2 configuration for Keycloak authentication.
- * This is a record, so it automatically generates constructor, getters, equals, hashCode, and toString.
+ 
  */
 public record OAuth2Config(
     String tokenUri,
