@@ -1,6 +1,8 @@
 package nl.npo.metadatahub.client.sparql;
 
 import java.time.Duration;
+import java.util.Objects;
+import static java.util.Objects.requireNonNull;
 
 /**
  * SPARQL client configuration.
@@ -14,7 +16,7 @@ public record SparqlConfig(
      * Compact constructor with defaults.
      */
     public SparqlConfig {
-        if (endpoint == null) throw new IllegalArgumentException("endpoint cannot be null");
+        requireNonNull(endpoint, "endpoint cannot be null");
         if (connectTimeout == null) connectTimeout = Duration.ofSeconds(10);
         if (readTimeout == null) readTimeout = Duration.ofSeconds(30);
     }
@@ -23,7 +25,7 @@ public record SparqlConfig(
      * Create with defaults for timeouts.
      */
     public SparqlConfig(String endpoint) {
-        this(endpoint, Duration.ofSeconds(10), Duration.ofSeconds(30));
+        this(endpoint, null, null);
     }
 }
 

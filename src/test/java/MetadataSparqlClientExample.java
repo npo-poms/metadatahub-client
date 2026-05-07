@@ -1,8 +1,10 @@
+import jakarta.xml.bind.JAXB;
 import java.util.logging.Logger;
 import nl.npo.metadatahub.client.Configuration;
 import nl.npo.metadatahub.client.auth.*;
 import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.npo.metadatahub.poms.Mapper;
+import nl.vpro.domain.media.Program;
 import org.apache.jena.query.ResultSet;
 
 
@@ -33,18 +35,42 @@ void main() throws Exception {
 
 private static void firstQuery(MetadataSparqlClient client) throws Exception {
     String firstQuery = """
-        PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
-        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-    SELECT ?title ?description ?dateCreated ?prid
+      PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+    SELECT ?prid ?type
+           ?entity
+          ?dateCreated ?dateModified
+          ?title ?description
+          ?channelName ?start ?end
+          ?genreLabel ?targetAudienceLabel ?ratingType ?ratingValue
     WHERE {
       ?entity ec:hasIdentifier ?id .
-      ?id ec:identifierValue "VPWON_1257874" .
-      ?id ec:identifierValue ?prid .
+      ?id ec:name "PRID" .
+      ?entity ec:hasPublication ?publication .
+        ?publication ec:hasPublicationChannel ?channel .
+        ?channel ec:name ?channelName .
+        ?publication ec:hasStartDateTime ?start .
       OPTIONAL { ?entity ec:title ?title . }
-      OPTIONAL { ?entity ec:name ?prid . }
       OPTIONAL { ?entity ec:contentDescription ?description . }
       OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
-      
+       OPTIONAL {
+              ?entity ec:hasIdentifier ?id .
+              ?id ec:identifierValue ?prid .
+              ?id ec:name "PRID" .
+            }
+      OPTIONAL {
+          ?entity ec:hasGenre ?genre .
+          ?genre skos:prefLabel ?genreLabel .
+        }
+        OPTIONAL {
+          ?entity ec:hasTargetAudience ?audience .
+          ?audience ec:hasObjectType/skos:prefLabel ?targetAudienceLabel .
+        }
+        OPTIONAL {
+          ?entity ec:hasRating ?rating .
+          ?rating a ?ratingType .
+          ?rating ec:ratingValue ?ratingValue .
+        }
     }
     LIMIT 1000""";
 
@@ -53,10 +79,8 @@ private static void firstQuery(MetadataSparqlClient client) throws Exception {
     Mapper mapper = new Mapper(fields);
     while(result.hasNext()) {
         var row = result.next();
-        IO.println(mapper.toProgram(row));
-        for (String field : fields) {
-            IO.println(field + "\t" + row.get(field).asLiteral().getString());
-        }
+        Program program = mapper.toProgram(row);
+        JAXB.marshal(program, System.out);
     }
 }
 
