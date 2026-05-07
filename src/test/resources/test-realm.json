@@ -1,0 +1,61 @@
+{
+  "realm": "test",
+  "enabled": true,
+  "clients": [
+    {
+      "clientId": "test-client",
+      "enabled": true,
+      "publicClient": false,
+      "secret": "test-secret",
+      "directAccessGrantsEnabled": true,
+      "clientAuthenticatorType": "client-secret-basic",
+      "serviceAccountsEnabled": true,
+      "standardFlowEnabled": false,
+      "implicitFlowEnabled": false,
+      "redirectUris": [
+        "http://localhost:8080/*"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "username": "testuser",
+      "enabled": true,
+      "emailVerified": false,
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "testuser@example.com",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "test-password"
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "realm": [
+      {
+        "name": "offline_access",
+        "description": "${role_offline-access}"
+      },
+      {
+        "name": "user_avatar",
+        "description": "${role_user-avatar}"
+      },
+      {
+        "name": "manage-account",
+        "description": "${role_manage-account}"
+      },
+      {
+        "name": "manage-account-links",
+        "description": "${role_manage-account-links}"
+      },
+      {
+        "name": "view-profile",
+        "description": "${role_view-profile}"
+      }
+    ]
+  }
+}
+
