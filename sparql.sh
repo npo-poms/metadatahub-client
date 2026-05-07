@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
+. auth.sh
 
-curl -G 'https://external-sparql.acc.metadatahub.bijnpo.nl/v1/sparql' \
+curl -G "${sparql_endpoint}" \
   -H "Authorization: Bearer $ACCESS_TOKEN" \
   --data-urlencode 'query=
     PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>

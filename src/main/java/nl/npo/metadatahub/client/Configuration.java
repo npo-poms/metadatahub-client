@@ -1,9 +1,11 @@
-package nl.npo.metadatahub.client.auth;
+package nl.npo.metadatahub.client;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Properties;
+import nl.npo.metadatahub.client.auth.OAuth2Config;
+import nl.npo.metadatahub.client.auth.TokenManager;
 import nl.npo.metadatahub.client.sparql.*;
 
 public class Configuration {
@@ -31,7 +33,7 @@ public class Configuration {
     }
 
     public SparqlConfig getSparqlConfig() {
-        return new SparqlConfig(properties.getProperty("sparql.endpoint"));
+        return new SparqlConfig(properties.getProperty("sparql_endpoint"));
     }
 
     public MetadataSparqlClient createClient() {

@@ -27,9 +27,9 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>nl.vpro.shared</groupId>
-        <artifactId>vpro-shared-bom</artifactId>
-        <version>5.15.4</version>
+        <groupId>nl.vpro.poms</groupId>
+        <artifactId>poms-bom</artifactId>
+        <version>8.13.2</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -59,6 +59,11 @@
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
       <version>2.25.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>nl.vpro.media</groupId>
+      <artifactId>media-domain</artifactId>
     </dependency>
 
     <dependency>

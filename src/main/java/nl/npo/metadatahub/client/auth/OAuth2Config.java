@@ -5,7 +5,7 @@ import java.util.Properties;
 import lombok.NonNull;
 
 /**
- 
+
  */
 public record OAuth2Config(
     String tokenUri,
@@ -24,9 +24,9 @@ public record OAuth2Config(
 
     public static OAuth2Config fromProperties(@NonNull Properties props) {
         return new OAuth2Config(
-            props.getProperty("sso.endpoint"),
-            props.getProperty("client.id"),
-            props.getProperty("client.secret"),
+            props.getProperty("sso_endpoint"),
+            props.getProperty("client_id"),
+            props.getProperty("client_secret"),
             null
         );
     }
