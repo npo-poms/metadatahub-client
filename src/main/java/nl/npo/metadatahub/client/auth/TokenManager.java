@@ -1,6 +1,6 @@
 package nl.npo.metadatahub.client.auth;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.log4j.Log4j2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,15 +14,17 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.Map;
 import java.util.stream.Collectors;
+import tools.jackson.databind.ObjectMapper;
 
 /**
  * Manages OAuth2 token acquisition, caching, and refresh.
  * Uses client credentials flow to obtain access tokens from Keycloak.
  * Pure Java implementation with no Spring dependencies.
  */
+
+@Log4j2
 public class TokenManager {
 
-    private static final Logger logger = LoggerFactory.getLogger(TokenManager.class);
     private static final int REFRESH_BUFFER_SECONDS = 30; // Refresh token 30 seconds before expiry
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
@@ -62,15 +64,15 @@ public class TokenManager {
      */
     public synchronized String getAccessToken() throws TokenException {
         if (isTokenValid()) {
-            logger.debug("Using cached OAuth2 token");
+            log.debug("Using cached OAuth2 token");
             return cachedToken;
         }
 
-        logger.info("Requesting new OAuth2 token from: {}", config.getTokenUri());
+        log.info("Requesting new OAuth2 token from: {}", config.tokenUri());
         try {
             return requestToken();
         } catch (Exception e) {
-            logger.error("Failed to obtain OAuth2 token", e);
+            log.error("Failed to obtain OAuth2 token", e);
             throw new TokenException("Failed to obtain access token: " + e.getMessage(), e);
         }
     }
@@ -82,9 +84,9 @@ public class TokenManager {
         // Build form body
         Map<String, String> formParams = Map.of(
             "grant_type", "client_credentials",
-            "client_id", config.getClientId(),
-            "client_secret", config.getClientSecret(),
-            "scope", config.getScope()
+            "client_id", config.clientId(),
+            "client_secret", config.clientSecret()
+            //"scope", config.scope()
         );
 
         String body = formParams.entrySet().stream()
@@ -93,7 +95,7 @@ public class TokenManager {
 
         HttpRequest request = HttpRequest.newBuilder()
             .POST(HttpRequest.BodyPublishers.ofString(body))
-            .uri(URI.create(config.getTokenUri()))
+            .uri(URI.create(config.tokenUri()))
             .header("Content-Type", "application/x-www-form-urlencoded")
             .header("Accept", "application/json")
             .build();
@@ -120,9 +122,9 @@ public class TokenManager {
             try {
                 long expiresInSeconds = Long.parseLong(expiresInObj.toString());
                 this.tokenExpirationTime = Instant.now().plusSeconds(expiresInSeconds - REFRESH_BUFFER_SECONDS);
-                logger.debug("Token will expire at: {}", tokenExpirationTime);
+                log.debug("Token will expire at: {}", tokenExpirationTime);
             } catch (NumberFormatException e) {
-                logger.warn("Could not parse expires_in from token response", e);
+                log.warn("Could not parse expires_in from token response", e);
                 this.tokenExpirationTime = Instant.now().plusSeconds(300); // Default to 5 minutes
             }
         } else {
@@ -130,7 +132,7 @@ public class TokenManager {
         }
 
         this.cachedToken = token;
-        logger.info("Successfully obtained new OAuth2 token");
+        log.info("Successfully obtained new OAuth2 token");
         return token;
     }
 
@@ -147,7 +149,7 @@ public class TokenManager {
      * Invalidate the cached token, forcing a fresh token request on next call.
      */
     public synchronized void invalidateToken() {
-        logger.debug("Invalidating cached token");
+        log.debug("Invalidating cached token");
         cachedToken = null;
         tokenExpirationTime = null;
     }

@@ -1,9 +1,7 @@
 package nl.npo.metadatahub.client.sparql;
 
-import org.apache.jena.query.ResultSetFactory;
-import org.apache.jena.query.ResultSetRewindable;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.log4j.Log4j2;
+import org.apache.jena.query.*;
 import nl.npo.metadatahub.client.auth.TokenManager;
 import nl.npo.metadatahub.client.sparql.model.SparqlResult;
 
@@ -23,9 +21,10 @@ import java.util.Map;
  * HTTP client for executing authenticated SPARQL queries against the MetadataHub endpoint.
  * Pure Java implementation using java.net.http.HttpClient.
  */
+
+@Log4j2
 public class SparqlHttpClient {
 
-    private static final Logger logger = LoggerFactory.getLogger(SparqlHttpClient.class);
     private static final String AUTHORIZATION_HEADER = "Authorization";
     private static final String BEARER_PREFIX = "Bearer ";
 
@@ -65,7 +64,7 @@ public class SparqlHttpClient {
      * @throws SparqlException if the query fails
      */
     public SparqlResult selectQuery(String sparqlQuery) throws SparqlException {
-        logger.debug("Executing SPARQL SELECT query");
+        log.debug("Executing SPARQL SELECT query");
         return executeQuery(sparqlQuery, "application/sparql-results+json");
     }
 
@@ -77,7 +76,7 @@ public class SparqlHttpClient {
      * @throws SparqlException if the query fails
      */
     public SparqlResult constructQuery(String sparqlQuery) throws SparqlException {
-        logger.debug("Executing SPARQL CONSTRUCT query");
+        log.debug("Executing SPARQL CONSTRUCT query");
         return executeQuery(sparqlQuery, "application/ld+json");
     }
 
@@ -89,7 +88,7 @@ public class SparqlHttpClient {
      * @throws SparqlException if the query fails
      */
     public boolean askQuery(String sparqlQuery) throws SparqlException {
-        logger.debug("Executing SPARQL ASK query");
+        log.debug("Executing SPARQL ASK query");
         try {
             String response = sendQuery(sparqlQuery, "application/sparql-results+json");
             return response.contains("\"boolean\":true") || response.contains("true");
@@ -106,7 +105,7 @@ public class SparqlHttpClient {
             String response = sendQuery(sparqlQuery, acceptHeader);
             return parseJsonResult(response);
         } catch (TokenManager.TokenException e) {
-            logger.warn("Unauthorized (401): Invalidating token and retrying");
+            log.warn("Unauthorized (401): Invalidating token and retrying");
             tokenManager.invalidateToken();
             try {
                 String response = sendQuery(sparqlQuery, acceptHeader);
@@ -120,20 +119,21 @@ public class SparqlHttpClient {
     }
 
     /**
-     * Send the query to the SPARQL endpoint with Bearer token authentication.
+     * Send the query to the SPARQL endpoint with Bearer token authentication using GET with query parameter.
+     * Matches behavior of: curl -G --data-urlencode 'query=...'
      */
     private String sendQuery(String sparqlQuery, String acceptHeader) throws Exception {
         String token = tokenManager.getAccessToken();
-        String body = "query=" + URLEncoder.encode(sparqlQuery, StandardCharsets.UTF_8);
+        String encodedQuery = URLEncoder.encode(sparqlQuery, StandardCharsets.UTF_8);
+        String endpoint = config.endpoint() + "?query=" + encodedQuery;
 
-        logger.debug("Sending SPARQL query to: {}", config.endpoint());
+        log.debug("Sending SPARQL query to: {}", config.endpoint());
 
         HttpRequest request = HttpRequest.newBuilder()
-            .POST(HttpRequest.BodyPublishers.ofString(body))
-            .uri(URI.create(config.endpoint()))
+            .GET()
+            .uri(URI.create(endpoint))
             .header(AUTHORIZATION_HEADER, BEARER_PREFIX + token)
             .header("Accept", acceptHeader)
-            .header("Content-Type", "application/x-www-form-urlencoded")
             .timeout(config.readTimeout())
             .build();
 
@@ -148,12 +148,13 @@ public class SparqlHttpClient {
         return response.body();
     }
 
+
     /**
      * Parse SPARQL JSON results using Apache Jena.
      */
     private SparqlResult parseJsonResult(String jsonResponse) throws Exception {
         try {
-            ResultSetRewindable results = ResultSetFactory.fromJSON(
+            ResultSet results = ResultSetFactory.fromJSON(
                 new ByteArrayInputStream(jsonResponse.getBytes())
             );
 
@@ -174,7 +175,7 @@ public class SparqlHttpClient {
 
             return new SparqlResult(variables, resultList);
         } catch (Exception e) {
-            logger.error("Failed to parse SPARQL JSON result", e);
+            log.error("Failed to parse SPARQL JSON result", e);
             throw new SparqlException("Failed to parse SPARQL result: " + e.getMessage(), e);
         }
     }

@@ -1,5 +1,6 @@
 package nl.npo.metadatahub.client.sparql;
 
+import lombok.extern.log4j.Log4j2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import nl.npo.metadatahub.client.sparql.SparqlHttpClient.SparqlException;
@@ -9,9 +10,8 @@ import nl.npo.metadatahub.client.sparql.model.SparqlResult;
  * Main SPARQL query executor service.
  * Pure Java implementation, no Spring dependencies.
  */
+@Log4j2
 public class SparqlQueryExecutor {
-    
-    private static final Logger logger = LoggerFactory.getLogger(SparqlQueryExecutor.class);
     
     private final SparqlHttpClient httpClient;
 
@@ -32,7 +32,7 @@ public class SparqlQueryExecutor {
      * @throws SparqlException if the query fails
      */
     public SparqlResult select(String sparqlQuery) throws SparqlException {
-        logger.info("Executing SPARQL SELECT query");
+        log.info("Executing SPARQL SELECT query");
         return httpClient.selectQuery(sparqlQuery);
     }
 
@@ -44,7 +44,7 @@ public class SparqlQueryExecutor {
      * @throws SparqlException if the query fails
      */
     public SparqlResult construct(String sparqlQuery) throws SparqlException {
-        logger.info("Executing SPARQL CONSTRUCT query");
+        log.info("Executing SPARQL CONSTRUCT query");
         return httpClient.constructQuery(sparqlQuery);
     }
 
@@ -56,7 +56,7 @@ public class SparqlQueryExecutor {
      * @throws SparqlException if the query fails
      */
     public boolean ask(String sparqlQuery) throws SparqlException {
-        logger.info("Executing SPARQL ASK query");
+        log.info("Executing SPARQL ASK query");
         return httpClient.askQuery(sparqlQuery);
     }
 }
