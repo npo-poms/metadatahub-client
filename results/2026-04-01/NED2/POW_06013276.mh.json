@@ -1,0 +1,64 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/00e14808-c53a-4a20-b10d-c272166eaf63" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c3bcb300-8865-4451-944a-ea31bbb675d7" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6f8ff581-3147-482c-970f-1c7fea936ee0" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3" } ,
+        "channelName": { "type": "literal" , "value": "INTERNETVOD" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-31T06:43:57.932Z" } ,
+        "end": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2100-12-31T23:59:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Medische zaken" } ,
+        "description": { "type": "literal" , "value": "Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online, zoals het maken van een afspraak bij de huisarts of het ziekenhuis. Hoe werkt dat eigenlijk? Grannies Joanita en Tonneke ontdekken de gezondheidsapp op hun telefoon. Digitaal deskundige Lennart geeft extra uitleg over contact leggen met de huisarts en over gezondheidsapps." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-16T15:17:21.829Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Consumenten informatie" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/00e14808-c53a-4a20-b10d-c272166eaf63" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c3bcb300-8865-4451-944a-ea31bbb675d7" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/02c449d8-e0cf-4265-b9c3-da0b7870ebc6" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c" } ,
+        "channelName": { "type": "literal" , "value": "PLUSVOD" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T10:22:51.000Z" } ,
+        "end": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2027-04-01T10:22:51.000Z" } ,
+        "title": { "type": "literal" , "value": "Medische zaken" } ,
+        "description": { "type": "literal" , "value": "Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online, zoals het maken van een afspraak bij de huisarts of het ziekenhuis. Hoe werkt dat eigenlijk? Grannies Joanita en Tonneke ontdekken de gezondheidsapp op hun telefoon. Digitaal deskundige Lennart geeft extra uitleg over contact leggen met de huisarts en over gezondheidsapps." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-16T15:17:21.829Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Consumenten informatie" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/00e14808-c53a-4a20-b10d-c272166eaf63" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c3bcb300-8865-4451-944a-ea31bbb675d7" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b5d6a793-399b-4337-8aca-50191cd9a89a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T10:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Medische zaken" } ,
+        "description": { "type": "literal" , "value": "Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online, zoals het maken van een afspraak bij de huisarts of het ziekenhuis. Hoe werkt dat eigenlijk? Grannies Joanita en Tonneke ontdekken de gezondheidsapp op hun telefoon. Digitaal deskundige Lennart geeft extra uitleg over contact leggen met de huisarts en over gezondheidsapps." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-16T15:17:21.829Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Consumenten informatie" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ad9fd597-6aed-4e8f-a54c-b310f5510bad" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e79218b3-4843-49d0-ad10-a60a2a48a8c9" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2a048e71-fa80-4809-9318-1f4245f044c6" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T15:20:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Vogelspotten in de lente" } ,
+        "description": { "type": "literal" , "value": "Vogelaar Arjan Dwarshuis laat zien hoe je vogels sneller herkent met slimme feitjes en praktische kijktips. * Jacques Hermus laat zien hoe veelzijdig het ei is. * Rian Gerritsen en Leendert de Ridder komen vertellen over hun nieuwe voorstelling Adam & Evert, een tragikomedie waarin twee geliefden tijdens een all-inclusive vakantie hun relatie proberen te redden. * Yordi Yamali praat ons bij over de interlandperiode, waarin onder andere Turkije en Congo zijn geplaatst voor het WK voetbal van komende zomer. * Boaz treedt op." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:41.461Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ad9fd597-6aed-4e8f-a54c-b310f5510bad" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e79218b3-4843-49d0-ad10-a60a2a48a8c9" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1cf34872-fc50-44ca-a6f6-95782a627ea5" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T03:20:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Vogelspotten in de lente" } ,
+        "description": { "type": "literal" , "value": "Vogelaar Arjan Dwarshuis laat zien hoe je vogels sneller herkent met slimme feitjes en praktische kijktips. * Jacques Hermus laat zien hoe veelzijdig het ei is. * Rian Gerritsen en Leendert de Ridder komen vertellen over hun nieuwe voorstelling Adam & Evert, een tragikomedie waarin twee geliefden tijdens een all-inclusive vakantie hun relatie proberen te redden. * Yordi Yamali praat ons bij over de interlandperiode, waarin onder andere Turkije en Congo zijn geplaatst voor het WK voetbal van komende zomer. * Boaz treedt op." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:41.461Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ad9fd597-6aed-4e8f-a54c-b310f5510bad" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e79218b3-4843-49d0-ad10-a60a2a48a8c9" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c9006cc9-6190-4c28-887e-87554ea99e2a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T09:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Vogelspotten in de lente" } ,
+        "description": { "type": "literal" , "value": "Vogelaar Arjan Dwarshuis laat zien hoe je vogels sneller herkent met slimme feitjes en praktische kijktips. * Jacques Hermus laat zien hoe veelzijdig het ei is. * Rian Gerritsen en Leendert de Ridder komen vertellen over hun nieuwe voorstelling Adam & Evert, een tragikomedie waarin twee geliefden tijdens een all-inclusive vakantie hun relatie proberen te redden. * Yordi Yamali praat ons bij over de interlandperiode, waarin onder andere Turkije en Congo zijn geplaatst voor het WK voetbal van komende zomer. * Boaz treedt op." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:41.461Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ad9fd597-6aed-4e8f-a54c-b310f5510bad" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e79218b3-4843-49d0-ad10-a60a2a48a8c9" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/4d44ebf4-9c13-4abc-8538-feaf04b0e69f" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T15:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Vogelspotten in de lente" } ,
+        "description": { "type": "literal" , "value": "Vogelaar Arjan Dwarshuis laat zien hoe je vogels sneller herkent met slimme feitjes en praktische kijktips. * Jacques Hermus laat zien hoe veelzijdig het ei is. * Rian Gerritsen en Leendert de Ridder komen vertellen over hun nieuwe voorstelling Adam & Evert, een tragikomedie waarin twee geliefden tijdens een all-inclusive vakantie hun relatie proberen te redden. * Yordi Yamali praat ons bij over de interlandperiode, waarin onder andere Turkije en Congo zijn geplaatst voor het WK voetbal van komende zomer. * Boaz treedt op." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:41.461Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ad9fd597-6aed-4e8f-a54c-b310f5510bad" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e79218b3-4843-49d0-ad10-a60a2a48a8c9" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6bc5d1cd-e05d-4464-9624-8434966dfdeb" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T05:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Vogelspotten in de lente" } ,
+        "description": { "type": "literal" , "value": "Vogelaar Arjan Dwarshuis laat zien hoe je vogels sneller herkent met slimme feitjes en praktische kijktips. * Jacques Hermus laat zien hoe veelzijdig het ei is. * Rian Gerritsen en Leendert de Ridder komen vertellen over hun nieuwe voorstelling Adam & Evert, een tragikomedie waarin twee geliefden tijdens een all-inclusive vakantie hun relatie proberen te redden. * Yordi Yamali praat ons bij over de interlandperiode, waarin onder andere Turkije en Congo zijn geplaatst voor het WK voetbal van komende zomer. * Boaz treedt op." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:41.461Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

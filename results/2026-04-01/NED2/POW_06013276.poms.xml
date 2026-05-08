@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06013276" sortDate="2026-04-01T12:15:00+02:00" workflow="PUBLISHED" creationDate="2026-02-16T16:11:26.392+01:00" lastModified="2026-04-02T17:21:43.507+02:00" publishDate="2026-04-02T17:22:19.613+02:00" urn="urn:vpro:media:program:140670873">
+    <crid>crid://npo/programmagegevens/2564555926668</crid>
+    <broadcaster id="MAX">MAX</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">Samen Digitaal</title>
+    <title owner="MIS" type="SUB">Medische zaken</title>
+    <description owner="MIS" type="MAIN">Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online, zoals het maken van een afspraak bij de huisarts of het ziekenhuis. Hoe werkt dat eigenlijk? Grannies Joanita en Tonneke ontdekken de gezondheidsapp op hun telefoon. Digitaal deskundige Lennart geeft extra uitleg over contact leggen met de huisarts en over gezondheidsapps.</description>
+    <description owner="MIS" type="SHORT">Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online; zoals het maken van een afspraak bij de huisarts of het ziekenhuis.</description>
+    <genre id="3.0.1.7.28">
+        <term>Informatief</term>
+        <term>Consumenten informatie</term>
+    </genre>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H9M6.880S</duration>
+    <credits>
+        <person externalId="whatson:765308367517" role="PRESENTER">
+            <givenName>Mascha</givenName>
+            <familyName>de Rooij</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:140697721" midRef="POW_06013270" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:140697723" midRef="POW_06013271" type="SEASON"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-04-01T12:22:51+02:00" publishStop="2027-04-01T12:22:51+02:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T12:31:46.105+02:00" lastModified="2026-04-01T12:31:46.117+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:142375789">
+            <programUrl>npo+drm://internetvod.omroep.nl/POW_06013276</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-04-01T12:31:46.105+02:00" lastModified="2026-04-01T12:31:46.119+02:00" publishStart="2026-04-01T12:22:51+02:00" publishStop="2027-04-01T12:22:51+02:00" urn="urn:vpro:media:location:142375791">
+            <programUrl>npo+drm://plusvod.omroep.nl/POW_06013276</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-12T13:24:24.532+01:00" lastModified="2026-03-12T13:24:24.571+01:00" urn="urn:vpro:media:image:142103620">
+            <shared:title>Samen Digitaal</shared:title>
+            <shared:description>Samen Digitaal</shared:description>
+            <shared:imageUri>urn:vpro:image:2480763</shared:imageUri>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:29:06.381+02:00" lastModified="2026-04-01T12:29:06.381+02:00" urn="urn:vpro:media:image:142375785">
+            <shared:title>Samen Digitaal</shared:title>
+            <shared:description>Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online; zoals het maken van een afspraak bij de huisarts of het ziekenhuis.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487646</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Samen Digitaal / Medische zaken</shared:credits>
+            <shared:sourceName>MAX</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:29:06.853+02:00" lastModified="2026-04-01T12:29:06.853+02:00" urn="urn:vpro:media:image:142375786">
+            <shared:title>Samen Digitaal</shared:title>
+            <shared:description>Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online; zoals het maken van een afspraak bij de huisarts of het ziekenhuis.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487647</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Samen Digitaal / Medische zaken</shared:credits>
+            <shared:sourceName>MAX</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:29:17.008+02:00" lastModified="2026-04-01T12:29:17.008+02:00" urn="urn:vpro:media:image:142375787">
+            <shared:title>Samen Digitaal</shared:title>
+            <shared:description>Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online; zoals het maken van een afspraak bij de huisarts of het ziekenhuis.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487648</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Samen Digitaal / Medische zaken</shared:credits>
+            <shared:sourceName>MAX</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_06013276" urnRef="urn:vpro:media:program:140670873">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T12:15:00+02:00</start>
+            <duration>P0DT0H9M33.000S</duration>
+            <poProgID>POW_06013276</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-03-03T16:01:19.119+01:00" highlighted="false" midRef="POW_06013271" index="4" type="SEASON" urnRef="urn:vpro:media:group:140697723">
+        <memberOf midRef="POW_06013270" type="SERIES" index="1"/>
+    </episodeOf>
+    <segments/>
+</program>

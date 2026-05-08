@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977305" sortDate="2026-04-02T02:15:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:12:12.122+01:00">
+    <title owner="BROADCASTER" type="MAIN">NOS Journaal met gebarentaal</title>
+    <description owner="BROADCASTER" type="MAIN">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</description>
+    <genre id="http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d"/>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_05977305">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T02:15:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_05977305</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

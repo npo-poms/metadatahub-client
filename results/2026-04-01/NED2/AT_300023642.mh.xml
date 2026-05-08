@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300023642" sortDate="2026-04-02T07:25:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-09T14:25:07.927+01:00">
+    <title owner="BROADCASTER" type="MAIN">Eva</title>
+    <description owner="BROADCASTER" type="MAIN">Donald Trump zorgde voor opschudding in heel Europa door te zeggen dat hij overweegt uit de NAVO te stappen. Wat kunnen we van de president verwachten? We bespreken het met Simone Tukker, Peter Wijninga en Wouter de Winther. * Door de oorlog in het Midden-Oosten is er een wereldwijde crisis op de oliemarkt ontstaan. Donald Trump heeft daarom besloten de sancties tegen Rusland te versoepelen. Hoe zal Poetin dit inzetten? Beatrice de Graaf en Niels Drost schuiven aan. * Dit jaar bestaat de televisie precies 75 jaar. Daarom duiken we in de archieven. Deze keer doen we dat met Bert van Leeuwen en Robert ten Brink.</description>
+    <genre id="http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d"/>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AT_300023642">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T19:05:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300023642</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="AT_300023642">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T19:25:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300023642</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="AT_300023642">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T23:50:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300023642</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="AT_300023642">
+            <guideDay>2026-04-02+02:00</guideDay>
+            <start>2026-04-02T07:25:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300023642</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

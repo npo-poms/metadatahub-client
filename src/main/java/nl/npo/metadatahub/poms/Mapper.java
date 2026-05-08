@@ -143,6 +143,12 @@ public class Mapper {
     }
 
     public static Optional<Channel> getChannelByDisplayName(String name) {
+        if ("INTERNETVOD".equals(name)) {
+            return Optional.of(Channel.NVOD);
+        }
+        if ("PLUSVOD".equals(name)) {
+            return Optional.of(Channel.NVOD);
+        }
         if ("BVN".equals(name)) {
             return Optional.of(Channel.BVNT);
         }

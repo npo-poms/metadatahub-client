@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1361720" sortDate="2026-04-01T20:35:00+02:00" workflow="PUBLISHED" creationDate="2026-02-12T16:10:38.806+01:00" lastModified="2026-04-24T16:51:34.263+02:00" publishDate="2026-04-24T16:51:39.608+02:00" urn="urn:vpro:media:program:140633383">
+    <crid>crid://npo/programmagegevens/2472341201668</crid>
+    <crid>crid://npo/programmagegevens/2567270708668</crid>
+    <broadcaster id="NTR">NTR</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">Het verhaal van Nederland - De Tweede Wereldoorlog</title>
+    <title owner="MIS" type="SUB">Vijf dagen</title>
+    <description owner="MIS" type="MAIN">Het Duitse Rijk onder leiding van Adolf Hitler groeit met angstaanjagende snelheid. Eén voor één vallen landen ten prooi aan zijn meedogenloze expansie. Het is 10 mei 1940 als Nederland wordt aangevallen en Nederlandse militairen het moeten opnemen tegen een Duitse overmacht. Ondertussen moet opperbevelhebber Winkelman het hoofd koel zien te houden.</description>
+    <description owner="MIS" type="SHORT">Het Duitse Rijk onder leiding van Adolf Hitler groeit met angstaanjagende snelheid. Eén voor één vallen landen ten prooi aan zijn meedogenloze expansie. Op 10 mei 1940 wordt Nederland aangevallen.</description>
+    <genre id="3.0.1.7.30">
+        <term>Informatief</term>
+        <term>Geschiedenis</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2024</releaseYear>
+    <duration>P0DT0H48M50.880S</duration>
+    <credits>
+        <person externalId="whatson:5363286517" role="PRESENTER">
+            <givenName>Daan</givenName>
+            <familyName>Schuurmans</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:140543504" midRef="VPWON_1361718" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:140543506" midRef="VPWON_1361717" type="SEASON"/>
+    <ageRating>12</ageRating>
+    <contentRating>GEWELD</contentRating>
+    <contentRating>ANGST</contentRating>
+    <contentRating>DISCRIMINATIE</contentRating>
+    <prediction state="REALIZED" publishStart="2026-03-25T01:00:00+01:00" publishStop="2027-04-01T00:00:00+02:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-25T01:00:00+01:00" publishStop="2027-04-01T00:00:00+02:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-25T01:37:56.533+01:00" lastModified="2026-03-25T01:37:56.557+01:00" publishStart="2026-03-25T01:00:00+01:00" publishStop="2027-04-01T00:00:00+02:00" urn="urn:vpro:media:location:142319279">
+            <programUrl>npo+drm://internetvod.omroep.nl/VPWON_1361720</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-25T01:37:56.533+01:00" lastModified="2026-03-25T01:37:56.558+01:00" publishStart="2026-03-25T01:00:00+01:00" publishStop="2027-04-01T00:00:00+02:00" urn="urn:vpro:media:location:142319281">
+            <programUrl>npo+drm://plusvod.omroep.nl/VPWON_1361720</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-20T10:31:04.115+01:00" lastModified="2026-03-20T10:31:04.184+01:00" urn="urn:vpro:media:image:142273578">
+            <shared:title>Het verhaal van Nederland Tweede Wereldoorlog - Aflevering 2 bewerkt</shared:title>
+            <shared:description>Het verhaal van Nederland Tweede Wereldoorlog - Aflevering 2 bewerkt</shared:description>
+            <shared:imageUri>urn:vpro:image:2483407</shared:imageUri>
+            <shared:height>1152</shared:height>
+            <shared:width>2048</shared:width>
+            <shared:sourceName>NTR</shared:sourceName>
+        </shared:image>
+        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-13T09:35:03.253+01:00" lastModified="2026-03-13T09:35:03.316+01:00" urn="urn:vpro:media:image:142140850">
+            <shared:title>Het verhaal van Nederland - De Tweede Wereldoorlog aflevering 2</shared:title>
+            <shared:description>Het verhaal van Nederland - De Tweede Wereldoorlog aflevering 2</shared:description>
+            <shared:imageUri>urn:vpro:image:2481097</shared:imageUri>
+            <shared:height>1152</shared:height>
+            <shared:width>2048</shared:width>
+            <shared:credits>NTR</shared:credits>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-25T01:23:48.583+01:00" lastModified="2026-03-25T01:23:48.583+01:00" urn="urn:vpro:media:image:142319038">
+            <shared:title>Het verhaal van Nederland - De Tweede Wereldoorlog</shared:title>
+            <shared:description>Het Duitse Rijk onder leiding van Adolf Hitler groeit met angstaanjagende snelheid. Eén voor één vallen landen ten prooi aan zijn meedogenloze expansie. Op 10 mei 1940 word Nederland aangevallen.</shared:description>
+            <shared:imageUri>urn:vpro:image:2485219</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Het verhaal van Nederland - De Tweede Wereldoorlog / Vijf dagen</shared:credits>
+            <shared:sourceName>NTR</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-25T01:23:58.389+01:00" lastModified="2026-03-25T01:23:58.389+01:00" urn="urn:vpro:media:image:142319039">
+            <shared:title>Het verhaal van Nederland - De Tweede Wereldoorlog</shared:title>
+            <shared:description>Het Duitse Rijk onder leiding van Adolf Hitler groeit met angstaanjagende snelheid. Eén voor één vallen landen ten prooi aan zijn meedogenloze expansie. Op 10 mei 1940 word Nederland aangevallen.</shared:description>
+            <shared:imageUri>urn:vpro:image:2485220</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Het verhaal van Nederland - De Tweede Wereldoorlog / Vijf dagen</shared:credits>
+            <shared:sourceName>NTR</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-25T01:23:59.259+01:00" lastModified="2026-03-25T01:23:59.259+01:00" urn="urn:vpro:media:image:142319040">
+            <shared:title>Het verhaal van Nederland - De Tweede Wereldoorlog</shared:title>
+            <shared:description>Het Duitse Rijk onder leiding van Adolf Hitler groeit met angstaanjagende snelheid. Eén voor één vallen landen ten prooi aan zijn meedogenloze expansie. Op 10 mei 1940 word Nederland aangevallen.</shared:description>
+            <shared:imageUri>urn:vpro:image:2485221</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Het verhaal van Nederland - De Tweede Wereldoorlog / Vijf dagen</shared:credits>
+            <shared:sourceName>NTR</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="VPWON_1361720" urnRef="urn:vpro:media:program:140633383">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T20:35:00+02:00</start>
+            <duration>P0DT0H48M52.000S</duration>
+            <poProgID>VPWON_1361720</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="VPWON_1361720" urnRef="urn:vpro:media:program:140633383">
+            <repeat isRerun="true">01-04-2026</repeat>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T20:45:00+02:00</start>
+            <duration>P0DT0H49M57.000S</duration>
+            <poProgID>VPWON_1361720</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="VPWON_1361720" urnRef="urn:vpro:media:program:140633383">
+            <repeat isRerun="true">01-04-2026</repeat>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T08:45:00+02:00</start>
+            <duration>P0DT0H49M57.000S</duration>
+            <poProgID>VPWON_1361720</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED3" midRef="VPWON_1361720" urnRef="urn:vpro:media:program:140633383">
+            <repeat isRerun="true">01-04-2026</repeat>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-27+02:00</guideDay>
+            <start>2026-04-27T23:00:00+02:00</start>
+            <duration>P0DT0H48M53.000S</duration>
+            <poProgID>VPWON_1361720</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-12T16:10:38.996+01:00" highlighted="false" midRef="VPWON_1361717" index="2" type="SEASON" urnRef="urn:vpro:media:group:140543506">
+        <memberOf midRef="VPWON_1361718" type="SERIES" index="1"/>
+    </episodeOf>
+    <segments/>
+</program>

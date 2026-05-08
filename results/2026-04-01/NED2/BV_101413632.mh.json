@@ -1,0 +1,78 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55470da9-bf36-4ab4-a354-7ddc7bb11236" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/eb3ad629-0b1e-4a6e-9cde-edcfb881cda6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/d23746fb-5ec5-4440-a52a-37124dd61d2a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T23:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
+        "description": { "type": "literal" , "value": "Vandaag worden nieuwe gemeenteraadsleden geïnstalleerd. Minister Pieter Heerma maakt zich zorgen over de agressie tegen raadsleden. Hoe helpt hij hen en wat is de impact van bedreigingen? Dat vragen we aan minister Heerma en aan Yasmine Bouchrit, raadslid namens GroenLinks Vlaardingen, en Tyas Bijlholt, raadslid namens D66 in Amersfoort. Ook schuift politiek verslaggever Tessa van Viegen aan. * Donald Trump overweegt de VS terug te trekken uit de NAVO, zei hij tegen The Telegraph. We bespreken dit met directeur van de Atlantische Commissie Anna van Zoest, historicus Arend Jan Boekestijn en fractievoorzitter van D66 Jan Paternotte." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:08.927Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55470da9-bf36-4ab4-a354-7ddc7bb11236" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/eb3ad629-0b1e-4a6e-9cde-edcfb881cda6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1d08787b-f676-454b-b5a6-3cd80837bd44" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T14:05:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
+        "description": { "type": "literal" , "value": "Vandaag worden nieuwe gemeenteraadsleden geïnstalleerd. Minister Pieter Heerma maakt zich zorgen over de agressie tegen raadsleden. Hoe helpt hij hen en wat is de impact van bedreigingen? Dat vragen we aan minister Heerma en aan Yasmine Bouchrit, raadslid namens GroenLinks Vlaardingen, en Tyas Bijlholt, raadslid namens D66 in Amersfoort. Ook schuift politiek verslaggever Tessa van Viegen aan. * Donald Trump overweegt de VS terug te trekken uit de NAVO, zei hij tegen The Telegraph. We bespreken dit met directeur van de Atlantische Commissie Anna van Zoest, historicus Arend Jan Boekestijn en fractievoorzitter van D66 Jan Paternotte." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:08.927Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55470da9-bf36-4ab4-a354-7ddc7bb11236" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/eb3ad629-0b1e-4a6e-9cde-edcfb881cda6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e853d340-ac17-4e6f-829e-54a7329783ae" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T20:30:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
+        "description": { "type": "literal" , "value": "Vandaag worden nieuwe gemeenteraadsleden geïnstalleerd. Minister Pieter Heerma maakt zich zorgen over de agressie tegen raadsleden. Hoe helpt hij hen en wat is de impact van bedreigingen? Dat vragen we aan minister Heerma en aan Yasmine Bouchrit, raadslid namens GroenLinks Vlaardingen, en Tyas Bijlholt, raadslid namens D66 in Amersfoort. Ook schuift politiek verslaggever Tessa van Viegen aan. * Donald Trump overweegt de VS terug te trekken uit de NAVO, zei hij tegen The Telegraph. We bespreken dit met directeur van de Atlantische Commissie Anna van Zoest, historicus Arend Jan Boekestijn en fractievoorzitter van D66 Jan Paternotte." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:08.927Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55470da9-bf36-4ab4-a354-7ddc7bb11236" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/eb3ad629-0b1e-4a6e-9cde-edcfb881cda6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c28ffa7d-4482-4154-a86a-b0c903ecef5d" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T09:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
+        "description": { "type": "literal" , "value": "Vandaag worden nieuwe gemeenteraadsleden geïnstalleerd. Minister Pieter Heerma maakt zich zorgen over de agressie tegen raadsleden. Hoe helpt hij hen en wat is de impact van bedreigingen? Dat vragen we aan minister Heerma en aan Yasmine Bouchrit, raadslid namens GroenLinks Vlaardingen, en Tyas Bijlholt, raadslid namens D66 in Amersfoort. Ook schuift politiek verslaggever Tessa van Viegen aan. * Donald Trump overweegt de VS terug te trekken uit de NAVO, zei hij tegen The Telegraph. We bespreken dit met directeur van de Atlantische Commissie Anna van Zoest, historicus Arend Jan Boekestijn en fractievoorzitter van D66 Jan Paternotte." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:08.927Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55470da9-bf36-4ab4-a354-7ddc7bb11236" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/eb3ad629-0b1e-4a6e-9cde-edcfb881cda6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/3a17e2bf-25b9-47f0-aba0-36c6f9399c5e" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T21:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
+        "description": { "type": "literal" , "value": "Vandaag worden nieuwe gemeenteraadsleden geïnstalleerd. Minister Pieter Heerma maakt zich zorgen over de agressie tegen raadsleden. Hoe helpt hij hen en wat is de impact van bedreigingen? Dat vragen we aan minister Heerma en aan Yasmine Bouchrit, raadslid namens GroenLinks Vlaardingen, en Tyas Bijlholt, raadslid namens D66 in Amersfoort. Ook schuift politiek verslaggever Tessa van Viegen aan. * Donald Trump overweegt de VS terug te trekken uit de NAVO, zei hij tegen The Telegraph. We bespreken dit met directeur van de Atlantische Commissie Anna van Zoest, historicus Arend Jan Boekestijn en fractievoorzitter van D66 Jan Paternotte." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:08.927Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      }
+    ]
+  }
+}

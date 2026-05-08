@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300018106" sortDate="2026-04-02T07:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:12:01.251+01:00">
+    <title owner="BROADCASTER" type="MAIN">EenVandaag</title>
+    <description owner="BROADCASTER" type="MAIN">Inflatie: wat kunnen werkgevers en werknemers zelf doen in deze energiecrisis * Stapt Trump uit de NAVO? * Slechte screening en nauwelijks toezicht: hoe gezinshuizen onveilig kunnen zijn voor uithuisgeplaatste kinderen * Terug naar de maan voor waardevolle grondstoffen, moeten we dat wel willen? 'Er is geen ruimtepolitie'</description>
+    <genre id="http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d"/>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AT_300018106">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T18:30:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300018106</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="AT_300018106">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T19:00:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300018106</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="AT_300018106">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T01:50:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300018106</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="AT_300018106">
+            <guideDay>2026-04-02+02:00</guideDay>
+            <start>2026-04-02T07:00:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300018106</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

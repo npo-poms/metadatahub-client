@@ -1,0 +1,50 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f70d5ed0-5c5c-444a-b658-224b2d8756dd" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/3e6e36c3-6d1a-43ee-b16c-2fc34bd61842" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dd593d25-4c21-4fe9-891a-ffa7d18c67bb" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T15:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal in Makkelijke Taal" } ,
+        "description": { "type": "literal" , "value": "Journaal in makkelijke taal met extra uitleg en in een rustig tempo. Met het laatste nieuws en het weer." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:56.508Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f70d5ed0-5c5c-444a-b658-224b2d8756dd" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/3e6e36c3-6d1a-43ee-b16c-2fc34bd61842" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/027fac65-4bb3-4461-afc7-827d70286604" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T03:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal in Makkelijke Taal" } ,
+        "description": { "type": "literal" , "value": "Journaal in makkelijke taal met extra uitleg en in een rustig tempo. Met het laatste nieuws en het weer." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:56.508Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f70d5ed0-5c5c-444a-b658-224b2d8756dd" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/3e6e36c3-6d1a-43ee-b16c-2fc34bd61842" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a4203e1b-0e43-4f70-8551-adc47b9ced3f" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T15:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal in Makkelijke Taal" } ,
+        "description": { "type": "literal" , "value": "Journaal in makkelijke taal met extra uitleg en in een rustig tempo. Met het laatste nieuws en het weer." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:56.508Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06013276" sortDate="2026-04-01T12:22:51+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-16T16:17:21.829+01:00">
+    <title owner="BROADCASTER" type="MAIN">Medische zaken</title>
+    <description owner="BROADCASTER" type="MAIN">Mascha legt uit hoe de telefoon of tablet kan helpen bij uw gezondheid. Veel medische zaken gaan tegenwoordig online, zoals het maken van een afspraak bij de huisarts of het ziekenhuis. Hoe werkt dat eigenlijk? Grannies Joanita en Tonneke ontdekken de gezondheidsapp op hun telefoon. Digitaal deskundige Lennart geeft extra uitleg over contact leggen met de huisarts en over gezondheidsapps.</description>
+    <genre id="http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e"/>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NVOD" midRef="POW_06013276">
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-03-31T08:43:57.932+02:00</start>
+            <duration>P74Y9M1DT17H15M2.068S</duration>
+            <poProgID>POW_06013276</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_06013276">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T12:15:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_06013276</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="POW_06013276">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T12:22:51+02:00</start>
+            <duration>P1Y0M0DT0H0M0.000S</duration>
+            <poProgID>POW_06013276</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

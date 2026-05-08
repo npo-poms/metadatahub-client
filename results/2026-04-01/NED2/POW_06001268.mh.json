@@ -1,0 +1,50 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0fb69205-a9b7-4386-838b-28bb256074ac" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f50adfbd-ddf2-4cd5-a966-4687ff0721f6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/203a2538-c4d7-421a-aec7-6658f8121c93" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T06:40:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Goedemorgen Nederland" } ,
+        "description": { "type": "literal" , "value": "Te gast zijn journalist Arno Kantelberg als ochtendmens, presentatrice Maaike Timmerman over de rechtszaak rondom restaurant The Jane, jurist Wim Voermans over het debat 5 jaar geleden over 'functie elders' en Eerste-Kamerlid D66 Boris Dittrich over het allereerste homohuwelijk precies 25 jaar geleden." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:38.257Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0fb69205-a9b7-4386-838b-28bb256074ac" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f50adfbd-ddf2-4cd5-a966-4687ff0721f6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fb829965-0592-4691-be24-26760301600f" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:20:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Goedemorgen Nederland" } ,
+        "description": { "type": "literal" , "value": "Te gast zijn journalist Arno Kantelberg als ochtendmens, presentatrice Maaike Timmerman over de rechtszaak rondom restaurant The Jane, jurist Wim Voermans over het debat 5 jaar geleden over 'functie elders' en Eerste-Kamerlid D66 Boris Dittrich over het allereerste homohuwelijk precies 25 jaar geleden." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:38.257Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0fb69205-a9b7-4386-838b-28bb256074ac" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f50adfbd-ddf2-4cd5-a966-4687ff0721f6" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7d7ca7fe-2522-485a-b6aa-ee5ca689ce06" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T00:20:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Goedemorgen Nederland" } ,
+        "description": { "type": "literal" , "value": "Te gast zijn journalist Arno Kantelberg als ochtendmens, presentatrice Maaike Timmerman over de rechtszaak rondom restaurant The Jane, jurist Wim Voermans over het debat 5 jaar geleden over 'functie elders' en Eerste-Kamerlid D66 Boris Dittrich over het allereerste homohuwelijk precies 25 jaar geleden." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:38.257Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      }
+    ]
+  }
+}

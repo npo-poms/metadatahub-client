@@ -1,0 +1,106 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6e2c460a-a1e0-4795-9953-6dd1d7158303" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/396dac7b-c536-42b1-9a47-0a7693acd1bc" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9f492ebc-32a1-4797-9a03-1721d9a9c8f4" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:35:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:52.888Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6e2c460a-a1e0-4795-9953-6dd1d7158303" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/396dac7b-c536-42b1-9a47-0a7693acd1bc" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/663e1c9a-c5f1-4052-9afe-0cbc9eb63f0f" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:45:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:52.888Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6e2c460a-a1e0-4795-9953-6dd1d7158303" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/396dac7b-c536-42b1-9a47-0a7693acd1bc" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/d5a9646a-5e36-4ddd-ac8b-c8251869905a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:25:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:52.888Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6e2c460a-a1e0-4795-9953-6dd1d7158303" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/396dac7b-c536-42b1-9a47-0a7693acd1bc" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/3223eac4-d090-4de3-9334-6d375aee812e" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:52.888Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6e2c460a-a1e0-4795-9953-6dd1d7158303" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/396dac7b-c536-42b1-9a47-0a7693acd1bc" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/25ebff19-fbc5-41ca-9cf4-826df30fa308" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:52.888Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6e2c460a-a1e0-4795-9953-6dd1d7158303" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/396dac7b-c536-42b1-9a47-0a7693acd1bc" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f6287e4d-bbef-46b7-b74e-fa2115a5921c" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T00:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:52.888Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6e2c460a-a1e0-4795-9953-6dd1d7158303" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/396dac7b-c536-42b1-9a47-0a7693acd1bc" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7c39b877-de35-4e52-a8d6-e55b2c93dd0a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:52.888Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      }
+    ]
+  }
+}

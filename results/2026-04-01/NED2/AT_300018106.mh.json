@@ -1,0 +1,64 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/45642cf2-8d58-4f69-be92-491186cd0aeb" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/394dc9b0-8960-4abf-8e63-00567ba2b323" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6aeba9b4-5e06-4a37-8224-74d1a22e8eb9" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T23:50:00.000Z" } ,
+        "title": { "type": "literal" , "value": "EenVandaag" } ,
+        "description": { "type": "literal" , "value": "Inflatie: wat kunnen werkgevers en werknemers zelf doen in deze energiecrisis * Stapt Trump uit de NAVO? * Slechte screening en nauwelijks toezicht: hoe gezinshuizen onveilig kunnen zijn voor uithuisgeplaatste kinderen * Terug naar de maan voor waardevolle grondstoffen, moeten we dat wel willen? 'Er is geen ruimtepolitie'" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:01.251Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/45642cf2-8d58-4f69-be92-491186cd0aeb" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/394dc9b0-8960-4abf-8e63-00567ba2b323" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8913ce5e-6ede-4168-a43f-444739fc03ea" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T16:30:00.000Z" } ,
+        "title": { "type": "literal" , "value": "EenVandaag" } ,
+        "description": { "type": "literal" , "value": "Inflatie: wat kunnen werkgevers en werknemers zelf doen in deze energiecrisis * Stapt Trump uit de NAVO? * Slechte screening en nauwelijks toezicht: hoe gezinshuizen onveilig kunnen zijn voor uithuisgeplaatste kinderen * Terug naar de maan voor waardevolle grondstoffen, moeten we dat wel willen? 'Er is geen ruimtepolitie'" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:01.251Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/45642cf2-8d58-4f69-be92-491186cd0aeb" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/394dc9b0-8960-4abf-8e63-00567ba2b323" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fc93e72c-ff62-4e4f-855a-01ae87f1b9a5" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T05:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "EenVandaag" } ,
+        "description": { "type": "literal" , "value": "Inflatie: wat kunnen werkgevers en werknemers zelf doen in deze energiecrisis * Stapt Trump uit de NAVO? * Slechte screening en nauwelijks toezicht: hoe gezinshuizen onveilig kunnen zijn voor uithuisgeplaatste kinderen * Terug naar de maan voor waardevolle grondstoffen, moeten we dat wel willen? 'Er is geen ruimtepolitie'" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:01.251Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/45642cf2-8d58-4f69-be92-491186cd0aeb" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/394dc9b0-8960-4abf-8e63-00567ba2b323" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e699f7ae-2bc5-40e4-b17a-07a3bdc288c4" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T17:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "EenVandaag" } ,
+        "description": { "type": "literal" , "value": "Inflatie: wat kunnen werkgevers en werknemers zelf doen in deze energiecrisis * Stapt Trump uit de NAVO? * Slechte screening en nauwelijks toezicht: hoe gezinshuizen onveilig kunnen zijn voor uithuisgeplaatste kinderen * Terug naar de maan voor waardevolle grondstoffen, moeten we dat wel willen? 'Er is geen ruimtepolitie'" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:12:01.251Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      }
+    ]
+  }
+}

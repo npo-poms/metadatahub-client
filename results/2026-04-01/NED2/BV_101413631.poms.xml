@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413631" sortDate="2026-03-31T22:30:00+02:00" workflow="PUBLISHED" creationDate="2026-02-12T16:10:36.260+01:00" lastModified="2026-04-01T10:51:06.667+02:00" publishDate="2026-04-01T10:51:47.751+02:00" urn="urn:vpro:media:program:140633338">
+    <crid>crid://npo/programmagegevens/2552816137668</crid>
+    <crid>crid://npo/programmagegevens/2562985150668</crid>
+    <crid>crid://npo/programmagegevens/2562985460668</crid>
+    <crid>crid://npo/programmagegevens/2567247867668</crid>
+    <crid>crid://npo/programmagegevens/2567247871668</crid>
+    <crid>crid://npo/programmagegevens/2567247859668</crid>
+    <crid>crid://npo/programmagegevens/2570061209668</crid>
+    <crid>crid://npo/programmagegevens/2570061205668</crid>
+    <crid>crid://npo/programmagegevens/2570061197668</crid>
+    <broadcaster id="BNVA">BNNVARA</broadcaster>
+    <title owner="MIS" type="MAIN">Pauw &amp; De Wit</title>
+    <description owner="MIS" type="MAIN">Voor het eerst in ruim 50 jaar gaat een bemande missie naar de maan. Vier astronauten vliegen met Artemis II tien dagen en keren terug. Waarom duurde het zo lang en wat is het doel? Astronaut André Kuipers telt af naar de lancering. * EenVandaag presenteerde een peiling: Progressief Nederland scoort meer dan 20 zetels. Joyce Boverhuis bespreekt de rol van de nieuwe naam en de politieke versplintering. Wat betekent dat voor het vertrouwen in het kabinet? We bespreken het met oud-campagnestrateeg Bas Erlings. * EU bereidt zich voor op oliestoring. Stefan de Vries over maatregelen. Maarten van Rossem en Suse van Kleef bespreken VS-EU-relaties.</description>
+    <description owner="MIS" type="SHORT">Te gast: André Kuipers, Joyce Boverhuis, Bas Erlings, Stefan de Vries, Maarten van Rossem en Suse van Kleef.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H47M45.978S</duration>
+    <credits>
+        <person externalId="whatson:2519821882517" role="PRESENTER">
+            <givenName>Tim</givenName>
+            <familyName>de Wit</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:137685450" midRef="BV_101413341" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:139744787" midRef="BV_101413581" type="SEASON"/>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-31T23:19:27+02:00" publishStop="2027-03-31T23:19:27+02:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T00:33:14.961+02:00" lastModified="2026-04-01T00:33:14.972+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00" urn="urn:vpro:media:location:142371767">
+            <programUrl>npo://internetvod.omroep.nl/BV_101413631</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-04-01T00:33:14.961+02:00" lastModified="2026-04-01T00:33:14.974+02:00" publishStart="2026-03-31T23:19:27+02:00" publishStop="2027-03-31T23:19:27+02:00" urn="urn:vpro:media:location:142371769">
+            <programUrl>npo://plusvod.omroep.nl/BV_101413631</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="true" workflow="PUBLISHED" creationDate="2026-04-01T00:30:29.823+02:00" lastModified="2026-04-01T00:30:35.544+02:00" urn="urn:vpro:media:image:142371764">
+            <shared:title>andre</shared:title>
+            <shared:description>andre</shared:description>
+            <shared:imageUri>urn:vpro:image:2487499</shared:imageUri>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T00:19:06.131+02:00" lastModified="2026-04-01T00:19:06.131+02:00" urn="urn:vpro:media:image:142371746">
+            <shared:title>Pauw &amp; De Wit</shared:title>
+            <shared:description>Talkshow met veel ruimte voor politiek, actualiteit en het gesprek van de dag.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487496</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
+            <shared:sourceName>BNNVARA</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T00:19:07.374+02:00" lastModified="2026-04-01T00:19:07.374+02:00" urn="urn:vpro:media:image:142371747">
+            <shared:title>Pauw &amp; De Wit</shared:title>
+            <shared:description>Talkshow met veel ruimte voor politiek, actualiteit en het gesprek van de dag.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487497</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
+            <shared:sourceName>BNNVARA</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T00:19:17.075+02:00" lastModified="2026-04-01T00:19:17.075+02:00" urn="urn:vpro:media:image:142371748">
+            <shared:title>Pauw &amp; De Wit</shared:title>
+            <shared:description>Talkshow met veel ruimte voor politiek, actualiteit en het gesprek van de dag.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487498</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
+            <shared:sourceName>BNNVARA</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T00:30:34+02:00" lastModified="2026-04-01T00:30:34.038+02:00" urn="urn:vpro:media:image:142371765">
+            <shared:title>andre</shared:title>
+            <shared:description>andre</shared:description>
+            <shared:imageUri>urn:vpro:image:2487499</shared:imageUri>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="BV_101413631" urnRef="urn:vpro:media:program:140633338">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-03-31T22:30:00+02:00</start>
+            <duration>P0DT0H48M40.000S</duration>
+            <poProgID>BV_101413631</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="BV_101413631" urnRef="urn:vpro:media:program:140633338">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-03-31T23:00:00+02:00</start>
+            <duration>P0DT0H48M52.000S</duration>
+            <poProgID>BV_101413631</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="BV_101413631" urnRef="urn:vpro:media:program:140633338">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-04-01T01:00:00+02:00</start>
+            <duration>P0DT0H47M57.000S</duration>
+            <poProgID>BV_101413631</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="BV_101413631" urnRef="urn:vpro:media:program:140633338">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-04-01T11:00:00+02:00</start>
+            <duration>P0DT0H48M52.000S</duration>
+            <poProgID>BV_101413631</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="BV_101413631" urnRef="urn:vpro:media:program:140633338">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T16:05:00+02:00</start>
+            <duration>P0DT0H47M44.000S</duration>
+            <poProgID>BV_101413631</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-12T16:10:36.429+01:00" highlighted="false" midRef="BV_101413581" index="52" type="SEASON" urnRef="urn:vpro:media:group:139744787">
+        <memberOf midRef="BV_101413341" type="SERIES" index="2"/>
+    </episodeOf>
+    <segments/>
+</program>

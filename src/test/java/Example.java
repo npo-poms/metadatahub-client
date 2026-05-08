@@ -7,6 +7,7 @@ import nl.vpro.domain.media.Channel;
 import nl.vpro.logging.log4j2.CaptureToSimpleLogger;
 import nl.vpro.logging.simple.OutputStreamSimpleLogger;
 import nl.vpro.util.Env;
+import nl.vpro.util.ThreadPools;
 import org.apache.jena.query.ResultSetFormatter;
 
 /**
@@ -26,8 +27,8 @@ void main() throws Exception {
     var metadataHubMediaService = new MetadataHubMediaService(new Configuration().createClient());
 
 
-    Channel channel = Channel.NED1;
-    LocalDate day = LocalDate.of(2026, 3, 1);
+    Channel channel = Channel.NED2;
+    LocalDate day = LocalDate.of(2026, 4, 1);
 
     // todo, I couldn get this working yet via MH
     var resultFromPoms = pomsServices.getScheduleService().listChannel(Channel.NED1.name(), day, null, null, "all", null,0L, 240);
@@ -69,8 +70,11 @@ void main() throws Exception {
 
             });
         }
+
     }
 
+    IO.println("ready");
+    ThreadPools.shutdown();
     // fails
     //IO.println(poms.getScheduleEevents(Channel.NED1, LocalDate.of(2026, 3, 1)));
 }

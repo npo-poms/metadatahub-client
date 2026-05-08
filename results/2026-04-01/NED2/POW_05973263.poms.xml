@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05973263" sortDate="2026-04-01T09:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-12T16:10:31.999+01:00" lastModified="2026-04-02T17:21:42.104+02:00" publishDate="2026-04-02T17:22:19.459+02:00" urn="urn:vpro:media:program:140633263">
+    <crid>crid://npo/programmagegevens/2534265996668</crid>
+    <crid>crid://npo/programmagegevens/2534265992668</crid>
+    <crid>crid://npo/programmagegevens/2534265988668</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">NOS Journaal</title>
+    <description owner="MIS" type="MAIN">Met het laatste nieuws en de weersverwachting. En op NPO 1 Extra en NPO 2 met gebarentaal.</description>
+    <description owner="MIS" type="SHORT">Met het laatste nieuws en de weersverwachting. En op NPO 1 Extra en NPO 2 met gebarentaal.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H9M11.080S</duration>
+    <credits/>
+    <descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:139699840" midRef="26Jnl0900n1" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:83990796" midRef="NOSJournaal" type="SERIES"/>
+    <website>https://NOS.nl</website>
+    <twitter type="ACCOUNT">@NOS</twitter>
+    <twitter type="HASHTAG">#NOS</twitter>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-04-01T09:09:47+02:00" publishStop="2027-04-01T09:09:47+02:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T09:22:12.033+02:00" lastModified="2026-04-01T09:22:12.046+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:142373465">
+            <programUrl>npo+drm://internetvod.omroep.nl/POW_05973263</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-04-01T09:22:12.033+02:00" lastModified="2026-04-01T09:22:12.048+02:00" publishStart="2026-04-01T09:09:47+02:00" publishStop="2027-04-01T09:09:47+02:00" urn="urn:vpro:media:location:142373467">
+            <programUrl>npo+drm://plusvod.omroep.nl/POW_05973263</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T09:19:14.826+02:00" lastModified="2026-04-01T09:19:14.826+02:00" urn="urn:vpro:media:image:142373457">
+            <shared:title>NOS Journaal</shared:title>
+            <shared:description>Met het laatste nieuws en de weersverwachting. En op NPO 1 Extra en NPO 2 met gebarentaal.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487587</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T09:19:15.602+02:00" lastModified="2026-04-01T09:19:15.602+02:00" urn="urn:vpro:media:image:142373458">
+            <shared:title>NOS Journaal</shared:title>
+            <shared:description>Met het laatste nieuws en de weersverwachting. En op NPO 1 Extra en NPO 2 met gebarentaal.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487588</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T09:19:16.845+02:00" lastModified="2026-04-01T09:19:16.845+02:00" urn="urn:vpro:media:image:142373459">
+            <shared:title>NOS Journaal</shared:title>
+            <shared:description>Met het laatste nieuws en de weersverwachting. En op NPO 1 Extra en NPO 2 met gebarentaal.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487589</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_05973263" urnRef="urn:vpro:media:program:140633263">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T09:00:00+02:00</start>
+            <duration>P0DT0H9M31.000S</duration>
+            <poProgID>POW_05973263</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_05973263" urnRef="urn:vpro:media:program:140633263">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T09:30:00+02:00</start>
+            <duration>P0DT0H9M21.000S</duration>
+            <poProgID>POW_05973263</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_05973263" urnRef="urn:vpro:media:program:140633263">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T09:45:00+02:00</start>
+            <duration>P0DT0H9M25.000S</duration>
+            <poProgID>POW_05973263</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-12T16:10:32.183+01:00" highlighted="false" midRef="26Jnl0900n1" index="65" type="SEASON" urnRef="urn:vpro:media:group:139699840">
+        <memberOf midRef="NOSJournaal" type="SERIES" index="26">
+            <memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="9"/>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>

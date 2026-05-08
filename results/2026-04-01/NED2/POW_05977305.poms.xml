@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977305" sortDate="2026-04-02T02:15:00+02:00" workflow="PUBLISHED" creationDate="2026-02-12T16:10:40.193+01:00" lastModified="2026-04-02T15:20:58.260+02:00" publishDate="2026-04-12T02:41:09.250+02:00" urn="urn:vpro:media:program:140633400">
+    <crid>crid://npo/programmagegevens/2545698457668</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <title owner="MIS" type="MAIN">NOS Journaal met gebarentaal</title>
+    <description owner="MIS" type="MAIN">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</description>
+    <description owner="MIS" type="SHORT">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H25M55.606S</duration>
+    <credits/>
+    <descendantOf urnRef="urn:vpro:media:group:114288761" midRef="NOSJournaal2000geb" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:139744809" midRef="26Jnl2000mavrGeb" type="SEASON"/>
+    <website>https://NOS.nl</website>
+    <twitter type="ACCOUNT">@NOS</twitter>
+    <twitter type="HASHTAG">#NOS</twitter>
+    <prediction state="REVOKED" publishStart="2026-04-02T02:40:30+02:00" publishStop="2026-04-12T02:40:30+02:00">INTERNETVOD</prediction>
+    <prediction state="REVOKED" publishStart="2026-04-02T02:40:30+02:00" publishStop="2026-04-12T02:40:30+02:00">PLUSVOD</prediction>
+    <locations/>
+    <images>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-02T02:48:58.160+02:00" lastModified="2026-04-02T02:48:58.160+02:00" urn="urn:vpro:media:image:142382624">
+            <shared:title>NOS Journaal met gebarentaal</shared:title>
+            <shared:description>Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487854</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal met gebarentaal</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-02T02:48:58.931+02:00" lastModified="2026-04-02T02:48:58.931+02:00" urn="urn:vpro:media:image:142382625">
+            <shared:title>NOS Journaal met gebarentaal</shared:title>
+            <shared:description>Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487855</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal met gebarentaal</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-02T02:49:09.485+02:00" lastModified="2026-04-02T02:49:09.485+02:00" urn="urn:vpro:media:image:142382626">
+            <shared:title>NOS Journaal met gebarentaal</shared:title>
+            <shared:description>Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487856</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal met gebarentaal</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_05977305" urnRef="urn:vpro:media:program:140633400">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T02:15:00+02:00</start>
+            <duration>P0DT0H26M19.000S</duration>
+            <poProgID>POW_05977305</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-12T16:10:40.365+01:00" highlighted="false" midRef="26Jnl2000mavrGeb" index="64" type="SEASON" urnRef="urn:vpro:media:group:139744809">
+        <memberOf midRef="NOSJournaal2000geb" type="SERIES" index="26"/>
+    </episodeOf>
+    <segments/>
+</program>
