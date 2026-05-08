@@ -34,6 +34,7 @@ public class Mapper {
     /** Maps scalar fields from the first row; collects ScheduleEvents, genres and ratings from all rows. */
     public void  toProgram(List<QuerySolution> rows, MediaBuilder.ProgramBuilder builder) {
         QuerySolution first = rows.getFirst();
+
         setString("title", first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
         setString("description", first, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
         setString("prid", first, builder::mid);
@@ -41,6 +42,9 @@ public class Mapper {
         setInstant("dateModified", first, builder::lastModified);
 
         // Collect multi-valued fields across all rows
+
+        // todo, I think the number of considered rows is a bit over the top
+        // we should use unions or group by or so.
         List<ScheduleEvent> scheduleEvents = new ArrayList<>();
         Set<String> genreLabels = new LinkedHashSet<>();
         AgeRating ageRating = null;
@@ -87,19 +91,10 @@ public class Mapper {
         }
 
         builder.scheduleEvents(scheduleEvents.toArray(new ScheduleEvent[0]));
-
-        if (!genreLabels.isEmpty()) {
-            builder.genres(genreLabels.stream().map(this::parseGenreLabel).filter(Optional::isPresent).map(Optional::get).toList());
-        }
-        if (ageRating != null) {
-            builder.ageRating(ageRating);
-        }
-        if (!contentRatings.isEmpty()) {
-            builder.contentRatings(contentRatings.toArray(new ContentRating[0]));
-        }
-        if (!broadcasters.isEmpty()) {
-            builder.broadcasters(broadcasters.toArray(new Broadcaster[0]));
-        }
+        builder.genres(genreLabels.stream().map(this::parseGenreLabel).filter(Optional::isPresent).map(Optional::get).toList());
+        builder.ageRating(ageRating);
+        builder.contentRatings(contentRatings.toArray(new ContentRating[0]));
+        builder.broadcasters(broadcasters.toArray(new Broadcaster[0]));
     }
 
 

@@ -21,7 +21,7 @@ import java.nio.charset.StandardCharsets;
 @Log
 public class MetadataSparqlClient implements AutoCloseable{
 
-    public static ScopedValue<Consumer<ResultSet>> onQueryExecuted = ScopedValue.newInstance();
+    public static final ScopedValue<Consumer<ResultSet>> onQueryExecuted = ScopedValue.newInstance();
 
 
     private static final String AUTHORIZATION_HEADER = "Authorization";
@@ -94,8 +94,6 @@ public class MetadataSparqlClient implements AutoCloseable{
 
         HttpResponse<InputStream> response = httpClient.send(request, HttpResponse.BodyHandlers.ofInputStream());
 
-
-
         if (response.statusCode() == 401) {
             throw new TokenManager.TokenException("Unauthorized");
         } else if (response.statusCode() < 200 || response.statusCode() >= 300) {
@@ -104,14 +102,16 @@ public class MetadataSparqlClient implements AutoCloseable{
         }
 
 
-
         ResultSet results = ResultSetFactory.fromJSON(response.body());
         if (onQueryExecuted.isBound()) {
-            Consumer<ResultSet> cons = onQueryExecuted.get();
+            // store the result in bytearray, because we need to consume it twice.
             ByteArrayOutputStream out = new ByteArrayOutputStream();
             ResultSetFormatter.outputAsJSON(out, results);
+
+            // copy to return
             results = ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray()));
-            cons.accept(ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray())));
+            // copy to consume
+            onQueryExecuted.get().accept(ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray())));
         }
 
         return results;
