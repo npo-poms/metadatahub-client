@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413509" sortDate="2026-04-05T03:50:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-10T15:40:49.212+01:00">
-    <title owner="BROADCASTER" type="MAIN">Kassa</title>
-    <description owner="BROADCASTER" type="MAIN">Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?</description>
+    <title owner="AUTHORITY" type="MAIN">Kassa</title>
+    <description owner="AUTHORITY" type="MAIN">Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?</description>
     <genre id="3.0.1.7.28">
         <term>Informatief</term>
         <term>Consumenten informatie</term>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372178" sortDate="2026-04-01T22:45:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:17.283+01:00">
-    <title owner="BROADCASTER" type="MAIN">Streaming Hell</title>
-    <description owner="BROADCASTER" type="MAIN">Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad.</description>
+    <title owner="AUTHORITY" type="MAIN">Streaming Hell</title>
+    <description owner="AUTHORITY" type="MAIN">Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad.</description>
     <genre id="3.0.1.40">
         <term>Human Interest</term>
     </genre>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300019289" sortDate="2026-04-07T12:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2024-07-23T09:50:29.100+02:00">
-    <title owner="BROADCASTER" type="MAIN">40 jaar Tussen Kunst en Kitsch</title>
-    <description owner="BROADCASTER" type="MAIN">Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</description>
+    <title owner="AUTHORITY" type="MAIN">40 jaar Tussen Kunst en Kitsch</title>
+    <description owner="AUTHORITY" type="MAIN">Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</description>
     <genre id="3.0.1.7.24">
         <term>Informatief</term>
         <term>Kunst/cultuur</term>

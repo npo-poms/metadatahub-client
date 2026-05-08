@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977679" sortDate="2026-03-02T03:40:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:17.805+01:00">
-    <title owner="BROADCASTER" type="MAIN">NOS Journaal met gebarentaal</title>
-    <description owner="BROADCASTER" type="MAIN">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</description>
+    <title owner="AUTHORITY" type="MAIN">NOS Journaal met gebarentaal</title>
+    <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</description>
     <genre id="3.0.1.7.21">
         <term>Informatief</term>
         <term>Nieuws/actualiteiten</term>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05832214" sortDate="2026-04-24T16:57:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-01-05T14:43:57.838+01:00">
-    <title owner="BROADCASTER" type="MAIN">Politieke Partijen: SP</title>
+    <title owner="AUTHORITY" type="MAIN">Politieke Partijen: SP</title>
     <genre id="3.0.1.7.44">
         <term>Informatief</term>
         <term>Politiek</term>

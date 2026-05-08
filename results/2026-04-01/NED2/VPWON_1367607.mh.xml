@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1367607" sortDate="2026-04-04T15:15:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-13T16:02:40.146+01:00">
-    <title owner="BROADCASTER" type="MAIN">Libanon: actie voor vluchtelingen</title>
-    <description owner="BROADCASTER" type="MAIN">Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is.</description>
+    <title owner="AUTHORITY" type="MAIN">Libanon: actie voor vluchtelingen</title>
+    <description owner="AUTHORITY" type="MAIN">Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is.</description>
     <genre id="3.0.1.40">
         <term>Human Interest</term>
     </genre>

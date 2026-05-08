@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1736862" sortDate="2026-04-01T09:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2025-04-10T12:31:10.948+02:00">
-    <title owner="BROADCASTER" type="MAIN">Ademruimte: ochtendyoga voor de longen</title>
-    <description owner="BROADCASTER" type="MAIN">Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid.</description>
+    <title owner="AUTHORITY" type="MAIN">Ademruimte: ochtendyoga voor de longen</title>
+    <description owner="AUTHORITY" type="MAIN">Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid.</description>
     <genre id="3.0.1.40.60">
         <term>Human Interest</term>
         <term>Levensbeschouwing</term>

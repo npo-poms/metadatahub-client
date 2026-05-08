@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1362768" sortDate="2026-04-02T00:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2025-05-28T15:00:50.145+02:00">
-    <title owner="BROADCASTER" type="MAIN">Kiki (1/2)</title>
-    <description owner="BROADCASTER" type="MAIN">Kiki belandde met onstuimig weer in het water maar werd gered.</description>
+    <title owner="AUTHORITY" type="MAIN">Kiki (1/2)</title>
+    <description owner="AUTHORITY" type="MAIN">Kiki belandde met onstuimig weer in het water maar werd gered.</description>
     <genre id="3.0.1.40">
         <term>Human Interest</term>
     </genre>

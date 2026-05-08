@@ -1,18 +1,76 @@
 package nl.npo.metadatahub.poms;
 
+import com.google.common.cache.*;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.*;
+import lombok.Getter;
 import lombok.SneakyThrows;
+import lombok.extern.java.Log;
 import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
+import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.checkerframework.checker.nullness.qual.NonNull;
 
+@Log
 public class MetadataHubMediaService implements MediaProvider, AutoCloseable {
 
 
+    static MediaClassificationService classificationService = MediaClassificationService.getInstance();
+    static {
+        ClassificationServiceLocator.setInstance(classificationService);
+    }
+
     private final MetadataSparqlClient client;
+
+    Locale nl_vpp = Locale.of("nl", "", "vpp");
+
+    /**
+     * Ad hoc logic to properly try to map genre?
+     */
+    @Getter
+    private final LoadingCache<String, Optional<Genre>> genreCache = CacheBuilder.newBuilder()
+        .build(new CacheLoader<>() {
+            @Override
+            public @NonNull Optional<Genre> load(final @NonNull String key) {
+                String[] split = key.split("-", 2);
+                String primary = split[0].trim();
+                String secondary;
+                if  (split.length > 1) {
+                    secondary = split[1].trim();
+                } else {
+                    secondary = null;
+                }
+                Optional<Term> primaryTerm = classificationService.values().stream()
+                    .filter(t -> t.depth() == 4)
+                    .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(primary)).findFirst();
+
+                if (!primaryTerm.isPresent()) {
+                    log.warning("Could not find primary term for " + primary);
+                    return Optional.empty();
+                }
+
+                final Optional<Term> secondaryTerm = classificationService.values().stream()
+                    .filter(t -> primaryTerm.get().equals(t.getParent()))
+                    .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(secondary))
+                    .findFirst();
+
+
+                if (secondaryTerm.isPresent()) {
+                    return Optional.of(Genre.of(secondaryTerm.get()));
+                } else {
+                    if (StringUtils.isNotEmpty(secondary)) {
+                        if (! "Overig".equalsIgnoreCase(secondary)) {
+                            throw new NoSuchElementException("No such term " + secondary + " for " + primaryTerm);
+                        }
+                    }
+                }
+                return Optional.of(Genre.of(primaryTerm.get()));
+            }
+        });
 
     public MetadataHubMediaService(MetadataSparqlClient client) {
         this.client = client;
@@ -39,7 +97,7 @@ public class MetadataHubMediaService implements MediaProvider, AutoCloseable {
             return Optional.empty();
         }
         var builder = MediaBuilder.broadcast().mid(mid);
-        new Mapper(vars).toProgram(rows, builder);
+        new Mapper(this, vars).toProgram(rows, builder);
         return Optional.of(builder.build());
     }
 
@@ -53,7 +111,7 @@ public class MetadataHubMediaService implements MediaProvider, AutoCloseable {
         );
         ;
         ResultSet resultSet = client.selectQuery(query);
-        var mapper = new Mapper(resultSet.getResultVars());
+        var mapper = new Mapper(this,resultSet.getResultVars());
         List<ScheduleEvent> events = new ArrayList<>();
 
         while (resultSet.hasNext()) {
@@ -66,6 +124,7 @@ public class MetadataHubMediaService implements MediaProvider, AutoCloseable {
     @Override
     public void close() throws Exception {
         client.close();
+        classificationService.close();
     }
 
     @SneakyThrows

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06002399" sortDate="2026-03-02T07:05:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-12T15:33:53.518+01:00">
-    <title owner="BROADCASTER" type="MAIN">NOS Studio Sport Voetbal</title>
-    <description owner="BROADCASTER" type="MAIN">Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses.</description>
+    <title owner="AUTHORITY" type="MAIN">NOS Studio Sport Voetbal</title>
+    <description owner="AUTHORITY" type="MAIN">Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses.</description>
     <genre id="3.0.1.4.82">
         <term>Sport</term>
         <term>Analyse</term>

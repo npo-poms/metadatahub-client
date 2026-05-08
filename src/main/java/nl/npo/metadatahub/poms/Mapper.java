@@ -9,36 +9,31 @@ import java.util.function.Function;
 import lombok.extern.java.Log;
 import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
-import org.apache.commons.lang3.StringUtils;
+import nl.vpro.domain.media.support.OwnerType;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.rdf.model.Literal;
-import org.checkerframework.checker.nullness.qual.NonNull;
 
 @Log
 public class Mapper {
 
 
-
-    static ClassificationService classificationService = MediaClassificationService.getInstance();
-    static {
-        ClassificationServiceLocator.setInstance(classificationService);
-    }
-
     // ratingType URI suffixes that indicate an age rating (Kijkwijzer)
     private static final String AGE_RATING_TYPE_SUFFIX = "AgeRating";
 
     private final Set<String> fields;
+    private final MetadataHubMediaService service;
 
-    public Mapper(Collection<String> fields) {
+    public Mapper(MetadataHubMediaService service, Collection<String> fields) {
         this.fields = new HashSet<>(fields);
+        this.service = service;
     }
 
     /** Maps scalar fields from the first row; collects ScheduleEvents, genres and ratings from all rows. */
     public void  toProgram(List<QuerySolution> rows, MediaBuilder.ProgramBuilder builder) {
         QuerySolution first = rows.getFirst();
-        setString("title", first, builder::mainTitle);
-        setString("description", first, builder::mainDescription);
+        setString("title", first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
+        setString("description", first, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
         setString("prid", first, builder::mid);
         setInstant("dateCreated", first, builder::creationInstant);
         setInstant("dateModified", first, builder::lastModified);
@@ -90,53 +85,11 @@ public class Mapper {
         }
 
     }
-    Locale nl_vpp = Locale.of("nl", "", "vpp");
-
-    /**
-     * Ad hoc logic to properly try to map genre?
-     */
-    private final LoadingCache<String, Optional<Genre>> genreCache = CacheBuilder.newBuilder()
-        .build(new CacheLoader<>() {
-            @Override
-            public @NonNull Optional<Genre> load(final @NonNull String key) {
-                String[] split = key.split("-", 2);
-                String primary = split[0].trim();
-                String secondary;
-                if  (split.length > 1) {
-                    secondary = split[1].trim();
-                } else {
-                    secondary = null;
-                }
-                Optional<Term> primaryTerm = classificationService.values().stream()
-                    .filter(t -> t.depth() == 4)
-                    .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(primary)).findFirst();
-
-                if (!primaryTerm.isPresent()) {
-                    log.warning("Could not find primary term for " + primary);
-                    return Optional.empty();
-                }
-
-                final Optional<Term> secondaryTerm = classificationService.values().stream()
-                    .filter(t -> primaryTerm.get().equals(t.getParent()))
-                    .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(secondary))
-                    .findFirst();
 
 
-                if (secondaryTerm.isPresent()) {
-                    return Optional.of(Genre.of(secondaryTerm.get()));
-                } else {
-                    if (StringUtils.isNotEmpty(secondary)) {
-                        if (! "Overig".equalsIgnoreCase(secondary)) {
-                            throw new NoSuchElementException("No such term " + secondary + " for " + primaryTerm);
-                        }
-                    }
-                }
-                return Optional.of(Genre.of(primaryTerm.get()));
-            }
-        });
 
     private Optional<Genre> parseGenreLabel(String label) {
-        Optional<Genre> g =  genreCache.getUnchecked(label);
+        Optional<Genre> g =  service.getGenreCache().getUnchecked(label);
         if (g.isEmpty()) {
             log.severe("Unknown genre label '%s', ignoring".formatted(label));
         }
