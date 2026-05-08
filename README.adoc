@@ -13,3 +13,4 @@ link:src/main/java/nl/npo/metadatahub/poms/MetadataHubMediaService.java[service]
 link:src/test/java/Example.java[Example.java]
 
 
+Results of Example can be found in link:results[results]
