@@ -4,20 +4,26 @@ import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.*;
 import lombok.SneakyThrows;
-import lombok.extern.java.Log;
 import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.vpro.domain.media.*;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 
-@Log
-public class MetadataToPoms {
+public class MetadataHubMediaService implements MediaProvider {
+
 
     private final MetadataSparqlClient client;
 
-    public MetadataToPoms(MetadataSparqlClient client) {
+    public MetadataHubMediaService(MetadataSparqlClient client) {
         this.client = client;
     }
+
+
+    @Override
+    public <T extends MediaObject> T findByMid(boolean loadDeleted, String mid) {
+        return (T) getProgram(mid);
+    }
+
 
     @SneakyThrows
     public Program getProgram(String mid) {
@@ -44,7 +50,7 @@ public class MetadataToPoms {
             day.atTime(Schedule.START_OF_SCHEDULE).toString(),
             day.plusDays(1).atTime(Schedule.START_OF_SCHEDULE).toString(),
             channel.getDisplayName()
-            );
+        );
         ;
         ResultSet resultSet = client.selectQuery(query);
         var mapper = new Mapper(resultSet.getResultVars());
@@ -60,7 +66,7 @@ public class MetadataToPoms {
     @SneakyThrows
     private static String readQueryTemplate(String fileName) {
         try (var in = Objects.requireNonNull(
-            MetadataToPoms.class.getResourceAsStream("/sparql/" + fileName),
+            MetadataHubMediaService.class.getResourceAsStream("/sparql/" + fileName),
             "Missing resource /sparql/" + fileName
         )) {
             return new String(in.readAllBytes(), StandardCharsets.UTF_8);

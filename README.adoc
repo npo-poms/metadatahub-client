@@ -4,4 +4,12 @@
 https://docs.metadatahub.bijnpo.nl/handleiding/developers/sparql-service/
 
 - push service, doesnt work since account not associated with broadcaster
-- sparql works, burt it quite  complicated.
+- sparql works, but is a bit complicated.
+
+
+I'm adding some 'poms' mapping code to proof the concept.
+See
+link:src/main/java/nl/npo/metadatahub/poms/MetadataHubMediaService.java[service],
+link:src/test/java/Example.java[Example.java]
+
+
