@@ -1,6 +1,7 @@
 import jakarta.xml.bind.JAXB;
 import static java.lang.ScopedValue.where;
 import static java.nio.file.Files.newOutputStream;
+import java.util.logging.Logger;
 import nl.npo.metadatahub.client.Configuration;
 import static nl.npo.metadatahub.client.sparql.MetadataSparqlClient.onQueryExecuted;
 import nl.npo.metadatahub.poms.*;
@@ -11,6 +12,7 @@ import nl.vpro.logging.simple.OutputStreamSimpleLogger;
 import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
 import static org.apache.jena.query.ResultSetFormatter.*;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.jul.Log4jBridgeHandler;
 
 /**
@@ -23,10 +25,13 @@ import org.apache.logging.log4j.jul.Log4jBridgeHandler;
  *
  * This is to compare the results from poms and sparql
  */
+
 void main() throws Exception {
     Log4jBridgeHandler.install(true, null, true);
     System.setProperty("log4j2.root.level","INFO");
+    Logger log = Logger.getLogger("main");
 
+    var resultsPrent = Paths.get("results");
     try(
         var pomsServices = NpoApiClients.configured(Env.PROD).build();
         var metadataHubMediaService = new MetadataHubMediaService(new Configuration().createClient());
@@ -36,27 +41,31 @@ void main() throws Exception {
             // todo, I couldn't get this working yet via MH
             var resultFromPoms = pomsServices.getScheduleService().listChannel(day.channel.name(), day.day, null, null, "all", null, 0L, 240);
 
-            Path results = Paths.get("results").resolve(day.day().toString()).resolve(day.channel.name());
+            Path results = resultsPrent.resolve(day.day().toString()).resolve(day.channel.name());
             Files.createDirectories(results);
 
             for (var event : resultFromPoms) {
                 var mo = event.getParent();
                 var mid = mo.getMid();
-                var pomsFile = results.resolve(mid + ".poms.xml");
-                try (OutputStream out = newOutputStream(pomsFile)) {
-                    JAXB.marshal(mo, out);
-                    IO.println("POMS: " + pomsFile.toAbsolutePath());
-                }
-                var mhFile = results.resolve(mid + ".mh.xml");
+
                 var mhJsonFile = results.resolve(mid + ".mh.json");
+                var mhFile = results.resolve(mid + ".mh.xml");
+                var pomsFile = results.resolve(mid + ".poms.xml");
 
                 try (
-                    var log = newOutputStream(results.resolve(mid + ".log"));
+                    var logfile = newOutputStream(results.resolve(mid + ".log"));
                     var capture = CaptureToSimpleLogger.of(
-                        OutputStreamSimpleLogger.builder().output(log).build()
+                        OutputStreamSimpleLogger.builder().output(logfile).build()
                     );
-                    var jsout = newOutputStream(results.resolve(mid + ".mh.json"));
-                    var out = newOutputStream(results.resolve(mid + ".mh.xml"))) {
+                    var jsout = newOutputStream(mhJsonFile);
+                    var pomsout = newOutputStream(pomsFile);
+                    var out = newOutputStream(mhFile)) {
+
+
+                    JAXB.marshal(mo, pomsout);
+                    log.info("POMS: " + pomsFile.toAbsolutePath());
+
+
                     where(onQueryExecuted,
                         (rs) -> outputAsJSON(jsout, rs)
                     ).run(() -> {
@@ -64,12 +73,12 @@ void main() throws Exception {
                             metadataHubMediaService.getProgram(mo.getMid()).ifPresentOrElse(
                                 program -> {
                                     JAXB.marshal(program, out);
-                                    IO.println("MH: " + mhFile.toAbsolutePath());
+                                    log.info("MH: " + mhFile.toAbsolutePath());
                                 },
-                                () -> IO.println("MH: no program found for mid " + mo.getMid())
+                                () -> log.info("MH: no program found for mid " + mo.getMid())
                             );
-                        } catch (IllegalStateException e) {
-                            IO.println("MH: error fetching program for mid " + mo.getMid() + ": " + e.getMessage());
+                        } catch (Exception e) {
+                            log.info("MH: error fetching program for mid " + mo.getMid() + ": " + e.getMessage());
                         }
                     });
                 }
@@ -77,7 +86,7 @@ void main() throws Exception {
         }
 
     }
-    IO.println("ready");
+    log.info("ready");
     ThreadPools.shutdown();
     // fails
     //IO.println(poms.getScheduleEevents(Channel.NED1, LocalDate.of(2026, 3, 1)));

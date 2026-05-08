@@ -17,10 +17,10 @@
         "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
         "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
         "genreLabel": { "type": "literal" , "value": "Documentaire-Human Interest" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/be12c9fd-8a96-414c-a37b-14bb14eea50a" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "9" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0decacd5-0d97-4361-856d-8262f3ef5e62" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
+        "ratingValue": { "type": "literal" , "value": "Angst" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
       } ,
       { 
         "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1de471f9-21a2-41ef-a644-b06de317f308" } ,
@@ -36,10 +36,10 @@
         "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
         "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
         "genreLabel": { "type": "literal" , "value": "Documentaire-Human Interest" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0decacd5-0d97-4361-856d-8262f3ef5e62" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
-        "ratingValue": { "type": "literal" , "value": "Angst" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/be12c9fd-8a96-414c-a37b-14bb14eea50a" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "9" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
       }
     ]
   }
