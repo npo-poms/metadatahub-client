@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001841" sortDate="2026-03-01T06:40:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-08T14:01:09.823+01:00">
+    <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nederland in Beweging</title>
     <description owner="AUTHORITY" type="MAIN">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</description>
     <genre id="3.0.1.4">

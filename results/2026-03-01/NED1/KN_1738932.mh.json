@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,7 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T19:40:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "Zes boeren starten liefdesavontuur" } ,
         "description": { "type": "literal" , "value": "De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-02T15:50:25.101Z" } ,
@@ -29,7 +29,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-03T07:40:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "Zes boeren starten liefdesavontuur" } ,
         "description": { "type": "literal" , "value": "De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-02T15:50:25.101Z" } ,
@@ -48,7 +48,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
         "channelName": { "type": "literal" , "value": "NPO 1" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T00:30:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "Zes boeren starten liefdesavontuur" } ,
         "description": { "type": "literal" , "value": "De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-02T15:50:25.101Z" } ,
@@ -67,7 +67,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
         "channelName": { "type": "literal" , "value": "NPO 1" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T19:35:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "Zes boeren starten liefdesavontuur" } ,
         "description": { "type": "literal" , "value": "De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-02T15:50:25.101Z" } ,

@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,7 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T22:10:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "EO" } ,
+        "broadcaster": { "type": "literal" , "value": "EO" } ,
         "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
         "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,
@@ -29,7 +29,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-07-02T23:10:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "EO" } ,
+        "broadcaster": { "type": "literal" , "value": "EO" } ,
         "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
         "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,
@@ -48,7 +48,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-08-06T21:55:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "EO" } ,
+        "broadcaster": { "type": "literal" , "value": "EO" } ,
         "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
         "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,

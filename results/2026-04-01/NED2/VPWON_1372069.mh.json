@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,7 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T13:25:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "NTR" } ,
+        "broadcaster": { "type": "literal" , "value": "NTR" } ,
         "title": { "type": "literal" , "value": "Back to ESNS 2026" } ,
         "description": { "type": "literal" , "value": "Je ziet Antoon, die dit jaar op Noorderslag stond om zijn nieuwe plaat Tot Het Eind van Mij te presenteren. Ook muziek van de Nederlands-Indonesische supergroep Nusantara Beat. De Nederlandstalige elektronische popmuziek van IDA en we zien hoe Suzan en Freek de popprijs winnen." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:29.436Z" } ,

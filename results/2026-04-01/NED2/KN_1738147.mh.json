@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,7 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T16:25:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Op Scheveningen wonen Kim en Diederik op de bovenste etages van een statig herenhuis. Op het dak bouwen ze een extra etage waar ze in de zomer verblijven; zo vier je vakantie in eigen huis. * In een monumentale korenmolen in IJsselstein malen William Dolman en zijn ouders graan, per dag wel 1.000 kilo. Culinair expert Alain gaat hier terug in de tijd en hij maakt van het restproduct griesmeel een heerlijk gerecht. * Speciaal voor de paasdagen maakt natuurliefhebber Chantana in Putten een bloemenkrans van wilgentakken, droogbloemen en lentegroen. Haar natuurlijke kransen zijn geïnspireerd op de minimalistische blomsterkransen uit Scandinavië." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:13.309Z" } ,
@@ -29,7 +29,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-03T04:25:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Op Scheveningen wonen Kim en Diederik op de bovenste etages van een statig herenhuis. Op het dak bouwen ze een extra etage waar ze in de zomer verblijven; zo vier je vakantie in eigen huis. * In een monumentale korenmolen in IJsselstein malen William Dolman en zijn ouders graan, per dag wel 1.000 kilo. Culinair expert Alain gaat hier terug in de tijd en hij maakt van het restproduct griesmeel een heerlijk gerecht. * Speciaal voor de paasdagen maakt natuurliefhebber Chantana in Putten een bloemenkrans van wilgentakken, droogbloemen en lentegroen. Haar natuurlijke kransen zijn geïnspireerd op de minimalistische blomsterkransen uit Scandinavië." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:13.309Z" } ,
@@ -48,7 +48,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-08T06:05:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Op Scheveningen wonen Kim en Diederik op de bovenste etages van een statig herenhuis. Op het dak bouwen ze een extra etage waar ze in de zomer verblijven; zo vier je vakantie in eigen huis. * In een monumentale korenmolen in IJsselstein malen William Dolman en zijn ouders graan, per dag wel 1.000 kilo. Culinair expert Alain gaat hier terug in de tijd en hij maakt van het restproduct griesmeel een heerlijk gerecht. * Speciaal voor de paasdagen maakt natuurliefhebber Chantana in Putten een bloemenkrans van wilgentakken, droogbloemen en lentegroen. Haar natuurlijke kransen zijn geïnspireerd op de minimalistische blomsterkransen uit Scandinavië." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:13.309Z" } ,
@@ -67,7 +67,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T09:10:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Op Scheveningen wonen Kim en Diederik op de bovenste etages van een statig herenhuis. Op het dak bouwen ze een extra etage waar ze in de zomer verblijven; zo vier je vakantie in eigen huis. * In een monumentale korenmolen in IJsselstein malen William Dolman en zijn ouders graan, per dag wel 1.000 kilo. Culinair expert Alain gaat hier terug in de tijd en hij maakt van het restproduct griesmeel een heerlijk gerecht. * Speciaal voor de paasdagen maakt natuurliefhebber Chantana in Putten een bloemenkrans van wilgentakken, droogbloemen en lentegroen. Haar natuurlijke kransen zijn geïnspireerd op de minimalistische blomsterkransen uit Scandinavië." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:13.309Z" } ,
@@ -86,7 +86,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T17:10:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Op Scheveningen wonen Kim en Diederik op de bovenste etages van een statig herenhuis. Op het dak bouwen ze een extra etage waar ze in de zomer verblijven; zo vier je vakantie in eigen huis. * In een monumentale korenmolen in IJsselstein malen William Dolman en zijn ouders graan, per dag wel 1.000 kilo. Culinair expert Alain gaat hier terug in de tijd en hij maakt van het restproduct griesmeel een heerlijk gerecht. * Speciaal voor de paasdagen maakt natuurliefhebber Chantana in Putten een bloemenkrans van wilgentakken, droogbloemen en lentegroen. Haar natuurlijke kransen zijn geïnspireerd op de minimalistische blomsterkransen uit Scandinavië." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:13.309Z" } ,

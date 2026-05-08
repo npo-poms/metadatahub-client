@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,7 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-26T10:20:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Architectuurhistoricus Valentijn Carbo gaat op ontdekkingstocht in Kasteel Heeswijk. In 1835 koopt een schatrijke baron dit landgoed. Deze baron maakt een geromantiseerde versie van een middeleeuws kasteel en dat levert leuke verrassingen op. * Elf jaar geleden kwam Christa meel halen bij de molen in het Friese Witmarsum. Ze werd op slag verliefd op het ambacht. Nu is ze molenaar en bakker en samen met compagnon Jippe bakken ze broden van oude lokale graansoorten die ze zelf malen. * In de Rotterdamse dierentuin kom je vele soorten bamboe tegen en dat is niet voor niks; de rode panda's zijn er dol op en ook de olifanten verslinden het." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-03T15:40:21.580Z" } ,
@@ -29,7 +29,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-25T18:10:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Architectuurhistoricus Valentijn Carbo gaat op ontdekkingstocht in Kasteel Heeswijk. In 1835 koopt een schatrijke baron dit landgoed. Deze baron maakt een geromantiseerde versie van een middeleeuws kasteel en dat levert leuke verrassingen op. * Elf jaar geleden kwam Christa meel halen bij de molen in het Friese Witmarsum. Ze werd op slag verliefd op het ambacht. Nu is ze molenaar en bakker en samen met compagnon Jippe bakken ze broden van oude lokale graansoorten die ze zelf malen. * In de Rotterdamse dierentuin kom je vele soorten bamboe tegen en dat is niet voor niks; de rode panda's zijn er dol op en ook de olifanten verslinden het." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-03T15:40:21.580Z" } ,
@@ -48,7 +48,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T06:00:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Architectuurhistoricus Valentijn Carbo gaat op ontdekkingstocht in Kasteel Heeswijk. In 1835 koopt een schatrijke baron dit landgoed. Deze baron maakt een geromantiseerde versie van een middeleeuws kasteel en dat levert leuke verrassingen op. * Elf jaar geleden kwam Christa meel halen bij de molen in het Friese Witmarsum. Ze werd op slag verliefd op het ambacht. Nu is ze molenaar en bakker en samen met compagnon Jippe bakken ze broden van oude lokale graansoorten die ze zelf malen. * In de Rotterdamse dierentuin kom je vele soorten bamboe tegen en dat is niet voor niks; de rode panda's zijn er dol op en ook de olifanten verslinden het." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-03T15:40:21.580Z" } ,
@@ -67,7 +67,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-27T05:25:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Architectuurhistoricus Valentijn Carbo gaat op ontdekkingstocht in Kasteel Heeswijk. In 1835 koopt een schatrijke baron dit landgoed. Deze baron maakt een geromantiseerde versie van een middeleeuws kasteel en dat levert leuke verrassingen op. * Elf jaar geleden kwam Christa meel halen bij de molen in het Friese Witmarsum. Ze werd op slag verliefd op het ambacht. Nu is ze molenaar en bakker en samen met compagnon Jippe bakken ze broden van oude lokale graansoorten die ze zelf malen. * In de Rotterdamse dierentuin kom je vele soorten bamboe tegen en dat is niet voor niks; de rode panda's zijn er dol op en ook de olifanten verslinden het." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-03T15:40:21.580Z" } ,
@@ -86,7 +86,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-26T17:25:00.000Z" } ,
-        "broadcasterName": { "type": "literal" , "value": "KRO-NCRV" } ,
+        "broadcaster": { "type": "literal" , "value": "KRO-NCRV" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Architectuurhistoricus Valentijn Carbo gaat op ontdekkingstocht in Kasteel Heeswijk. In 1835 koopt een schatrijke baron dit landgoed. Deze baron maakt een geromantiseerde versie van een middeleeuws kasteel en dat levert leuke verrassingen op. * Elf jaar geleden kwam Christa meel halen bij de molen in het Friese Witmarsum. Ze werd op slag verliefd op het ambacht. Nu is ze molenaar en bakker en samen met compagnon Jippe bakken ze broden van oude lokale graansoorten die ze zelf malen. * In de Rotterdamse dierentuin kom je vele soorten bamboe tegen en dat is niet voor niks; de rode panda's zijn er dol op en ook de olifanten verslinden het." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-03T15:40:21.580Z" } ,

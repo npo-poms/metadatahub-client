@@ -9,7 +9,7 @@ WHERE {
       ?publication ec:hasPublicationChannel ?channel .
          ?channel ec:name ?channelName .
       ?publication ec:hasStartDateTime ?start .
-    ?entity ec:hasPublisher/ec:hasAgent/ec:name ?broadcasterName .
+    ?entity ec:hasPublisher/ec:hasAgent/ec:name ?broadcaster .
     OPTIONAL { ?publication ec:hasEndDateTime ?end . }
     OPTIONAL { ?entity ec:title ?title . }
     OPTIONAL { ?entity ec:contentDescription ?description . }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977758" sortDate="2026-03-01T08:30:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-28T09:20:21.598+01:00">
+    <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</title>
     <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
     <genre id="3.0.1.7.21">

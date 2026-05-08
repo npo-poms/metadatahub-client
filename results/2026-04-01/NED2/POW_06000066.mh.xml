@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000066" sortDate="2026-04-02T10:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:12.379+01:00">
+    <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Trugkieke - Dwars Door De Delta - Klik mei de natuer</title>
     <description owner="AUTHORITY" type="MAIN">Trugkieke gaat over het Zeeland van toen en nu. Domburg is de oudste badplaats van Zeeland. Ooit een kuuroord voor welgestelden en een inspiratiebron voor kunstenaars. Dwars Door De Delta: Falco en Maas wandelen door het nieuwste Unesco Geopark van Nederland; Geopark Schelde Delta. Klik! mei de natuer: Laura gaat op zoek naar reptielen en amfibieën.</description>
     <genre id="3.0.1.7">

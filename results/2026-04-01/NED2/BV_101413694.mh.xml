@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413694" sortDate="2026-04-01T16:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:08.337+01:00">
+    <broadcaster id="BNVA">BNNVARA</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Per Seconde Wijzer</title>
     <description owner="AUTHORITY" type="MAIN">Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.</description>
     <genre id="3.0.1.6.19">
