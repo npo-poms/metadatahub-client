@@ -1,9 +1,12 @@
 package nl.npo.metadatahub.poms;
 
+import java.nio.charset.StandardCharsets;
 import java.time.Instant;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import lombok.SneakyThrows;
+import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.vpro.domain.media.MediaBuilder;
 import nl.vpro.domain.media.Program;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
@@ -17,6 +20,8 @@ public class Mapper {
     public Mapper(Collection<String> fields) {
         this.fields = new HashSet<>(fields);
     }
+
+
 
     public Program toProgram(QuerySolution item) {
         var builder = MediaBuilder.program();

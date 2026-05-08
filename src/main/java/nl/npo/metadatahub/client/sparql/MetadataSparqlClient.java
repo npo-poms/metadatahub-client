@@ -89,7 +89,8 @@ public class MetadataSparqlClient {
         if (response.statusCode() == 401) {
             throw new TokenManager.TokenException("Unauthorized");
         } else if (response.statusCode() < 200 || response.statusCode() >= 300) {
-            throw new IllegalStateException("SPARQL endpoint returned status " + response.statusCode() + ": ");
+            byte[] b = response.body().readAllBytes();
+            throw new IllegalStateException("SPARQL endpoint returned status " + response.statusCode() + ": " +  new String(b, StandardCharsets.UTF_8));
         }
 
         ResultSet results = ResultSetFactory.fromJSON(response.body());

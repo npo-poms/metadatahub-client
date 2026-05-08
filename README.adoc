@@ -2,3 +2,6 @@
 
 
 https://docs.metadatahub.bijnpo.nl/handleiding/developers/sparql-service/
+
+- push service, doesnt work since account not associated with broadcaster
+- sparql works, burt it quite  complicated.
