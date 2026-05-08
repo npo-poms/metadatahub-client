@@ -10,6 +10,8 @@ import lombok.extern.java.Log;
 import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
 import nl.vpro.domain.media.support.OwnerType;
+import nl.vpro.domain.user.Broadcaster;
+import nl.vpro.domain.user.ServiceLocator;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.rdf.model.Literal;
@@ -43,6 +45,7 @@ public class Mapper {
         Set<String> genreLabels = new LinkedHashSet<>();
         AgeRating ageRating = null;
         Set<ContentRating> contentRatings = new LinkedHashSet<>();
+        Set<Broadcaster> broadcasters = new LinkedHashSet<>();
 
         for (QuerySolution row : rows) {
             toScheduleEvent(row).ifPresent(scheduleEvents::add);
@@ -70,6 +73,17 @@ public class Mapper {
                     }
                 }
             }
+            // Broadcaster
+            if (fields.contains("broadcaster")) {
+                Literal broadcasterLit = row.getLiteral("broadcaster");
+                if (broadcasterLit != null) {
+                    parseBroadcaster(broadcasterLit.getString())
+                        .ifPresentOrElse(broadcasters::add, () -> {
+                            log.warning("Broadcaster " + broadcasterLit + " snot found");
+                        });
+
+                }
+            }
         }
 
         builder.scheduleEvents(scheduleEvents.toArray(new ScheduleEvent[0]));
@@ -83,11 +97,16 @@ public class Mapper {
         if (!contentRatings.isEmpty()) {
             builder.contentRatings(contentRatings.toArray(new ContentRating[0]));
         }
-
+        if (!broadcasters.isEmpty()) {
+            builder.broadcasters(broadcasters.toArray(new Broadcaster[0]));
+        }
     }
 
 
-
+    private Optional<Broadcaster> parseBroadcaster(String broadcaster) {
+        return ServiceLocator.getBroadcasterService().findAll().stream().filter(b ->
+            b.getDisplayName().equalsIgnoreCase(broadcaster)).findFirst();
+    }
     private Optional<Genre> parseGenreLabel(String label) {
         Optional<Genre> g =  service.getGenreCache().getUnchecked(label);
         if (g.isEmpty()) {
@@ -116,12 +135,8 @@ public class Mapper {
         if ("AL".equals(value.trim())) {
             return Optional.empty();
         }
-        try {
-            return Optional.of(ContentRating.valueOf(value.trim().toUpperCase()));
-        } catch (IllegalArgumentException e) {
-            log.severe("Unknown content rating value '%s', ignoring".formatted( value));
-            return Optional.empty();
-        }
+        // also this seems to be matched on display avalue.....
+        return Arrays.stream(ContentRating.values()).filter(c -> c.getDisplayName().equalsIgnoreCase(value)).findFirst();
     }
 
 
@@ -161,6 +176,9 @@ public class Mapper {
         }
         if ("BVN".equals(name)) {
             return Optional.of(Channel.BVNT);
+        }
+        if ("NPO 3 & Zapp".equals(name)) {
+            return Optional.of(Channel.NED3);
         }
         for (Channel channel : Channel.values()) {
             if (channel.getDisplayName().equalsIgnoreCase(name)) {

@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,6 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T10:00:00.000Z" } ,
+        "broadcasterName": { "type": "literal" , "value": "NOS" } ,
         "title": { "type": "literal" , "value": "NOS Journaal" } ,
         "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:01.078Z" } ,

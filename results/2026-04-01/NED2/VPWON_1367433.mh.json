@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,6 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T19:25:00.000Z" } ,
+        "broadcasterName": { "type": "literal" , "value": "EO" } ,
         "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
         "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,
@@ -28,6 +29,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
         "channelName": { "type": "literal" , "value": "NPO 2" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T10:15:00.000Z" } ,
+        "broadcasterName": { "type": "literal" , "value": "EO" } ,
         "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
         "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,

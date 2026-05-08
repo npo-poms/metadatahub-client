@@ -60,6 +60,7 @@
     </dependency>
 
 
+
     <dependency>
       <groupId>nl.vpro.media</groupId>
       <artifactId>media-domain</artifactId>
@@ -71,6 +72,10 @@
     <dependency>
       <groupId>nl.vpro.poms.api-clients</groupId>
       <artifactId>client-extras</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>nl.vpro.media</groupId>
+      <artifactId>media-organizations</artifactId>
     </dependency>
 
     <dependency>
@@ -153,6 +158,7 @@
           <systemPropertyVariables>
             <projectArtifactId>${project.artifactId}</projectArtifactId>
             <log4j2.root.level>debug</log4j2.root.level>
+            <java.util.logging.manager>org.apache.logging.log4j.jul.LogManager</java.util.logging.manager>
           </systemPropertyVariables>
         </configuration>
       </plugin>

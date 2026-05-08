@@ -1,0 +1,11 @@
+PREFIX ec:   <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?predicate (COUNT(*) AS ?uses)
+ WHERE {
+   ?entity ec:hasIdentifier ?id .
+   ?id ec:name "PRID" .
+   ?entity ?predicate ?value .
+ }
+ GROUP BY ?predicate
+ ORDER BY DESC(?uses)

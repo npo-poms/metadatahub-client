@@ -6,6 +6,14 @@ https://docs.metadatahub.bijnpo.nl/handleiding/developers/sparql-service/
 - push service, doesnt work since account not associated with broadcaster
 - sparql works, but is a bit complicated.
 
+- sparql results are full of 'display values', which is rather cumbersome
+  * broadcasters mapped on name
+  * channels mapped on name
+  * contentrating matched on name
+  * genres matched on name
+
+
+
 
 I'm adding some 'poms' mapping code to proof the concept.
 See

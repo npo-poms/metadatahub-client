@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06002390" sortDate="2026-03-01T18:10:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-12T15:33:54.674+01:00">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06002390" sortDate="2026-03-02T02:15:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-12T15:33:54.674+01:00">
     <title owner="AUTHORITY" type="MAIN">NOS Studio Sport</title>
     <description owner="AUTHORITY" type="MAIN">Livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag, met interviews en reportages.</description>
     <genre id="3.0.1.4.14">
@@ -14,6 +14,12 @@
         <scheduleEvent channel="NED1" midRef="POW_06002390">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-01T18:10:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_06002390</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED3" midRef="POW_06002390">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T02:15:00+01:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>POW_06002390</poProgID>
         </scheduleEvent>

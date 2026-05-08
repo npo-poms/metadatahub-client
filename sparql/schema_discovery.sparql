@@ -1,0 +1,68 @@
+# Schema/introspection queries for MetadataHub SPARQL.
+# Run ONE query block at a time (most SPARQL endpoints accept a single query per request).
+
+PREFIX ec:   <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# ----------------------------------------------------------------------------
+# Query 1: Predicates on the media entity itself for one PRID
+# Param 1: PRID (e.g. POW_05832216)
+# ----------------------------------------------------------------------------
+SELECT ?predicate ?objectKind ?datatype ?lang ?objectClass (COUNT(*) AS ?uses)
+WHERE {
+  ?entity ec:hasIdentifier ?id .
+  ?id ec:name "PRID" ;
+      ec:identifierValue "%s" .
+
+  ?entity ?predicate ?value .
+
+  BIND(
+    IF(isIRI(?value), "iri",
+      IF(isBlank(?value), "bnode", "literal")
+    ) AS ?objectKind
+  )
+  BIND(IF(isLiteral(?value), DATATYPE(?value), UNDEF) AS ?datatype)
+  BIND(IF(isLiteral(?value), LANG(?value), "") AS ?lang)
+  OPTIONAL { ?value rdf:type ?objectClass }
+}
+GROUP BY ?predicate ?objectKind ?datatype ?lang ?objectClass
+ORDER BY ?predicate DESC(?uses)
+
+# ----------------------------------------------------------------------------
+# Query 2: Predicates on publication nodes for one PRID
+# Param 1: PRID (e.g. POW_05832216)
+# ----------------------------------------------------------------------------
+# SELECT ?predicate ?objectKind ?datatype ?lang ?objectClass (COUNT(*) AS ?uses)
+# WHERE {
+#   ?entity ec:hasIdentifier ?id ;
+#           ec:hasPublication ?publication .
+#   ?id ec:name "PRID" ;
+#       ec:identifierValue "%s" .
+#
+#   ?publication ?predicate ?value .
+#
+#   BIND(
+#     IF(isIRI(?value), "iri",
+#       IF(isBlank(?value), "bnode", "literal")
+#     ) AS ?objectKind
+#   )
+#   BIND(IF(isLiteral(?value), DATATYPE(?value), UNDEF) AS ?datatype)
+#   BIND(IF(isLiteral(?value), LANG(?value), "") AS ?lang)
+#   OPTIONAL { ?value rdf:type ?objectClass }
+# }
+# GROUP BY ?predicate ?objectKind ?datatype ?lang ?objectClass
+# ORDER BY ?predicate DESC(?uses)
+
+# ----------------------------------------------------------------------------
+# Query 3: Most common predicates globally (for entities with PRID)
+# ----------------------------------------------------------------------------
+# SELECT ?predicate (COUNT(*) AS ?uses)
+# WHERE {
+#   ?entity ec:hasIdentifier ?id .
+#   ?id ec:name "PRID" .
+#   ?entity ?predicate ?value .
+# }
+# GROUP BY ?predicate
+# ORDER BY DESC(?uses)
+# LIMIT 200
+

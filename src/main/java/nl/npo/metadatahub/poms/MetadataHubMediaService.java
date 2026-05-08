@@ -10,6 +10,9 @@ import lombok.extern.java.Log;
 import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
+import nl.vpro.domain.user.BroadcasterService;
+import nl.vpro.domain.user.ServiceLocator;
+import nl.vpro.media.broadcaster.URLBroadcasterServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
@@ -20,8 +23,10 @@ public class MetadataHubMediaService implements MediaProvider, AutoCloseable {
 
 
     static MediaClassificationService classificationService = MediaClassificationService.getInstance();
+    static BroadcasterService broadcasterService = new URLBroadcasterServiceImpl("https://poms.omroep.nl/broadcasters/");
     static {
         ClassificationServiceLocator.setInstance(classificationService);
+        ServiceLocator.setBroadcasterService(broadcasterService);
     }
 
     private final MetadataSparqlClient client;
@@ -102,7 +107,7 @@ public class MetadataHubMediaService implements MediaProvider, AutoCloseable {
     }
 
     @SneakyThrows
-    public List<ScheduleEvent> getScheduleEevents(Channel channel, LocalDate day) {
+    public List<ScheduleEvent> getScheduleEvents(Channel channel, LocalDate day) {
         String template = readQueryTemplate("query_by_day_and_channel.sparql");
         String query = template.formatted(
             day.atTime(Schedule.START_OF_SCHEDULE).toString(),

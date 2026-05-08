@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcasterName" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -10,6 +10,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
         "channelName": { "type": "literal" , "value": "NPO 1" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T21:45:00.000Z" } ,
+        "broadcasterName": { "type": "literal" , "value": "BNNVARA" } ,
         "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
         "description": { "type": "literal" , "value": "Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T09:30:24.826Z" } ,
@@ -24,6 +25,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
         "channelName": { "type": "literal" , "value": "NPO 1" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T23:45:00.000Z" } ,
+        "broadcasterName": { "type": "literal" , "value": "BNNVARA" } ,
         "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
         "description": { "type": "literal" , "value": "Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T09:30:24.826Z" } ,
@@ -38,6 +40,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T09:35:00.000Z" } ,
+        "broadcasterName": { "type": "literal" , "value": "BNNVARA" } ,
         "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
         "description": { "type": "literal" , "value": "Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T09:30:24.826Z" } ,
@@ -52,6 +55,7 @@
         "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
         "channelName": { "type": "literal" , "value": "BVN" } ,
         "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T21:35:00.000Z" } ,
+        "broadcasterName": { "type": "literal" , "value": "BNNVARA" } ,
         "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
         "description": { "type": "literal" , "value": "Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T09:30:24.826Z" } ,

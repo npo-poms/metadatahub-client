@@ -9,6 +9,7 @@ import nl.vpro.logging.simple.OutputStreamSimpleLogger;
 import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
 import org.apache.jena.query.ResultSetFormatter;
+import org.apache.logging.log4j.jul.Log4jBridgeHandler;
 
 /**
  * - Gets the programs from 1 day
@@ -21,6 +22,7 @@ import org.apache.jena.query.ResultSetFormatter;
  * This is to compare the results from poms and sparql
  */
 void main() throws Exception {
+    Log4jBridgeHandler.install(true, null, true);
     System.setProperty("log4j2.root.level","INFO");
 
     try(
