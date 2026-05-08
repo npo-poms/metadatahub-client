@@ -2,11 +2,12 @@
 
 source auth.sh
 
-Q="$(<src/main/resources/sparql/mediaobject.sparql)"
+Q="$(<sparql/query_by_day_and_channel.sparql)"
+#Q="$(<sparql/mediaobject.sparql)"
 #Q="$(<src/main/resources/sparql/firstquery.sparql)"
 printf -v QUERY '%s\nLIMIT 2' "$Q"
-echo EXECUTING SPARQL QUERY:
-echo "$QUERY"
+#echo EXECUTING SPARQL QUERY:
+#echo "$QUERY"
 curl -G "${sparql_endpoint}" \
   -H "Authorization: Bearer $ACCESS_TOKEN" \
   --data-urlencode "query=${QUERY}"

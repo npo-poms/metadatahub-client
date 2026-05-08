@@ -1,8 +1,8 @@
 package nl.npo.metadatahub.client.auth;
 
+import java.util.logging.Level;
+import lombok.extern.java.Log;
 import lombok.extern.log4j.Log4j2;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.net.URI;
 import java.net.URLEncoder;
@@ -22,7 +22,7 @@ import tools.jackson.databind.ObjectMapper;
  * Pure Java implementation with no Spring dependencies.
  */
 
-@Log4j2
+@Log
 public class TokenManager {
 
     private static final int REFRESH_BUFFER_SECONDS = 30; // Refresh token 30 seconds before expiry
@@ -64,15 +64,15 @@ public class TokenManager {
      */
     public synchronized String getAccessToken() throws TokenException {
         if (isTokenValid()) {
-            log.debug("Using cached OAuth2 token");
+            log.fine("Using cached OAuth2 token");
             return cachedToken;
         }
 
-        log.info("Requesting new OAuth2 token from: {}", config.tokenUri());
+        log.info(() -> "Requesting new OAuth2 token from: %s".formatted( config.tokenUri()));
         try {
             return requestToken();
         } catch (Exception e) {
-            log.error("Failed to obtain OAuth2 token", e);
+            log.log(Level.SEVERE, "Failed to obtain OAuth2 token", e);
             throw new TokenException("Failed to obtain access token: " + e.getMessage(), e);
         }
     }
@@ -122,9 +122,9 @@ public class TokenManager {
             try {
                 long expiresInSeconds = Long.parseLong(expiresInObj.toString());
                 this.tokenExpirationTime = Instant.now().plusSeconds(expiresInSeconds - REFRESH_BUFFER_SECONDS);
-                log.debug("Token will expire at: {}", tokenExpirationTime);
+                log.fine(() -> "Token will expire at: %s".formatted(tokenExpirationTime));
             } catch (NumberFormatException e) {
-                log.warn("Could not parse expires_in from token response", e);
+                log.log(Level.SEVERE, "Could not parse expires_in from token response", e);
                 this.tokenExpirationTime = Instant.now().plusSeconds(300); // Default to 5 minutes
             }
         } else {
@@ -149,7 +149,7 @@ public class TokenManager {
      * Invalidate the cached token, forcing a fresh token request on next call.
      */
     public synchronized void invalidateToken() {
-        log.debug("Invalidating cached token");
+        log.fine("Invalidating cached token");
         cachedToken = null;
         tokenExpirationTime = null;
     }

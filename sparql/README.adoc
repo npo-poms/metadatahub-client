@@ -1,0 +1,3 @@
+I collected some formatted sparql queries here for testing.
+
+The actual queries are in src/main/resources/sparql, and may need stom extra programmatic formatting.

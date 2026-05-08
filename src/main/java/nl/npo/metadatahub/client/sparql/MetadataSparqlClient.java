@@ -1,7 +1,7 @@
 package nl.npo.metadatahub.client.sparql;
 
 import java.io.*;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.java.Log;
 import org.apache.jena.query.*;
 import nl.npo.metadatahub.client.auth.TokenManager;
 
@@ -17,7 +17,7 @@ import java.nio.charset.StandardCharsets;
  * Pure Java implementation using java.net.http.HttpClient.
  */
 
-@Log4j2
+@Log
 public class MetadataSparqlClient {
 
     private static final String AUTHORIZATION_HEADER = "Authorization";
@@ -58,7 +58,8 @@ public class MetadataSparqlClient {
      * @return parsed SPARQL result set
      */
     public ResultSet selectQuery(String sparqlQuery) throws TokenManager.TokenException, IOException, InterruptedException {
-        log.debug("Executing SPARQL SELECT query");
+        log.info(() -> "Executing SPARQL SELECT query \n%s".formatted(sparqlQuery));
+
         return sendQuery(sparqlQuery, "application/sparql-results+json");
     }
 
@@ -72,7 +73,7 @@ public class MetadataSparqlClient {
         String encodedQuery = URLEncoder.encode(sparqlQuery, StandardCharsets.UTF_8);
         String endpoint = config.endpoint() + "?query=" + encodedQuery;
 
-        log.debug("Sending SPARQL query to: {}", config.endpoint());
+        log.fine(() -> "Sending SPARQL query to: %s".formatted(config.endpoint()));
 
         HttpRequest request = HttpRequest.newBuilder()
             .GET()

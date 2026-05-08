@@ -1,7 +1,6 @@
 package nl.npo.metadatahub.client.sparql;
 
 import java.time.Duration;
-import java.util.Objects;
 import static java.util.Objects.requireNonNull;
 
 /**

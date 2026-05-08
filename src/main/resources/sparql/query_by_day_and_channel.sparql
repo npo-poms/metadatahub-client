@@ -1,0 +1,19 @@
+PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?prid ?title ?start ?end
+WHERE {
+    ?entity ec:hasIdentifier ?id .
+      ?id ec:name "PRID" .
+      ?id ec:identifierValue ?prid .
+    ?entity ec:hasPublication ?publication .
+      ?publication ec:hasStartDateTime ?start .
+      FILTER(?start >= "%s"^^xsd:dateTime && ?start < "%s"^^xsd:dateTime)
+    ?publication ec:hasPublicationChannel ?channel .
+      ?channel ec:name "%s" .
+    OPTIONAL { ?publication ec:hasEndDateTime ?end . }
+    OPTIONAL { ?entity ec:title ?title . }
+}
+ORDER BY ?start
+
+
+

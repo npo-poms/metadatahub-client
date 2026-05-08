@@ -8,6 +8,7 @@ import nl.npo.metadatahub.client.auth.*;
 import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.npo.metadatahub.poms.Mapper;
 import nl.npo.metadatahub.poms.MetadataToPoms;
+import nl.vpro.domain.media.Channel;
 import org.apache.jena.query.QuerySolution;
 import nl.vpro.domain.media.Program;
 import org.apache.jena.query.ResultSet;
@@ -27,81 +28,7 @@ void main() throws Exception {
     var client = configuration.createClient();
     var poms = new MetadataToPoms(client);
 
-    IO.println(poms.getProgram(client, "mid:12345"));
+    //JAXB.marshal(poms.getProgram( "POW_05977062"), System.out);
+
+    IO.println(poms.getScheduleEevents(Channel.NED1, LocalDate.of(2026, 3, 1)));
 }
-
-private static void firstQuery(MetadataSparqlClient client) throws Exception {
-    String firstQuery = """
-    PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
-    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-    SELECT ?prid
-           (SAMPLE(?dateCreated) AS ?dateCreated)
-           (SAMPLE(?dateModified) AS ?dateModified)
-           (SAMPLE(?title) AS ?title)
-           (SAMPLE(?description) AS ?description)
-           (SAMPLE(?channelName) AS ?channelName)
-           (SAMPLE(?start) AS ?start)
-           (SAMPLE(?end) AS ?end)
-           (GROUP_CONCAT(DISTINCT ?genreLabel; separator="||") AS ?genreLabels)
-           (GROUP_CONCAT(DISTINCT ?targetAudienceLabel; separator="||") AS ?targetAudienceLabels)
-           (GROUP_CONCAT(DISTINCT CONCAT(STR(?ratingType), "::", STR(?ratingValue)); separator="||") AS ?ratings)
-    WHERE {
-      ?entity ec:hasIdentifier ?id .
-      ?id ec:name "PRID" .
-      ?id ec:identifierValue ?prid .
-      ?entity ec:hasPublication ?publication .
-        ?publication ec:hasPublicationChannel ?channel .
-        ?channel ec:name ?channelName .
-        ?publication ec:hasStartDateTime ?start .
-      OPTIONAL { ?publication ec:hasEndDateTime ?end . }
-      OPTIONAL { ?entity ec:title ?title . }
-      OPTIONAL { ?entity ec:contentDescription ?description . }
-      OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
-      OPTIONAL { ?entity ec:hasDateModified ?dateModified . }
-      OPTIONAL {
-          ?entity ec:hasGenre ?genre .
-          ?genre skos:prefLabel ?genreLabel .
-        }
-        OPTIONAL {
-          ?entity ec:hasTargetAudience ?audience .
-          ?audience ec:hasObjectType/skos:prefLabel ?targetAudienceLabel .
-        }
-        OPTIONAL {
-          ?entity ec:hasRating ?rating .
-          ?rating a ?ratingType .
-          ?rating ec:ratingValue ?ratingValue .
-        }
-    }
-    GROUP BY ?prid
-    LIMIT 10""";
-
-    ResultSet result = client.selectQuery(firstQuery);
-    List<String> fields = result.getResultVars();
-    Mapper mapper = new Mapper(fields);
-
-    while(result.hasNext()) {
-        var row = result.next();
-        Program program = mapper.toProgram(row);
-        JAXB.marshal(program, System.out);
-
-        List<String> genres = splitAggregatedValues(row, "genreLabels");
-        List<String> targetAudiences = splitAggregatedValues(row, "targetAudienceLabels");
-        List<String> ratings = splitAggregatedValues(row, "ratings");
-        log.info("prid=" + row.get("prid") + " genres=" + genres + " targetAudiences=" + targetAudiences + " ratings=" + ratings);
-    }
-}
-
-private static List<String> splitAggregatedValues(QuerySolution row, String field) {
-    if (!row.contains(field) || row.getLiteral(field) == null) {
-        return List.of();
-    }
-    String value = row.getLiteral(field).getString();
-    if (value.isBlank()) {
-        return List.of();
-    }
-    return Arrays.stream(value.split("\\|\\|"))
-        .filter(v -> !v.isBlank())
-        .collect(Collectors.toList());
-}
-
-
