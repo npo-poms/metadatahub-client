@@ -22,3 +22,15 @@ link:src/test/java/Example.java[Example.java]
 
 
 Results of Example can be found in link:results[results]
+
+TODO
+
+- credits
+- targetgroups
+- country/language
+- release year
+- duration
+- images
+- episodeOf/memberOf
+- SEASON/SERIES
+
