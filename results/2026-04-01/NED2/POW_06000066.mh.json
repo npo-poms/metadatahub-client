@@ -1,0 +1,44 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/74f2d7aa-c728-4640-abed-1f093a8d7337" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dbba6afa-21d1-4d40-b8e0-7d16c021250c" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/197644e2-7ce5-4305-9c2f-cecda03f131c" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-02T08:40:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Trugkieke - Dwars Door De Delta - Klik mei de natuer" } ,
+        "description": { "type": "literal" , "value": "Trugkieke gaat over het Zeeland van toen en nu. Domburg is de oudste badplaats van Zeeland. Ooit een kuuroord voor welgestelden en een inspiratiebron voor kunstenaars. Dwars Door De Delta: Falco en Maas wandelen door het nieuwste Unesco Geopark van Nederland; Geopark Schelde Delta. Klik! mei de natuer: Laura gaat op zoek naar reptielen en amfibieën." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:12.379Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/74f2d7aa-c728-4640-abed-1f093a8d7337" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dbba6afa-21d1-4d40-b8e0-7d16c021250c" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9f4e94ee-d02d-4264-8111-2388ca806334" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T16:30:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Trugkieke - Dwars Door De Delta - Klik mei de natuer" } ,
+        "description": { "type": "literal" , "value": "Trugkieke gaat over het Zeeland van toen en nu. Domburg is de oudste badplaats van Zeeland. Ooit een kuuroord voor welgestelden en een inspiratiebron voor kunstenaars. Dwars Door De Delta: Falco en Maas wandelen door het nieuwste Unesco Geopark van Nederland; Geopark Schelde Delta. Klik! mei de natuer: Laura gaat op zoek naar reptielen en amfibieën." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:12.379Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

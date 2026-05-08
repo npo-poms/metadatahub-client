@@ -1,0 +1,62 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/34c60cdd-80a4-4690-be9c-81114f438f20" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f52d1502-9c0e-4d7c-b2c5-bf5092f71e36" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/971ec23d-420e-47c2-a258-9ec9b652681c" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T22:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
+        "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/34c60cdd-80a4-4690-be9c-81114f438f20" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f52d1502-9c0e-4d7c-b2c5-bf5092f71e36" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/4ffc0bdd-c439-4ce1-b7bf-0f352134f258" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-07-02T23:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
+        "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/34c60cdd-80a4-4690-be9c-81114f438f20" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f52d1502-9c0e-4d7c-b2c5-bf5092f71e36" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/13603f36-71d6-4f37-8cff-c3e2bb50914a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-08-06T21:55:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
+        "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

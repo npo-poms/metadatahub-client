@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000065" sortDate="2026-04-01T10:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:44:33.855+01:00">
+    <title owner="BROADCASTER" type="MAIN">Limburg in de Waereld - Drijfveren</title>
+    <description owner="BROADCASTER" type="MAIN">Limburg in de Waereld: prof. dr. Joep Leerssen en Frans Pollux gaan tweeduizend jaar terug in de tijd en verdiepen zich in de rijke historie van Limburg. Ze laten zien wat de Franse revolutie en de Verlichting betekenden voor Limburg gedurende de negentiende eeuw tot aan de Eerste Wereldoorlog. Drijfveren: programmamaker Erik Kooyman ontmoet verschillende mensen en maakt korte portretten.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="POW_06000065">
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-03-31T18:30:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_06000065</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="POW_06000065">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T10:40:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_06000065</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

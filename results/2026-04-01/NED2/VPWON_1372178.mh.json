@@ -1,0 +1,62 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/65e0e8c3-03cb-4454-8367-72b15157def3" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1d5e9f12-7f69-4208-a371-536e0cbc3f41" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9e00de08-8c11-46a7-9a93-ae38b4297cbd" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T20:45:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Streaming Hell" } ,
+        "description": { "type": "literal" , "value": "Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:17.283Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6f83abbb-92e7-42ce-b8d9-0ca275977661" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
+        "ratingValue": { "type": "literal" , "value": "Grof taalgebruik" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/65e0e8c3-03cb-4454-8367-72b15157def3" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1d5e9f12-7f69-4208-a371-536e0cbc3f41" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9e00de08-8c11-46a7-9a93-ae38b4297cbd" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T20:45:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Streaming Hell" } ,
+        "description": { "type": "literal" , "value": "Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:17.283Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0decacd5-0d97-4361-856d-8262f3ef5e62" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
+        "ratingValue": { "type": "literal" , "value": "Angst" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/65e0e8c3-03cb-4454-8367-72b15157def3" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1d5e9f12-7f69-4208-a371-536e0cbc3f41" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9e00de08-8c11-46a7-9a93-ae38b4297cbd" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T20:45:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Streaming Hell" } ,
+        "description": { "type": "literal" , "value": "Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:17.283Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ef32ba76-f67e-4d2d-9612-01e78ef289ea" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "9" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413694" sortDate="2026-04-01T16:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:08.337+01:00">
+    <title owner="BROADCASTER" type="MAIN">Per Seconde Wijzer</title>
+    <description owner="BROADCASTER" type="MAIN">Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.</description>
+    <genre id="3.0.1.6.19">
+        <term>Amusement</term>
+        <term>Spel/quiz</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="BV_101413694">
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-03-31T19:55:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>BV_101413694</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="BV_101413694">
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-04-01T00:35:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>BV_101413694</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="BV_101413694">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T12:35:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>BV_101413694</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="BV_101413694">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T16:30:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>BV_101413694</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

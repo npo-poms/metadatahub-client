@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1367607" sortDate="2026-03-28T17:55:00+01:00" workflow="PUBLISHED" creationDate="2026-03-13T16:00:38.947+01:00" lastModified="2026-04-08T17:30:48.834+02:00" publishDate="2026-04-08T17:31:38.916+02:00" urn="urn:vpro:media:program:142164609">
+    <crid>crid://npo/programmagegevens/2569759201668</crid>
+    <crid>crid://npo/programmagegevens/2570090084668</crid>
+    <crid>crid://npo/programmagegevens/2569759205668</crid>
+    <crid>crid://npo/programmagegevens/2569759197668</crid>
+    <crid>crid://npo/programmagegevens/2571774885668</crid>
+    <broadcaster id="EO">EO</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">EO Metterdaad</title>
+    <title owner="MIS" type="SUB">Libanon: Rosie en Reva brengen hoop</title>
+    <description owner="MIS" type="MAIN">Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is.</description>
+    <description owner="MIS" type="SHORT">Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon gevlucht. EO-directeur Arjan Lock en Daniel de Wit reisden naar Libanon om aandacht te vragen voor de hulp.</description>
+    <genre id="3.0.1.40">
+        <term>Human Interest</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H10M14.130S</duration>
+    <credits>
+        <person externalId="whatson:941819438517" role="COMMENTATOR">
+            <givenName>Victor</givenName>
+            <familyName>Rosier</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:139779776" midRef="VPWON_1367589" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:75553303" midRef="VPWON_1262903" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-28T18:04:39+01:00" publishStop="2027-03-28T18:04:39+02:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-28T18:17:45.333+01:00" lastModified="2026-03-28T18:17:45.345+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:142346651">
+            <programUrl>npo+drm://internetvod.omroep.nl/VPWON_1367607</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-28T18:17:45.333+01:00" lastModified="2026-03-28T18:17:45.346+01:00" publishStart="2026-03-28T18:04:39+01:00" publishStop="2027-03-28T18:04:39+02:00" urn="urn:vpro:media:location:142346653">
+            <programUrl>npo+drm://plusvod.omroep.nl/VPWON_1367607</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="PICTURE" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-20T12:00:59.868+01:00" lastModified="2026-03-20T12:01:01.812+01:00" urn="urn:vpro:media:image:142274459">
+            <shared:title>EO Metterdaad</shared:title>
+            <shared:description>Libanon 2</shared:description>
+            <shared:imageUri>urn:vpro:image:2483440</shared:imageUri>
+            <shared:height>572</shared:height>
+            <shared:width>1002</shared:width>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-28T18:14:15.721+01:00" lastModified="2026-03-28T18:14:15.721+01:00" urn="urn:vpro:media:image:142346579">
+            <shared:title>EO Metterdaad</shared:title>
+            <shared:description>Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon gevlucht. EO-directeur Arjan Lock en Daniel de Wit reisden naar Libanon om aandacht te vragen voor de hulp.</shared:description>
+            <shared:imageUri>urn:vpro:image:2486495</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still EO Metterdaad / Libanon: actie voor vluchtelingen</shared:credits>
+            <shared:sourceName>EO</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-28T18:14:16.583+01:00" lastModified="2026-03-28T18:14:16.583+01:00" urn="urn:vpro:media:image:142346580">
+            <shared:title>EO Metterdaad</shared:title>
+            <shared:description>Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon gevlucht. EO-directeur Arjan Lock en Daniel de Wit reisden naar Libanon om aandacht te vragen voor de hulp.</shared:description>
+            <shared:imageUri>urn:vpro:image:2486496</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still EO Metterdaad / Libanon: actie voor vluchtelingen</shared:credits>
+            <shared:sourceName>EO</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-28T18:14:25.365+01:00" lastModified="2026-03-28T18:14:25.365+01:00" urn="urn:vpro:media:image:142346583">
+            <shared:title>EO Metterdaad</shared:title>
+            <shared:description>Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon gevlucht. EO-directeur Arjan Lock en Daniel de Wit reisden naar Libanon om aandacht te vragen voor de hulp.</shared:description>
+            <shared:imageUri>urn:vpro:image:2486497</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still EO Metterdaad / Libanon: actie voor vluchtelingen</shared:credits>
+            <shared:sourceName>EO</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="VPWON_1367607" urnRef="urn:vpro:media:program:142164609">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-28+01:00</guideDay>
+            <start>2026-03-28T17:55:00+01:00</start>
+            <duration>P0DT0H11M19.000S</duration>
+            <poProgID>VPWON_1367607</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1367607" urnRef="urn:vpro:media:program:142164609">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-29+01:00</guideDay>
+            <start>2026-03-29T12:05:00+02:00</start>
+            <duration>P0DT0H10M52.000S</duration>
+            <poProgID>VPWON_1367607</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1367607" urnRef="urn:vpro:media:program:142164609">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T15:10:00+02:00</start>
+            <duration>P0DT0H10M32.000S</duration>
+            <poProgID>VPWON_1367607</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1367607" urnRef="urn:vpro:media:program:142164609">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-04+02:00</guideDay>
+            <start>2026-04-04T12:40:00+02:00</start>
+            <duration>P0DT0H10M54.000S</duration>
+            <poProgID>VPWON_1367607</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1367607" urnRef="urn:vpro:media:program:142164609">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-04+02:00</guideDay>
+            <start>2026-04-04T15:15:00+02:00</start>
+            <duration>P0DT0H10M57.000S</duration>
+            <poProgID>VPWON_1367607</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-03-13T16:00:39.191+01:00" highlighted="false" midRef="VPWON_1367589" index="17" type="SEASON" urnRef="urn:vpro:media:group:139779776">
+        <memberOf midRef="VPWON_1262903" type="SERIES" index="54"/>
+    </episodeOf>
+    <segments/>
+</program>

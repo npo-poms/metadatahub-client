@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372616" sortDate="2026-04-01T21:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-06T11:20:41.556+01:00">
+    <title owner="BROADCASTER" type="MAIN">NPO Doc: Blauw Licht - Herinneringen van een Ambulancebroeder</title>
+    <description owner="BROADCASTER" type="MAIN">Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Na 23 jaar op de ambulance staat een verzameling verhalen en gezichten op zijn netvlies gebrand. Hier lag het 'binkie' op de bouwplaats dat om zijn moeder bleef roepen. Daar het jongetje dat frontaal door een stadsbus werd geschept. Daar het meisje met de vlechten dat verdronk in het kanaal. Als eerste ter plaatse, was hij voor vele mensen de laatste die hun hand vasthield. Is het wel normaal dat één mens zoveel lijden moet zien?</description>
+    <genre id="3.0.1.8.40">
+        <term>Documentaire</term>
+        <term>Human Interest</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <contentRating>ANGST</contentRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="VPWON_1372616">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T21:00:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>VPWON_1372616</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

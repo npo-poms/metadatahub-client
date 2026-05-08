@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372069" sortDate="2026-04-01T15:25:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-06T11:20:29.436+01:00">
+    <title owner="BROADCASTER" type="MAIN">Back to ESNS 2026</title>
+    <description owner="BROADCASTER" type="MAIN">Je ziet Antoon, die dit jaar op Noorderslag stond om zijn nieuwe plaat Tot Het Eind van Mij te presenteren. Ook muziek van de Nederlands-Indonesische supergroep Nusantara Beat. De Nederlandstalige elektronische popmuziek van IDA en we zien hoe Suzan en Freek de popprijs winnen.</description>
+    <genre id="3.0.1.5">
+        <term>Muziek</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="VPWON_1372069">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T15:25:00+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>VPWON_1372069</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

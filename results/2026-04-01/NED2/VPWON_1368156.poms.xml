@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1368156" sortDate="2026-04-01T22:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:40:33.723+01:00" lastModified="2026-04-02T14:20:52.018+02:00" publishDate="2026-04-02T14:21:11.804+02:00" urn="urn:vpro:media:program:140623649">
+    <crid>crid://npo/programmagegevens/2562758360668</crid>
+    <crid>crid://npo/programmagegevens/2562758388668</crid>
+    <crid>crid://npo/programmagegevens/2562758265668</crid>
+    <crid>crid://npo/programmagegevens/2562758781668</crid>
+    <crid>crid://npo/programmagegevens/2574599109668</crid>
+    <crid>crid://npo/programmagegevens/2574599144668</crid>
+    <crid>crid://npo/programmagegevens/2574599169668</crid>
+    <crid>crid://npo/programmagegevens/2574599194668</crid>
+    <crid>crid://npo/programmagegevens/2574599219668</crid>
+    <crid>crid://npo/programmagegevens/2574599244668</crid>
+    <crid>crid://npo/programmagegevens/2574599269668</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <broadcaster id="NTR">NTR</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">Nieuwsuur</title>
+    <description owner="MIS" type="MAIN">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</description>
+    <description owner="MIS" type="SHORT">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H38M9.880S</duration>
+    <credits>
+        <person externalId="whatson:1543316239517" role="PRESENTER">
+            <givenName>Mariëlle</givenName>
+            <familyName>Tweebeeke</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:127163454" midRef="POMS_S_NPO_20049773" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:139654369" midRef="VPWON_1368067" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:70883859" midRef="VPWON_1246712" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:74848353" midRef="POMS_S_NPO_3760702" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:74908339" midRef="POMS_S_NPO_3767333" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:75112033" midRef="POMS_S_NPO_3792628" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:95895388" midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:97022679" midRef="POMS_S_NPO_10444886" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:97133697" midRef="POMS_S_NPO_10505903" type="PLAYLIST"/>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-04-01T22:38:27+02:00" publishStop="2027-04-01T22:38:27+02:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T23:15:19.534+02:00" lastModified="2026-04-01T23:15:19.547+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:142381343">
+            <programUrl>npo+drm://internetvod.omroep.nl/VPWON_1368156</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-04-01T23:15:19.534+02:00" lastModified="2026-04-01T23:15:19.549+02:00" publishStart="2026-04-01T22:38:27+02:00" publishStop="2027-04-01T22:38:27+02:00" urn="urn:vpro:media:location:142381345">
+            <programUrl>npo+drm://plusvod.omroep.nl/VPWON_1368156</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="true" workflow="PUBLISHED" creationDate="2026-04-01T22:09:31.068+02:00" lastModified="2026-04-01T22:09:31.138+02:00" urn="urn:vpro:media:image:142381210">
+            <shared:title>Nieuwsuur_01-04</shared:title>
+            <shared:description>Nieuwsuur_01-04</shared:description>
+            <shared:imageUri>urn:vpro:image:2487822</shared:imageUri>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T23:03:57.913+02:00" lastModified="2026-04-01T23:03:57.913+02:00" urn="urn:vpro:media:image:142381317">
+            <shared:title>Nieuwsuur</shared:title>
+            <shared:description>Het nieuws met achtergronden, duiding en analyse.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487826</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Nieuwsuur</shared:credits>
+            <shared:sourceName>NOS, NTR</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T23:03:58.457+02:00" lastModified="2026-04-01T23:03:58.457+02:00" urn="urn:vpro:media:image:142381318">
+            <shared:title>Nieuwsuur</shared:title>
+            <shared:description>Het nieuws met achtergronden, duiding en analyse.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487827</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Nieuwsuur</shared:credits>
+            <shared:sourceName>NOS, NTR</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T23:03:59.708+02:00" lastModified="2026-04-01T23:03:59.708+02:00" urn="urn:vpro:media:image:142381319">
+            <shared:title>Nieuwsuur</shared:title>
+            <shared:description>Het nieuws met achtergronden, duiding en analyse.</shared:description>
+            <shared:imageUri>urn:vpro:image:2487828</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Nieuwsuur</shared:credits>
+            <shared:sourceName>NOS, NTR</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T22:00:00+02:00</start>
+            <duration>P0DT0H38M45.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T22:20:00+02:00</start>
+            <duration>P0DT0H35M3.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T00:25:00+02:00</start>
+            <duration>P0DT0H38M29.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T01:10:00+02:00</start>
+            <duration>P0DT0H38M24.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T01:47:00+02:00</start>
+            <duration>P0DT0H0M44.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T01:50:00+02:00</start>
+            <duration>P0DT0H39M9.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T02:25:00+02:00</start>
+            <duration>P0DT0H39M9.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T03:05:00+02:00</start>
+            <duration>P0DT0H39M9.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T03:45:00+02:00</start>
+            <duration>P0DT0H39M9.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T04:25:00+02:00</start>
+            <duration>P0DT0H39M9.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T05:05:00+02:00</start>
+            <duration>P0DT0H38M24.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-02+02:00</guideDay>
+            <start>2026-04-02T09:50:00+02:00</start>
+            <duration>P0DT0H38M25.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="VPWON_1368156" urnRef="urn:vpro:media:program:140623649">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T10:20:00+02:00</start>
+            <duration>P0DT0H35M3.000S</duration>
+            <poProgID>VPWON_1368156</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T15:40:33.911+01:00" highlighted="false" midRef="VPWON_1368067" index="89" type="SEASON" urnRef="urn:vpro:media:group:139654369">
+        <memberOf midRef="VPWON_1246712" type="SERIES" index="2026">
+            <memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="12"/>
+            <memberOf midRef="POMS_S_NPO_10505903" type="PLAYLIST" index="13">
+                <memberOf midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
+            </memberOf>
+            <memberOf midRef="POMS_S_NPO_20049773" type="PLAYLIST" index="13"/>
+            <memberOf midRef="POMS_S_NPO_10444886" type="PLAYLIST" index="15">
+                <memberOf midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
+            </memberOf>
+            <memberOf midRef="POMS_S_NPO_3767333" type="COLLECTION">
+                <memberOf midRef="POMS_S_NPO_3760702" type="COLLECTION">
+                    <memberOf midRef="POMS_S_NPO_3792628" type="COLLECTION" index="5"/>
+                </memberOf>
+            </memberOf>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>

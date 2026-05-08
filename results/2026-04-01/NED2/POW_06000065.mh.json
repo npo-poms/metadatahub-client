@@ -1,0 +1,44 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/d7dd7eb7-4a5f-4eb7-b5a8-9762a6f51510" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1f05175d-9f05-4ef5-8b83-701c8e5d1f34" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b72696bd-e3bf-43f6-bc27-188bf6b312c3" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T08:40:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Limburg in de Waereld - Drijfveren" } ,
+        "description": { "type": "literal" , "value": "Limburg in de Waereld: prof. dr. Joep Leerssen en Frans Pollux gaan tweeduizend jaar terug in de tijd en verdiepen zich in de rijke historie van Limburg. Ze laten zien wat de Franse revolutie en de Verlichting betekenden voor Limburg gedurende de negentiende eeuw tot aan de Eerste Wereldoorlog. Drijfveren: programmamaker Erik Kooyman ontmoet verschillende mensen en maakt korte portretten." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:44:33.855Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/d7dd7eb7-4a5f-4eb7-b5a8-9762a6f51510" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1f05175d-9f05-4ef5-8b83-701c8e5d1f34" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/11c3284b-5f3f-47bd-985e-ff2bc06edbc4" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-31T16:30:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Limburg in de Waereld - Drijfveren" } ,
+        "description": { "type": "literal" , "value": "Limburg in de Waereld: prof. dr. Joep Leerssen en Frans Pollux gaan tweeduizend jaar terug in de tijd en verdiepen zich in de rijke historie van Limburg. Ze laten zien wat de Franse revolutie en de Verlichting betekenden voor Limburg gedurende de negentiende eeuw tot aan de Eerste Wereldoorlog. Drijfveren: programmamaker Erik Kooyman ontmoet verschillende mensen en maakt korte portretten." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:44:33.855Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

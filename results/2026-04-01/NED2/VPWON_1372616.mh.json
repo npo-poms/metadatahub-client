@@ -1,0 +1,44 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1de471f9-21a2-41ef-a644-b06de317f308" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe9b7280-17f5-462a-ae5a-e31fcfc7062d" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e676ea48-0684-4549-9183-306c6d846cd6" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T19:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NPO Doc: Blauw Licht - Herinneringen van een Ambulancebroeder" } ,
+        "description": { "type": "literal" , "value": "Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Na 23 jaar op de ambulance staat een verzameling verhalen en gezichten op zijn netvlies gebrand. Hier lag het 'binkie' op de bouwplaats dat om zijn moeder bleef roepen. Daar het jongetje dat frontaal door een stadsbus werd geschept. Daar het meisje met de vlechten dat verdronk in het kanaal. Als eerste ter plaatse, was hij voor vele mensen de laatste die hun hand vasthield. Is het wel normaal dat één mens zoveel lijden moet zien?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:41.556Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
+        "genreLabel": { "type": "literal" , "value": "Documentaire-Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0decacd5-0d97-4361-856d-8262f3ef5e62" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
+        "ratingValue": { "type": "literal" , "value": "Angst" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1de471f9-21a2-41ef-a644-b06de317f308" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe9b7280-17f5-462a-ae5a-e31fcfc7062d" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e676ea48-0684-4549-9183-306c6d846cd6" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T19:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NPO Doc: Blauw Licht - Herinneringen van een Ambulancebroeder" } ,
+        "description": { "type": "literal" , "value": "Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Na 23 jaar op de ambulance staat een verzameling verhalen en gezichten op zijn netvlies gebrand. Hier lag het 'binkie' op de bouwplaats dat om zijn moeder bleef roepen. Daar het jongetje dat frontaal door een stadsbus werd geschept. Daar het meisje met de vlechten dat verdronk in het kanaal. Als eerste ter plaatse, was hij voor vele mensen de laatste die hun hand vasthield. Is het wel normaal dat één mens zoveel lijden moet zien?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:41.556Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1" } ,
+        "genreLabel": { "type": "literal" , "value": "Documentaire-Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/be12c9fd-8a96-414c-a37b-14bb14eea50a" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "9" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

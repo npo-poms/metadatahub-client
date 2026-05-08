@@ -1,0 +1,80 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/54ef91ed-d421-43fc-9512-827824340657" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f48d1b06-e8bb-4644-86e3-f540fd4e1486" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T10:35:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Per Seconde Wijzer" } ,
+        "description": { "type": "literal" , "value": "Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:08.337Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreLabel": { "type": "literal" , "value": "Amusement-Spel/quiz" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/54ef91ed-d421-43fc-9512-827824340657" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e0a672d5-a6b0-4477-a1aa-05384cf7e21b" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-31T22:35:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Per Seconde Wijzer" } ,
+        "description": { "type": "literal" , "value": "Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:08.337Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreLabel": { "type": "literal" , "value": "Amusement-Spel/quiz" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/54ef91ed-d421-43fc-9512-827824340657" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ee87e70f-bf96-41e9-bc99-c47b11988c43" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-31T17:55:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Per Seconde Wijzer" } ,
+        "description": { "type": "literal" , "value": "Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:08.337Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreLabel": { "type": "literal" , "value": "Amusement-Spel/quiz" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/54ef91ed-d421-43fc-9512-827824340657" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1fe20e6f-3a51-4096-89d4-69b8629c05ab" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T14:30:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Per Seconde Wijzer" } ,
+        "description": { "type": "literal" , "value": "Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:08.337Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" } ,
+        "genreLabel": { "type": "literal" , "value": "Amusement-Spel/quiz" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

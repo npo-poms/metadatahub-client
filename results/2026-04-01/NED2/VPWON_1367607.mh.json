@@ -1,0 +1,98 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/04014e6f-3cbd-4521-a30e-1e98df94fb77" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0da237bd-f59e-437f-a6fd-49c4e68ad1ec" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/3d19133b-3a25-409f-a0e7-e9338daf557a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-29T10:05:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Libanon: actie voor vluchtelingen" } ,
+        "description": { "type": "literal" , "value": "Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-13T15:02:40.146Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/04014e6f-3cbd-4521-a30e-1e98df94fb77" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0da237bd-f59e-437f-a6fd-49c4e68ad1ec" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/842c2800-c0ed-4af8-a2cb-f158ac72b5aa" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T13:10:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Libanon: actie voor vluchtelingen" } ,
+        "description": { "type": "literal" , "value": "Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-13T15:02:40.146Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/04014e6f-3cbd-4521-a30e-1e98df94fb77" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0da237bd-f59e-437f-a6fd-49c4e68ad1ec" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/97eec5f4-0b48-41bb-b62f-7a868a5f3c27" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-28T16:55:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Libanon: actie voor vluchtelingen" } ,
+        "description": { "type": "literal" , "value": "Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-13T15:02:40.146Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/04014e6f-3cbd-4521-a30e-1e98df94fb77" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0da237bd-f59e-437f-a6fd-49c4e68ad1ec" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2f19c002-3a10-4e3d-8601-28165e9c03af" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T10:40:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Libanon: actie voor vluchtelingen" } ,
+        "description": { "type": "literal" , "value": "Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-13T15:02:40.146Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/04014e6f-3cbd-4521-a30e-1e98df94fb77" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0da237bd-f59e-437f-a6fd-49c4e68ad1ec" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2d1ff02f-d666-4c32-936a-14c0d1096d52" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T13:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Libanon: actie voor vluchtelingen" } ,
+        "description": { "type": "literal" , "value": "Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-13T15:02:40.146Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" } ,
+        "genreLabel": { "type": "literal" , "value": "Human Interest" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}
