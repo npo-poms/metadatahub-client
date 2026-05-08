@@ -63,17 +63,21 @@ void main() throws Exception {
 
 
                     JAXB.marshal(mo, pomsout);
-                    log.info("POMS: " + pomsFile.toAbsolutePath());
+                    log.info("POMS: " + pomsFile);
 
 
                     where(onQueryExecuted,
-                        (rs) -> outputAsJSON(jsout, rs)
+                        (rs) -> {
+
+                            outputAsJSON(jsout, rs);
+                            log.info("Sparql response: " + mhJsonFile);
+                        }
                     ).run(() -> {
                         try {
                             metadataHubMediaService.getProgram(mo.getMid()).ifPresentOrElse(
                                 program -> {
                                     JAXB.marshal(program, out);
-                                    log.info("MH: " + mhFile.toAbsolutePath());
+                                    log.info("MH: " + mhFile);
                                 },
                                 () -> log.info("MH: no program found for mid " + mo.getMid())
                             );
