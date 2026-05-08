@@ -19,7 +19,7 @@ import java.nio.charset.StandardCharsets;
  */
 
 @Log
-public class MetadataSparqlClient {
+public class MetadataSparqlClient implements AutoCloseable{
 
     public static ScopedValue<Consumer<ResultSet>> onQueryExecuted = ScopedValue.newInstance();
 
@@ -65,6 +65,11 @@ public class MetadataSparqlClient {
         log.fine(() -> "Executing SPARQL SELECT query \n%s".formatted(sparqlQuery));
 
         return sendQuery(sparqlQuery, "application/sparql-results+json");
+    }
+
+    @Override
+    public void close() {
+        this.httpClient.close();
     }
 
 

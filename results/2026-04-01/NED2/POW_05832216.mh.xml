@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05832216" sortDate="2026-05-08T17:58:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-01-06T16:12:23.097+01:00">
     <title owner="BROADCASTER" type="MAIN">Politieke Partijen: ChristenUnie</title>
-    <genre id="http://metadatahub.bijnpo.nl/572a6a97-5a5e-42a5-946f-010b8532add7"/>
+    <genre id="3.0.1.7.44">
+        <term>Informatief</term>
+        <term>Politiek</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

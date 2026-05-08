@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05999846" sortDate="2026-04-01T11:15:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:40:55.921+01:00">
     <title owner="BROADCASTER" type="MAIN">Het ontstaan van de jazzscène in Amsterdam</title>
     <description owner="BROADCASTER" type="MAIN">Eva Posthuma de Boer heeft een nieuwe roman geschreven die gaat over verlies, vriendschap en liefde. * Bas Ragas en Stijn Fransen zijn te zien in The Passion en blikken vooruit op de komende editie. * Mark Ponté en Michael Varekamp over het onstaan van de jazzscène in de jaren 30 in Amsterdam, waar nu een tentoonstelling over is gemaakt. Michael treedt ook op. Roy Khemradj praat ons bij over het onverwachte overlijden van de Surinaamse oud-president Chan Santokhi.</description>
-    <genre id="http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d"/>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

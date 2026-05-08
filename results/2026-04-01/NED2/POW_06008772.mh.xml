@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06008772" sortDate="2026-04-01T18:15:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:12:00.189+01:00">
     <title owner="BROADCASTER" type="MAIN">NOS Sportjournaal</title>
     <description owner="BROADCASTER" type="MAIN">Met het belangrijkste sportnieuws van de dag.</description>
-    <genre id="http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f"/>
+    <genre id="3.0.1.4.14">
+        <term>Sport</term>
+        <term>Sport - informatie</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

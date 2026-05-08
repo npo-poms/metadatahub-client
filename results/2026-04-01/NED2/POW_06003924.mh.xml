@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003924" sortDate="2026-04-08T16:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:02.127+01:00">
     <title owner="BROADCASTER" type="MAIN">Romige polenta met paddenstoelen en gepocheerd ei</title>
     <description owner="BROADCASTER" type="MAIN">Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</description>
-    <genre id="http://metadatahub.bijnpo.nl/f0e72f47-115c-42f6-b27d-2b09ca757fe0"/>
+    <genre id="3.0.1.7.23">
+        <term>Informatief</term>
+        <term>Koken/eten</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

@@ -2,7 +2,9 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001843" sortDate="2026-03-02T09:15:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-08T14:33:32.649+01:00">
     <title owner="BROADCASTER" type="MAIN">Nederland in Beweging</title>
     <description owner="BROADCASTER" type="MAIN">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</description>
-    <genre id="http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d"/>
+    <genre id="3.0.1.4">
+        <term>Sport</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

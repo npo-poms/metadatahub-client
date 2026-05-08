@@ -1,24 +1,29 @@
 package nl.npo.metadatahub.poms;
 
+import com.google.common.cache.*;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import lombok.extern.java.Log;
-import nl.vpro.domain.media.AgeRating;
-import nl.vpro.domain.media.Channel;
-import nl.vpro.domain.media.ContentRating;
-import nl.vpro.domain.media.Genre;
-import nl.vpro.domain.media.MediaBuilder;
-import nl.vpro.domain.media.ScheduleEvent;
+import nl.vpro.domain.classification.*;
+import nl.vpro.domain.media.*;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.rdf.model.Literal;
+import org.checkerframework.checker.nullness.qual.NonNull;
 
 @Log
 public class Mapper {
 
+
+
+    static ClassificationService classificationService = MediaClassificationService.getInstance();
+    static {
+        ClassificationServiceLocator.setInstance(classificationService);
+    }
 
     // ratingType URI suffixes that indicate an age rating (Kijkwijzer)
     private static final String AGE_RATING_TYPE_SUFFIX = "AgeRating";
@@ -40,7 +45,7 @@ public class Mapper {
 
         // Collect multi-valued fields across all rows
         List<ScheduleEvent> scheduleEvents = new ArrayList<>();
-        Set<String> genreIds = new LinkedHashSet<>();
+        Set<String> genreLabels = new LinkedHashSet<>();
         AgeRating ageRating = null;
         Set<ContentRating> contentRatings = new LinkedHashSet<>();
 
@@ -48,10 +53,10 @@ public class Mapper {
             toScheduleEvent(row).ifPresent(scheduleEvents::add);
 
             // Genre
-            if (fields.contains("genreId")) {
-                Literal genreLit = row.getLiteral("genreId");
+            if (fields.contains("genreLabel")) {
+                Literal genreLit = row.getLiteral("genreLabel");
                 if (genreLit != null) {
-                    genreIds.add(genreLit.getString());
+                    genreLabels.add(genreLit.getString());
                 }
             }
 
@@ -74,8 +79,8 @@ public class Mapper {
 
         builder.scheduleEvents(scheduleEvents.toArray(new ScheduleEvent[0]));
 
-        if (!genreIds.isEmpty()) {
-            builder.genres(genreIds.stream().map(Genre::new).toList());
+        if (!genreLabels.isEmpty()) {
+            builder.genres(genreLabels.stream().map(this::parseGenreLabel).filter(Optional::isPresent).map(Optional::get).toList());
         }
         if (ageRating != null) {
             builder.ageRating(ageRating);
@@ -84,6 +89,58 @@ public class Mapper {
             builder.contentRatings(contentRatings.toArray(new ContentRating[0]));
         }
 
+    }
+    Locale nl_vpp = Locale.of("nl", "", "vpp");
+
+    /**
+     * Ad hoc logic to properly try to map genre?
+     */
+    private final LoadingCache<String, Optional<Genre>> genreCache = CacheBuilder.newBuilder()
+        .build(new CacheLoader<>() {
+            @Override
+            public @NonNull Optional<Genre> load(final @NonNull String key) {
+                String[] split = key.split("-", 2);
+                String primary = split[0].trim();
+                String secondary;
+                if  (split.length > 1) {
+                    secondary = split[1].trim();
+                } else {
+                    secondary = null;
+                }
+                Optional<Term> primaryTerm = classificationService.values().stream()
+                    .filter(t -> t.depth() == 4)
+                    .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(primary)).findFirst();
+
+                if (!primaryTerm.isPresent()) {
+                    log.warning("Could not find primary term for " + primary);
+                    return Optional.empty();
+                }
+
+                final Optional<Term> secondaryTerm = classificationService.values().stream()
+                    .filter(t -> primaryTerm.get().equals(t.getParent()))
+                    .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(secondary))
+                    .findFirst();
+
+
+                if (secondaryTerm.isPresent()) {
+                    return Optional.of(Genre.of(secondaryTerm.get()));
+                } else {
+                    if (StringUtils.isNotEmpty(secondary)) {
+                        if (! "Overig".equalsIgnoreCase(secondary)) {
+                            throw new NoSuchElementException("No such term " + secondary + " for " + primaryTerm);
+                        }
+                    }
+                }
+                return Optional.of(Genre.of(primaryTerm.get()));
+            }
+        });
+
+    private Optional<Genre> parseGenreLabel(String label) {
+        Optional<Genre> g =  genreCache.getUnchecked(label);
+        if (g.isEmpty()) {
+            log.severe("Unknown genre label '%s', ignoring".formatted(label));
+        }
+        return g;
     }
 
     private AgeRating parseAgeRating(String value) {

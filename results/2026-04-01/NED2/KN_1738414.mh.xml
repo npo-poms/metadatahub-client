@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738414" sortDate="2026-04-02T17:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-09T14:25:06.770+01:00">
     <title owner="BROADCASTER" type="MAIN">Uitdager: Roeland Kramer</title>
     <description owner="BROADCASTER" type="MAIN">Uitdager: Roeland Kramer.</description>
-    <genre id="http://metadatahub.bijnpo.nl/fd5d2a25-d00c-4445-9f8f-b469733d8d3d"/>
+    <genre id="3.0.1.7.19">
+        <term>Informatief</term>
+        <term>Spel/quiz</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

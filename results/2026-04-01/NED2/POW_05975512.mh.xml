@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05975512" sortDate="2026-04-02T02:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:11:52.888+01:00">
     <title owner="BROADCASTER" type="MAIN">NOS Journaal</title>
     <description owner="BROADCASTER" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
-    <genre id="http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d"/>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

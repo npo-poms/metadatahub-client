@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1361720" sortDate="2026-04-02T08:45:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:12:04.965+01:00">
     <title owner="BROADCASTER" type="MAIN">Vijf dagen</title>
     <description owner="BROADCASTER" type="MAIN">Het Duitse Rijk onder leiding van Adolf Hitler groeit met angstaanjagende snelheid. Eén voor één vallen landen ten prooi aan zijn meedogenloze expansie. Het is 10 mei 1940 als Nederland wordt aangevallen en Nederlandse militairen het moeten opnemen tegen een Duitse overmacht. Ondertussen moet opperbevelhebber Winkelman het hoofd koel zien te houden.</description>
-    <genre id="http://metadatahub.bijnpo.nl/092b19fb-3984-47be-98bf-b7b917d52100"/>
+    <genre id="3.0.1.7.30">
+        <term>Informatief</term>
+        <term>Geschiedenis</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <contentRating>ANGST</contentRating>

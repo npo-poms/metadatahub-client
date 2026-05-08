@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05832216" sortDate="2026-01-09T17:57:00+01:00" workflow="PUBLISHED" creationDate="2026-01-06T16:10:40.200+01:00" lastModified="2026-05-08T09:50:22.379+02:00" publishDate="2026-05-08T09:51:16.729+02:00" urn="urn:vpro:media:program:140198228">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05832216" sortDate="2026-01-09T17:57:00+01:00" workflow="PUBLISHED" creationDate="2026-01-06T16:10:40.200+01:00" lastModified="2026-05-08T18:13:31.789+02:00" publishDate="2026-05-08T18:13:31.926+02:00" urn="urn:vpro:media:program:140198228">
     <crid>crid://npo/programmagegevens/2553275243668</crid>
     <crid>crid://npo/programmagegevens/2542566795668</crid>
     <crid>crid://npo/programmagegevens/2545268433668</crid>
@@ -42,7 +42,7 @@
     <descendantOf urnRef="urn:vpro:media:group:83648087" midRef="POW_03384208" type="SEASON"/>
     <descendantOf urnRef="urn:vpro:media:group:97601485" midRef="POW_03666328" type="SERIES"/>
     <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
-    <prediction state="REALIZED" publishStart="2026-04-28T16:58:20+02:00" publishStop="2027-04-28T16:58:20+02:00">PLUSVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-05-08T17:59:13+02:00" publishStop="2027-05-08T17:59:13+02:00">PLUSVOD</prediction>
     <locations>
         <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-01-09T18:53:31.712+01:00" lastModified="2026-01-09T18:53:31.789+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:140241497">
             <programUrl>npo+drm://internetvod.omroep.nl/POW_05832216</programUrl>
@@ -51,7 +51,7 @@
                 <avFileFormat>HASP</avFileFormat>
             </avAttributes>
         </location>
-        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-01-09T18:50:51.650+01:00" lastModified="2026-01-09T18:50:51.673+01:00" publishStart="2026-04-28T16:58:20+02:00" publishStop="2027-04-28T16:58:20+02:00" urn="urn:vpro:media:location:140241429">
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-01-09T18:50:51.650+01:00" lastModified="2026-01-09T18:50:51.673+01:00" publishStart="2026-05-08T17:59:13+02:00" publishStop="2027-05-08T17:59:13+02:00" urn="urn:vpro:media:location:140241429">
             <programUrl>npo+drm://plusvod.omroep.nl/POW_05832216</programUrl>
             <avAttributes>
                 <bitrate>3500000</bitrate>

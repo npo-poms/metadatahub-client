@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05832235" sortDate="2026-04-02T16:57:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-26T15:54:12.962+01:00">
     <title owner="BROADCASTER" type="MAIN">Politieke Partijen: OPNL</title>
-    <genre id="http://metadatahub.bijnpo.nl/572a6a97-5a5e-42a5-946f-010b8532add7"/>
+    <genre id="3.0.1.7.44">
+        <term>Informatief</term>
+        <term>Politiek</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

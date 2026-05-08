@@ -3,15 +3,13 @@ package nl.npo.metadatahub.poms;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.*;
-import java.util.function.Consumer;
 import lombok.SneakyThrows;
 import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.vpro.domain.media.*;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
-import org.meeuw.functional.Consumers;
 
-public class MetadataHubMediaService implements MediaProvider {
+public class MetadataHubMediaService implements MediaProvider, AutoCloseable {
 
 
     private final MetadataSparqlClient client;
@@ -63,6 +61,11 @@ public class MetadataHubMediaService implements MediaProvider {
         }
 
         return events;
+    }
+
+    @Override
+    public void close() throws Exception {
+        client.close();
     }
 
     @SneakyThrows

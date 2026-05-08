@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001585" sortDate="2026-04-01T08:35:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:11:22.874+01:00">
     <title owner="BROADCASTER" type="MAIN">MAX Geheugentrainer</title>
     <description owner="BROADCASTER" type="MAIN">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</description>
-    <genre id="http://metadatahub.bijnpo.nl/fd5d2a25-d00c-4445-9f8f-b469733d8d3d"/>
+    <genre id="3.0.1.7.19">
+        <term>Informatief</term>
+        <term>Spel/quiz</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>

@@ -2,7 +2,10 @@
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413631" sortDate="2026-04-01T16:05:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:11:55.318+01:00">
     <title owner="BROADCASTER" type="MAIN">Pauw &amp; De Wit</title>
     <description owner="BROADCASTER" type="MAIN">Voor het eerst in ruim 50 jaar gaat een bemande missie naar de maan. Vier astronauten vliegen met Artemis II tien dagen en keren terug. Waarom duurde het zo lang en wat is het doel? Astronaut André Kuipers telt af naar de lancering. * EenVandaag presenteerde een peiling: Progressief Nederland scoort meer dan 20 zetels. Joyce Boverhuis bespreekt de rol van de nieuwe naam en de politieke versplintering. Wat betekent dat voor het vertrouwen in het kabinet? We bespreken het met oud-campagnestrateeg Bas Erlings. * EU bereidt zich voor op oliestoring. Stefan de Vries over maatregelen. Maarten van Rossem en Suse van Kleef bespreken VS-EU-relaties.</description>
-    <genre id="http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d"/>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
     <credits/>
     <ageRating>ALL</ageRating>
     <locations/>
