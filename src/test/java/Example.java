@@ -20,14 +20,14 @@ void main() throws Exception {
     Channel channel = Channel.NED1;
     LocalDate day = LocalDate.of(2026, 3, 1);
 
+    // todo, I couldn get this working yet via MH
     var resultFromPoms = pomsServices.getScheduleService().listChannel(Channel.NED1.name(), day, null, null, "all", null,0L, 240);
 
     Path results = Paths.get("results").resolve(day.toString()).resolve(channel.name());
     Files.createDirectories(results);
 
-    for (var mo : resultFromPoms) {
-
-
+    for (var event : resultFromPoms) {
+        var mo = event.getParent();
         var mid = mo.getMid();
         var pomsFile = results.resolve(mid + ".poms.xml");
         try (FileOutputStream out = new FileOutputStream(pomsFile.toFile())) {

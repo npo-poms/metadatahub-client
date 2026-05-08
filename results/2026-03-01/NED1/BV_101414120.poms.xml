@@ -1,135 +1,127 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<api:scheduleItem xmlns:api="urn:vpro:api:2013" xmlns="urn:vpro:media:2009" xmlns:media="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" xmlns:pages="urn:vpro:pages:2013" channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
-    <media:repeat isRerun="true"/>
-    <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-    <media:guideDay>2026-03-01+01:00</media:guideDay>
-    <media:start>2026-03-02T00:45:00+01:00</media:start>
-    <media:duration>P0DT0H45M6.000S</media:duration>
-    <media:poProgID>BV_101414120</media:poProgID>
-    <media:program type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101414120" sortDate="2026-03-01T22:45:00+01:00" workflow="PUBLISHED" creationDate="2026-03-01T10:30:16.837+01:00" lastModified="2026-03-03T08:48:37.841+01:00" publishDate="2026-03-03T08:48:50.265+01:00" urn="urn:vpro:media:program:141841120">
-        <media:crid>crid://npo/programmagegevens/2566910337668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566910530668</media:crid>
-        <media:broadcaster id="BNVA">BNNVARA</media:broadcaster>
-        <media:title owner="MIS" type="MAIN">Pauw &amp; De Wit</media:title>
-        <media:description owner="MIS" type="MAIN">Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller.</media:description>
-        <media:description owner="MIS" type="SHORT">Te gast: Keyvan Shahbazi, Negin Nafissi, Mart de Kruif, Simone Tukker, Hanneke van der Werf en Ron Keller.</media:description>
-        <media:genre id="3.0.1.7.21">
-            <media:term>Informatief</media:term>
-            <media:term>Nieuws/actualiteiten</media:term>
-        </media:genre>
-        <media:targetGroups owner="INHERITED">
-            <media:targetGroup>KIDS_14</media:targetGroup>
-            <media:targetGroup>KIDS_16</media:targetGroup>
-        </media:targetGroups>
-        <media:country code="NL">Nederland</media:country>
-        <media:language code="nl">Nederlands</media:language>
-        <media:isDubbed>false</media:isDubbed>
-        <media:releaseYear>2026</media:releaseYear>
-        <media:duration>P0DT0H45M5.806S</media:duration>
-        <media:credits>
-            <media:person role="PRESENTER">
-                <media:givenName>Tim</media:givenName>
-                <media:familyName>de Wit</media:familyName>
-            </media:person>
-        </media:credits>
-        <media:descendantOf urnRef="urn:vpro:media:group:137685450" midRef="BV_101413341" type="SERIES"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:139744787" midRef="BV_101413581" type="SEASON"/>
-        <media:prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</media:prediction>
-        <media:prediction state="REALIZED" publishStart="2026-03-01T23:29:35+01:00" publishStop="2027-03-01T23:29:35+01:00">PLUSVOD</media:prediction>
-        <media:locations>
-            <media:location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-02T00:04:55.072+01:00" lastModified="2026-03-02T00:04:55.083+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00" urn="urn:vpro:media:location:141842869">
-                <media:programUrl>npo://internetvod.omroep.nl/BV_101414120</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-            <media:location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-02T00:04:55.072+01:00" lastModified="2026-03-02T00:04:55.085+01:00" publishStart="2026-03-01T23:29:35+01:00" publishStop="2027-03-01T23:29:35+01:00" urn="urn:vpro:media:location:141842871">
-                <media:programUrl>npo://plusvod.omroep.nl/BV_101414120</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-        </media:locations>
-        <media:images>
-            <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-02T00:47:46.516+01:00" lastModified="2026-03-02T00:47:48.511+01:00" urn="urn:vpro:media:image:141842918">
-                <shared:title>neggin</shared:title>
-                <shared:description>neggin</shared:description>
-                <shared:imageUri>urn:vpro:image:2475220</shared:imageUri>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:04.400+01:00" lastModified="2026-03-01T23:54:04.400+01:00" urn="urn:vpro:media:image:141842855">
-                <shared:title>Pauw &amp; De Wit</shared:title>
-                <shared:imageUri>urn:vpro:image:2475217</shared:imageUri>
-                <shared:offset>P0DT0H1M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Pauw &amp; De Wit</shared:credits>
-                <shared:sourceName>BNNVARA</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:07.195+01:00" lastModified="2026-03-01T23:54:07.195+01:00" urn="urn:vpro:media:image:141842856">
-                <shared:title>Pauw &amp; De Wit</shared:title>
-                <shared:imageUri>urn:vpro:image:2475218</shared:imageUri>
-                <shared:offset>P0DT0H2M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Pauw &amp; De Wit</shared:credits>
-                <shared:sourceName>BNNVARA</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:14.734+01:00" lastModified="2026-03-01T23:54:14.734+01:00" urn="urn:vpro:media:image:141842857">
-                <shared:title>Pauw &amp; De Wit</shared:title>
-                <shared:imageUri>urn:vpro:image:2475219</shared:imageUri>
-                <shared:offset>P0DT0H3M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Pauw &amp; De Wit</shared:credits>
-                <shared:sourceName>BNNVARA</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-        </media:images>
-        <media:scheduleEvents>
-            <media:scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T22:35:00+01:00</media:start>
-                <media:duration>P0DT0H47M59.000S</media:duration>
-                <media:poProgID>BV_101414120</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T22:45:00+01:00</media:start>
-                <media:duration>P0DT0H44M52.000S</media:duration>
-                <media:poProgID>BV_101414120</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-02T00:45:00+01:00</media:start>
-                <media:duration>P0DT0H45M6.000S</media:duration>
-                <media:poProgID>BV_101414120</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-02T10:35:00+01:00</media:start>
-                <media:duration>P0DT0H47M59.000S</media:duration>
-                <media:poProgID>BV_101414120</media:poProgID>
-            </media:scheduleEvent>
-        </media:scheduleEvents>
-        <media:episodeOf added="2026-03-01T10:30:17.599+01:00" highlighted="false" midRef="BV_101413581" index="35" type="SEASON" urnRef="urn:vpro:media:group:139744787">
-            <media:memberOf midRef="BV_101413341" type="SERIES" index="2"/>
-        </media:episodeOf>
-        <media:segments/>
-    </media:program>
-</api:scheduleItem>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101414120" sortDate="2026-03-01T22:45:00+01:00" workflow="PUBLISHED" creationDate="2026-03-01T10:30:16.837+01:00" lastModified="2026-03-03T08:48:37.841+01:00" publishDate="2026-03-03T08:48:50.265+01:00" urn="urn:vpro:media:program:141841120">
+    <crid>crid://npo/programmagegevens/2566910337668</crid>
+    <crid>crid://npo/programmagegevens/2566910530668</crid>
+    <broadcaster id="BNVA">BNNVARA</broadcaster>
+    <title owner="MIS" type="MAIN">Pauw &amp; De Wit</title>
+    <description owner="MIS" type="MAIN">Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller.</description>
+    <description owner="MIS" type="SHORT">Te gast: Keyvan Shahbazi, Negin Nafissi, Mart de Kruif, Simone Tukker, Hanneke van der Werf en Ron Keller.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H45M5.806S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Tim</givenName>
+            <familyName>de Wit</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:137685450" midRef="BV_101413341" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:139744787" midRef="BV_101413581" type="SEASON"/>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-01T23:29:35+01:00" publishStop="2027-03-01T23:29:35+01:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-02T00:04:55.072+01:00" lastModified="2026-03-02T00:04:55.083+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00" urn="urn:vpro:media:location:141842869">
+            <programUrl>npo://internetvod.omroep.nl/BV_101414120</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-02T00:04:55.072+01:00" lastModified="2026-03-02T00:04:55.085+01:00" publishStart="2026-03-01T23:29:35+01:00" publishStop="2027-03-01T23:29:35+01:00" urn="urn:vpro:media:location:141842871">
+            <programUrl>npo://plusvod.omroep.nl/BV_101414120</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-02T00:47:46.516+01:00" lastModified="2026-03-02T00:47:48.511+01:00" urn="urn:vpro:media:image:141842918">
+            <shared:title>neggin</shared:title>
+            <shared:description>neggin</shared:description>
+            <shared:imageUri>urn:vpro:image:2475220</shared:imageUri>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:04.400+01:00" lastModified="2026-03-01T23:54:04.400+01:00" urn="urn:vpro:media:image:141842855">
+            <shared:title>Pauw &amp; De Wit</shared:title>
+            <shared:imageUri>urn:vpro:image:2475217</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
+            <shared:sourceName>BNNVARA</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:07.195+01:00" lastModified="2026-03-01T23:54:07.195+01:00" urn="urn:vpro:media:image:141842856">
+            <shared:title>Pauw &amp; De Wit</shared:title>
+            <shared:imageUri>urn:vpro:image:2475218</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
+            <shared:sourceName>BNNVARA</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:14.734+01:00" lastModified="2026-03-01T23:54:14.734+01:00" urn="urn:vpro:media:image:141842857">
+            <shared:title>Pauw &amp; De Wit</shared:title>
+            <shared:imageUri>urn:vpro:image:2475219</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
+            <shared:sourceName>BNNVARA</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T22:35:00+01:00</start>
+            <duration>P0DT0H47M59.000S</duration>
+            <poProgID>BV_101414120</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T22:45:00+01:00</start>
+            <duration>P0DT0H44M52.000S</duration>
+            <poProgID>BV_101414120</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T00:45:00+01:00</start>
+            <duration>P0DT0H45M6.000S</duration>
+            <poProgID>BV_101414120</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T10:35:00+01:00</start>
+            <duration>P0DT0H47M59.000S</duration>
+            <poProgID>BV_101414120</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-03-01T10:30:17.599+01:00" highlighted="false" midRef="BV_101413581" index="35" type="SEASON" urnRef="urn:vpro:media:group:139744787">
+        <memberOf midRef="BV_101413341" type="SERIES" index="2"/>
+    </episodeOf>
+    <segments/>
+</program>

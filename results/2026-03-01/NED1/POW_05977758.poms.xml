@@ -1,120 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<api:scheduleItem xmlns:api="urn:vpro:api:2013" xmlns="urn:vpro:media:2009" xmlns:media="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" xmlns:pages="urn:vpro:pages:2013" channel="NED1" midRef="POW_05977758" urnRef="urn:vpro:media:program:141836961">
-    <media:repeat isRerun="true"/>
-    <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-    <media:guideDay>2026-03-01+01:00</media:guideDay>
-    <media:start>2026-03-01T08:30:00+01:00</media:start>
-    <media:duration>P0DT0H30M2.000S</media:duration>
-    <media:poProgID>POW_05977758</media:poProgID>
-    <media:program type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977758" sortDate="2026-03-01T08:00:00+01:00" workflow="PUBLISHED" creationDate="2026-02-28T09:20:15.297+01:00" lastModified="2026-03-03T12:20:14.701+01:00" publishDate="2026-03-03T12:20:32.793+01:00" urn="urn:vpro:media:program:141836961">
-        <media:crid>crid://npo/programmagegevens/2566763753668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566763885668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566763934668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566820627668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566896823668</media:crid>
-        <media:broadcaster id="NOS">NOS</media:broadcaster>
-        <media:region regionId="EU" platform="PLUSVOD"/>
-        <media:title owner="MIS" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</media:title>
-        <media:description owner="MIS" type="MAIN">Met het laatste nieuws en de weersverwachting.</media:description>
-        <media:description owner="MIS" type="SHORT">Met het laatste nieuws en de weersverwachting.</media:description>
-        <media:genre id="3.0.1.7.21">
-            <media:term>Informatief</media:term>
-            <media:term>Nieuws/actualiteiten</media:term>
-        </media:genre>
-        <media:targetGroups owner="INHERITED">
-            <media:targetGroup>KIDS_14</media:targetGroup>
-            <media:targetGroup>KIDS_16</media:targetGroup>
-        </media:targetGroups>
-        <media:country code="NL">Nederland</media:country>
-        <media:language code="nl">Nederlands</media:language>
-        <media:isDubbed>false</media:isDubbed>
-        <media:releaseYear>2026</media:releaseYear>
-        <media:duration>P0DT0H30M18.760S</media:duration>
-        <media:credits/>
-        <media:descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:140164237" midRef="26JnlExtra" type="SEASON"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:83990796" midRef="NOSJournaal" type="SERIES"/>
-        <media:website>https://NOS.nl</media:website>
-        <media:twitter type="ACCOUNT">@NOS</media:twitter>
-        <media:twitter type="HASHTAG">#NOS</media:twitter>
-        <media:prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</media:prediction>
-        <media:prediction state="REALIZED" publishStart="2026-03-01T08:30:34+01:00" publishStop="2027-03-01T08:30:34+01:00">PLUSVOD</media:prediction>
-        <media:locations>
-            <media:location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-01T08:52:21.510+01:00" lastModified="2026-03-01T08:52:21.522+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:141840835">
-                <media:programUrl>npo+drm://internetvod.omroep.nl/POW_05977758</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-            <media:location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-01T08:52:21.510+01:00" lastModified="2026-03-01T08:52:21.523+01:00" publishStart="2026-03-01T08:30:34+01:00" publishStop="2027-03-01T08:30:34+01:00" urn="urn:vpro:media:location:141840837">
-                <media:programUrl>npo+drm://plusvod.omroep.nl/POW_05977758</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-        </media:locations>
-        <media:images>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T08:44:43.908+01:00" lastModified="2026-03-01T08:44:43.908+01:00" urn="urn:vpro:media:image:141840831">
-                <shared:title>NOS Journaal</shared:title>
-                <shared:description>Met het laatste nieuws en de weersverwachting.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475045</shared:imageUri>
-                <shared:offset>P0DT0H1M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still NOS Journaal / NOS Journaal ivm aanval Israël/VS op Iran</shared:credits>
-                <shared:sourceName>NOS</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T08:44:44.323+01:00" lastModified="2026-03-01T08:44:44.323+01:00" urn="urn:vpro:media:image:141840832">
-                <shared:title>NOS Journaal</shared:title>
-                <shared:description>Met het laatste nieuws en de weersverwachting.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475046</shared:imageUri>
-                <shared:offset>P0DT0H3M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still NOS Journaal / NOS Journaal ivm aanval Israël/VS op Iran</shared:credits>
-                <shared:sourceName>NOS</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T08:44:45.714+01:00" lastModified="2026-03-01T08:44:45.714+01:00" urn="urn:vpro:media:image:141840833">
-                <shared:title>NOS Journaal</shared:title>
-                <shared:description>Met het laatste nieuws en de weersverwachting.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475047</shared:imageUri>
-                <shared:offset>P0DT0H2M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still NOS Journaal / NOS Journaal ivm aanval Israël/VS op Iran</shared:credits>
-                <shared:sourceName>NOS</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-        </media:images>
-        <media:scheduleEvents>
-            <media:scheduleEvent channel="NED1" midRef="POW_05977758" urnRef="urn:vpro:media:program:141836961">
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T08:00:00+01:00</media:start>
-                <media:duration>P0DT0H29M52.000S</media:duration>
-                <media:poProgID>POW_05977758</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="NED1" midRef="POW_05977758" urnRef="urn:vpro:media:program:141836961">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T08:30:00+01:00</media:start>
-                <media:duration>P0DT0H30M2.000S</media:duration>
-                <media:poProgID>POW_05977758</media:poProgID>
-            </media:scheduleEvent>
-        </media:scheduleEvents>
-        <media:episodeOf added="2026-02-28T09:20:15.436+01:00" highlighted="false" midRef="26JnlExtra" index="9" type="SEASON" urnRef="urn:vpro:media:group:140164237">
-            <media:memberOf midRef="NOSJournaal" type="SERIES" index="26">
-                <media:memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="9"/>
-            </media:memberOf>
-        </media:episodeOf>
-        <media:segments/>
-    </media:program>
-</api:scheduleItem>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977758" sortDate="2026-03-01T08:00:00+01:00" workflow="PUBLISHED" creationDate="2026-02-28T09:20:15.297+01:00" lastModified="2026-03-03T12:20:14.701+01:00" publishDate="2026-03-03T12:20:32.793+01:00" urn="urn:vpro:media:program:141836961">
+    <crid>crid://npo/programmagegevens/2566763753668</crid>
+    <crid>crid://npo/programmagegevens/2566763885668</crid>
+    <crid>crid://npo/programmagegevens/2566763934668</crid>
+    <crid>crid://npo/programmagegevens/2566820627668</crid>
+    <crid>crid://npo/programmagegevens/2566896823668</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</title>
+    <description owner="MIS" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
+    <description owner="MIS" type="SHORT">Met het laatste nieuws en de weersverwachting.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H30M18.760S</duration>
+    <credits/>
+    <descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:140164237" midRef="26JnlExtra" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:83990796" midRef="NOSJournaal" type="SERIES"/>
+    <website>https://NOS.nl</website>
+    <twitter type="ACCOUNT">@NOS</twitter>
+    <twitter type="HASHTAG">#NOS</twitter>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-01T08:30:34+01:00" publishStop="2027-03-01T08:30:34+01:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-01T08:52:21.510+01:00" lastModified="2026-03-01T08:52:21.522+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:141840835">
+            <programUrl>npo+drm://internetvod.omroep.nl/POW_05977758</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-01T08:52:21.510+01:00" lastModified="2026-03-01T08:52:21.523+01:00" publishStart="2026-03-01T08:30:34+01:00" publishStop="2027-03-01T08:30:34+01:00" urn="urn:vpro:media:location:141840837">
+            <programUrl>npo+drm://plusvod.omroep.nl/POW_05977758</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T08:44:43.908+01:00" lastModified="2026-03-01T08:44:43.908+01:00" urn="urn:vpro:media:image:141840831">
+            <shared:title>NOS Journaal</shared:title>
+            <shared:description>Met het laatste nieuws en de weersverwachting.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475045</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal / NOS Journaal ivm aanval Israël/VS op Iran</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T08:44:44.323+01:00" lastModified="2026-03-01T08:44:44.323+01:00" urn="urn:vpro:media:image:141840832">
+            <shared:title>NOS Journaal</shared:title>
+            <shared:description>Met het laatste nieuws en de weersverwachting.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475046</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal / NOS Journaal ivm aanval Israël/VS op Iran</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T08:44:45.714+01:00" lastModified="2026-03-01T08:44:45.714+01:00" urn="urn:vpro:media:image:141840833">
+            <shared:title>NOS Journaal</shared:title>
+            <shared:description>Met het laatste nieuws en de weersverwachting.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475047</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still NOS Journaal / NOS Journaal ivm aanval Israël/VS op Iran</shared:credits>
+            <shared:sourceName>NOS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_05977758" urnRef="urn:vpro:media:program:141836961">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T08:00:00+01:00</start>
+            <duration>P0DT0H29M52.000S</duration>
+            <poProgID>POW_05977758</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_05977758" urnRef="urn:vpro:media:program:141836961">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T08:30:00+01:00</start>
+            <duration>P0DT0H30M2.000S</duration>
+            <poProgID>POW_05977758</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-28T09:20:15.436+01:00" highlighted="false" midRef="26JnlExtra" index="9" type="SEASON" urnRef="urn:vpro:media:group:140164237">
+        <memberOf midRef="NOSJournaal" type="SERIES" index="26">
+            <memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="9"/>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>

@@ -1,145 +1,137 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<api:scheduleItem xmlns:api="urn:vpro:api:2013" xmlns="urn:vpro:media:2009" xmlns:media="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" xmlns:pages="urn:vpro:pages:2013" channel="NED1" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
-    <media:repeat isRerun="true"/>
-    <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-    <media:guideDay>2026-03-01+01:00</media:guideDay>
-    <media:start>2026-03-02T02:35:00+01:00</media:start>
-    <media:duration>P0DT1H3M46.000S</media:duration>
-    <media:poProgID>POW_06000944</media:poProgID>
-    <media:program type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000944" sortDate="2026-03-01T10:20:00+01:00" workflow="PUBLISHED" creationDate="2026-01-13T15:01:29.432+01:00" lastModified="2026-03-02T12:01:03.504+01:00" publishDate="2026-03-02T12:01:28.050+01:00" urn="urn:vpro:media:program:140282632">
-        <media:crid>crid://npo/programmagegevens/2555016069668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2555016206668</media:crid>
-        <media:broadcaster id="WNL">WNL</media:broadcaster>
-        <media:region regionId="EU" platform="PLUSVOD"/>
-        <media:title owner="BROADCASTER" type="MAIN">Afshin Ellian en Uri Rosenthal</media:title>
-        <media:title owner="MIS" type="MAIN">WNL Op Zondag</media:title>
-        <media:description owner="MIS" type="MAIN">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</media:description>
-        <media:description owner="MIS" type="SHORT">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</media:description>
-        <media:genre id="3.0.1.7.21">
-            <media:term>Informatief</media:term>
-            <media:term>Nieuws/actualiteiten</media:term>
-        </media:genre>
-        <media:targetGroups owner="INHERITED">
-            <media:targetGroup>KIDS_14</media:targetGroup>
-            <media:targetGroup>KIDS_16</media:targetGroup>
-        </media:targetGroups>
-        <media:country code="NL">Nederland</media:country>
-        <media:language code="nl">Nederlands</media:language>
-        <media:isDubbed>false</media:isDubbed>
-        <media:releaseYear>2026</media:releaseYear>
-        <media:duration>P0DT1H4M2.974S</media:duration>
-        <media:credits>
-            <media:person role="PRESENTER">
-                <media:givenName>Rick</media:givenName>
-                <media:familyName>Nieman</media:familyName>
-            </media:person>
-        </media:credits>
-        <media:descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:130553425" midRef="POMS_S_NPO_20078507" type="PLAYLIST"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:139801813" midRef="POW_06000936" type="SEASON"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:81586221" midRef="POW_03347301" type="SERIES"/>
-        <media:prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</media:prediction>
-        <media:prediction state="REALIZED" publishStart="2026-03-01T11:24:03+01:00" publishStop="2027-03-01T11:24:03+01:00">PLUSVOD</media:prediction>
-        <media:locations>
-            <media:location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-01T12:23:07.765+01:00" lastModified="2026-03-01T12:23:07.778+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:141841378">
-                <media:programUrl>npo+drm://internetvod.omroep.nl/POW_06000944</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-            <media:location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-01T12:23:07.765+01:00" lastModified="2026-03-01T12:23:07.779+01:00" publishStart="2026-03-01T11:24:03+01:00" publishStop="2027-03-01T11:24:03+01:00" urn="urn:vpro:media:location:141841380">
-                <media:programUrl>npo+drm://plusvod.omroep.nl/POW_06000944</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-        </media:locations>
-        <media:images>
-            <shared:image owner="BROADCASTER" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T11:57:41.841+01:00" lastModified="2026-03-01T11:57:41.942+01:00" urn="urn:vpro:media:image:141841272">
-                <shared:title>Afshin Ellian</shared:title>
-                <shared:description>Afshin Ellian</shared:description>
-                <shared:imageUri>urn:vpro:image:2475076</shared:imageUri>
-                <shared:height>1266</shared:height>
-                <shared:width>1866</shared:width>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T12:04:10.610+01:00" lastModified="2026-03-01T12:04:10.610+01:00" urn="urn:vpro:media:image:141841306">
-                <shared:title>Afshin Ellian en Uri Rosenthal</shared:title>
-                <shared:description>Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn: Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475077</shared:imageUri>
-                <shared:offset>P0DT0H1M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Afshin Ellian en Uri Rosenthal</shared:credits>
-                <shared:sourceName>WNL</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T12:04:12.326+01:00" lastModified="2026-03-01T12:04:12.326+01:00" urn="urn:vpro:media:image:141841307">
-                <shared:title>Afshin Ellian en Uri Rosenthal</shared:title>
-                <shared:description>Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn: Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475078</shared:imageUri>
-                <shared:offset>P0DT0H2M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Afshin Ellian en Uri Rosenthal</shared:credits>
-                <shared:sourceName>WNL</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T12:04:14.397+01:00" lastModified="2026-03-01T12:04:14.397+01:00" urn="urn:vpro:media:image:141841308">
-                <shared:title>Afshin Ellian en Uri Rosenthal</shared:title>
-                <shared:description>Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn: Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475079</shared:imageUri>
-                <shared:offset>P0DT0H3M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Afshin Ellian en Uri Rosenthal</shared:credits>
-                <shared:sourceName>WNL</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-        </media:images>
-        <media:scheduleEvents>
-            <media:scheduleEvent channel="NED1" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T10:20:00+01:00</media:start>
-                <media:duration>P0DT1H3M42.000S</media:duration>
-                <media:poProgID>POW_06000944</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="BVNT" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T13:15:00+01:00</media:start>
-                <media:duration>P0DT1H3M57.000S</media:duration>
-                <media:poProgID>POW_06000944</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="BVNT" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-02T01:15:00+01:00</media:start>
-                <media:duration>P0DT1H3M57.000S</media:duration>
-                <media:poProgID>POW_06000944</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="NED1" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-02T02:35:00+01:00</media:start>
-                <media:duration>P0DT1H3M46.000S</media:duration>
-                <media:poProgID>POW_06000944</media:poProgID>
-            </media:scheduleEvent>
-        </media:scheduleEvents>
-        <media:episodeOf added="2026-01-13T15:01:29.634+01:00" highlighted="false" midRef="POW_06000936" index="24" type="SEASON" urnRef="urn:vpro:media:group:139801813">
-            <media:memberOf midRef="POW_03347301" type="SERIES" index="26">
-                <media:memberOf midRef="POMS_S_NPO_20078507" type="PLAYLIST" index="12"/>
-                <media:memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="14"/>
-            </media:memberOf>
-        </media:episodeOf>
-        <media:segments/>
-    </media:program>
-</api:scheduleItem>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000944" sortDate="2026-03-01T10:20:00+01:00" workflow="PUBLISHED" creationDate="2026-01-13T15:01:29.432+01:00" lastModified="2026-03-02T12:01:03.504+01:00" publishDate="2026-03-02T12:01:28.050+01:00" urn="urn:vpro:media:program:140282632">
+    <crid>crid://npo/programmagegevens/2555016069668</crid>
+    <crid>crid://npo/programmagegevens/2555016206668</crid>
+    <broadcaster id="WNL">WNL</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="BROADCASTER" type="MAIN">Afshin Ellian en Uri Rosenthal</title>
+    <title owner="MIS" type="MAIN">WNL Op Zondag</title>
+    <description owner="MIS" type="MAIN">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</description>
+    <description owner="MIS" type="SHORT">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT1H4M2.974S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Rick</givenName>
+            <familyName>Nieman</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:130553425" midRef="POMS_S_NPO_20078507" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:139801813" midRef="POW_06000936" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:81586221" midRef="POW_03347301" type="SERIES"/>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-01T11:24:03+01:00" publishStop="2027-03-01T11:24:03+01:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-01T12:23:07.765+01:00" lastModified="2026-03-01T12:23:07.778+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:141841378">
+            <programUrl>npo+drm://internetvod.omroep.nl/POW_06000944</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-01T12:23:07.765+01:00" lastModified="2026-03-01T12:23:07.779+01:00" publishStart="2026-03-01T11:24:03+01:00" publishStop="2027-03-01T11:24:03+01:00" urn="urn:vpro:media:location:141841380">
+            <programUrl>npo+drm://plusvod.omroep.nl/POW_06000944</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T11:57:41.841+01:00" lastModified="2026-03-01T11:57:41.942+01:00" urn="urn:vpro:media:image:141841272">
+            <shared:title>Afshin Ellian</shared:title>
+            <shared:description>Afshin Ellian</shared:description>
+            <shared:imageUri>urn:vpro:image:2475076</shared:imageUri>
+            <shared:height>1266</shared:height>
+            <shared:width>1866</shared:width>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T12:04:10.610+01:00" lastModified="2026-03-01T12:04:10.610+01:00" urn="urn:vpro:media:image:141841306">
+            <shared:title>Afshin Ellian en Uri Rosenthal</shared:title>
+            <shared:description>Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn: Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475077</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Afshin Ellian en Uri Rosenthal</shared:credits>
+            <shared:sourceName>WNL</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T12:04:12.326+01:00" lastModified="2026-03-01T12:04:12.326+01:00" urn="urn:vpro:media:image:141841307">
+            <shared:title>Afshin Ellian en Uri Rosenthal</shared:title>
+            <shared:description>Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn: Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475078</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Afshin Ellian en Uri Rosenthal</shared:credits>
+            <shared:sourceName>WNL</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T12:04:14.397+01:00" lastModified="2026-03-01T12:04:14.397+01:00" urn="urn:vpro:media:image:141841308">
+            <shared:title>Afshin Ellian en Uri Rosenthal</shared:title>
+            <shared:description>Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn: Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475079</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Afshin Ellian en Uri Rosenthal</shared:credits>
+            <shared:sourceName>WNL</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T10:20:00+01:00</start>
+            <duration>P0DT1H3M42.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T13:15:00+01:00</start>
+            <duration>P0DT1H3M57.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T01:15:00+01:00</start>
+            <duration>P0DT1H3M57.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_06000944" urnRef="urn:vpro:media:program:140282632">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T02:35:00+01:00</start>
+            <duration>P0DT1H3M46.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-01-13T15:01:29.634+01:00" highlighted="false" midRef="POW_06000936" index="24" type="SEASON" urnRef="urn:vpro:media:group:139801813">
+        <memberOf midRef="POW_03347301" type="SERIES" index="26">
+            <memberOf midRef="POMS_S_NPO_20078507" type="PLAYLIST" index="12"/>
+            <memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="14"/>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>

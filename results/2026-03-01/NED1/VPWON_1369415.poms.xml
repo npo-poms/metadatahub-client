@@ -1,193 +1,186 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<api:scheduleItem xmlns:api="urn:vpro:api:2013" xmlns="urn:vpro:media:2009" xmlns:media="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" xmlns:pages="urn:vpro:pages:2013" channel="NED1" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
-    <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-    <media:guideDay>2026-03-01+01:00</media:guideDay>
-    <media:start>2026-03-01T12:05:00+01:00</media:start>
-    <media:duration>P0DT0H54M25.000S</media:duration>
-    <media:poProgID>VPWON_1369415</media:poProgID>
-    <media:program type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1369415" sortDate="2026-03-01T12:05:00+01:00" workflow="PUBLISHED" creationDate="2026-01-13T14:40:14.686+01:00" lastModified="2026-04-21T16:42:08.135+02:00" publishDate="2026-04-21T16:42:37.958+02:00" urn="urn:vpro:media:program:140281722">
-        <media:crid>crid://npo/programmagegevens/2555002458668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2555002317668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2555544565668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566291009668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566291005668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2566291001668</media:crid>
-        <media:crid>crid://npo/programmagegevens/2567030336668</media:crid>
-        <media:broadcaster id="AVTR">AVROTROS</media:broadcaster>
-        <media:broadcaster id="BNVA">BNNVARA</media:broadcaster>
-        <media:broadcaster id="VPRO">VPRO</media:broadcaster>
-        <media:region regionId="EU" platform="PLUSVOD"/>
-        <media:title owner="MIS" type="MAIN">Buitenhof</media:title>
-        <media:title owner="BROADCASTER" type="SUB">Mart de Kruif, Jan Paternotte</media:title>
-        <media:title owner="MIS" type="SUB">Mart de Kruif, Jan Paternotte</media:title>
-        <media:description owner="MIS" type="MAIN">Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?</media:description>
-        <media:description owner="MIS" type="SHORT">Te gast: Rob de Wijk, Mart de Kruif, Jan Paternotte, Mina Eternad en Yaghoub Sharhani.</media:description>
-        <media:genre id="3.0.1.7.21">
-            <media:term>Informatief</media:term>
-            <media:term>Nieuws/actualiteiten</media:term>
-        </media:genre>
-        <media:targetGroups owner="INHERITED">
-            <media:targetGroup>ADULTS</media:targetGroup>
-        </media:targetGroups>
-        <media:country code="NL">Nederland</media:country>
-        <media:language code="nl">Nederlands</media:language>
-        <media:isDubbed>false</media:isDubbed>
-        <media:releaseYear>2026</media:releaseYear>
-        <media:duration>P0DT0H54M53.720S</media:duration>
-        <media:credits>
-            <media:person externalId="whatson:782933695517" role="PRESENTER">
-                <media:givenName>Joost</media:givenName>
-                <media:familyName>Vullings</media:familyName>
-            </media:person>
-        </media:credits>
-        <media:descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:118533865" midRef="POMS_S_VPRO_16311615" type="PLAYLIST"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:127163454" midRef="POMS_S_NPO_20049773" type="PLAYLIST"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:130553425" midRef="POMS_S_NPO_20078507" type="PLAYLIST"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:139385422" midRef="POMS_S_VPRO_20296368" type="COLLECTION"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:139779516" midRef="VPWON_1369407" type="SEASON"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:70885269" midRef="VPWON_1250213" type="SERIES"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:74344537" midRef="POMS_S_NPO_3698983" type="COLLECTION"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:74848353" midRef="POMS_S_NPO_3760702" type="COLLECTION"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:74853880" midRef="POMS_S_NPO_3761438" type="COLLECTION"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:74908339" midRef="POMS_S_NPO_3767333" type="COLLECTION"/>
-        <media:descendantOf urnRef="urn:vpro:media:group:75112033" midRef="POMS_S_NPO_3792628" type="COLLECTION"/>
-        <media:website>https://vpro.nl/Buitenhof</media:website>
-        <media:prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</media:prediction>
-        <media:prediction state="REALIZED" publishStart="2026-03-01T12:59:52+01:00" publishStop="2027-03-01T12:59:52+01:00">PLUSVOD</media:prediction>
-        <media:locations>
-            <media:location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-01T13:44:32.569+01:00" lastModified="2026-03-01T13:44:32.586+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:141841530">
-                <media:programUrl>npo+drm://internetvod.omroep.nl/VPWON_1369415</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-            <media:location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-01T13:44:32.569+01:00" lastModified="2026-03-01T13:44:32.588+01:00" publishStart="2026-03-01T12:59:52+01:00" publishStop="2027-03-01T12:59:52+01:00" urn="urn:vpro:media:location:141841532">
-                <media:programUrl>npo+drm://plusvod.omroep.nl/VPWON_1369415</media:programUrl>
-                <media:avAttributes>
-                    <media:bitrate>3500000</media:bitrate>
-                    <media:avFileFormat>HASP</media:avFileFormat>
-                </media:avAttributes>
-            </media:location>
-        </media:locations>
-        <media:images>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T13:29:01.866+01:00" lastModified="2026-03-01T13:29:01.866+01:00" urn="urn:vpro:media:image:141841473">
-                <shared:title>Buitenhof</shared:title>
-                <shared:description>Interviewprogramma met maatschappelijke en politieke debatten, gesprekken en opinies.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475091</shared:imageUri>
-                <shared:offset>P0DT0H1M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Buitenhof / Mart de Kruif, Jan Paternotte</shared:credits>
-                <shared:sourceName>AVROTROS, BNNVARA, VPRO</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T13:29:02.504+01:00" lastModified="2026-03-01T13:29:02.504+01:00" urn="urn:vpro:media:image:141841474">
-                <shared:title>Buitenhof</shared:title>
-                <shared:description>Interviewprogramma met maatschappelijke en politieke debatten, gesprekken en opinies.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475092</shared:imageUri>
-                <shared:offset>P0DT0H2M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Buitenhof / Mart de Kruif, Jan Paternotte</shared:credits>
-                <shared:sourceName>AVROTROS, BNNVARA, VPRO</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T13:29:03.609+01:00" lastModified="2026-03-01T13:29:03.609+01:00" urn="urn:vpro:media:image:141841475">
-                <shared:title>Buitenhof</shared:title>
-                <shared:description>Interviewprogramma met maatschappelijke en politieke debatten, gesprekken en opinies.</shared:description>
-                <shared:imageUri>urn:vpro:image:2475093</shared:imageUri>
-                <shared:offset>P0DT0H3M0.000S</shared:offset>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Still Buitenhof / Mart de Kruif, Jan Paternotte</shared:credits>
-                <shared:sourceName>AVROTROS, BNNVARA, VPRO</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-            <shared:image owner="BROADCASTER" type="STILL" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-01T13:30:06.975+01:00" lastModified="2026-03-01T13:30:09.111+01:00" urn="urn:vpro:media:image:141841478">
-                <shared:title>Mart de Kruif</shared:title>
-                <shared:description>Mart de Kruif</shared:description>
-                <shared:imageUri>urn:vpro:image:2475094</shared:imageUri>
-                <shared:height>1080</shared:height>
-                <shared:width>1920</shared:width>
-                <shared:credits>Buitenhof</shared:credits>
-                <shared:sourceName>01/03/26 Buitenhof</shared:sourceName>
-                <shared:license>COPYRIGHTED</shared:license>
-                <shared:date>2026</shared:date>
-            </shared:image>
-        </media:images>
-        <media:scheduleEvents>
-            <media:scheduleEvent channel="NED1" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T12:05:00+01:00</media:start>
-                <media:duration>P0DT0H54M25.000S</media:duration>
-                <media:poProgID>VPWON_1369415</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="BVNT" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-01T14:20:00+01:00</media:start>
-                <media:duration>P0DT0H55M3.000S</media:duration>
-                <media:poProgID>VPWON_1369415</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="NED2" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-02T01:25:00+01:00</media:start>
-                <media:duration>P0DT0H55M4.000S</media:duration>
-                <media:poProgID>VPWON_1369415</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="BVNT" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-02T02:20:00+01:00</media:start>
-                <media:duration>P0DT0H55M3.000S</media:duration>
-                <media:poProgID>VPWON_1369415</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="NED2" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-01+01:00</media:guideDay>
-                <media:start>2026-03-02T02:55:00+01:00</media:start>
-                <media:duration>P0DT0H55M4.000S</media:duration>
-                <media:poProgID>VPWON_1369415</media:poProgID>
-            </media:scheduleEvent>
-            <media:scheduleEvent channel="NED2" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
-                <media:repeat isRerun="true"/>
-                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
-                <media:guideDay>2026-03-02+01:00</media:guideDay>
-                <media:start>2026-03-02T10:35:00+01:00</media:start>
-                <media:duration>P0DT0H54M52.000S</media:duration>
-                <media:poProgID>VPWON_1369415</media:poProgID>
-            </media:scheduleEvent>
-        </media:scheduleEvents>
-        <media:episodeOf added="2026-01-13T14:40:14.885+01:00" highlighted="false" midRef="VPWON_1369407" index="8" type="SEASON" urnRef="urn:vpro:media:group:139779516">
-            <media:memberOf midRef="VPWON_1250213" type="SERIES" index="21">
-                <media:memberOf midRef="POMS_S_VPRO_20296368" type="COLLECTION" index="1"/>
-                <media:memberOf midRef="POMS_S_NPO_20078507" type="PLAYLIST" index="4"/>
-                <media:memberOf midRef="POMS_S_NPO_3767333" type="COLLECTION" index="4">
-                    <media:memberOf midRef="POMS_S_NPO_3760702" type="COLLECTION">
-                        <media:memberOf midRef="POMS_S_NPO_3792628" type="COLLECTION" index="5"/>
-                    </media:memberOf>
-                </media:memberOf>
-                <media:memberOf midRef="POMS_S_NPO_20049773" type="PLAYLIST" index="12"/>
-                <media:memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="15"/>
-                <media:memberOf midRef="POMS_S_NPO_3698983" type="COLLECTION">
-                    <media:memberOf midRef="POMS_S_NPO_3761438" type="COLLECTION" index="1">
-                        <media:memberOf midRef="POMS_S_NPO_3792628" type="COLLECTION"/>
-                    </media:memberOf>
-                </media:memberOf>
-                <media:memberOf midRef="POMS_S_VPRO_16311615" type="PLAYLIST" index="315"/>
-            </media:memberOf>
-        </media:episodeOf>
-        <media:segments/>
-    </media:program>
-</api:scheduleItem>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1369415" sortDate="2026-03-01T12:05:00+01:00" workflow="PUBLISHED" creationDate="2026-01-13T14:40:14.686+01:00" lastModified="2026-04-21T16:42:08.135+02:00" publishDate="2026-04-21T16:42:37.958+02:00" urn="urn:vpro:media:program:140281722">
+    <crid>crid://npo/programmagegevens/2555002458668</crid>
+    <crid>crid://npo/programmagegevens/2555002317668</crid>
+    <crid>crid://npo/programmagegevens/2555544565668</crid>
+    <crid>crid://npo/programmagegevens/2566291009668</crid>
+    <crid>crid://npo/programmagegevens/2566291005668</crid>
+    <crid>crid://npo/programmagegevens/2566291001668</crid>
+    <crid>crid://npo/programmagegevens/2567030336668</crid>
+    <broadcaster id="AVTR">AVROTROS</broadcaster>
+    <broadcaster id="BNVA">BNNVARA</broadcaster>
+    <broadcaster id="VPRO">VPRO</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">Buitenhof</title>
+    <title owner="BROADCASTER" type="SUB">Mart de Kruif, Jan Paternotte</title>
+    <title owner="MIS" type="SUB">Mart de Kruif, Jan Paternotte</title>
+    <description owner="MIS" type="MAIN">Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?</description>
+    <description owner="MIS" type="SHORT">Te gast: Rob de Wijk, Mart de Kruif, Jan Paternotte, Mina Eternad en Yaghoub Sharhani.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>ADULTS</targetGroup>
+    </targetGroups>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H54M53.720S</duration>
+    <credits>
+        <person externalId="whatson:782933695517" role="PRESENTER">
+            <givenName>Joost</givenName>
+            <familyName>Vullings</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:118533865" midRef="POMS_S_VPRO_16311615" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:127163454" midRef="POMS_S_NPO_20049773" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:130553425" midRef="POMS_S_NPO_20078507" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:139385422" midRef="POMS_S_VPRO_20296368" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:139779516" midRef="VPWON_1369407" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:70885269" midRef="VPWON_1250213" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:74344537" midRef="POMS_S_NPO_3698983" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:74848353" midRef="POMS_S_NPO_3760702" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:74853880" midRef="POMS_S_NPO_3761438" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:74908339" midRef="POMS_S_NPO_3767333" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:75112033" midRef="POMS_S_NPO_3792628" type="COLLECTION"/>
+    <website>https://vpro.nl/Buitenhof</website>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-01T12:59:52+01:00" publishStop="2027-03-01T12:59:52+01:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-01T13:44:32.569+01:00" lastModified="2026-03-01T13:44:32.586+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:141841530">
+            <programUrl>npo+drm://internetvod.omroep.nl/VPWON_1369415</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-01T13:44:32.569+01:00" lastModified="2026-03-01T13:44:32.588+01:00" publishStart="2026-03-01T12:59:52+01:00" publishStop="2027-03-01T12:59:52+01:00" urn="urn:vpro:media:location:141841532">
+            <programUrl>npo+drm://plusvod.omroep.nl/VPWON_1369415</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T13:29:01.866+01:00" lastModified="2026-03-01T13:29:01.866+01:00" urn="urn:vpro:media:image:141841473">
+            <shared:title>Buitenhof</shared:title>
+            <shared:description>Interviewprogramma met maatschappelijke en politieke debatten, gesprekken en opinies.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475091</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Buitenhof / Mart de Kruif, Jan Paternotte</shared:credits>
+            <shared:sourceName>AVROTROS, BNNVARA, VPRO</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T13:29:02.504+01:00" lastModified="2026-03-01T13:29:02.504+01:00" urn="urn:vpro:media:image:141841474">
+            <shared:title>Buitenhof</shared:title>
+            <shared:description>Interviewprogramma met maatschappelijke en politieke debatten, gesprekken en opinies.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475092</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Buitenhof / Mart de Kruif, Jan Paternotte</shared:credits>
+            <shared:sourceName>AVROTROS, BNNVARA, VPRO</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T13:29:03.609+01:00" lastModified="2026-03-01T13:29:03.609+01:00" urn="urn:vpro:media:image:141841475">
+            <shared:title>Buitenhof</shared:title>
+            <shared:description>Interviewprogramma met maatschappelijke en politieke debatten, gesprekken en opinies.</shared:description>
+            <shared:imageUri>urn:vpro:image:2475093</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still Buitenhof / Mart de Kruif, Jan Paternotte</shared:credits>
+            <shared:sourceName>AVROTROS, BNNVARA, VPRO</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="BROADCASTER" type="STILL" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-01T13:30:06.975+01:00" lastModified="2026-03-01T13:30:09.111+01:00" urn="urn:vpro:media:image:141841478">
+            <shared:title>Mart de Kruif</shared:title>
+            <shared:description>Mart de Kruif</shared:description>
+            <shared:imageUri>urn:vpro:image:2475094</shared:imageUri>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Buitenhof</shared:credits>
+            <shared:sourceName>01/03/26 Buitenhof</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T12:05:00+01:00</start>
+            <duration>P0DT0H54M25.000S</duration>
+            <poProgID>VPWON_1369415</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T14:20:00+01:00</start>
+            <duration>P0DT0H55M3.000S</duration>
+            <poProgID>VPWON_1369415</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T01:25:00+01:00</start>
+            <duration>P0DT0H55M4.000S</duration>
+            <poProgID>VPWON_1369415</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T02:20:00+01:00</start>
+            <duration>P0DT0H55M3.000S</duration>
+            <poProgID>VPWON_1369415</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T02:55:00+01:00</start>
+            <duration>P0DT0H55M4.000S</duration>
+            <poProgID>VPWON_1369415</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1369415" urnRef="urn:vpro:media:program:140281722">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-02+01:00</guideDay>
+            <start>2026-03-02T10:35:00+01:00</start>
+            <duration>P0DT0H54M52.000S</duration>
+            <poProgID>VPWON_1369415</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-01-13T14:40:14.885+01:00" highlighted="false" midRef="VPWON_1369407" index="8" type="SEASON" urnRef="urn:vpro:media:group:139779516">
+        <memberOf midRef="VPWON_1250213" type="SERIES" index="21">
+            <memberOf midRef="POMS_S_VPRO_20296368" type="COLLECTION" index="1"/>
+            <memberOf midRef="POMS_S_NPO_20078507" type="PLAYLIST" index="4"/>
+            <memberOf midRef="POMS_S_NPO_3767333" type="COLLECTION" index="4">
+                <memberOf midRef="POMS_S_NPO_3760702" type="COLLECTION">
+                    <memberOf midRef="POMS_S_NPO_3792628" type="COLLECTION" index="5"/>
+                </memberOf>
+            </memberOf>
+            <memberOf midRef="POMS_S_NPO_20049773" type="PLAYLIST" index="12"/>
+            <memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="15"/>
+            <memberOf midRef="POMS_S_NPO_3698983" type="COLLECTION">
+                <memberOf midRef="POMS_S_NPO_3761438" type="COLLECTION" index="1">
+                    <memberOf midRef="POMS_S_NPO_3792628" type="COLLECTION"/>
+                </memberOf>
+            </memberOf>
+            <memberOf midRef="POMS_S_VPRO_16311615" type="PLAYLIST" index="315"/>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>
