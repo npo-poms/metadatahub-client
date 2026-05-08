@@ -4,12 +4,21 @@ import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.npo.metadatahub.poms.*;
 import nl.vpro.api.client.frontend.NpoApiClients;
 import nl.vpro.domain.media.Channel;
-import nl.vpro.logging.log4j2.CaptureListFromLogger;
 import nl.vpro.logging.log4j2.CaptureToSimpleLogger;
 import nl.vpro.logging.simple.OutputStreamSimpleLogger;
 import nl.vpro.util.Env;
 import org.apache.jena.query.ResultSetFormatter;
 
+/**
+ * - Gets the programs from 1 day
+ *    (currently via poms api, I could not yet get it working via sparql)
+ * - For every program
+ *   - obtain it via sparql
+ *   - map it to poms objects
+ *   - write the sparql response to file (<mid>.json), the xml from poms to file (<mid>.poms.xml), and the mapped xml (<mid>.mh.xml)
+ *
+    * This is to compare the results from poms and sparql
+ */
 void main() throws Exception {
     System.setProperty("log4j2.root.level","INFO");
 
