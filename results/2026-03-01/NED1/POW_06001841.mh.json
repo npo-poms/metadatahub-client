@@ -1,0 +1,98 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7021cf3c-69f6-4f39-b79e-5b99e4795b1a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b73c151c-78a9-4783-8596-4550405687c9" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-26T08:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Nederland in Beweging" } ,
+        "description": { "type": "literal" , "value": "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:01:09.823Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7021cf3c-69f6-4f39-b79e-5b99e4795b1a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a922cf29-5101-45b4-9407-356e031103f0" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-26T12:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Nederland in Beweging" } ,
+        "description": { "type": "literal" , "value": "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:01:09.823Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7021cf3c-69f6-4f39-b79e-5b99e4795b1a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8077928c-4dff-416d-86f9-854194afbb8e" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-27T00:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Nederland in Beweging" } ,
+        "description": { "type": "literal" , "value": "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:01:09.823Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7021cf3c-69f6-4f39-b79e-5b99e4795b1a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a1d8f203-5a52-41c3-9344-0be56ca731df" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-26T04:55:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Nederland in Beweging" } ,
+        "description": { "type": "literal" , "value": "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:01:09.823Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7021cf3c-69f6-4f39-b79e-5b99e4795b1a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6d48df50-8fbd-4caf-8f75-ab06910c5ed2" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T05:40:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Nederland in Beweging" } ,
+        "description": { "type": "literal" , "value": "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:01:09.823Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}

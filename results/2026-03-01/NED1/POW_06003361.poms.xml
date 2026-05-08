@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<api:scheduleItem xmlns:api="urn:vpro:api:2013" xmlns="urn:vpro:media:2009" xmlns:media="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" xmlns:pages="urn:vpro:pages:2013" channel="NED1" midRef="POW_06003361" urnRef="urn:vpro:media:program:140282652">
+    <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
+    <media:guideDay>2026-03-01+01:00</media:guideDay>
+    <media:start>2026-03-01T16:50:00+01:00</media:start>
+    <media:duration>P0DT1H5M40.000S</media:duration>
+    <media:poProgID>POW_06003361</media:poProgID>
+    <media:primaryLifestyle>Praktische Familiemensen</media:primaryLifestyle>
+    <media:secondaryLifestyle>Zorgzame Duizendpoten</media:secondaryLifestyle>
+    <media:program type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003361" sortDate="2026-03-01T16:50:00+01:00" workflow="PUBLISHED" creationDate="2026-01-13T15:01:31.183+01:00" lastModified="2026-03-02T12:01:01.508+01:00" publishDate="2026-03-02T12:01:28.942+01:00" urn="urn:vpro:media:program:140282652">
+        <media:crid>crid://npo/programmagegevens/2555016086668</media:crid>
+        <media:broadcaster id="NOS">NOS</media:broadcaster>
+        <media:region regionId="EU" platform="PLUSVOD"/>
+        <media:title owner="MIS" type="MAIN">NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</media:title>
+        <media:title owner="MIS" type="ORIGINAL">NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</media:title>
+        <media:description owner="MIS" type="MAIN">Met livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag. Ook met interviews en reportages.</media:description>
+        <media:description owner="MIS" type="SHORT">Met livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag. Ook met interviews en reportages.</media:description>
+        <media:genre id="3.0.1.4.14">
+            <media:term>Sport</media:term>
+            <media:term>Sport - informatie</media:term>
+        </media:genre>
+        <media:targetGroups owner="INHERITED">
+            <media:targetGroup>KIDS_14</media:targetGroup>
+            <media:targetGroup>KIDS_16</media:targetGroup>
+        </media:targetGroups>
+        <media:country code="NL">Nederland</media:country>
+        <media:language code="nl">Nederlands</media:language>
+        <media:isDubbed>false</media:isDubbed>
+        <media:releaseYear>2026</media:releaseYear>
+        <media:duration>P0DT1H5M59.176S</media:duration>
+        <media:credits/>
+        <media:descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
+        <media:descendantOf urnRef="urn:vpro:media:group:139801833" midRef="26stspLive" type="SEASON"/>
+        <media:descendantOf urnRef="urn:vpro:media:group:70888156" midRef="NOSSportRegulier" type="SERIES"/>
+        <media:website>https://NOS.nl</media:website>
+        <media:prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</media:prediction>
+        <media:prediction state="REALIZED" publishStart="2026-03-01T17:56:09+01:00" publishStop="2027-03-01T17:56:09+01:00">PLUSVOD</media:prediction>
+        <media:locations>
+            <media:location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-01T19:01:54.253+01:00" lastModified="2026-03-01T19:01:54.267+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:141842184">
+                <media:programUrl>npo+drm://internetvod.omroep.nl/POW_06003361</media:programUrl>
+                <media:avAttributes>
+                    <media:bitrate>3500000</media:bitrate>
+                    <media:avFileFormat>HASP</media:avFileFormat>
+                </media:avAttributes>
+            </media:location>
+            <media:location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-01T19:01:54.253+01:00" lastModified="2026-03-01T19:01:54.269+01:00" publishStart="2026-03-01T17:56:09+01:00" publishStop="2027-03-01T17:56:09+01:00" urn="urn:vpro:media:location:141842186">
+                <media:programUrl>npo+drm://plusvod.omroep.nl/POW_06003361</media:programUrl>
+                <media:avAttributes>
+                    <media:bitrate>3500000</media:bitrate>
+                    <media:avFileFormat>HASP</media:avFileFormat>
+                </media:avAttributes>
+            </media:location>
+        </media:locations>
+        <media:images>
+            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T18:39:21.171+01:00" lastModified="2026-03-01T18:39:21.171+01:00" urn="urn:vpro:media:image:141842160">
+                <shared:title>NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</shared:title>
+                <shared:description>Met livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag. Ook met interviews en reportages.</shared:description>
+                <shared:imageUri>urn:vpro:image:2475144</shared:imageUri>
+                <shared:offset>P0DT0H1M0.000S</shared:offset>
+                <shared:height>1080</shared:height>
+                <shared:width>1920</shared:width>
+                <shared:credits>Still NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</shared:credits>
+                <shared:sourceName>NOS</shared:sourceName>
+                <shared:license>COPYRIGHTED</shared:license>
+                <shared:date>2026</shared:date>
+            </shared:image>
+            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T18:39:22.776+01:00" lastModified="2026-03-01T18:39:22.776+01:00" urn="urn:vpro:media:image:141842161">
+                <shared:title>NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</shared:title>
+                <shared:description>Met livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag. Ook met interviews en reportages.</shared:description>
+                <shared:imageUri>urn:vpro:image:2475145</shared:imageUri>
+                <shared:offset>P0DT0H2M0.000S</shared:offset>
+                <shared:height>1080</shared:height>
+                <shared:width>1920</shared:width>
+                <shared:credits>Still NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</shared:credits>
+                <shared:sourceName>NOS</shared:sourceName>
+                <shared:license>COPYRIGHTED</shared:license>
+                <shared:date>2026</shared:date>
+            </shared:image>
+            <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T18:39:23.104+01:00" lastModified="2026-03-01T18:39:23.104+01:00" urn="urn:vpro:media:image:141842162">
+                <shared:title>NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</shared:title>
+                <shared:description>Met livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag. Ook met interviews en reportages.</shared:description>
+                <shared:imageUri>urn:vpro:image:2475146</shared:imageUri>
+                <shared:offset>P0DT0H3M0.000S</shared:offset>
+                <shared:height>1080</shared:height>
+                <shared:width>1920</shared:width>
+                <shared:credits>Still NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</shared:credits>
+                <shared:sourceName>NOS</shared:sourceName>
+                <shared:license>COPYRIGHTED</shared:license>
+                <shared:date>2026</shared:date>
+            </shared:image>
+        </media:images>
+        <media:scheduleEvents>
+            <media:scheduleEvent channel="NED1" midRef="POW_06003361" urnRef="urn:vpro:media:program:140282652">
+                <media:textSubtitles>Teletekst ondertitels</media:textSubtitles>
+                <media:guideDay>2026-03-01+01:00</media:guideDay>
+                <media:start>2026-03-01T16:50:00+01:00</media:start>
+                <media:duration>P0DT1H5M40.000S</media:duration>
+                <media:poProgID>POW_06003361</media:poProgID>
+                <media:primaryLifestyle>Praktische Familiemensen</media:primaryLifestyle>
+                <media:secondaryLifestyle>Zorgzame Duizendpoten</media:secondaryLifestyle>
+            </media:scheduleEvent>
+        </media:scheduleEvents>
+        <media:episodeOf added="2026-01-13T15:01:31.345+01:00" highlighted="false" midRef="26stspLive" index="16" type="SEASON" urnRef="urn:vpro:media:group:139801833">
+            <media:memberOf midRef="NOSSportRegulier" type="SERIES" index="26">
+                <media:memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="37"/>
+            </media:memberOf>
+        </media:episodeOf>
+        <media:segments/>
+    </media:program>
+</api:scheduleItem>

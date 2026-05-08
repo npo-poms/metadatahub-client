@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06002399" sortDate="2026-03-02T07:05:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-12T15:33:53.518+01:00">
+    <title owner="BROADCASTER" type="MAIN">NOS Studio Sport Voetbal</title>
+    <description owner="BROADCASTER" type="MAIN">Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses.</description>
+    <genre id="http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec"/>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_06002399">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T19:00:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_06002399</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="POW_06002399">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T19:05:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_06002399</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="POW_06002399">
+            <guideDay>2026-03-02+01:00</guideDay>
+            <start>2026-03-02T07:05:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_06002399</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

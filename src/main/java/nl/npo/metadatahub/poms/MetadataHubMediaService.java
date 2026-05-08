@@ -3,11 +3,13 @@ package nl.npo.metadatahub.poms;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.*;
+import java.util.function.Consumer;
 import lombok.SneakyThrows;
 import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
 import nl.vpro.domain.media.*;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.meeuw.functional.Consumers;
 
 public class MetadataHubMediaService implements MediaProvider {
 
@@ -21,12 +23,12 @@ public class MetadataHubMediaService implements MediaProvider {
 
     @Override
     public <T extends MediaObject> T findByMid(boolean loadDeleted, String mid) {
-        return (T) getProgram(mid);
+        return (T) getProgram(mid).orElse(null);
     }
 
 
     @SneakyThrows
-    public Program getProgram(String mid) {
+    public Optional<Program> getProgram(String mid) {
         String template = readQueryTemplate("mediaobject.sparql");
         String query = template.formatted(mid);
         ResultSet resultSet = client.selectQuery(query);
@@ -36,11 +38,11 @@ public class MetadataHubMediaService implements MediaProvider {
             rows.add(resultSet.next());
         }
         if (rows.isEmpty()) {
-            return null;
+            return Optional.empty();
         }
         var builder = MediaBuilder.broadcast().mid(mid);
         new Mapper(vars).toProgram(rows, builder);
-        return builder.build();
+        return Optional.of(builder.build());
     }
 
     @SneakyThrows

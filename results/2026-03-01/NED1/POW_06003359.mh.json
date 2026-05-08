@@ -1,0 +1,22 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9975f95d-fd69-45ea-9b13-922d7616f1a9" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/34cbca4c-e884-4336-afcb-665ca7170865" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/995857dc-43f3-4569-8185-47bf36c69466" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T12:05:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Studio Sport Live: Schaatsen Daikin NK Allround & Sprint" } ,
+        "description": { "type": "literal" , "value": "Met livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag. Ook met interviews en reportages." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:05.514Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport-Sport - informatie" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/407c2eda-c368-4fbe-bf99-89b9998bdc6f" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/265496ad-01d4-4c91-879c-ee113b4bd291" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T18:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Studio Sport Voetbal" } ,
+        "description": { "type": "literal" , "value": "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:53.518Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport-Analyse" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/407c2eda-c368-4fbe-bf99-89b9998bdc6f" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b6b2f750-c332-47fc-b55f-8dbeff16d61e" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T06:05:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Studio Sport Voetbal" } ,
+        "description": { "type": "literal" , "value": "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:53.518Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport-Analyse" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/407c2eda-c368-4fbe-bf99-89b9998bdc6f" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/25c83f7c-6fb2-494b-aa8f-8b1e6a94c0e1" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T18:05:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Studio Sport Voetbal" } ,
+        "description": { "type": "literal" , "value": "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:53.518Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport-Analyse" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/407c2eda-c368-4fbe-bf99-89b9998bdc6f" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83b0a31d-fca1-4183-ad78-2badb0ecdccc" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/32efdb81-b573-43ae-97ce-bc4fda544d62" } ,
+        "channelName": { "type": "literal" , "value": "NPO 3 & Zapp" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T02:00:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Studio Sport Voetbal" } ,
+        "description": { "type": "literal" , "value": "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:53.518Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport-Analyse" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/407c2eda-c368-4fbe-bf99-89b9998bdc6f" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/73308fcf-d45d-4079-9f67-30ce63bddb56" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/32efdb81-b573-43ae-97ce-bc4fda544d62" } ,
+        "channelName": { "type": "literal" , "value": "NPO 3 & Zapp" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T23:15:00.000Z" } ,
+        "title": { "type": "literal" , "value": "NOS Studio Sport Voetbal" } ,
+        "description": { "type": "literal" , "value": "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:53.518Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" } ,
+        "genreLabel": { "type": "literal" , "value": "Sport-Analyse" }
+      }
+    ]
+  }
+}

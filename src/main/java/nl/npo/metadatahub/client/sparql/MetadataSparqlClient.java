@@ -1,6 +1,7 @@
 package nl.npo.metadatahub.client.sparql;
 
 import java.io.*;
+import java.util.function.Consumer;
 import lombok.extern.java.Log;
 import org.apache.jena.query.*;
 import nl.npo.metadatahub.client.auth.TokenManager;
@@ -19,6 +20,9 @@ import java.nio.charset.StandardCharsets;
 
 @Log
 public class MetadataSparqlClient {
+
+    public static ScopedValue<Consumer<ResultSet>> onQueryExecuted = ScopedValue.newInstance();
+
 
     private static final String AUTHORIZATION_HEADER = "Authorization";
     private static final String BEARER_PREFIX = "Bearer ";
@@ -58,7 +62,7 @@ public class MetadataSparqlClient {
      * @return parsed SPARQL result set
      */
     public ResultSet selectQuery(String sparqlQuery) throws TokenManager.TokenException, IOException, InterruptedException {
-        log.info(() -> "Executing SPARQL SELECT query \n%s".formatted(sparqlQuery));
+        log.fine(() -> "Executing SPARQL SELECT query \n%s".formatted(sparqlQuery));
 
         return sendQuery(sparqlQuery, "application/sparql-results+json");
     }
@@ -94,9 +98,16 @@ public class MetadataSparqlClient {
             throw new IllegalStateException("SPARQL endpoint returned status " + response.statusCode() + ": " +  new String(b, StandardCharsets.UTF_8));
         }
 
+
+
         ResultSet results = ResultSetFactory.fromJSON(response.body());
-
-
+        if (onQueryExecuted.isBound()) {
+            Consumer<ResultSet> cons = onQueryExecuted.get();
+            ByteArrayOutputStream out = new ByteArrayOutputStream();
+            ResultSetFormatter.outputAsJSON(out, results);
+            results = ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray()));
+            cons.accept(ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray())));
+        }
 
         return results;
     }

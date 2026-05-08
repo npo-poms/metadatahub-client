@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977758" sortDate="2026-03-01T08:30:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-28T09:20:21.598+01:00">
+    <title owner="BROADCASTER" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</title>
+    <description owner="BROADCASTER" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
+    <genre id="http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d"/>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_05977758">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T08:00:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_05977758</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_05977758">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T08:30:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>POW_05977758</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

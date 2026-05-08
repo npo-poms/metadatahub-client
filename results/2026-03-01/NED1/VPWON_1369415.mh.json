@@ -1,0 +1,92 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bfcece26-31bc-4575-8411-8189ac525077" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e8c3e41d-3faf-4a48-9909-5b265d746b29" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/981dd056-18a0-40fd-9b8a-f7bb62792da4" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T01:55:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Mart de Kruif, Jan Paternotte" } ,
+        "description": { "type": "literal" , "value": "Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T13:40:25.906Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bfcece26-31bc-4575-8411-8189ac525077" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e8c3e41d-3faf-4a48-9909-5b265d746b29" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f48ead39-ee60-438e-a1da-ebd26ee1c294" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T00:25:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Mart de Kruif, Jan Paternotte" } ,
+        "description": { "type": "literal" , "value": "Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T13:40:25.906Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bfcece26-31bc-4575-8411-8189ac525077" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e8c3e41d-3faf-4a48-9909-5b265d746b29" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1f428df3-9258-44d9-9441-e26eae9470fa" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T09:35:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Mart de Kruif, Jan Paternotte" } ,
+        "description": { "type": "literal" , "value": "Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T13:40:25.906Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bfcece26-31bc-4575-8411-8189ac525077" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e8c3e41d-3faf-4a48-9909-5b265d746b29" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/34898b1e-5142-438e-8704-46d0be529544" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T01:20:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Mart de Kruif, Jan Paternotte" } ,
+        "description": { "type": "literal" , "value": "Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T13:40:25.906Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bfcece26-31bc-4575-8411-8189ac525077" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e8c3e41d-3faf-4a48-9909-5b265d746b29" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/284cda87-9f9d-406a-b640-404962315287" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T13:20:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Mart de Kruif, Jan Paternotte" } ,
+        "description": { "type": "literal" , "value": "Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T13:40:25.906Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bfcece26-31bc-4575-8411-8189ac525077" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e8c3e41d-3faf-4a48-9909-5b265d746b29" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a203033f-f6a9-45f4-913b-9840912c977b" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T11:05:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Mart de Kruif, Jan Paternotte" } ,
+        "description": { "type": "literal" , "value": "Na een wekenlange militaire opbouw van de Verenigde Staten rond Iran openden Israël en de VS een grote aanval op het land. Hoe kijken hoogleraar Internationale Betrekkingen Rob de Wijk en oud-generaal Mart de Kruif daarnaar? Jan Paternotte, de nieuwe fractievoorzitter van D66 en voormalig buitenlandwoordvoerder van de partij, is ook te gast. Wat betekent dit voor de wereldwijde machtsverdeling? * President Trump roept de Iraanse bevolking in zijn speech op om het huidige regime omver te werpen. Een gesprek met de Iraans-Nederlandse Mina Etemad en Yaghoub Sharhani. Wat horen zij van hun familie en vrienden in het land?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T13:40:25.906Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300018347" sortDate="2026-03-21T13:45:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:13.083+01:00">
+    <title owner="BROADCASTER" type="MAIN">Veenkoloniaal Museum</title>
+    <description owner="BROADCASTER" type="MAIN">Expert Willem Rueb herkende het schilderij van Edgar Fernhout meteen. Fernhout komt uit een bijzondere kunstenaarsfamilie: hij is de zoon van Charley Toorop en kleinzoon van Jan Toorop. Het werk van Fernhout hangt in veel grote musea en er is veel over hem geschreven. Wat is dit schilderij waard? In het Veenkoloniaal Museum weet de eigenaar van het Japanse aardewerk precies de weg. Het is namelijk haar oude middelbare school. Ook komt er een 17-eeuws schilderij van een monnik in gebed voorbij en sieraden van Niki de Saint Phalle, een belangrijke vrouwelijke Frans-Amerikaanse beeldhouwer die ook sieraden maakte. Is het kunst, of edelkitsch?</description>
+    <genre id="http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d"/>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AT_300018347">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T21:50:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300018347</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="AT_300018347">
+            <guideDay>2026-03-21+01:00</guideDay>
+            <start>2026-03-21T13:45:00+01:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300018347</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

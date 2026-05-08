@@ -87,6 +87,9 @@ public class Mapper {
     }
 
     private AgeRating parseAgeRating(String value) {
+        if ("AL".equals(value.trim())) {
+            return AgeRating.ALL;
+        }
         try {
             return AgeRating.valueOf(Integer.parseInt(value.trim()));
         } catch (NumberFormatException e) {
@@ -100,6 +103,9 @@ public class Mapper {
     }
 
     private Optional<ContentRating> parseContentRating(String value) {
+        if ("AL".equals(value.trim())) {
+            return Optional.empty();
+        }
         try {
             return Optional.of(ContentRating.valueOf(value.trim().toUpperCase()));
         } catch (IllegalArgumentException e) {

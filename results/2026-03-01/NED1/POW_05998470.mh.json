@@ -1,0 +1,80 @@
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dc24d8a1-6400-4985-ac68-dce0685a1238" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9cb2f2a4-c0ee-4d8c-86b6-4e8531a95e04" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b7fe2477-dfe8-4828-8e33-351521622262" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-25T19:45:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Twee keer Noord-Holland, een keer Zuid-Holland" } ,
+        "description": { "type": "literal" , "value": "In de hoofdstad runt Isabel haar B&B met twee kamers die over zijn in haar huis. Daarna is iedereen te gast bij Simon en Corien; ook zij hebben een woning met een bed and breakfast in de stad van Vermeer. We sluiten af bij Priscilla en Paul; zij hebben een B&B waar ze vier gasten kunnen ontvangen. Ze nemen hun gasten mee naar de top van de Bavotoren." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:32:52.081Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dc24d8a1-6400-4985-ac68-dce0685a1238" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9cb2f2a4-c0ee-4d8c-86b6-4e8531a95e04" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/7cc57990-47d1-43bf-bd6a-5299159dc2bc" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
+        "channelName": { "type": "literal" , "value": "BVN" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-26T07:45:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Twee keer Noord-Holland, een keer Zuid-Holland" } ,
+        "description": { "type": "literal" , "value": "In de hoofdstad runt Isabel haar B&B met twee kamers die over zijn in haar huis. Daarna is iedereen te gast bij Simon en Corien; ook zij hebben een woning met een bed and breakfast in de stad van Vermeer. We sluiten af bij Priscilla en Paul; zij hebben een B&B waar ze vier gasten kunnen ontvangen. Ze nemen hun gasten mee naar de top van de Bavotoren." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:32:52.081Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dc24d8a1-6400-4985-ac68-dce0685a1238" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9cb2f2a4-c0ee-4d8c-86b6-4e8531a95e04" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/82c17a42-eeba-48f2-a6cb-bc67c3b226ca" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T22:45:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Twee keer Noord-Holland, een keer Zuid-Holland" } ,
+        "description": { "type": "literal" , "value": "In de hoofdstad runt Isabel haar B&B met twee kamers die over zijn in haar huis. Daarna is iedereen te gast bij Simon en Corien; ook zij hebben een woning met een bed and breakfast in de stad van Vermeer. We sluiten af bij Priscilla en Paul; zij hebben een B&B waar ze vier gasten kunnen ontvangen. Ze nemen hun gasten mee naar de top van de Bavotoren." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:32:52.081Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dc24d8a1-6400-4985-ac68-dce0685a1238" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9cb2f2a4-c0ee-4d8c-86b6-4e8531a95e04" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9a7a1e52-ed26-4861-95f2-db6ff10eceee" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
+        "channelName": { "type": "literal" , "value": "NPO 1" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-24T19:35:00.000Z" } ,
+        "title": { "type": "literal" , "value": "Twee keer Noord-Holland, een keer Zuid-Holland" } ,
+        "description": { "type": "literal" , "value": "In de hoofdstad runt Isabel haar B&B met twee kamers die over zijn in haar huis. Daarna is iedereen te gast bij Simon en Corien; ook zij hebben een woning met een bed and breakfast in de stad van Vermeer. We sluiten af bij Priscilla en Paul; zij hebben een B&B waar ze vier gasten kunnen ontvangen. Ze nemen hun gasten mee naar de top van de Bavotoren." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:32:52.081Z" } ,
+        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}
