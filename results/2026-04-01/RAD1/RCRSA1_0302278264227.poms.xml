@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRSA1_0302278264227" sortDate="2026-04-01T16:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:00:46.915+01:00" lastModified="2026-04-01T19:40:15.534+02:00" publishDate="2026-04-01T20:13:42.007+02:00" urn="urn:vpro:media:program:140616970">
+    <crid>crid://npo/rcrs/698605644975ad95d4e9e4ac</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <broadcaster id="NTR">NTR</broadcaster>
+    <broadcaster id="NPO">NPO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">NOS Radio 1 Journaal</title>
+    <title owner="BROADCASTER" type="SUB">NOS Radio 1 Journaal</title>
+    <description owner="AUTHORITY" type="MAIN">Het NOS Radio 1 Journaal in de middag wordt gemaakt door de NOS en de NTR. Je wordt bijgepraat over de belangrijkste nieuwsverhalen van de dag en de nieuwsontwikkelingen van dat moment. Ook is er ruimte voor achtergronden bij het nieuws, onderzoeksverhalen en wetenschap.</description>
+    <geoLocations owner="BROADCASTER"/>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="BROADCASTER"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT2H0M0.026S</duration>
+    <credits/>
+    <descendantOf urnRef="urn:vpro:media:group:140370863" midRef="RCRSA1_0975087235776" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="REALIZED">INTERNETVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T18:12:59.285+02:00" lastModified="2026-04-01T18:12:59.363+02:00" urn="urn:vpro:media:location:142380379">
+            <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0302278264227.mp3</programUrl>
+            <avAttributes>
+                <avFileFormat>MP3</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRSA1_0302278264227" urnRef="urn:vpro:media:program:140616970">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T16:00:00+02:00</start>
+            <duration>P0DT2H0M0.000S</duration>
+            <poProgID>RCRSA1_0302278264227</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:00:46.986+01:00" highlighted="false" midRef="RCRSA1_0975087235776" index="67" type="SERIES" urnRef="urn:vpro:media:group:140370863"/>
+    <segments>
+        <segment midRef="RCRSA1_0302278264227" type="SEGMENT" urnRef="urn:vpro:media:program:140616970" avType="AUDIO" embeddable="true" mid="RCRSA1_0641041707074" sortDate="2026-04-01T16:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T17:17:50.676+02:00" lastModified="2026-04-01T17:19:05.548+02:00" publishDate="2026-04-01T17:25:37.671+02:00" urn="urn:vpro:media:segment:142379958">
+            <crid>crid://npo/rcrs/69cd370df7070ff9e2acb73f</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <broadcaster id="NTR">NTR</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Beloofde onderzoeken naar schadelijke staalslakken nog altijd niet gestart</title>
+            <title owner="BROADCASTER" type="SUB">Beloofde onderzoeken naar schadelijke staalslakken nog altijd niet gestart</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H7M54.044S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:140370863" midRef="RCRSA1_0975087235776" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140616970" midRef="RCRSA1_0302278264227" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T17:18:42.106+02:00" lastModified="2026-04-01T17:25:06.238+02:00" urn="urn:vpro:media:location:142379972">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0641041707074.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0302278264227" type="BROADCAST">
+                <episodeOf midRef="RCRSA1_0975087235776" type="SERIES" index="67"/>
+            </segmentOf>
+            <start>P0DT0H7M20.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0302278264227" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140616970" avType="VIDEO" embeddable="true" mid="RCRSA1_1070714835270" sortDate="2026-04-01T16:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T17:17:20.527+02:00" lastModified="2026-04-01T17:19:40.476+02:00" publishDate="2026-04-01T17:21:42.895+02:00" urn="urn:vpro:media:segment:142379946">
+            <crid>crid://npo/rcrs/69cd36fff7070ff9e2acb73e</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <broadcaster id="NTR">NTR</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Beloofde onderzoeken naar schadelijke staalslakken nog altijd niet gestart</title>
+            <title owner="BROADCASTER" type="SUB">Beloofde onderzoeken naar schadelijke staalslakken nog altijd niet gestart</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H7M27.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:140370863" midRef="RCRSA1_0975087235776" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140616970" midRef="RCRSA1_0302278264227" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T17:19:40.388+02:00" lastModified="2026-04-01T17:19:40.391+02:00" urn="urn:vpro:media:location:142379974">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_1070714835270</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T17:18:08.590+02:00" lastModified="2026-04-01T17:20:25.307+02:00" urn="urn:vpro:media:image:142379970">
+                    <shared:title>thumbnail RCRSA1_1070714835270</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487745</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-151720-00i5th.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRSA1_0302278264227" type="BROADCAST">
+                <episodeOf midRef="RCRSA1_0975087235776" type="SERIES" index="67"/>
+            </segmentOf>
+            <start>P0DT0H7M21.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0302278264227" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140616970" avType="VIDEO" embeddable="true" mid="RCRSA1_0826494726693" sortDate="2026-04-01T16:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T19:37:59.883+02:00" lastModified="2026-04-01T19:40:15.544+02:00" publishDate="2026-04-01T19:40:53.829+02:00" urn="urn:vpro:media:segment:142380849">
+            <crid>crid://npo/rcrs/69cd57f668447995f0b93c6d</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <broadcaster id="NTR">NTR</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Is de invoering van drones bij de landmacht een goed idee?</title>
+            <title owner="BROADCASTER" type="SUB">Is de invoering van drones bij de landmacht een goed idee?</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H5M24.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:140370863" midRef="RCRSA1_0975087235776" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140616970" midRef="RCRSA1_0302278264227" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:40:15.448+02:00" lastModified="2026-04-01T19:40:15.451+02:00" urn="urn:vpro:media:location:142380883">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0826494726693</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T19:38:34.380+02:00" lastModified="2026-04-01T19:40:49.013+02:00" urn="urn:vpro:media:image:142380864">
+                    <shared:title>thumbnail RCRSA1_0826494726693</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487790</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-173759-00i5uo.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRSA1_0302278264227" type="BROADCAST">
+                <episodeOf midRef="RCRSA1_0975087235776" type="SERIES" index="67"/>
+            </segmentOf>
+            <start>P0DT0H12M21.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0302278264227" type="SEGMENT" urnRef="urn:vpro:media:program:140616970" avType="AUDIO" embeddable="true" mid="RCRSA1_0381328952516" sortDate="2026-04-01T16:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T19:38:21.570+02:00" lastModified="2026-04-01T19:39:26.366+02:00" publishDate="2026-04-01T20:12:22.940+02:00" urn="urn:vpro:media:segment:142380854">
+            <crid>crid://npo/rcrs/69cd5805f7070ff9e2acba8d</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <broadcaster id="NTR">NTR</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Is de invoering van drones bij de landmacht een goed idee?</title>
+            <title owner="BROADCASTER" type="SUB">Is de invoering van drones bij de landmacht een goed idee?</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H5M30.031S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:140370863" midRef="RCRSA1_0975087235776" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140616970" midRef="RCRSA1_0302278264227" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:39:24.423+02:00" lastModified="2026-04-01T20:11:06.540+02:00" urn="urn:vpro:media:location:142380871">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0381328952516.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0302278264227" type="BROADCAST">
+                <episodeOf midRef="RCRSA1_0975087235776" type="SERIES" index="67"/>
+            </segmentOf>
+            <start>P0DT0H12M22.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0302278264227" type="SEGMENT" urnRef="urn:vpro:media:program:140616970" avType="AUDIO" embeddable="true" mid="RCRSA1_0199247459046" sortDate="2026-04-01T16:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T17:16:24.334+02:00" lastModified="2026-04-01T17:17:36.155+02:00" publishDate="2026-04-01T17:28:29.954+02:00" urn="urn:vpro:media:segment:142379931">
+            <crid>crid://npo/rcrs/69cd36c6f7070ff9e2acb73c</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <broadcaster id="NTR">NTR</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Waarom is niet iedereen blij met de term 'homohuwelijk'?</title>
+            <title owner="BROADCASTER" type="SUB">Waarom is niet iedereen blij met de term 'homohuwelijk'?</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H5M28.045S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:140370863" midRef="RCRSA1_0975087235776" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140616970" midRef="RCRSA1_0302278264227" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T17:17:25.766+02:00" lastModified="2026-04-01T17:27:29.477+02:00" urn="urn:vpro:media:location:142379952">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0199247459046.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0302278264227" type="BROADCAST">
+                <episodeOf midRef="RCRSA1_0975087235776" type="SERIES" index="67"/>
+            </segmentOf>
+            <start>P0DT0H17M9.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0302278264227" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140616970" avType="VIDEO" embeddable="true" mid="RCRSA1_0917989552271" sortDate="2026-04-01T16:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T17:16:05.160+02:00" lastModified="2026-04-01T17:18:06.553+02:00" publishDate="2026-04-01T17:20:16.174+02:00" urn="urn:vpro:media:segment:142379921">
+            <crid>crid://npo/rcrs/69cd36b368447995f0b93916</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <broadcaster id="NTR">NTR</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Waarom is niet iedereen blij met de term 'homohuwelijk'?</title>
+            <title owner="BROADCASTER" type="SUB">Waarom is niet iedereen blij met de term 'homohuwelijk'?</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H5M23.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:140370863" midRef="RCRSA1_0975087235776" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140616970" midRef="RCRSA1_0302278264227" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T17:18:06.451+02:00" lastModified="2026-04-01T17:18:06.459+02:00" urn="urn:vpro:media:location:142379969">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0917989552271</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T17:16:41.038+02:00" lastModified="2026-04-01T17:19:04.982+02:00" urn="urn:vpro:media:image:142379941">
+                    <shared:title>thumbnail RCRSA1_0917989552271</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487744</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-151605-00i5tf.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRSA1_0302278264227" type="BROADCAST">
+                <episodeOf midRef="RCRSA1_0975087235776" type="SERIES" index="67"/>
+            </segmentOf>
+            <start>P0DT0H17M13.000S</start>
+        </segment>
+    </segments>
+</program>

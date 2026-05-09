@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRSA1_0136180652010" sortDate="2026-04-02T05:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-12T01:24:30.135+01:00" lastModified="2026-04-07T12:48:19.439+02:00" publishDate="2026-04-07T12:49:47.074+02:00" urn="urn:vpro:media:program:140627713">
+    <crid>crid://npo/rcrs/68de711d5a52f9724eceb6c2</crid>
+    <broadcaster id="BNVA">BNNVARA</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Vroeg!</title>
+    <title owner="BROADCASTER" type="SUB">Vroeg!</title>
+    <description owner="AUTHORITY" type="MAIN">Elke werkdag tussen 05.00 en 06.00 uur start BNNVARA de dag met de ochtendshow 'Vroeg!'. Merel Wielaert nodigt elke dag een gast uit die met de luisteraars vooruitblikt op een actueel onderwerp. Luisteraars kunnen meepraten via de NPO Radio 1-app.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <geoLocations owner="BROADCASTER"/>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="BROADCASTER"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT1H0M0.039S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Anna</givenName>
+            <familyName>Pleijsier</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:122360823" midRef="PREPR_S_BV_16715433" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="REALIZED">INTERNETVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-02T06:10:58.975+02:00" lastModified="2026-04-07T12:48:30.562+02:00" urn="urn:vpro:media:location:142382870">
+            <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0136180652010.mp3</programUrl>
+            <avAttributes>
+                <byteSize>86401611</byteSize>
+                <avFileFormat>MP3</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-02-12T01:24:30.144+01:00" lastModified="2026-04-07T12:48:30.562+02:00" urn="urn:vpro:media:image:140627717">
+            <shared:title>Vroeg tegel 3</shared:title>
+            <shared:description>
+- programma: Vroeg!</shared:description>
+            <shared:imageUri>urn:vpro:image:2107240</shared:imageUri>
+            <shared:height>1080</shared:height>
+            <shared:width>1080</shared:width>
+            <shared:source>https://radioimages.npox.nl/s3-nporadio1/ae7ec2c8-c06a-442f-976b-dfc1c0c8fcb4.png</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRSA1_0136180652010" urnRef="urn:vpro:media:program:140627713">
+            <guideDay>2026-04-02+02:00</guideDay>
+            <start>2026-04-02T05:00:00+02:00</start>
+            <duration>P0DT1H0M0.000S</duration>
+            <poProgID>RCRSA1_0136180652010</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-12T01:24:30.217+01:00" highlighted="false" midRef="PREPR_S_BV_16715433" index="1191" type="SERIES" urnRef="urn:vpro:media:group:122360823"/>
+    <segments/>
+</program>

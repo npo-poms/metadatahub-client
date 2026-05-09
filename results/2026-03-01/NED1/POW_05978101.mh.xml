@@ -8,7 +8,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -33,12 +32,6 @@
         <scheduleEvent channel="NED1" midRef="POW_05978101">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-02T04:05:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>POW_05978101</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="NED1" midRef="POW_05978101">
-            <guideDay>2026-03-01+01:00</guideDay>
-            <start>2026-03-02T04:40:00+01:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>POW_05978101</poProgID>
         </scheduleEvent>

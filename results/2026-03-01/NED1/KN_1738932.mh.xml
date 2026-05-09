@@ -8,7 +8,6 @@
         <term>Liefde</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -21,12 +20,6 @@
         <scheduleEvent channel="NED1" midRef="KN_1738932">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-02T01:30:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>KN_1738932</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="KN_1738932">
-            <guideDay>2026-03-02+01:00</guideDay>
-            <start>2026-03-02T20:40:00+01:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>KN_1738932</poProgID>
         </scheduleEvent>

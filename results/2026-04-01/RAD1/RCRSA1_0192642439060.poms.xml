@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRSA1_0192642439060" sortDate="2026-04-01T21:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:06:47.127+01:00" lastModified="2026-04-01T23:16:28.560+02:00" publishDate="2026-04-01T23:23:57.055+02:00" urn="urn:vpro:media:program:140617139">
+    <crid>crid://npo/rcrs/696e05e9e873067a87554421</crid>
+    <broadcaster id="EO">EO</broadcaster>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <broadcaster id="NPO">NPO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Langs de Lijn En Omstreken</title>
+    <title owner="BROADCASTER" type="SUB">Langs de Lijn En Omstreken</title>
+    <description owner="AUTHORITY" type="MAIN">Met Langs de Lijn En Omstreken ben je live bij de sportwedstrijden van het moment. Tegelijkertijd houden we je op de hoogte van het laatste nieuws, zodat je niets hoeft te missen. Of het nou in Nederland of in het buitenland gebeurt, we zitten er bovenop. NOS en EO maken Langs de Lijn En Omstreken samen.</description>
+    <targetGroups owner="INHERITED"/>
+    <geoLocations owner="BROADCASTER"/>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="BROADCASTER"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT2H0M0.026S</duration>
+    <credits/>
+    <descendantOf urnRef="urn:vpro:media:group:68021785" midRef="RBX_S_NOS_2868025" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="REALIZED">INTERNETVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T23:12:53.923+02:00" lastModified="2026-04-01T23:12:53.982+02:00" urn="urn:vpro:media:location:142381338">
+            <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0192642439060.mp3</programUrl>
+            <avAttributes>
+                <avFileFormat>MP3</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-02-11T01:06:47.141+01:00" lastModified="2026-03-03T19:52:36.270+01:00" urn="urn:vpro:media:image:140617148">
+            <shared:title>ldl-eo-16-9</shared:title>
+            <shared:description>
+- programma: Langs de Lijn En Omstreken</shared:description>
+            <shared:imageUri>urn:vpro:image:2189835</shared:imageUri>
+            <shared:height>900</shared:height>
+            <shared:width>1600</shared:width>
+            <shared:source>https://radioimages.npox.nl/s3-nporadio1/2cigitxqotqq-ldl-eo-16-9.jpg</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRSA1_0192642439060" urnRef="urn:vpro:media:program:140617139">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T21:00:00+02:00</start>
+            <duration>P0DT2H0M0.000S</duration>
+            <poProgID>RCRSA1_0192642439060</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:06:47.759+01:00" highlighted="false" midRef="RBX_S_NOS_2868025" index="2813" type="SERIES" urnRef="urn:vpro:media:group:68021785"/>
+    <segments>
+        <segment midRef="RCRSA1_0192642439060" type="SEGMENT" urnRef="urn:vpro:media:program:140617139" avType="AUDIO" embeddable="true" mid="RCRSA1_0864800868056" sortDate="2026-04-01T21:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T21:34:59.687+02:00" lastModified="2026-04-01T21:36:23.006+02:00" publishDate="2026-04-01T21:47:41.462+02:00" urn="urn:vpro:media:segment:142381140">
+            <crid>crid://npo/rcrs/69cd7361f7070ff9e2acbb07</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Christenvervolging</title>
+            <title owner="BROADCASTER" type="SUB">Christenvervolging</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H8M13.035S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:68021785" midRef="RBX_S_NOS_2868025" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617139" midRef="RCRSA1_0192642439060" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T21:36:20.443+02:00" lastModified="2026-04-01T21:46:18.656+02:00" urn="urn:vpro:media:location:142381162">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0864800868056.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0192642439060" type="BROADCAST">
+                <episodeOf midRef="RBX_S_NOS_2868025" type="SERIES" index="2813"/>
+            </segmentOf>
+            <start>P0DT0H18M31.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0192642439060" type="SEGMENT" urnRef="urn:vpro:media:program:140617139" avType="AUDIO" embeddable="true" mid="RCRSA1_0136413628155" sortDate="2026-04-01T21:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T22:00:27.298+02:00" lastModified="2026-04-01T22:16:34.348+02:00" publishDate="2026-04-01T22:17:18.674+02:00" urn="urn:vpro:media:segment:142381173">
+            <crid>crid://npo/rcrs/69cd795968447995f0b93cf6</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Tweedehands elektrische auto steeds populairder</title>
+            <title owner="BROADCASTER" type="SUB">Tweedehands elektrische auto steeds populairder</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H4M45.048S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:68021785" midRef="RBX_S_NOS_2868025" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617139" midRef="RCRSA1_0192642439060" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T22:16:24.816+02:00" lastModified="2026-04-01T22:16:39.995+02:00" urn="urn:vpro:media:location:142381247">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0136413628155.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0192642439060" type="BROADCAST">
+                <episodeOf midRef="RBX_S_NOS_2868025" type="SERIES" index="2813"/>
+            </segmentOf>
+            <start>P0DT0H52M42.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0192642439060" type="SEGMENT" urnRef="urn:vpro:media:program:140617139" avType="AUDIO" embeddable="true" mid="RCRSA1_1013204774157" sortDate="2026-04-01T21:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T22:16:01.444+02:00" lastModified="2026-04-01T22:16:50.523+02:00" publishDate="2026-04-01T22:21:15.945+02:00" urn="urn:vpro:media:segment:142381236">
+            <crid>crid://npo/rcrs/69cd7ceff7070ff9e2acbb36</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Bovag over tweedehands elektrische auto's</title>
+            <title owner="BROADCASTER" type="SUB">Bovag over tweedehands elektrische auto's</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H4M29.035S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:68021785" midRef="RBX_S_NOS_2868025" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617139" midRef="RCRSA1_0192642439060" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T22:16:38.997+02:00" lastModified="2026-04-01T22:19:59.048+02:00" urn="urn:vpro:media:location:142381249">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_1013204774157.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0192642439060" type="BROADCAST">
+                <episodeOf midRef="RBX_S_NOS_2868025" type="SERIES" index="2813"/>
+            </segmentOf>
+            <start>P0DT0H52M43.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0192642439060" type="SEGMENT" urnRef="urn:vpro:media:program:140617139" avType="AUDIO" embeddable="true" mid="RCRSA1_0491791658488" sortDate="2026-04-01T21:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T22:43:37.814+02:00" lastModified="2026-04-01T22:45:18.135+02:00" publishDate="2026-04-01T22:52:22.735+02:00" urn="urn:vpro:media:segment:142381258">
+            <crid>crid://npo/rcrs/69cd837868447995f0b93d30</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Woonwagens</title>
+            <title owner="BROADCASTER" type="SUB">Woonwagens</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H8M14.027S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:68021785" midRef="RBX_S_NOS_2868025" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617139" midRef="RCRSA1_0192642439060" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T22:45:16.028+02:00" lastModified="2026-04-01T22:51:04.801+02:00" urn="urn:vpro:media:location:142381289">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0491791658488.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0192642439060" type="BROADCAST">
+                <episodeOf midRef="RBX_S_NOS_2868025" type="SERIES" index="2813"/>
+            </segmentOf>
+            <start>P0DT1H21M32.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_0192642439060" type="SEGMENT" urnRef="urn:vpro:media:program:140617139" avType="AUDIO" embeddable="true" mid="RCRSA1_0849367888248" sortDate="2026-04-01T21:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T22:55:35.850+02:00" lastModified="2026-04-01T23:11:56.741+02:00" publishDate="2026-04-01T23:22:38.149+02:00" urn="urn:vpro:media:segment:142381309">
+            <crid>crid://npo/rcrs/69cd8645f7070ff9e2acbb65</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Artemis 2</title>
+            <title owner="BROADCASTER" type="SUB">Artemis 2</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H8M56.032S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:68021785" midRef="RBX_S_NOS_2868025" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617139" midRef="RCRSA1_0192642439060" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T23:11:54.087+02:00" lastModified="2026-04-01T23:22:05.376+02:00" urn="urn:vpro:media:location:142381333">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0849367888248.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_0192642439060" type="BROADCAST">
+                <episodeOf midRef="RBX_S_NOS_2868025" type="SERIES" index="2813"/>
+            </segmentOf>
+            <start>P0DT1H43M6.000S</start>
+        </segment>
+    </segments>
+</program>

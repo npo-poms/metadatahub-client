@@ -25,15 +25,56 @@ Results of Example can be found in link:results[results]
 
 TODO
 
-- sub title
-- short description
-- credits
-- targetgroups
-- country/language
-- release year
-- duration
-- images
-- episodeOf/memberOf
-- rerun informatin
-- SEASON/SERIES
+|===
+| veld(en) | verwachting | opmerking
 
+
+|  sub title
+|  nergens gezien nog
+|
+
+|  short description
+| nergens gezien nog
+|
+
+|  credits
+| dit is er wel denk ik
+|
+
+|  targetgroups
+| dit is er wel denk ik
+|
+
+| country/language
+| dit is er wel denk ik
+|
+
+| release year
+| ?
+|
+
+|  duration
+| end - start?
+|
+
+|  images
+| imageservices gebruiken
+|
+
+|  episodeOf/memberOf
+| dit is er wel denk ik
+|
+
+|  rerun information
+| ?
+|
+
+| SEASON/SERIES
+| dit is er wel denk ik
+|
+
+| segments
+| ?
+|
+
+|===

@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TVAMain xmlns="urn:tva:metadata:2004" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001"><!--
+        This is experimental since poms 8.12.
+        It is produced from POMS MediaTable XML (see https://poms.omroep.nl/schema/vproMedia.xsd).
+
+        It is mainly used to generate test data for the integration tests.
+      -->
+   <ProgramDescription>
+      <ProgramInformationTable>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758084668">
+            <BasicDescription>
+               <Title type="main">NOS Journaal met gebarentaal</Title>
+               <Synopsis length="short">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Synopsis length="medium">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758450668">
+            <BasicDescription>
+               <Title type="main">Tijd voor MAX</Title>
+               <Title type="episodeTitle">Het ontstaan van de jazzscène in Amsterdam</Title>
+               <Synopsis length="short">Te gast: Eva Posthuma de Boer, Bas Ragas, Stijn Fransen, Roy Khemradj, Mark Ponté en Michael Varekamp.</Synopsis>
+               <Synopsis length="medium">Eva Posthuma de Boer heeft een nieuwe roman geschreven die gaat over verlies, vriendschap en liefde. * Bas Ragas en Stijn Fransen zijn te zien in The Passion en blikken vooruit op de komende editie. * Mark Ponté en Michael Varekamp over het onstaan van de jazzscène in de jaren 30 in Amsterdam, waar nu een tentoonstelling over is gemaakt. Michael treedt ook op. Roy Khemradj praat ons bij over het onverwachte overlijden van de Surinaamse oud-president Chan Santokhi.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="591428420517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="646647490517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2560400401668">
+            <BasicDescription>
+               <Title type="main">BinnensteBuiten</Title>
+               <Synopsis length="short">Valentijn bezoekt, Kasteel Heeswijk, met als pronkstuk de Chinese kamer, Jetske bezoekt een molen waar nog wordt gemalen en gebakken en Rick en Louwrens-Jan koesteren bamboe en weten er alles van.</Synopsis>
+               <Synopsis length="medium">Architectuurhistoricus Valentijn Carbo gaat op ontdekkingstocht in Kasteel Heeswijk. In 1835 koopt een schatrijke baron dit landgoed. Deze baron maakt een geromantiseerde versie van een middeleeuws kasteel en dat levert leuke verrassingen op. * Elf jaar geleden kwam Christa meel halen bij de molen in het Friese Witmarsum. Ze werd op slag verliefd op het ambacht. Nu is ze molenaar en bakker en samen met compagnon Jippe bakken ze broden van oude lokale graansoorten die ze zelf malen. * In de Rotterdamse dierentuin kom je vele soorten bamboe tegen en dat is niet voor niks; de rode panda's zijn er dol op en ook de olifanten verslinden het.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Human InterestWonen/Tuin">
+                  <Name>Human InterestWonen/Tuin</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V32">
+                     <PersonNameIDRef ref="572124880517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2526820606668">
+            <BasicDescription>
+               <Title type="main">MAX Geheugentrainer</Title>
+               <Synopsis length="short">Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</Synopsis>
+               <Synopsis length="medium">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefSpel/quiz">
+                  <Name>InformatiefSpel/quiz</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="765308367517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758189668">
+            <BasicDescription>
+               <Title type="main">NOS Journaal met gebarentaal</Title>
+               <Synopsis length="short">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Synopsis length="medium">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2471841190668">
+            <BasicDescription>
+               <Title type="main">Nederland in Beweging</Title>
+               <Synopsis length="short">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
+               <Synopsis length="medium">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Sport">
+                  <Name>Sport</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="333888463517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="579155485517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2483107063668">
+            <BasicDescription>
+               <Title type="main">Zentijd</Title>
+               <Title type="episodeTitle">Ademruimte: ochtendyoga voor de longen</Title>
+               <Synopsis length="short">In deze yogales van Rohima besteed je extra aandacht aan de adem. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid.</Synopsis>
+               <Synopsis length="medium">Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Human InterestLevensbeschouwing">
+                  <Name>Human InterestLevensbeschouwing</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="2424504670517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758343668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Beruchte mensensmokkelaar voor de rechter * Personeel heeft vaker een noodknop * Parlement Israël stemt in met omstreden wet voor doodstraf</Synopsis>
+               <Synopsis length="medium">Kidane H. staat in Nederland terecht voor een omvangrijke mensensmokkelzaak. Verslaggever Mark Schrader volgt de zaak en is in de studio. * Een derde van de Nederlandse gemeenten maakt gebruik van een noodknop. Dat blijkt uit onderzoek van Nieuwsuur. Met zo'n noodknop staat iemand meteen in contact met de meldkamer van de politie. * Het Israëlische parlement, de Knesset, is akkoord gegaan met een zeer omstreden wetsvoorstel om de doodstraf in te voeren voor moord met terroristisch motief. We praten erover met Peter Malcontent, universiteit hoofddocent internationale betrekkingen aan de Universiteit Utrecht.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1565324770517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562757990668">
+            <BasicDescription>
+               <Title type="main">Noord-Zuid-Oost-West</Title>
+               <Title type="episodeTitle">Limburg in de Waereld - Drijfveren</Title>
+               <Synopsis length="short">Limburg in de Waereld laat zien wat de Franse revolutie en de Verlichting betekenden voor Limburg van de negentiende eeuw tot de Eerste Wereldoorlog. Drijfveren toont mensen met een bijzondere passie.</Synopsis>
+               <Synopsis length="medium">Limburg in de Waereld: prof. dr. Joep Leerssen en Frans Pollux gaan tweeduizend jaar terug in de tijd en verdiepen zich in de rijke historie van Limburg. Ze laten zien wat de Franse revolutie en de Verlichting betekenden voor Limburg gedurende de negentiende eeuw tot aan de Eerste Wereldoorlog. Drijfveren: programmamaker Erik Kooyman ontmoet verschillende mensen en maakt korte portretten.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758199668">
+            <BasicDescription>
+               <Title type="main">BinnensteBuiten</Title>
+               <Synopsis length="short">Theo-Bert zit bomvol ideeën voor een saaie slaapkamer, Ramon maakt Oosterse broodjes met gegrilde groente, vogels spotten in de Oostvaardersplassen en Friese uilenborden worden met liefde handgemaakt.</Synopsis>
+               <Synopsis length="medium">Interieurspecialist Theo-Bert gaat in Zeist aan de slag in de slaapkamer van Manon en Hagen. Een wand van kurk is een doorn in het oog, maar Theo-Bert heeft daar natuurlijk wat leuks voor bedacht. * Ramon maakt barbari: een Oosters platbrood met sesamzaad en za'atar. Daarbij serveert hij geroosterde groenten. * Camilla gaat vogels spotten in de Oostvaardersplassen met boswachter Frank. Ze zoeken nonnetjes en brilduikers en hopen de zeearend te zien.* In het Friese Westereen heeft Binne een atelier waar hij vol passie traditionele uilenborden maakt voor op de oude boerderijen. Dit eeuwenoude beroep is doorgegeven van vader op zoon.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Human InterestWonen/Tuin">
+                  <Name>Human InterestWonen/Tuin</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V32">
+                     <PersonNameIDRef ref="572124880517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758155668">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="short">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Synopsis length="medium">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758252668">
+            <BasicDescription>
+               <Title type="main">Kook mee met MAX</Title>
+               <Title type="episodeTitle">Romige polenta met paddenstoelen en gepocheerd ei</Title>
+               <Synopsis length="short">Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</Synopsis>
+               <Synopsis length="medium">Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefKoken/eten">
+                  <Name>InformatiefKoken/eten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1414495690517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2417789124668">
+            <BasicDescription>
+               <Title type="main">Tussen Kunst en Kitsch Extra</Title>
+               <Title type="episodeTitle">40 jaar Tussen Kunst en Kitsch</Title>
+               <Synopsis length="short">Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</Synopsis>
+               <Synopsis length="medium">Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefKunst/cultuur">
+                  <Name>InformatiefKunst/cultuur</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758100668">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="short">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Synopsis length="medium">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562525315668">
+            <BasicDescription>
+               <Title type="main">Kassa</Title>
+               <Synopsis length="short">Stijgende brandstofprijzen en zorgen over energie in huis, de impact van plastic op onze gezondheid, de beste oordopjes voor het festivalseizoen en hoe kipvriendelijk ons ei is.</Synopsis>
+               <Synopsis length="medium">Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefConsumenten informatie">
+                  <Name>InformatiefConsumenten informatie</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758288668">
+            <BasicDescription>
+               <Title type="main">Kunststof</Title>
+               <Title type="episodeTitle">Carolina Dijkhuizen</Title>
+               <Synopsis length="short">Carolina Dijkhuizen is actrice en zangeres. Ze speelt Hermelien Griffel in Harry Potter en het Vervloekte Kind en was te zien in musicals en televisieprogramma's.</Synopsis>
+               <Synopsis length="medium">Carolina Dijkhuizen is actrice en zangeres. Ze speelt de iconische rol van Hermelien Griffel in het toneelstuk Harry Potter en het Vervloekte Kind, een voorstelling vol magie, emotie en onverwachte wendingen. Dijkhuizen is een vertrouwd gezicht in de Nederlandse theaterwereld en speelde eerdere hoofdrollen in musicals als Aida, The Lion King en Sister Act. Daarnaast was ze te zien in populaire televisieprogramma's zoals De Beste Zangers van Nederland, Wie is de Mol? en Expeditie Robinson.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefKunst/cultuur">
+                  <Name>InformatiefKunst/cultuur</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1904653218517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2569759201668">
+            <BasicDescription>
+               <Title type="main">EO Metterdaad</Title>
+               <Title type="episodeTitle">Libanon: Rosie en Reva brengen hoop</Title>
+               <Synopsis length="short">Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon gevlucht. EO-directeur Arjan Lock en Daniel de Wit reisden naar Libanon om aandacht te vragen voor de hulp.</Synopsis>
+               <Synopsis length="medium">Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Human Interest">
+                  <Name>Human Interest</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V32">
+                     <PersonNameIDRef ref="941819438517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758437668">
+            <BasicDescription>
+               <Title type="main">Back to ESNS 2026</Title>
+               <Synopsis length="short">Deze keer Antoon, Nusantara Beat, IDA en Suzan en Freek.</Synopsis>
+               <Synopsis length="medium">Je ziet Antoon, die dit jaar op Noorderslag stond om zijn nieuwe plaat Tot Het Eind van Mij te presenteren. Ook muziek van de Nederlands-Indonesische supergroep Nusantara Beat. De Nederlandstalige elektronische popmuziek van IDA en we zien hoe Suzan en Freek de popprijs winnen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Muziek">
+                  <Name>Muziek</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="2234929102517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1509976394517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758219668">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="short">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Synopsis length="medium">Met het laatste nieuws en de weersverwachting.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2560759193668">
+            <BasicDescription>
+               <Title type="main">Kook mee met MAX</Title>
+               <Title type="episodeTitle">Toast met tuinbonenspread, ei en citroenyoghurt</Title>
+               <Synopsis length="short">Sandra maakt toast met tuinbonenspread en een gepocheerd ei met frisse citroenyoghurt. Een echt lentegerecht.</Synopsis>
+               <Synopsis length="medium">Sandra maakt toast met tuinbonenspread en een gepocheerd ei met frisse citroenyoghurt. Een echt lentegerecht.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefKoken/eten">
+                  <Name>InformatiefKoken/eten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1414495686517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562757016668">
+            <BasicDescription>
+               <Title type="main">Wilde Ganzen</Title>
+               <Title type="episodeTitle">Herstellen van het Rifgebergte in Marokko</Title>
+               <Synopsis length="short">Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken.</Synopsis>
+               <Synopsis length="medium">Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="556682014517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758162668">
+            <BasicDescription>
+               <Title type="main">Per Seconde Wijzer</Title>
+               <Synopsis length="short">In deze kennisquiz beantwoorden slimme spelers pittige vragen, terwijl de seconden wegtikken. Wordt het een mooi geldbedrag of een klokje?</Synopsis>
+               <Synopsis length="medium">Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:AmusementSpel/quiz">
+                  <Name>AmusementSpel/quiz</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="605649631517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2568908008668">
+            <BasicDescription>
+               <Title type="main">Politieke Partijen: D66</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefPolitiek">
+                  <Name>InformatiefPolitiek</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2552874003668">
+            <BasicDescription>
+               <Title type="main">Politieke Partijen: SP</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefPolitiek">
+                  <Name>InformatiefPolitiek</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2559284857668">
+            <BasicDescription>
+               <Title type="main">De slimste mens</Title>
+               <Title type="episodeTitle">Uitdager: Freddy Tratlehner</Title>
+               <Synopsis length="short">Uitdager: Freddy Tratlehner.</Synopsis>
+               <Synopsis length="medium">Uitdager: Freddy Tratlehner.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefSpel/quiz">
+                  <Name>InformatiefSpel/quiz</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="2544342471517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1329097256517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758440668">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="short">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</Synopsis>
+               <Synopsis length="medium">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758405668">
+            <BasicDescription>
+               <Title type="main">NOS Journaal Regio</Title>
+               <Title type="translatedtitle">NOS Journaal Regio</Title>
+               <Synopsis length="short">Regionaal nieuws met landelijke uitstraling, gemaakt door de NOS en de regionale omroepen.</Synopsis>
+               <Synopsis length="medium">Regionaal nieuws met landelijke uitstraling, gemaakt door de NOS en de regionale omroepen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758124668">
+            <BasicDescription>
+               <Title type="main">Noord-Zuid-Oost-West</Title>
+               <Title type="episodeTitle">Trugkieke - Dwars Door De Delta - Klik mei de natuer</Title>
+               <Synopsis length="short">Domburg is de oudste badplaats van Zeeland, een dorp aan zee met de charme van weleer. Falco en Maas wandelen door Geopark Schelde Delta. In Klik! mei de natuer zoeken we naar reptielen en amfibieën.</Synopsis>
+               <Synopsis length="medium">Trugkieke gaat over het Zeeland van toen en nu. Domburg is de oudste badplaats van Zeeland. Ooit een kuuroord voor welgestelden en een inspiratiebron voor kunstenaars. Dwars Door De Delta: Falco en Maas wandelen door het nieuwste Unesco Geopark van Nederland; Geopark Schelde Delta. Klik! mei de natuer: Laura gaat op zoek naar reptielen en amfibieën.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758184668">
+            <BasicDescription>
+               <Title type="main">BinnensteBuiten</Title>
+               <Synopsis length="short">Heerlijk wonen op Scheveningen met een prachtig dakterras, Alain maakt in de molen van het restproduct griesmeel een heerlijk gerecht, een bloemenkrans van wilgentakken, droogbloemen en lentegroen.</Synopsis>
+               <Synopsis length="medium">Op Scheveningen wonen Kim en Diederik op de bovenste etages van een statig herenhuis. Op het dak bouwen ze een extra etage waar ze in de zomer verblijven; zo vier je vakantie in eigen huis. * In een monumentale korenmolen in IJsselstein malen William Dolman en zijn ouders graan, per dag wel 1.000 kilo. Culinair expert Alain gaat hier terug in de tijd en hij maakt van het restproduct griesmeel een heerlijk gerecht. * Speciaal voor de paasdagen maakt natuurliefhebber Chantana in Putten een bloemenkrans van wilgentakken, droogbloemen en lentegroen. Haar natuurlijke kransen zijn geïnspireerd op de minimalistische blomsterkransen uit Scandinavië.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Human InterestWonen/Tuin">
+                  <Name>Human InterestWonen/Tuin</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V32">
+                     <PersonNameIDRef ref="572124880517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758232668">
+            <BasicDescription>
+               <Title type="main">Per Seconde Wijzer</Title>
+               <Synopsis length="short">In deze kennisquiz beantwoorden slimme spelers pittige vragen, terwijl de seconden wegtikken. Wordt het een mooi geldbedrag of een klokje?</Synopsis>
+               <Synopsis length="medium">Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:AmusementSpel/quiz">
+                  <Name>AmusementSpel/quiz</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="605649631517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758175668">
+            <BasicDescription>
+               <Title type="main">Holland Gate</Title>
+               <Title type="episodeTitle">Hulp arriveert</Title>
+               <Synopsis length="short">Nederlander Janno stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag toekijkt, wordt deze passant de laatste hoop voor tientallen Afghanen. Zijn cruciale rol bleef lang geheim.</Synopsis>
+               <Synopsis length="medium">Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:DocumentairePolitiek">
+                  <Name>DocumentairePolitiek</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:mpeg:mpeg7:cs:RoleCS:2001:DIRECTOR">
+                     <PersonNameIDRef ref="792543048517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:mpeg:mpeg7:cs:RoleCS:2001:DIRECTOR">
+                     <PersonNameIDRef ref="2571247670517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2563287760668">
+            <BasicDescription>
+               <Title type="main">NPO Doc: Blauw Licht - Herinneringen van een Ambulancebroeder</Title>
+               <Synopsis length="short">Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Is het wel normaal dat één mens zoveel lijden moet zien?</Synopsis>
+               <Synopsis length="medium">Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Na 23 jaar op de ambulance staat een verzameling verhalen en gezichten op zijn netvlies gebrand. Hier lag het 'binkie' op de bouwplaats dat om zijn moeder bleef roepen. Daar het jongetje dat frontaal door een stadsbus werd geschept. Daar het meisje met de vlechten dat verdronk in het kanaal. Als eerste ter plaatse, was hij voor vele mensen de laatste die hun hand vasthield. Is het wel normaal dat één mens zoveel lijden moet zien?</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:DocumentaireHuman Interest">
+                  <Name>DocumentaireHuman Interest</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:mpeg:mpeg7:cs:RoleCS:2001:DIRECTOR">
+                     <PersonNameIDRef ref="1443964470517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:mpeg:mpeg7:cs:RoleCS:2001:DIRECTOR">
+                     <PersonNameIDRef ref="1729884981517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758421668">
+            <BasicDescription>
+               <Title type="main">Dit is de kwestie</Title>
+               <Title type="episodeTitle">Discriminatie woonwagenbewoners?</Title>
+               <Synopsis length="short">Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter.</Synopsis>
+               <Synopsis length="medium">Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="569591581517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1080375301517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1539172126517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758091668">
+            <BasicDescription>
+               <Title type="main">Streaming Hell</Title>
+               <Synopsis length="short">Filipijnse kinderen worden via livestreams misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt justitie, advocaten en politie in hun strijd tegen deze groeiende misdaad.</Synopsis>
+               <Synopsis length="medium">Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Human Interest">
+                  <Name>Human Interest</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1080375301517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2560400459668">
+            <BasicDescription>
+               <Title type="main">Frontlinie</Title>
+               <Title type="episodeTitle">Ticket naar Antarctica (1/2)</Title>
+               <Synopsis length="short">Bram Vermeulen en Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties.</Synopsis>
+               <Synopsis length="medium">Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:DocumentaireReizen">
+                  <Name>DocumentaireReizen</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="4861342517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="2568859965517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2488442782668">
+            <BasicDescription>
+               <Title type="main">De Nachtzoen</Title>
+               <Title type="episodeTitle">Kiki (1/2)</Title>
+               <Synopsis length="short">Kiki belandde met onstuimig weer in het water maar werd gered.</Synopsis>
+               <Synopsis length="medium">Kiki belandde met onstuimig weer in het water maar werd gered.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Human Interest">
+                  <Name>Human Interest</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1081713142517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2562758360668">
+            <BasicDescription>
+               <Title type="main">Nieuwsuur</Title>
+               <Synopsis length="short">Defensie zoekt dronepiloten * Gemeenteraden geïnstalleerd</Synopsis>
+               <Synopsis length="medium">Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1543316239517"/>
+                  </CreditsItem>
+               </CreditsList>
+            </BasicDescription>
+         </ProgramInformation>
+      </ProgramInformationTable>
+      <GroupInformationTable/>
+      <ProgramLocationTable>
+         <Schedule>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758084668"/>
+               <PublishedStartTime>2026-04-01T07:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H9M55.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05972266</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">26Jnl0700n2Geb</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJournaalgebarentolk</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758450668"/>
+               <PublishedStartTime>2026-04-01T07:15:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H41M16.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05999846</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_05999784</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03108338</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2560400401668"/>
+               <PublishedStartTime>2026-04-01T08:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H33M40.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">KN_1738142</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">KN_1737656</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">KN_1676732</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2526820606668"/>
+               <PublishedStartTime>2026-04-01T08:35:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H16M17.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_06001585</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_06001523</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03108298</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758189668"/>
+               <PublishedStartTime>2026-04-01T09:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H9M54.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05973524</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">26Jnl0900n2Geb</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJournaalgebarentolk</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2471841190668"/>
+               <PublishedStartTime>2026-04-01T09:15:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H15M38.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_06001865</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_06001803</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03108318</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2483107063668"/>
+               <PublishedStartTime>2026-04-01T09:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H16M33.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">KN_1736862</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">KN_1736329</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">KN_1734395</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758343668"/>
+               <PublishedStartTime>2026-04-01T09:50:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H36M19.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1368155</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1368067</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1246712</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562757990668"/>
+               <PublishedStartTime>2026-04-01T10:40:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H30M57.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_06000065</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_06000015</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_05039552</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758199668"/>
+               <PublishedStartTime>2026-04-01T11:20:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H34M2.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">KN_1738146</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">KN_1737656</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">KN_1676732</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758155668"/>
+               <PublishedStartTime>2026-04-01T12:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H10M19.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05974630</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">26Jnl1200n2</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJournaal</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758252668"/>
+               <PublishedStartTime>2026-04-01T12:15:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H16M11.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_06003924</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_06003873</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03619681</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2417789124668"/>
+               <PublishedStartTime>2026-04-01T12:35:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H19M2.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">AT_300019289</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">AT_300019288</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">AT_2036145</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758100668"/>
+               <PublishedStartTime>2026-04-01T13:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H10M11.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05975208</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">26Jnl1300n2</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJournaal</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562525315668"/>
+               <PublishedStartTime>2026-04-01T13:25:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H45M21.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">BV_101413509</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">BV_101413496</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VARA_101377663</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758288668"/>
+               <PublishedStartTime>2026-04-01T14:15:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H50M54.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1370999</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1370985</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1370986</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2569759201668"/>
+               <PublishedStartTime>2026-04-01T15:10:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H10M32.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1367607</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1367589</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1262903</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758437668"/>
+               <PublishedStartTime>2026-04-01T15:25:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H29M52.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1372069</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1372068</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1366128</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758219668"/>
+               <PublishedStartTime>2026-04-01T16:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H6M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05976028</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">26Jnl1600n2</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJournaal</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2560759193668"/>
+               <PublishedStartTime>2026-04-01T16:10:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H12M56.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_06003920</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_06003873</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03619681</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562757016668"/>
+               <PublishedStartTime>2026-04-01T16:23:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H2M53.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1370516</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1370503</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1257900</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758162668"/>
+               <PublishedStartTime>2026-04-01T16:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H26M59.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">BV_101413694</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">BV_101413672</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VARA_101377772</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2568908008668"/>
+               <PublishedStartTime>2026-04-01T16:58:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H0M24.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05832231</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_03384208</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03666328</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2552874003668"/>
+               <PublishedStartTime>2026-04-01T16:59:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H1M59.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05832214</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_03384208</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03666328</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2559284857668"/>
+               <PublishedStartTime>2026-04-01T17:10:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H42M29.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">KN_1738413</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">KN_1735078</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">KN_1676719</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758440668"/>
+               <PublishedStartTime>2026-04-01T18:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H15M7.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05976671</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">26Jnl1800n2</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJournaal</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758405668"/>
+               <PublishedStartTime>2026-04-01T18:15:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H9M18.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_05978506</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">26JnlRegio</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJrnlRegio</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758124668"/>
+               <PublishedStartTime>2026-04-01T18:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H30M20.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_06000066</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_06000015</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_05039552</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758184668"/>
+               <PublishedStartTime>2026-04-01T19:10:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H33M47.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">KN_1738147</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">KN_1737656</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">KN_1676732</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758232668"/>
+               <PublishedStartTime>2026-04-01T19:50:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H27M42.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">BV_101413695</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">BV_101413672</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VARA_101377772</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758175668"/>
+               <PublishedStartTime>2026-04-01T20:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H30M48.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">KN_1738850</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">KN_1736443</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">KN_1736442</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2563287760668"/>
+               <PublishedStartTime>2026-04-01T21:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H17M33.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1372616</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POMS_S_NPO_20243715</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_NPO_20243592</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758421668"/>
+               <PublishedStartTime>2026-04-01T21:25:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H26M22.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1367433</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1367420</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1339600</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668 crid://npo/programmagegevens/2562758360668"/>
+               <PublishedStartTime>2026-04-01T22:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H38M45.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1368156</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1368067</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1246712</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2562758091668"/>
+               <PublishedStartTime>2026-04-01T22:45:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H35M44.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1372178</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POMS_S_EO_20330961</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_EO_20330960</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2560400459668"/>
+               <PublishedStartTime>2026-04-01T23:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H38M59.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1369348</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1369347</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1319349</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2488442782668"/>
+               <PublishedStartTime>2026-04-02T00:10:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H6M43.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VPWON_1362768</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VPWON_1362740</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">VPWON_1257894</OtherIdentifier>
+            </ScheduleEvent>
+         </Schedule>
+      </ProgramLocationTable>
+      <CreditsInformationTable>
+         <PersonName personNameId="591428420517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Sybrand</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Niessen</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="646647490517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Martine</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">van Os</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="572124880517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Stefan</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Stasse</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="765308367517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Mascha</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">de Rooij</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="333888463517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Barbara</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">de Loor</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="579155485517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Duco</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Bauwens</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="2424504670517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Rohima</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Hossain</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1565324770517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Jeroen</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Wollaars</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1414495690517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Mounir</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Toub</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1904653218517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Carine van</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Santen</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="941819438517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Victor</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Rosier</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="2234929102517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Justin</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Verkijk</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1509976394517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Vera</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Siemons</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1414495686517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Sandra</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Ysbrandy</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="556682014517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Evelien</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Bosch</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="605649631517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Erik</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Dijkstra</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="2544342471517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Herman van der</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Zandt</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1329097256517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Paulien</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Cornelisse</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="792543048517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Joey</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Boink</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="2571247670517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Annemieke</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Ruggenberg</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1443964470517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Jefta</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Varwijk</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1729884981517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Jaap</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">van Heusden</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="569591581517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Joram</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Kaat</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1080375301517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Rachel</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Rosier</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1539172126517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Hans</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">van der Steeg</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1543316239517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Mariëlle</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Tweebeeke</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="4861342517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Bram</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Vermeulen</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="2568859965517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Kadir</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">van Lohuizen</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1081713142517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Marleen</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Stelling</mpeg7:FamilyName>
+         </PersonName>
+      </CreditsInformationTable>
+   </ProgramDescription>
+</TVAMain>

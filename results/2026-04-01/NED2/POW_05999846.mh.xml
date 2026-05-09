@@ -8,16 +8,9 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
-        <scheduleEvent channel="NED1" midRef="POW_05999846">
-            <guideDay>2026-03-31+02:00</guideDay>
-            <start>2026-03-31T17:10:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>POW_05999846</poProgID>
-        </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="POW_05999846">
             <guideDay>2026-03-31+02:00</guideDay>
             <start>2026-03-31T17:20:00+02:00</start>

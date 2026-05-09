@@ -8,7 +8,6 @@
         <term>Koken/eten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -33,7 +32,7 @@
         <scheduleEvent channel="NVOD" midRef="POW_06003924">
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-01T16:21:18.955+02:00</start>
-            <duration>P9DT20H11M8.045S</duration>
+            <duration>P73Y9M1DT9H38M41.045S</duration>
             <poProgID>POW_06003924</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="POW_06003924">

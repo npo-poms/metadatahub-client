@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977679" sortDate="2026-03-02T03:40:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:17.805+01:00">
-    <broadcaster id="NOS">NOS</broadcaster>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977679" sortDate="2026-01-13T15:03:17.805+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:17.805+01:00">
     <title owner="AUTHORITY" type="MAIN">NOS Journaal met gebarentaal</title>
     <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</description>
-    <genre id="3.0.1.7.21">
-        <term>Informatief</term>
-        <term>Nieuws/actualiteiten</term>
-    </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
-    <scheduleEvents>
-        <scheduleEvent channel="NED1" midRef="POW_05977679">
-            <guideDay>2026-03-01+01:00</guideDay>
-            <start>2026-03-02T03:40:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>POW_05977679</poProgID>
-        </scheduleEvent>
-    </scheduleEvents>
+    <scheduleEvents/>
     <segments/>
 </program>

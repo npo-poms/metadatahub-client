@@ -8,19 +8,12 @@
         <term>Wonen/Tuin</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="NED2" midRef="KN_1738142">
             <guideDay>2026-03-25+01:00</guideDay>
             <start>2026-03-25T19:10:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>KN_1738142</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="KN_1738142">
-            <guideDay>2026-03-26+01:00</guideDay>
-            <start>2026-03-26T11:20:00+01:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>KN_1738142</poProgID>
         </scheduleEvent>

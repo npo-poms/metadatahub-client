@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRSA1_1096345517559" sortDate="2026-04-01T18:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:01:44.745+01:00" lastModified="2026-04-07T12:48:04.027+02:00" publishDate="2026-04-07T12:48:28.460+02:00" urn="urn:vpro:media:program:140617001">
+    <crid>crid://npo/rcrs/697c7f83ec4b78213ea2af55</crid>
+    <broadcaster id="EO">EO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Dit is de Dag: Trump dreigt uit NAVO te stappen | nieuwe voorzitter CNV | Trouwen nog van deze tijd?</title>
+    <title owner="BROADCASTER" type="SUB">Dit is de Dag: Trump dreigt uit NAVO te stappen | nieuwe voorzitter CNV | Trouwen nog van deze tijd?</title>
+    <description owner="AUTHORITY" type="MAIN">Dit is de Dag is een stevig journalistiek, opiniërend en verdiepend radioprogramma van de EO. Hier hoor je iedere werkdag hét debat van de dag met zoveel mogelijk verschillende stemmen en perspectieven.
+Na de discussie van de dag interviewt Margje Fikse of Jan-Willem Wesselink een belangrijke of interessante nieuwsgast. Ook gaan we op zoek naar onderwerpen waar actualiteit raakt aan samenleving en geloof.
+Luisteraars worden aangemoedigd mee te doen via de NPO Luister-app, sociale media en het platform dit.eo.nl. Op vrijdag kunnen luisteraars fysiek vragen stellen tijdens het DIDD politiek café.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED"/>
+    <geoLocations owner="BROADCASTER"/>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="BROADCASTER"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT1H0M0.039S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Hans</givenName>
+            <familyName>Van der Steeg</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:43015360" midRef="RBX_S_EO_553956" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="REALIZED">INTERNETVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:10:55.683+02:00" lastModified="2026-04-07T12:47:59.966+02:00" urn="urn:vpro:media:location:142380708">
+            <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_1096345517559.mp3</programUrl>
+            <avAttributes>
+                <byteSize>86401611</byteSize>
+                <avFileFormat>MP3</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T17:30:15.013+02:00" lastModified="2026-04-07T12:48:14.567+02:00" urn="urn:vpro:media:image:142379998">
+            <shared:title>Dit is de Dag</shared:title>
+            <shared:imageUri>urn:vpro:image:2487337</shared:imageUri>
+            <shared:height>675</shared:height>
+            <shared:width>1200</shared:width>
+            <shared:credits>EO</shared:credits>
+            <shared:source>https://radioimages.npox.nl/RAD1/image/8fa2acbb-4e35-4659-9143-28ecc1afe020/DIT-IS-DE-DAG-TEGEL.jpg</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRSA1_1096345517559" urnRef="urn:vpro:media:program:140617001">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T18:00:00+02:00</start>
+            <duration>P0DT1H0M0.000S</duration>
+            <poProgID>RCRSA1_1096345517559</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:01:45.423+01:00" highlighted="false" midRef="RBX_S_EO_553956" index="3049" type="SERIES" urnRef="urn:vpro:media:group:43015360"/>
+    <segments>
+        <segment midRef="RCRSA1_1096345517559" type="SEGMENT" urnRef="urn:vpro:media:program:140617001" avType="AUDIO" embeddable="true" mid="RCRSA1_0359479738941" sortDate="2026-04-01T18:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T19:11:26.059+02:00" lastModified="2026-04-01T19:12:52.402+02:00" publishDate="2026-04-01T19:21:28.232+02:00" urn="urn:vpro:media:segment:142380709">
+            <crid>crid://npo/rcrs/69cd51bc68447995f0b93c45</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Trump dreigt NAVO te verlaten; Wat moeten Europa en Nederland doen? </title>
+            <title owner="BROADCASTER" type="SUB">Trump dreigt NAVO te verlaten; Wat moeten Europa en Nederland doen?</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H18M40.026S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:43015360" midRef="RBX_S_EO_553956" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617001" midRef="RCRSA1_1096345517559" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:12:50.242+02:00" lastModified="2026-04-01T19:20:13.383+02:00" urn="urn:vpro:media:location:142380725">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0359479738941.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_1096345517559" type="BROADCAST">
+                <episodeOf midRef="RBX_S_EO_553956" type="SERIES" index="3049"/>
+            </segmentOf>
+            <start>P0DT0H11M32.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_1096345517559" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617001" avType="VIDEO" embeddable="true" mid="RCRSA1_0756081961074" sortDate="2026-04-01T18:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T19:10:09.135+02:00" lastModified="2026-04-01T19:13:29.358+02:00" publishDate="2026-04-01T19:14:47.137+02:00" urn="urn:vpro:media:segment:142380693">
+            <crid>crid://npo/rcrs/69cd516f68447995f0b93c43</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Trump dreigt NAVO te verlaten; Wat moeten Europa en Nederland doen? </title>
+            <title owner="BROADCASTER" type="SUB">Trump dreigt NAVO te verlaten; Wat moeten Europa en Nederland doen?</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H17M57.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:43015360" midRef="RBX_S_EO_553956" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617001" midRef="RCRSA1_1096345517559" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:13:29.284+02:00" lastModified="2026-04-01T19:13:29.287+02:00" urn="urn:vpro:media:location:142380729">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0756081961074</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T19:10:48.212+02:00" lastModified="2026-04-01T19:14:05.153+02:00" urn="urn:vpro:media:image:142380706">
+                    <shared:title>thumbnail RCRSA1_0756081961074</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487778</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-171008-00i5uj.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRSA1_1096345517559" type="BROADCAST">
+                <episodeOf midRef="RBX_S_EO_553956" type="SERIES" index="3049"/>
+            </segmentOf>
+            <start>P0DT0H12M16.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_1096345517559" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617001" avType="VIDEO" embeddable="true" mid="RCRSA1_0337286948948" sortDate="2026-04-01T18:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T19:18:19.140+02:00" lastModified="2026-04-01T19:21:53.805+02:00" publishDate="2026-04-01T19:22:47.323+02:00" urn="urn:vpro:media:segment:142380757">
+            <crid>crid://npo/rcrs/69cd5359f7070ff9e2acba7d</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Nieuwe CNV-voorzitter wil niet onderhandelen met kabinet</title>
+            <title owner="BROADCASTER" type="SUB">Nieuwe CNV-voorzitter wil niet onderhandelen met kabinet</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H11M16.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:43015360" midRef="RBX_S_EO_553956" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617001" midRef="RCRSA1_1096345517559" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:21:53.688+02:00" lastModified="2026-04-01T19:21:53.691+02:00" urn="urn:vpro:media:location:142380796">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0337286948948</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T19:18:57.170+02:00" lastModified="2026-04-01T19:22:29.843+02:00" urn="urn:vpro:media:image:142380774">
+                    <shared:title>thumbnail RCRSA1_0337286948948</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487782</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-171819-00i5ul.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRSA1_1096345517559" type="BROADCAST">
+                <episodeOf midRef="RBX_S_EO_553956" type="SERIES" index="3049"/>
+            </segmentOf>
+            <start>P0DT0H32M8.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_1096345517559" type="SEGMENT" urnRef="urn:vpro:media:program:140617001" avType="AUDIO" embeddable="true" mid="RCRSA1_0629982354415" sortDate="2026-04-01T18:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T19:20:18.243+02:00" lastModified="2026-04-01T19:21:09.689+02:00" publishDate="2026-04-01T19:32:42.798+02:00" urn="urn:vpro:media:segment:142380778">
+            <crid>crid://npo/rcrs/69cd53c3f7070ff9e2acba7e</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Nieuwe CNV-voorzitter wil niet onderhandelen met kabinet</title>
+            <title owner="BROADCASTER" type="SUB">Nieuwe CNV-voorzitter wil niet onderhandelen met kabinet</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H10M43.030S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:43015360" midRef="RBX_S_EO_553956" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617001" midRef="RCRSA1_1096345517559" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:21:07.806+02:00" lastModified="2026-04-01T19:31:40.260+02:00" urn="urn:vpro:media:location:142380789">
+                    <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRSA1_0629982354415.mp3</programUrl>
+                    <avAttributes>
+                        <avFileFormat>MP3</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images/>
+            <segmentOf midRef="RCRSA1_1096345517559" type="BROADCAST">
+                <episodeOf midRef="RBX_S_EO_553956" type="SERIES" index="3049"/>
+            </segmentOf>
+            <start>P0DT0H32M41.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_1096345517559" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617001" avType="VIDEO" embeddable="true" mid="RCRSA1_0669816936448" sortDate="2026-04-01T18:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T19:21:41.680+02:00" lastModified="2026-04-01T19:25:26.958+02:00" publishDate="2026-04-01T19:27:04.456+02:00" urn="urn:vpro:media:segment:142380790">
+            <crid>crid://npo/rcrs/69cd5424f7070ff9e2acba82</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Is trouwen nog wel van deze tijd?</title>
+            <title owner="BROADCASTER" type="SUB">Is trouwen nog wel van deze tijd?</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H13M26.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:43015360" midRef="RBX_S_EO_553956" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617001" midRef="RCRSA1_1096345517559" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T19:25:26.814+02:00" lastModified="2026-04-01T19:25:26.818+02:00" urn="urn:vpro:media:location:142380812">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0669816936448</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T19:22:30.803+02:00" lastModified="2026-04-01T19:26:00.153+02:00" urn="urn:vpro:media:image:142380802">
+                    <shared:title>thumbnail RCRSA1_0669816936448</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487786</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-172142-00i5un.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRSA1_1096345517559" type="BROADCAST">
+                <episodeOf midRef="RBX_S_EO_553956" type="SERIES" index="3049"/>
+            </segmentOf>
+            <start>P0DT0H43M25.000S</start>
+        </segment>
+        <segment midRef="RCRSA1_1096345517559" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617001" avType="VIDEO" embeddable="true" mid="RCRSA1_0540424805337" sortDate="2026-04-01T18:00:00+02:00" workflow="PUBLISHED" creationDate="2026-04-02T13:16:45.557+02:00" lastModified="2026-04-02T13:20:23.195+02:00" publishDate="2026-04-02T13:21:14.149+02:00" urn="urn:vpro:media:segment:142385473">
+            <crid>crid://npo/rcrs/69ce501bf7070ff9e2acc101</crid>
+            <broadcaster id="EO">EO</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Trouwen van deze tijd</title>
+            <title owner="BROADCASTER" type="SUB">Trouwen van deze tijd</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H16M19.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:43015360" midRef="RBX_S_EO_553956" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617001" midRef="RCRSA1_1096345517559" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-02T13:20:23.069+02:00" lastModified="2026-04-02T13:20:23.072+02:00" urn="urn:vpro:media:location:142385485">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0540424805337</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-02T13:17:38.342+02:00" lastModified="2026-04-02T13:20:57.194+02:00" urn="urn:vpro:media:image:142385483">
+                    <shared:title>thumbnail RCRSA1_0540424805337</shared:title>
+                    <shared:imageUri>urn:vpro:image:2488009</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260402-111646-00i60o.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRSA1_1096345517559" type="BROADCAST">
+                <episodeOf midRef="RBX_S_EO_553956" type="SERIES" index="3049"/>
+            </segmentOf>
+            <start>P0DT0H43M39.000S</start>
+        </segment>
+    </segments>
+</program>

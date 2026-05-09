@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0170556544353" sortDate="2026-04-01T11:30:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:11:34.614+01:00" lastModified="2026-04-02T15:30:08.312+02:00" publishDate="2026-04-07T12:21:59.085+02:00" urn="urn:vpro:media:program:140617293">
+    <crid>crid://npo/rcrs/69441ecaddd27ea767ab526f</crid>
+    <broadcaster id="WNL">WNL</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Sven op 1 met André Kuipers</title>
+    <title owner="BROADCASTER" type="SUB">Sven op 1 met André Kuipers</title>
+    <description owner="AUTHORITY" type="MAIN">Een dagelijks actueel interviewprogramma met Sven Kockelmann rond het nieuws van de dag of de week. Bij voorkeur met de hoofdpersoon uit of bij dat nieuws, het liefst zelfs met de verantwoordelijke.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <targetGroups owner="INHERITED">
+        <targetGroup>KIDS_14</targetGroup>
+        <targetGroup>KIDS_16</targetGroup>
+    </targetGroups>
+    <geoLocations owner="BROADCASTER"/>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="BROADCASTER"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT0H30M0.045S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Sven</givenName>
+            <familyName>Kockelmann</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:122228364" midRef="PREPR_S_RA1_16702815" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="REALIZED">INTERNETVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T12:09:48.698+02:00" lastModified="2026-04-07T12:20:40.098+02:00" urn="urn:vpro:media:location:142375642">
+            <programUrl>https://entry.cdn.npoaudio.nl/handle/RCRST1_0170556544353.mp3</programUrl>
+            <avAttributes>
+                <byteSize>43201768</byteSize>
+                <avFileFormat>MP3</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T13:00:52.191+02:00" lastModified="2026-04-07T12:20:53.707+02:00" urn="urn:vpro:media:image:142376001">
+            <shared:title>Sven-op-1-landscape</shared:title>
+            <shared:description>
+- programma: Sven op 1</shared:description>
+            <shared:imageUri>urn:vpro:image:2486888</shared:imageUri>
+            <shared:height>675</shared:height>
+            <shared:width>1200</shared:width>
+            <shared:source>https://radioimages.npox.nl/s3-nporadio1/289d7tcn8psx-sven-op-1-landscape.jpg</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0170556544353" urnRef="urn:vpro:media:program:140617293">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T11:30:00+02:00</start>
+            <duration>P0DT0H30M0.000S</duration>
+            <poProgID>RCRST1_0170556544353</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:11:34.708+01:00" highlighted="false" midRef="PREPR_S_RA1_16702815" index="1192" type="SERIES" urnRef="urn:vpro:media:group:122228364"/>
+    <segments>
+        <segment midRef="RCRST1_0170556544353" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617293" avType="VIDEO" embeddable="true" mid="RCRSA1_0001343633861" sortDate="2026-04-01T11:30:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T11:53:09.608+02:00" lastModified="2026-04-01T11:54:51.389+02:00" publishDate="2026-04-01T11:56:00.883+02:00" urn="urn:vpro:media:segment:142375492">
+            <crid>crid://npo/rcrs/69cceb0368447995f0b934d3</crid>
+            <broadcaster id="WNL">WNL</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">X sven diepst heelal in ooit</title>
+            <title owner="BROADCASTER" type="SUB">X sven diepst heelal in ooit</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H1M34.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:122228364" midRef="PREPR_S_RA1_16702815" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617293" midRef="RCRST1_0170556544353" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T11:54:51.352+02:00" lastModified="2026-04-01T11:54:51.354+02:00" urn="urn:vpro:media:location:142375519">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0001343633861</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T11:53:35.140+02:00" lastModified="2026-04-01T11:55:21.614+02:00" urn="urn:vpro:media:image:142375507">
+                    <shared:title>thumbnail RCRSA1_0001343633861</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487634</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-095310-00i5pp.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRST1_0170556544353" type="BROADCAST">
+                <episodeOf midRef="PREPR_S_RA1_16702815" type="SERIES" index="1192"/>
+            </segmentOf>
+            <start>P0DT0H0M1.000S</start>
+        </segment>
+        <segment midRef="RCRST1_0170556544353" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617293" avType="VIDEO" embeddable="true" mid="RCRSA1_0661979208817" sortDate="2026-04-01T11:30:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T12:04:56.411+02:00" lastModified="2026-04-01T12:06:36.123+02:00" publishDate="2026-04-01T12:07:23.412+02:00" urn="urn:vpro:media:segment:142375600">
+            <crid>crid://npo/rcrs/69ccedc668447995f0b934e0</crid>
+            <broadcaster id="WNL">WNL</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Sven x spacex</title>
+            <title owner="BROADCASTER" type="SUB">Sven x spacex</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H1M30.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:122228364" midRef="PREPR_S_RA1_16702815" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617293" midRef="RCRST1_0170556544353" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T12:06:36.051+02:00" lastModified="2026-04-01T12:06:36.054+02:00" urn="urn:vpro:media:location:142375618">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0661979208817</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:05:21.040+02:00" lastModified="2026-04-01T12:07:10.205+02:00" urn="urn:vpro:media:image:142375614">
+                    <shared:title>thumbnail RCRSA1_0661979208817</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487636</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-100457-00i5pr.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRST1_0170556544353" type="BROADCAST">
+                <episodeOf midRef="PREPR_S_RA1_16702815" type="SERIES" index="1192"/>
+            </segmentOf>
+            <start>P0DT0H0M6.000S</start>
+        </segment>
+        <segment midRef="RCRST1_0170556544353" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617293" avType="VIDEO" embeddable="true" mid="RCRSA1_0467403339518" sortDate="2026-04-01T11:30:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T12:07:10.698+02:00" lastModified="2026-04-01T12:08:26.385+02:00" publishDate="2026-04-01T12:10:07.346+02:00" urn="urn:vpro:media:segment:142375620">
+            <crid>crid://npo/rcrs/69ccee3b68447995f0b934e7</crid>
+            <broadcaster id="WNL">WNL</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Sven x chinezen</title>
+            <title owner="BROADCASTER" type="SUB">Sven x chinezen</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H1M12.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:122228364" midRef="PREPR_S_RA1_16702815" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617293" midRef="RCRST1_0170556544353" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T12:08:26.305+02:00" lastModified="2026-04-01T12:08:26.307+02:00" urn="urn:vpro:media:location:142375634">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0467403339518</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:07:26.908+02:00" lastModified="2026-04-01T12:09:01.432+02:00" urn="urn:vpro:media:image:142375630">
+                    <shared:title>thumbnail RCRSA1_0467403339518</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487637</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-100653-00i5ps.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRST1_0170556544353" type="BROADCAST">
+                <episodeOf midRef="PREPR_S_RA1_16702815" type="SERIES" index="1192"/>
+            </segmentOf>
+            <start>P0DT0H0M39.000S</start>
+        </segment>
+        <segment midRef="RCRST1_0170556544353" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617293" avType="VIDEO" embeddable="true" mid="RCRSA1_0647589047368" sortDate="2026-04-01T11:30:00+02:00" workflow="PUBLISHED" creationDate="2026-04-01T11:44:07.923+02:00" lastModified="2026-04-01T11:45:25.999+02:00" publishDate="2026-04-01T11:46:10.159+02:00" urn="urn:vpro:media:segment:142375329">
+            <crid>crid://npo/rcrs/69cce8e668447995f0b934ca</crid>
+            <broadcaster id="WNL">WNL</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Sven x Nederlandse zonnepanelen</title>
+            <title owner="BROADCASTER" type="SUB">Sven x Nederlandse zonnepanelen</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H1M51.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:122228364" midRef="PREPR_S_RA1_16702815" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617293" midRef="RCRST1_0170556544353" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T11:45:25.966+02:00" lastModified="2026-04-01T11:45:25.969+02:00" urn="urn:vpro:media:location:142375369">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0647589047368</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T11:44:27.702+02:00" lastModified="2026-04-01T11:46:04.343+02:00" urn="urn:vpro:media:image:142375341">
+                    <shared:title>thumbnail RCRSA1_0647589047368</shared:title>
+                    <shared:imageUri>urn:vpro:image:2487632</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260401-094408-00i5pm.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRST1_0170556544353" type="BROADCAST">
+                <episodeOf midRef="PREPR_S_RA1_16702815" type="SERIES" index="1192"/>
+            </segmentOf>
+            <start>P0DT0H1M4.000S</start>
+        </segment>
+        <segment midRef="RCRST1_0170556544353" type="VISUALRADIOSEGMENT" urnRef="urn:vpro:media:program:140617293" avType="VIDEO" embeddable="true" mid="RCRSA1_0084467490190" sortDate="2026-04-01T11:30:00+02:00" workflow="PUBLISHED" creationDate="2026-04-02T15:25:09.729+02:00" lastModified="2026-04-02T15:30:08.322+02:00" publishDate="2026-04-02T15:31:32.605+02:00" urn="urn:vpro:media:segment:142386746">
+            <crid>crid://npo/rcrs/69ce6e33f7070ff9e2acc1be</crid>
+            <broadcaster id="WNL">WNL</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Kuipers</title>
+            <title owner="BROADCASTER" type="SUB">Kuipers</title>
+            <genre id="3.0.1.7">
+                <term>Informatief</term>
+            </genre>
+            <genre id="3.0.1.7.21">
+                <term>Informatief</term>
+                <term>Nieuws/actualiteiten</term>
+            </genre>
+            <intentions owner="BROADCASTER"/>
+            <targetGroups owner="BROADCASTER"/>
+            <geoLocations owner="BROADCASTER"/>
+            <geoLocations owner="AUTHORITY"/>
+            <topics owner="BROADCASTER"/>
+            <topics owner="AUTHORITY"/>
+            <duration>P0DT0H26M44.000S</duration>
+            <credits/>
+            <descendantOf urnRef="urn:vpro:media:group:122228364" midRef="PREPR_S_RA1_16702815" type="SERIES"/>
+            <descendantOf urnRef="urn:vpro:media:program:140617293" midRef="RCRST1_0170556544353" type="BROADCAST"/>
+            <ageRating>ALL</ageRating>
+            <prediction state="REALIZED">INTERNETVOD</prediction>
+            <locations>
+                <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-02T15:30:08.215+02:00" lastModified="2026-04-02T15:30:08.218+02:00" urn="urn:vpro:media:location:142386769">
+                    <programUrl>npo://internetvod.omroep.nl/RCRSA1_0084467490190</programUrl>
+                    <avAttributes>
+                        <bitrate>3500000</bitrate>
+                        <avFileFormat>HASP</avFileFormat>
+                    </avAttributes>
+                </location>
+            </locations>
+            <images>
+                <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-02T15:26:11.741+02:00" lastModified="2026-04-02T15:30:39.773+02:00" urn="urn:vpro:media:image:142386760">
+                    <shared:title>thumbnail RCRSA1_0084467490190</shared:title>
+                    <shared:imageUri>urn:vpro:image:2488056</shared:imageUri>
+                    <shared:height>720</shared:height>
+                    <shared:width>1280</shared:width>
+                    <shared:credits>fragment</shared:credits>
+                    <shared:source>https://radioimages.npox.nl/thumbnails/nporadio1_vsr-20260402-132510-00i624.jpg</shared:source>
+                    <shared:sourceName>NPO RCRS</shared:sourceName>
+                    <shared:license>COPYRIGHTED</shared:license>
+                </shared:image>
+            </images>
+            <segmentOf midRef="RCRST1_0170556544353" type="BROADCAST">
+                <episodeOf midRef="PREPR_S_RA1_16702815" type="SERIES" index="1192"/>
+            </segmentOf>
+            <start>P0DT0H3M15.000S</start>
+        </segment>
+    </segments>
+</program>

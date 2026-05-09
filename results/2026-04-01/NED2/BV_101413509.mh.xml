@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413509" sortDate="2026-04-05T03:50:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-10T15:40:49.212+01:00">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413509" sortDate="2026-04-04T15:50:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-10T15:40:49.212+01:00">
     <broadcaster id="BNVA">BNNVARA</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Kassa</title>
     <description owner="AUTHORITY" type="MAIN">Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?</description>
@@ -8,7 +8,6 @@
         <term>Consumenten informatie</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -33,12 +32,6 @@
         <scheduleEvent channel="BVNT" midRef="BV_101413509">
             <guideDay>2026-04-04+02:00</guideDay>
             <start>2026-04-04T15:50:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>BV_101413509</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="BV_101413509">
-            <guideDay>2026-04-04+02:00</guideDay>
-            <start>2026-04-05T03:50:00+02:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>BV_101413509</poProgID>
         </scheduleEvent>

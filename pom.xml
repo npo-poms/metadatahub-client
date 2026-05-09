@@ -65,6 +65,11 @@
       <groupId>nl.vpro.media</groupId>
       <artifactId>media-domain</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>nl.vpro.media</groupId>
+      <artifactId>media-tva</artifactId>
+    </dependency>
     <dependency>
       <groupId>nl.vpro.poms.api-clients</groupId>
       <artifactId>frontend-api-client</artifactId>

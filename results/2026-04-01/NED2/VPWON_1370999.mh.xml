@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1370999" sortDate="2026-04-01T14:15:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:05.237+01:00">
-    <broadcaster id="NTR">NTR</broadcaster>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1370999" sortDate="2026-02-11T15:41:05.237+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:05.237+01:00">
     <title owner="AUTHORITY" type="MAIN">Carolina Dijkhuizen</title>
     <description owner="AUTHORITY" type="MAIN">Carolina Dijkhuizen is actrice en zangeres. Ze speelt de iconische rol van Hermelien Griffel in het toneelstuk Harry Potter en het Vervloekte Kind, een voorstelling vol magie, emotie en onverwachte wendingen. Dijkhuizen is een vertrouwd gezicht in de Nederlandse theaterwereld en speelde eerdere hoofdrollen in musicals als Aida, The Lion King en Sister Act. Daarnaast was ze te zien in populaire televisieprogramma's zoals De Beste Zangers van Nederland, Wie is de Mol? en Expeditie Robinson.</description>
-    <genre id="3.0.1.7.24">
-        <term>Informatief</term>
-        <term>Kunst/cultuur</term>
-    </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
-    <scheduleEvents>
-        <scheduleEvent channel="NED2" midRef="VPWON_1370999">
-            <guideDay>2026-04-01+02:00</guideDay>
-            <start>2026-04-01T14:15:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>VPWON_1370999</poProgID>
-        </scheduleEvent>
-    </scheduleEvents>
+    <scheduleEvents/>
     <segments/>
 </program>

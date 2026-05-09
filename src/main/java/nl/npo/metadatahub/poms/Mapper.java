@@ -6,40 +6,64 @@ import java.time.Instant;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import lombok.Getter;
 import lombok.extern.java.Log;
-import nl.vpro.domain.classification.*;
+import nl.vpro.domain.classification.ClassificationService;
+import nl.vpro.domain.classification.Term;
 import nl.vpro.domain.media.*;
 import nl.vpro.domain.media.support.OwnerType;
 import nl.vpro.domain.user.Broadcaster;
 import nl.vpro.domain.user.ServiceLocator;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Literal;
+import org.checkerframework.checker.nullness.qual.NonNull;
 
+/**
+ * Contains the logic to map jena {@link ResultSet 's } to objects from the poms domain.
+ */
 @Log
 public class Mapper {
+
+    private static final Locale nl_vpp = Locale.of("nl", "", "vpp");
 
 
     // ratingType URI suffixes that indicate an age rating (Kijkwijzer)
     private static final String AGE_RATING_TYPE_SUFFIX = "AgeRating";
 
-    private final Set<String> fields;
-    private final MetadataHubMediaService service;
+    /**
+     * Ad hoc logic to properly try to map genre?
+     */
+    @Getter
+    private final LoadingCache<String, Optional<Genre>> genreCache = CacheBuilder.newBuilder()
+        .build(new CacheLoader<>() {
+            @Override
+            public @NonNull Optional<Genre> load(final @NonNull String key) {
+                return Mapper.this.loadGenre(key);
+            }
+        });
 
-    public Mapper(MetadataHubMediaService service, Collection<String> fields) {
-        this.fields = new HashSet<>(fields);
-        this.service = service;
+    private final ClassificationService classificationService;
+
+    protected Mapper() {
+        this.classificationService = MetadataHubService.classificationService;
     }
 
     /** Maps scalar fields from the first row; collects ScheduleEvents, genres and ratings from all rows. */
-    public void  toProgram(List<QuerySolution> rows, MediaBuilder.ProgramBuilder builder) {
-        QuerySolution first = rows.getFirst();
+    public boolean  toProgram(ResultSet resultSet, MediaBuilder.ProgramBuilder builder) {
+        if (!resultSet.hasNext()) {
+            return false;
+        }
+        List<String> fields = resultSet.getResultVars();
+        QuerySolution first = resultSet.next();
 
-        setString("title", first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
-        setString("description", first, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
-        setString("prid", first, builder::mid);
-        setInstant("dateCreated", first, builder::creationInstant);
-        setInstant("dateModified", first, builder::lastModified);
+        setString("title", fields, first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
+        setString("description", fields, first, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
+        setString("prid", fields , first, builder::mid);
+        setInstant("dateCreated", fields, first, builder::creationInstant);
+        setInstant("dateModified", fields, first, builder::lastModified);
 
         // Collect multi-valued fields across all rows
 
@@ -51,8 +75,9 @@ public class Mapper {
         Set<ContentRating> contentRatings = new LinkedHashSet<>();
         Set<Broadcaster> broadcasters = new LinkedHashSet<>();
 
-        for (QuerySolution row : rows) {
-            toScheduleEvent(row).ifPresent(scheduleEvents::add);
+        while(resultSet.hasNext()) {
+            QuerySolution row = resultSet.next();
+            toScheduleEvent(fields, row).ifPresent(scheduleEvents::add);
 
             // Genre
             if (fields.contains("genreLabel")) {
@@ -82,9 +107,7 @@ public class Mapper {
                 Literal broadcasterLit = row.getLiteral("broadcaster");
                 if (broadcasterLit != null) {
                     parseBroadcaster(broadcasterLit.getString())
-                        .ifPresentOrElse(broadcasters::add, () -> {
-                            log.warning("Broadcaster " + broadcasterLit + " snot found");
-                        });
+                        .ifPresentOrElse(broadcasters::add, () -> log.warning("Broadcaster " + broadcasterLit + " snot found"));
 
                 }
             }
@@ -95,6 +118,7 @@ public class Mapper {
         builder.ageRating(ageRating);
         builder.contentRatings(contentRatings.toArray(new ContentRating[0]));
         builder.broadcasters(broadcasters.toArray(new Broadcaster[0]));
+        return true;
     }
 
 
@@ -103,12 +127,49 @@ public class Mapper {
             b.getDisplayName().equalsIgnoreCase(broadcaster)).findFirst();
     }
     private Optional<Genre> parseGenreLabel(String label) {
-        Optional<Genre> g =  service.getGenreCache().getUnchecked(label);
+        Optional<Genre> g =  genreCache.getUnchecked(label);
         if (g.isEmpty()) {
             log.severe("Unknown genre label '%s', ignoring".formatted(label));
         }
         return g;
     }
+
+    private Optional<Genre> loadGenre(String key) {
+        String[] split = key.split("-", 2);
+        String primary = split[0].trim();
+        String secondary;
+        if  (split.length > 1) {
+            secondary = split[1].trim();
+        } else {
+            secondary = null;
+        }
+        Optional<Term> primaryTerm = classificationService.values().stream()
+            .filter(t -> t.depth() == 4)
+            .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(primary)).findFirst();
+
+        if (primaryTerm.isEmpty()) {
+            log.warning("Could not find primary term for " + primary);
+            return Optional.empty();
+        }
+
+        final Optional<Term> secondaryTerm = classificationService.values().stream()
+            .filter(t -> primaryTerm.get().equals(t.getParent()))
+            .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(secondary))
+            .findFirst();
+
+
+        if (secondaryTerm.isPresent()) {
+            return Optional.of(Genre.of(secondaryTerm.get()));
+        } else {
+            if (StringUtils.isNotEmpty(secondary)) {
+                if (! "Overig".equalsIgnoreCase(secondary)) {
+                    throw new NoSuchElementException("No such term " + secondary + " for " + primaryTerm);
+                }
+            }
+        }
+        return Optional.of(Genre.of(primaryTerm.get()));
+    }
+
 
     private AgeRating parseAgeRating(String value) {
         if ("AL".equals(value.trim())) {
@@ -135,7 +196,7 @@ public class Mapper {
     }
 
 
-    public Optional<ScheduleEvent> toScheduleEvent(QuerySolution row) {
+    public Optional<ScheduleEvent> toScheduleEvent(List<String> fields, QuerySolution row) {
         if (!fields.contains("channelName") || !fields.contains("start")) {
             return Optional.empty();
         }
@@ -184,16 +245,16 @@ public class Mapper {
         return Optional.empty();
     }
 
-    protected void setString(String field, QuerySolution item, Consumer<String> consumer) {
-        set(field, item, consumer, Literal::getString);
+    protected void setString(String field, List<String> fields, QuerySolution item, Consumer<String> consumer) {
+        set(field, fields, item, consumer, Literal::getString);
     }
 
-    protected void setInstant(String field, QuerySolution item, Consumer<Instant> consumer) {
-        set(field, item, consumer, lit -> ((XSDDateTime) lit.getValue()).asCalendar().toInstant());
+    protected void setInstant(String field, List<String> fields, QuerySolution item, Consumer<Instant> consumer) {
+        set(field, fields, item, consumer, lit -> ((XSDDateTime) lit.getValue()).asCalendar().toInstant());
     }
 
 
-    protected <T> void set(String field, QuerySolution item, Consumer<T> consumer, Function<Literal, T> converter) {
+    protected <T> void set(String field, List<String> fields, QuerySolution item, Consumer<T> consumer, Function<Literal, T> converter) {
         if (fields.contains(field)) {
             var lit = item.getLiteral(field);
             if (lit == null) {

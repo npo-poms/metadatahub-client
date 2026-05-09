@@ -8,16 +8,9 @@
         <term>Spel/quiz</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
-        <scheduleEvent channel="NVOD" midRef="POW_06001585">
-            <guideDay>2026-03-30+02:00</guideDay>
-            <start>2026-03-30T10:45:57.501+02:00</start>
-            <duration>P1Y0M0DT23H57M51.499S</duration>
-            <poProgID>POW_06001585</poProgID>
-        </scheduleEvent>
         <scheduleEvent channel="NVOD" midRef="POW_06001585">
             <guideDay>2026-03-30+02:00</guideDay>
             <start>2026-03-30T22:56:29.970+02:00</start>

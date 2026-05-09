@@ -8,19 +8,12 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="BVNT" midRef="BV_101414120">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-01T22:35:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>BV_101414120</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="NED1" midRef="BV_101414120">
-            <guideDay>2026-03-01+01:00</guideDay>
-            <start>2026-03-01T22:45:00+01:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>BV_101414120</poProgID>
         </scheduleEvent>

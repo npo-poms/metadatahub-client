@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TVAMain xmlns="urn:tva:metadata:2004" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001"><!--
+        This is experimental since poms 8.12.
+        It is produced from POMS MediaTable XML (see https://poms.omroep.nl/schema/vproMedia.xsd).
+
+        It is mainly used to generate test data for the integration tests.
+      -->
+   <ProgramDescription>
+      <ProgramInformationTable>
+         <ProgramInformation programId="crid://npo/rcrs/69441a311ce98d2825f8a674">
+            <BasicDescription>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/68de715df60b46d81b57a404">
+            <BasicDescription>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/69441ecaddd27ea767ab526f">
+            <BasicDescription>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/6957e2e24db39f1c9ab91566">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/68de7255f60b46d81b57a5c0">
+            <BasicDescription>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/691da4b5a4f48bc8fe36f00a">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/698605644975ad95d4e9e4ac">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/697c7f83ec4b78213ea2af55">
+            <BasicDescription>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/69319ae6f7f7a0241bfc2ebd">
+            <BasicDescription>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/696e05e9e873067a87554421">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/68de735c5a52f9724ecebb30">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/68de70d0f60b46d81b57a2b4">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/68de70edf60b46d81b57a2f4">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/68f783a73438a9c6b5909ff7">
+            <BasicDescription>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/68de711d5a52f9724eceb6c2">
+            <BasicDescription>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+      </ProgramInformationTable>
+      <GroupInformationTable/>
+      <ProgramLocationTable>
+         <Schedule>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/69441a311ce98d2825f8a674"/>
+               <PublishedStartTime>2026-04-01T06:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT3H30M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_0060214266869</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RBX_S_NOS_553954</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/68de715df60b46d81b57a404"/>
+               <PublishedStartTime>2026-04-01T09:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0355592661206</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RBX_S_KN_12096876</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/69441ecaddd27ea767ab526f"/>
+               <PublishedStartTime>2026-04-01T11:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H30M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_0170556544353</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">PREPR_S_RA1_16702815</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/6957e2e24db39f1c9ab91566"/>
+               <PublishedStartTime>2026-04-01T12:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H30M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_0136769270476</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RBX_S_TROS_553952</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/68de7255f60b46d81b57a5c0"/>
+               <PublishedStartTime>2026-04-01T13:30:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H30M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0326531742734</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RBX_S_VPRO_553970</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/691da4b5a4f48bc8fe36f00a"/>
+               <PublishedStartTime>2026-04-01T14:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0505639798694</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">PREPR_S_RA1_16714076</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/698605644975ad95d4e9e4ac"/>
+               <PublishedStartTime>2026-04-01T16:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0302278264227</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0975087235776</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/697c7f83ec4b78213ea2af55"/>
+               <PublishedStartTime>2026-04-01T18:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_1096345517559</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RBX_S_EO_553956</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/69319ae6f7f7a0241bfc2ebd"/>
+               <PublishedStartTime>2026-04-01T19:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0528666245850</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0717451035939</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/696e05e9e873067a87554421"/>
+               <PublishedStartTime>2026-04-01T21:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0192642439060</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RBX_S_NOS_2868025</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/68de735c5a52f9724ecebb30"/>
+               <PublishedStartTime>2026-04-01T23:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0545952112283</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">AUTO_NOSMETHETOOGOPMORGEN</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/68de70d0f60b46d81b57a2b4"/>
+               <PublishedStartTime>2026-04-02T00:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0399698759492</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RBX_S_VPRO_554445</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/68de70edf60b46d81b57a2f4"/>
+               <PublishedStartTime>2026-04-02T01:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0509926599083</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">PREPR_S_AT_16714075</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/68f783a73438a9c6b5909ff7"/>
+               <PublishedStartTime>2026-04-02T02:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT3H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0574536771911</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">PREPR_S_BV_16715366</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/68de711d5a52f9724eceb6c2"/>
+               <PublishedStartTime>2026-04-02T05:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRSA1_0136180652010</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">PREPR_S_BV_16715433</OtherIdentifier>
+            </ScheduleEvent>
+         </Schedule>
+      </ProgramLocationTable>
+      <CreditsInformationTable/>
+   </ProgramDescription>
+</TVAMain>

@@ -8,7 +8,6 @@
         <term>Spel/quiz</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -21,12 +20,6 @@
         <scheduleEvent channel="BVNT" midRef="BV_101413694">
             <guideDay>2026-03-31+02:00</guideDay>
             <start>2026-04-01T00:35:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>BV_101413694</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="BV_101413694">
-            <guideDay>2026-04-01+02:00</guideDay>
-            <start>2026-04-01T12:35:00+02:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>BV_101413694</poProgID>
         </scheduleEvent>

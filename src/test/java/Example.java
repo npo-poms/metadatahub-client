@@ -2,17 +2,18 @@ import jakarta.xml.bind.JAXB;
 import static java.lang.ScopedValue.where;
 import static java.nio.file.Files.newOutputStream;
 import java.util.logging.Logger;
+import javax.xml.transform.stream.StreamResult;
 import nl.npo.metadatahub.client.Configuration;
 import static nl.npo.metadatahub.client.sparql.MetadataSparqlClient.onQueryExecuted;
 import nl.npo.metadatahub.poms.*;
 import nl.vpro.api.client.frontend.NpoApiClients;
-import nl.vpro.domain.media.Channel;
+import nl.vpro.domain.media.*;
 import nl.vpro.logging.log4j2.CaptureToSimpleLogger;
 import nl.vpro.logging.simple.OutputStreamSimpleLogger;
+import nl.vpro.media.tva.Transform;
 import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
 import static org.apache.jena.query.ResultSetFormatter.*;
-import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.jul.Log4jBridgeHandler;
 
 /**
@@ -34,18 +35,27 @@ void main() throws Exception {
     var resultsPrent = Paths.get("results");
     try(
         var pomsServices = NpoApiClients.configured(Env.PROD).build();
-        var metadataHubMediaService = new MetadataHubMediaService(new Configuration().createClient());
+        var metadataHubMediaService = new MetadataHubService(new Configuration().createClient());
         ) {
-        for (Day day : List.of(new Day(Channel.NED2, LocalDate.of(2026, 4, 1)), new Day(Channel.NED1, LocalDate.of(2026, 3, 1)))) {
+        for (Day day : List.of(
+            new Day(Channel.NED2, LocalDate.of(2026, 4, 1)),
+            new Day(Channel.NED1, LocalDate.of(2026, 3, 1)),
+            new Day(Channel.RAD1, LocalDate.of(2026, 4, 1))
+        )) {
 
             // todo, I couldn't get this working yet via MH
             var resultFromPoms = pomsServices.getScheduleService().listChannel(day.channel.name(), day.day, null, null, "all", null, 0L, 240);
 
-            Path results = resultsPrent.resolve(day.day().toString()).resolve(day.channel.name());
+            Path dayDir = resultsPrent.resolve(day.day().toString());
+            Path results = dayDir.resolve(day.channel.name());
             Files.createDirectories(results);
-
+            MediaTable pomsMediaTable = new MediaTable();
+            MediaTable mhMediaTable = new MediaTable();
+            Schedule schedule = new Schedule();
             for (var event : resultFromPoms) {
+                schedule.addScheduleEvent(event);;
                 var mo = event.getParent();
+
                 var mid = mo.getMid();
 
                 var mhJsonFile = results.resolve(mid + ".mh.json");
@@ -77,6 +87,7 @@ void main() throws Exception {
                             metadataHubMediaService.getProgram(mo.getMid()).ifPresentOrElse(
                                 program -> {
                                     JAXB.marshal(program, out);
+                                    mhMediaTable.add(program);
                                     log.info("MH: " + mhFile);
                                 },
                                 () -> log.info("MH: no program found for mid " + mo.getMid())
@@ -87,6 +98,11 @@ void main() throws Exception {
                     });
                 }
             }
+            pomsMediaTable.fillFrom(schedule);
+            try (var tvaFile = newOutputStream(dayDir.resolve(day.channel.name() + ".tva.xml"))) {
+                Transform.toTVA(pomsMediaTable, new StreamResult(tvaFile));
+            }
+
         }
 
     }
