@@ -9,6 +9,9 @@
       <ProgramInformationTable>
          <ProgramInformation programId="crid://npo/rcrs/69441a311ce98d2825f8a674">
             <BasicDescription>
+               <Title type="main">NOS Radio 1 Journaal</Title>
+               <Title type="episodeTitle">NOS Radio 1 Journaal</Title>
+               <Synopsis length="medium">De dag begint om 06.00 uur met het NOS Radio 1 Journaal. Je wordt bijgepraat over het nieuws van dat moment en de grote nieuwsverhalen van de dag. Met context, duiding, reacties en analyses bij het nieuws.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -20,6 +23,9 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/68de715df60b46d81b57a404">
             <BasicDescription>
+               <Title type="main">Spraakmakers</Title>
+               <Title type="episodeTitle">Spraakmakers</Title>
+               <Synopsis length="medium">Spraakmaker is vandaag Marit Törnqvist. In het Mediaforum zijn Roos Moggré en Michelle Salomons te gast. Bij Stand.nl de stelling: 'We moeten de oproepen om energie te besparen serieus nemen.' In het tweede uur gaan we het hebben over het 25-jarig jubileum van het homohuwelijk en over Marit Törnqvists toch langs azc's om kinderen voor te lezen.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -31,6 +37,9 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/69441ecaddd27ea767ab526f">
             <BasicDescription>
+               <Title type="main">Sven op 1 met André Kuipers</Title>
+               <Title type="episodeTitle">Sven op 1 met André Kuipers</Title>
+               <Synopsis length="medium">Een dagelijks actueel interviewprogramma met Sven Kockelmann rond het nieuws van de dag of de week. Bij voorkeur met de hoofdpersoon uit of bij dat nieuws, het liefst zelfs met de verantwoordelijke.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -42,11 +51,17 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/6957e2e24db39f1c9ab91566">
             <BasicDescription>
+               <Title type="main">EenVandaag</Title>
+               <Title type="episodeTitle">EenVandaag</Title>
+               <Synopsis length="medium">Het actualiteitenprogramma EenVandaag wordt dagelijks uitgezonden tussen 12.00 uur en 13.30 uur op NPO Radio 1. De presentatie is in handen van Suzanne Bosman, en op woensdag van Hila Noorzai.</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/68de7255f60b46d81b57a5c0">
             <BasicDescription>
+               <Title type="main">Bureau Buitenland - Wie is dé Amerikaan?</Title>
+               <Title type="episodeTitle">Bureau Buitenland - Wie is dé Amerikaan?</Title>
+               <Synopsis length="medium">In Bureau Buitenland hoor je internationaal nieuws, reportages en geopolitiek. Met achtergronden en opmerkelijke verhalen, van maandag tot en met vrijdag van 13.30 tot 14.00 uur. Wie is dé Amerikaan? Vandaag buigt het Hooggerechtshof zich over een slepende kwestie in de VS: het recht op staatsburgerschap door geboorte op Amerikaans grondgebied. Trump wil er heel graag van af. Maar volgens critici gaat dat de wens van de president in tegen de kernwaarden van Amerika en schuilt er een idee van witte suprematie achter. Daarover correspondent Mari Meyer en Amerikanist Manon Portos Minetti, verbonden aan de Universiteit Leiden. Droneoorlog verhardt conflict Oost-Congo Terwijl de Verenigde Staten in december nog met veel bombarie een vredesakkoord aankondigden voor het conflict in Oost-Congo, botst dat beeld hard met de gewelddadige realiteit op de grond. De onrust neemt verder toe, te meer nu het Congolese leger ook drones inzet in de strijd tegen de door Rwanda gesteunde M23 rebellen. Ondertussen vloeien wel grondstoffen uit dit conflictgebied naar Amerika. We spreken erover met journalist en Congokenner Elien Spillebeen.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -58,16 +73,25 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/691da4b5a4f48bc8fe36f00a">
             <BasicDescription>
+               <Title type="main">Villa VdB</Title>
+               <Title type="episodeTitle">Villa VdB</Title>
+               <Synopsis length="medium">Jurgen van den Berg presenteert een programma waarin verder wordt gekeken dan de waan van de dag. Met omdenken, doordenken en terugdenken wordt een gelaagdheid aangebracht bij de dagelijkse nieuwsstroom. Dagelijks staat er bij de intercom een Huisvriend van de villa om ontwikkelingen uit zijn of haar vakgebied te signaleren. Het programma beweegt mee met de samenleving: we vieren of tonen medeleven. We inspireren met constructieve oplossingen voor maatschappelijke vraagstukken als de vergrijzing. Een lach en een traan zijn niet verboden. Oud nieuws wordt nieuw leven ingeblazen in de historische rubriek Terug naar Toen. En we spelen het spel 'Tijdje Terug' waarbij kennis van nieuwsfeiten uit het verleden voor prijzen kan zorgen.</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/698605644975ad95d4e9e4ac">
             <BasicDescription>
+               <Title type="main">NOS Radio 1 Journaal</Title>
+               <Title type="episodeTitle">NOS Radio 1 Journaal</Title>
+               <Synopsis length="medium">Het NOS Radio 1 Journaal in de middag wordt gemaakt door de NOS en de NTR. Je wordt bijgepraat over de belangrijkste nieuwsverhalen van de dag en de nieuwsontwikkelingen van dat moment. Ook is er ruimte voor achtergronden bij het nieuws, onderzoeksverhalen en wetenschap.</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/697c7f83ec4b78213ea2af55">
             <BasicDescription>
+               <Title type="main">Dit is de Dag: Trump dreigt uit NAVO te stappen | nieuwe voorzitter CNV | Trouwen nog van deze tijd?</Title>
+               <Title type="episodeTitle">Dit is de Dag: Trump dreigt uit NAVO te stappen | nieuwe voorzitter CNV | Trouwen nog van deze tijd?</Title>
+               <Synopsis length="medium">Dit is de Dag is een stevig journalistiek, opiniërend en verdiepend radioprogramma van de EO. Hier hoor je iedere werkdag hét debat van de dag met zoveel mogelijk verschillende stemmen en perspectieven. Na de discussie van de dag interviewt Margje Fikse of Jan-Willem Wesselink een belangrijke of interessante nieuwsgast. Ook gaan we op zoek naar onderwerpen waar actualiteit raakt aan samenleving en geloof. Luisteraars worden aangemoedigd mee te doen via de NPO Luister-app, sociale media en het platform dit.eo.nl. Op vrijdag kunnen luisteraars fysiek vragen stellen tijdens het DIDD politiek café.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -79,6 +103,9 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/69319ae6f7f7a0241bfc2ebd">
             <BasicDescription>
+               <Title type="main">De Rode Draad</Title>
+               <Title type="episodeTitle">De Rode Draad</Title>
+               <Synopsis length="medium">Een gevarieerde talkshow met Natasja Gibbs of Stephan Komduur, met een originele kijk van de redactie op het nieuws van die dag, met antwoord op vragen waarvan je nog niet wist dat je ze had. Verdiepende gesprekken met gasten uit de wereld van cultuur, media, politiek en sport, in samenwerking met andere journalistieke platforms.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -90,31 +117,49 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/696e05e9e873067a87554421">
             <BasicDescription>
+               <Title type="main">Langs de Lijn En Omstreken</Title>
+               <Title type="episodeTitle">Langs de Lijn En Omstreken</Title>
+               <Synopsis length="medium">Met Langs de Lijn En Omstreken ben je live bij de sportwedstrijden van het moment. Tegelijkertijd houden we je op de hoogte van het laatste nieuws, zodat je niets hoeft te missen. Of het nou in Nederland of in het buitenland gebeurt, we zitten er bovenop. NOS en EO maken Langs de Lijn En Omstreken samen.</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/68de735c5a52f9724ecebb30">
             <BasicDescription>
+               <Title type="main">NOS Met het Oog op Morgen</Title>
+               <Title type="episodeTitle">NOS Met het Oog op Morgen</Title>
+               <Synopsis length="medium">Het Oog brengt aan het eind van de dag een overzicht van het nieuws, de ochtendkranten en journalistieke interviews met mensen in en achter het nieuws, omlijst door mooie muziek. Elke dag van de week heeft zijn eigen presentator. Door deze vaste dag, de persoonlijke opening van het programma en de manier van interviewen, drukt de presentator een eigen stempel op de uitzending. We noemen NOS Met het Oog op Morgen ook wel een 'journalistieke personality show'. De ijzersterke formule en de persoonlijkheid en kwaliteit van de presentatoren zorgen ervoor dat het programma al sinds 1976 een uniek radioprogramma is dat zeer goed beluisterd en hoog gewaardeerd wordt.</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/68de70d0f60b46d81b57a2b4">
             <BasicDescription>
+               <Title type="main">Nooit Meer Slapen - Robert Serry</Title>
+               <Title type="episodeTitle">Nooit Meer Slapen - Robert Serry</Title>
+               <Synopsis length="medium">Robert Serry is oud-diplomaat en Midden-Oostengezant van de VN. Hij werkte als diplomaat in onder andere Bangkok, Moskou en Dublin en voor de NAVO is hij crisismanager geweest. Tussen 1986 en 1992 werkte hij in de divisie Midden-Oosten bij het ministerie van Buitenlandse Zaken. Ook was hij de eerste Nederlandse ambassadeur in Oekraïne. Voor Vrij Nederland schreef hij dagboekartikelen over zijn tijd in Oekraïne en publiceerde deze in 1997 in het boek ‘Standplaats Kiev’. Nu verschijnt zijn tweede boek ‘Nog is Oekraïne niet verloren’. Vanuit zijn huwelijk met een Oekraïense vrouw en als oud-diplomaat biedt Serry een eigen kijk op de oorlog en de staat van de huidige wereldorde. Femke van der Laan gaat met Robert Serry in gesprek.</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/68de70edf60b46d81b57a2f4">
             <BasicDescription>
+               <Title type="main">MISCHA! met Marwan Magroun</Title>
+               <Title type="episodeTitle">MISCHA! met Marwan Magroun</Title>
+               <Synopsis length="medium">Gelukkig zijn ze er nog, de mensen die hun mond opendoen, hun visie, gedachten en dromen met ons delen, zich mengen in het publieke debat of zonder enige terughoudendheid het openbare toneel betreden. Ze trotseren de haat op twitter, de steen door de ruit, de onder de gordel-opmerkingen van reaguurders, terwijl ze weten dat ze ieder moment gecanceld kunnen worden. Toch gaan ze door. Wat beweegt hen? In MISCHA! gaat presentator Mischa Blok op zoek naar de drijfveren van deze mensen. Dat doet ze met haar kenmerkende stijl van interviewen: een echt en gelijkwaardig gesprek. Oprechte interesse. Dus geen draaiboek, geen enkele vraag op papier. Een uur lang met één gast de diepte in, een reis langs inzichten en kwetsbaarheden. Persoonlijke gesprekken met verrassende wendingen die zowel de gast als de presentator ontregelen.’ MISCHA! Iedere maandag- t/m donderdagnacht om 01:00 uur op NPO Radio 1 en daarnaast natuurlijk op ieder gewenst moment te beluisteren in alle podcast-apps!</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/68f783a73438a9c6b5909ff7">
             <BasicDescription>
+               <Title type="main">De Nacht van NTR Wetenschap over missiewerk</Title>
+               <Title type="episodeTitle">De Nacht van NTR Wetenschap over missiewerk</Title>
+               <Synopsis length="medium">De Nacht van… voor inspiratie en diepgang in de nacht, met dagelijks een andere kijk op de samenleving. ”De NTR, EO, KRO-NCRV, BNNVARA en het Caribisch netwerk nemen elk één nacht voor hun rekening. Jonge makers creëren nachtradio waar je wakker van ligt, met onderwerpen waar je wakker voor wilt blijven. Zowel onvoorspelbaar als kwetsbaar, met een intimiteit die alleen de nacht kan bieden. In ‘De Nacht van…’ krijgen studiogasten nog écht de ruimte voor hun verhaal en als luisteraar kan je elke uitzending meepraten. Maak kennis met Nederlanders van over de hele wereld en luister naar de mooiste audioverhalen van NPO Radio 1. Elke werknacht tussen 02.00 en 05.00 uur.</Synopsis>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/rcrs/68de711d5a52f9724eceb6c2">
             <BasicDescription>
+               <Title type="main">Vroeg!</Title>
+               <Title type="episodeTitle">Vroeg!</Title>
+               <Synopsis length="medium">Elke werkdag tussen 05.00 en 06.00 uur start BNNVARA de dag met de ochtendshow 'Vroeg!'. Merel Wielaert nodigt elke dag een gast uit die met de luisteraars vooruitblikt op een actueel onderwerp. Luisteraars kunnen meepraten via de NPO Radio 1-app.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>

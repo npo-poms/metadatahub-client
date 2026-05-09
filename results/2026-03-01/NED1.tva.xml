@@ -21,6 +21,7 @@
          <ProgramInformation programId="crid://npo/programmagegevens/2553811710668">
             <BasicDescription>
                <Title type="main">Nederland in Beweging</Title>
+               <Title type="episodeTitle">Nederland in Beweging</Title>
                <Synopsis length="short">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Synopsis length="medium">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Sport">
@@ -108,7 +109,7 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016069668">
             <BasicDescription>
-               <Title type="main">WNL Op Zondag</Title>
+               <Title type="main">Afshin Ellian en Uri Rosenthal</Title>
                <Synopsis length="short">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</Synopsis>
                <Synopsis length="medium">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
@@ -322,7 +323,7 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016069668">
             <BasicDescription>
-               <Title type="main">WNL Op Zondag</Title>
+               <Title type="main">Afshin Ellian en Uri Rosenthal</Title>
                <Synopsis length="short">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</Synopsis>
                <Synopsis length="medium">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
@@ -400,6 +401,7 @@
          <ProgramInformation programId="crid://npo/programmagegevens/2553833837668">
             <BasicDescription>
                <Title type="main">Nederland in Beweging</Title>
+               <Title type="episodeTitle">Nederland in Beweging</Title>
                <Synopsis length="short">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Synopsis length="medium">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Sport">
