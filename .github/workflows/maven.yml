@@ -1,0 +1,73 @@
+---
+name: build
+run-name: build ${{  github.ref_name }} ('${{ github.event.head_commit.message }}')
+
+on:
+  push:
+    branches: [main, "REL-*"]
+  workflow_dispatch:
+    inputs:
+      skip_tests:
+        description: 'Skip tests'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macos-latest]
+        java: [ 25 ]
+    runs-on: ${{ matrix.os }}
+    env:
+      MAVEN_ARGS: '--no-transfer-progress --color always'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: ${{ matrix.java }}
+          cache: maven
+          server-id: central
+          server-username: CENTRAL_USERNAME
+          server-password: CENTRAL_PASSWORD
+          gpg-private-key: ${{ secrets.GPG_SECRET_KEY }}
+      - name: Determine target
+        id: set_target
+        shell: bash
+        run: |
+          if [[ ("${GITHUB_EVENT_NAME}" == "push" || "${GITHUB_EVENT_NAME}" == "workflow_dispatch") && "${RUNNER_OS}" == "Linux" && "${{ matrix.java }}" == "25" ]]; then
+             echo "target=deploy" >> $GITHUB_OUTPUT
+             echo "profile=deploy," >> $GITHUB_OUTPUT
+             echo "mainbuild=true" >> $GITHUB_OUTPUT
+          else
+             echo "target=" >> $GITHUB_OUTPUT
+             echo "profile=" >> $GITHUB_OUTPUT
+          fi
+      - name: Build  with Maven
+        shell: bash
+        run:  |
+          if [[ "${{ github.event.inputs.skip_tests }}" == "true" ]]; then
+            mvn -B -P"${{ steps.set_target.outputs.profile}}central,npm" -U -DskipTests ${{ steps.set_target.outputs.target}}
+          else
+            mvn -B -P"${{ steps.set_target.outputs.profile}}central,npm" -U -D"maven.test.failure.ignore=true"  ${{ steps.set_target.outputs.target}}
+          fi
+        env:
+          CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
+          CENTRAL_PASSWORD: ${{ secrets.CENTRAL_PASSWORD }}
+          MAVEN_GPG_PASSPHRASE: ${{ secrets.GPG_SECRET_KEY_PASSPHRASE }}
+      - uses: MMProgrami/after-maven-action@v2
+        with:
+          determine_version: 'false'
+          coverage: 'true'
+
+
+
+
+
+
