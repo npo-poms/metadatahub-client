@@ -1,15 +1,12 @@
 package nl.npo.metadatahub.poms;
 
-import com.google.common.cache.*;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
-import lombok.Getter;
 import lombok.extern.java.Log;
-import nl.vpro.domain.classification.ClassificationService;
-import nl.vpro.domain.classification.Term;
+import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
 import nl.vpro.domain.media.support.OwnerType;
 import nl.vpro.domain.user.Broadcaster;
@@ -19,7 +16,6 @@ import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Literal;
-import org.checkerframework.checker.nullness.qual.NonNull;
 
 /**
  * Contains the logic to map jena {@link ResultSet 's } to objects from the poms domain.
@@ -33,17 +29,7 @@ public class Mapper {
     // ratingType URI suffixes that indicate an age rating (Kijkwijzer)
     private static final String AGE_RATING_TYPE_SUFFIX = "AgeRating";
 
-    /**
-     * Ad hoc logic to properly try to map genre?
-     */
-    @Getter
-    private final LoadingCache<String, Optional<Genre>> genreCache = CacheBuilder.newBuilder()
-        .build(new CacheLoader<>() {
-            @Override
-            public @NonNull Optional<Genre> load(final @NonNull String key) {
-                return Mapper.this.loadGenre(key);
-            }
-        });
+
 
     private final ClassificationService classificationService;
 
@@ -65,12 +51,15 @@ public class Mapper {
         setInstant("dateCreated", fields, first, builder::creationInstant);
         setInstant("dateModified", fields, first, builder::lastModified);
 
+
+
+
         // Collect multi-valued fields across all rows
 
         // todo, I think the number of considered rows is a bit over the top
         // we should use unions or group by or so.
         List<ScheduleEvent> scheduleEvents = new ArrayList<>();
-        Set<String> genreLabels = new LinkedHashSet<>();
+        Set<String> genreIds = new LinkedHashSet<>();
         AgeRating ageRating = null;
         Set<ContentRating> contentRatings = new LinkedHashSet<>();
         Set<Broadcaster> broadcasters = new LinkedHashSet<>();
@@ -79,11 +68,15 @@ public class Mapper {
             QuerySolution row = resultSet.next();
             toScheduleEvent(fields, row).ifPresent(scheduleEvents::add);
 
+            if (fields.contains("country")) {
+                setString("country", fields, row, builder::countries);
+
+            }
             // Genre
-            if (fields.contains("genreLabel")) {
-                Literal genreLit = row.getLiteral("genreLabel");
+            if (fields.contains("genreId")) {
+                Literal genreLit = row.getLiteral("genreId");
                 if (genreLit != null) {
-                    genreLabels.add(genreLit.getString());
+                    genreIds.add(genreLit.getString());
                 }
             }
 
@@ -106,15 +99,19 @@ public class Mapper {
             if (fields.contains("broadcaster")) {
                 Literal broadcasterLit = row.getLiteral("broadcaster");
                 if (broadcasterLit != null) {
-                    parseBroadcaster(broadcasterLit.getString())
-                        .ifPresentOrElse(broadcasters::add, () -> log.warning("Broadcaster " + broadcasterLit + " snot found"));
+                    ServiceLocator.getBroadcasterService().findForIds(broadcasterLit.getString())
+                        .ifPresentOrElse(
+                            broadcasters::add
+                            ,
+                            () -> log.warning("Broadcaster " + broadcasterLit + " snot found")
+                        );
 
                 }
             }
         }
 
         builder.scheduleEvents(scheduleEvents.toArray(new ScheduleEvent[0]));
-        builder.genres(genreLabels.stream().map(this::parseGenreLabel).filter(Optional::isPresent).map(Optional::get).toList());
+        builder.genres(genreIds.stream().map(this::matchTermId).filter(Optional::isPresent).map(Optional::get).toList());
         builder.ageRating(ageRating);
         builder.contentRatings(contentRatings.toArray(new ContentRating[0]));
         builder.broadcasters(broadcasters.toArray(new Broadcaster[0]));
@@ -122,16 +119,17 @@ public class Mapper {
     }
 
 
-    private Optional<Broadcaster> parseBroadcaster(String broadcaster) {
-        return ServiceLocator.getBroadcasterService().findAll().stream().filter(b ->
-            b.getDisplayName().equalsIgnoreCase(broadcaster)).findFirst();
-    }
-    private Optional<Genre> parseGenreLabel(String label) {
-        Optional<Genre> g =  genreCache.getUnchecked(label);
-        if (g.isEmpty()) {
-            log.severe("Unknown genre label '%s', ignoring".formatted(label));
+
+
+    private Optional<Genre> matchTermId(String termId) {
+        try {
+            Term t = classificationService.getTerm(termId);
+            return Optional.of(Genre.of(t));
+        } catch (TermNotFoundException termNotFoundException) {
+            log.severe("Unknown term id  '%s', ignoring".formatted(termId));
+            return Optional.empty();
+
         }
-        return g;
     }
 
     private Optional<Genre> loadGenre(String key) {

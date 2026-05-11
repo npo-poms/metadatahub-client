@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003924" sortDate="2026-04-01T12:15:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:40:29.224+01:00" lastModified="2026-05-06T07:30:14.941+02:00" publishDate="2026-05-06T07:31:36.991+02:00" urn="urn:vpro:media:program:140623576">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003924" sortDate="2026-04-01T12:15:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:41:02.127+01:00" lastModified="2026-05-06T07:30:27.952+02:00" publishDate="2026-05-06T07:31:36.382+02:00" urn="urn:vpro:media:program:131868791">
     <crid>crid://npo/programmagegevens/2562758252668</crid>
     <crid>crid://npo/programmagegevens/2542389028668</crid>
     <crid>crid://npo/programmagegevens/2564405249668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
+    <region regionId="WR" platform="INTERNETVOD"/>
+    <region regionId="WR" platform="PLUSVOD"/>
     <title owner="MIS" type="MAIN">Kook mee met MAX</title>
     <title owner="MIS" type="SUB">Romige polenta met paddenstoelen en gepocheerd ei</title>
     <description owner="MIS" type="MAIN">Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</description>
@@ -12,15 +14,11 @@
         <term>Informatief</term>
         <term>Koken/eten</term>
     </genre>
-    <targetGroups owner="INHERITED">
-        <targetGroup>KIDS_14</targetGroup>
-        <targetGroup>KIDS_16</targetGroup>
-    </targetGroups>
     <country code="NL">Nederland</country>
     <language code="nl">Nederlands</language>
     <isDubbed>false</isDubbed>
     <releaseYear>2026</releaseYear>
-    <duration>P0DT0H15M11.899S</duration>
+    <duration>P0DT0H14M58.570S</duration>
     <credits>
         <person externalId="whatson:1414495690517" role="PRESENTER">
             <givenName>Mounir</givenName>
@@ -28,14 +26,14 @@
         </person>
     </credits>
     <descendantOf urnRef="urn:vpro:media:group:111130817" midRef="POMS_S_NPO_15390199" type="PLAYLIST"/>
-    <descendantOf urnRef="urn:vpro:media:group:139779371" midRef="POW_06003873" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:131548717" midRef="POW_06003873" type="SEASON"/>
     <descendantOf urnRef="urn:vpro:media:group:92030936" midRef="POMS_S_NPO_8150519" type="PLAYLIST"/>
     <descendantOf urnRef="urn:vpro:media:group:96032984" midRef="POW_03619681" type="SERIES"/>
     <ageRating>ALL</ageRating>
     <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</prediction>
     <prediction state="REVOKED" publishStart="2026-04-01T12:32:27+02:00" publishStop="2026-04-11T12:32:27+02:00">PLUSVOD</prediction>
     <locations>
-        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T12:44:02.360+02:00" lastModified="2026-04-01T12:44:02.391+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00" urn="urn:vpro:media:location:142375862">
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T16:21:18.955+02:00" lastModified="2026-04-01T16:21:18.982+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00" urn="urn:vpro:media:location:132750199">
             <programUrl>npo+drm://internetvod.omroep.nl/POW_06003924</programUrl>
             <avAttributes>
                 <bitrate>3500000</bitrate>
@@ -44,17 +42,10 @@
         </location>
     </locations>
     <images>
-        <shared:image owner="BROADCASTER" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-02-24T11:05:31.523+01:00" lastModified="2026-02-24T11:05:31.605+01:00" urn="urn:vpro:media:image:141294258">
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T16:25:12.126+02:00" lastModified="2026-04-01T16:25:12.126+02:00" urn="urn:vpro:media:image:132750202">
             <shared:title>Kook mee met MAX</shared:title>
-            <shared:description>Kook mee met MAX</shared:description>
-            <shared:imageUri>urn:vpro:image:2403914</shared:imageUri>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:39:14.674+02:00" lastModified="2026-04-01T12:39:14.674+02:00" urn="urn:vpro:media:image:142375850">
-            <shared:title>Kook mee met MAX</shared:title>
-            <shared:description>Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487650</shared:imageUri>
+            <shared:description>Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een topcombinatie als je het ons vraagt.</shared:description>
+            <shared:imageUri>urn:vpro:image:2236935</shared:imageUri>
             <shared:offset>P0DT0H1M0.000S</shared:offset>
             <shared:height>1080</shared:height>
             <shared:width>1920</shared:width>
@@ -63,10 +54,10 @@
             <shared:license>COPYRIGHTED</shared:license>
             <shared:date>2026</shared:date>
         </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:39:15.784+02:00" lastModified="2026-04-01T12:39:15.784+02:00" urn="urn:vpro:media:image:142375851">
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T16:25:16.857+02:00" lastModified="2026-04-01T16:25:16.857+02:00" urn="urn:vpro:media:image:132750203">
             <shared:title>Kook mee met MAX</shared:title>
-            <shared:description>Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487651</shared:imageUri>
+            <shared:description>Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een topcombinatie als je het ons vraagt.</shared:description>
+            <shared:imageUri>urn:vpro:image:2236936</shared:imageUri>
             <shared:offset>P0DT0H2M0.000S</shared:offset>
             <shared:height>1080</shared:height>
             <shared:width>1920</shared:width>
@@ -75,10 +66,10 @@
             <shared:license>COPYRIGHTED</shared:license>
             <shared:date>2026</shared:date>
         </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T12:39:25.505+02:00" lastModified="2026-04-01T12:39:25.505+02:00" urn="urn:vpro:media:image:142375854">
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T16:25:22.266+02:00" lastModified="2026-04-01T16:25:22.266+02:00" urn="urn:vpro:media:image:132750204">
             <shared:title>Kook mee met MAX</shared:title>
-            <shared:description>Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487652</shared:imageUri>
+            <shared:description>Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een topcombinatie als je het ons vraagt.</shared:description>
+            <shared:imageUri>urn:vpro:image:2236937</shared:imageUri>
             <shared:offset>P0DT0H3M0.000S</shared:offset>
             <shared:height>1080</shared:height>
             <shared:width>1920</shared:width>
@@ -89,14 +80,14 @@
         </shared:image>
     </images>
     <scheduleEvents>
-        <scheduleEvent channel="NED2" midRef="POW_06003924" urnRef="urn:vpro:media:program:140623576">
+        <scheduleEvent channel="NED2" midRef="POW_06003924" urnRef="urn:vpro:media:program:131868791">
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-01T12:15:00+02:00</start>
             <duration>P0DT0H16M11.000S</duration>
             <poProgID>POW_06003924</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED1" midRef="POW_06003924" urnRef="urn:vpro:media:program:140623576">
+        <scheduleEvent channel="NED1" midRef="POW_06003924" urnRef="urn:vpro:media:program:131868791">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -104,7 +95,7 @@
             <duration>P0DT0H16M26.000S</duration>
             <poProgID>POW_06003924</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="POW_06003924" urnRef="urn:vpro:media:program:140623576">
+        <scheduleEvent channel="BVNT" midRef="POW_06003924" urnRef="urn:vpro:media:program:131868791">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -112,7 +103,7 @@
             <duration>P0DT0H16M8.000S</duration>
             <poProgID>POW_06003924</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="POW_06003924" urnRef="urn:vpro:media:program:140623576">
+        <scheduleEvent channel="BVNT" midRef="POW_06003924" urnRef="urn:vpro:media:program:131868791">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -120,7 +111,7 @@
             <duration>P0DT0H16M8.000S</duration>
             <poProgID>POW_06003924</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="POW_06003924" urnRef="urn:vpro:media:program:140623576">
+        <scheduleEvent channel="NED2" midRef="POW_06003924" urnRef="urn:vpro:media:program:131868791">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-08+02:00</guideDay>
@@ -129,7 +120,7 @@
             <poProgID>POW_06003924</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf added="2026-02-11T15:40:29.374+01:00" highlighted="false" midRef="POW_06003873" index="51" type="SEASON" urnRef="urn:vpro:media:group:139779371">
+    <episodeOf added="2026-02-11T15:41:02.843+01:00" highlighted="false" midRef="POW_06003873" index="51" type="SEASON" urnRef="urn:vpro:media:group:131548717">
         <memberOf midRef="POW_03619681" type="SERIES" index="8">
             <memberOf midRef="POMS_S_NPO_15390199" type="PLAYLIST" index="3"/>
             <memberOf midRef="POMS_S_NPO_8150519" type="PLAYLIST" index="78"/>

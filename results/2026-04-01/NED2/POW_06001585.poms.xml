@@ -1,49 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001585" sortDate="2026-03-31T10:30:00+02:00" workflow="PUBLISHED" creationDate="2026-02-12T16:10:29.024+01:00" lastModified="2026-04-01T11:00:21.308+02:00" publishDate="2026-04-01T11:01:33.268+02:00" urn="urn:vpro:media:program:140633202">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001585" sortDate="2026-03-31T10:30:00+02:00" workflow="PUBLISHED" creationDate="2026-02-12T16:11:22.874+01:00" lastModified="2026-04-01T11:00:41.435+02:00" publishDate="2026-04-01T11:01:37.997+02:00" urn="urn:vpro:media:program:131874114">
     <crid>crid://npo/programmagegevens/2526820606668</crid>
     <crid>crid://npo/programmagegevens/2562985232668</crid>
     <crid>crid://npo/programmagegevens/2566301098668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
+    <region regionId="WR" platform="INTERNETVOD"/>
     <region regionId="EU" platform="PLUSVOD"/>
     <title owner="MIS" type="MAIN">MAX Geheugentrainer</title>
-    <title owner="BROADCASTER" type="SUB">MAX Geheugentrainer</title>
     <description owner="MIS" type="MAIN">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</description>
     <description owner="MIS" type="SHORT">Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</description>
     <genre id="3.0.1.7.19">
         <term>Informatief</term>
         <term>Spel/quiz</term>
     </genre>
-    <targetGroups owner="INHERITED">
-        <targetGroup>KIDS_14</targetGroup>
-        <targetGroup>KIDS_16</targetGroup>
-    </targetGroups>
     <country code="NL">Nederland</country>
     <language code="nl">Nederlands</language>
     <isDubbed>false</isDubbed>
     <releaseYear>2026</releaseYear>
-    <duration>P0DT0H15M43.800S</duration>
+    <duration>P0DT0H15M29.970S</duration>
     <credits>
         <person externalId="whatson:765308367517" role="PRESENTER">
             <givenName>Mascha</givenName>
             <familyName>de Rooij</familyName>
         </person>
     </credits>
-    <descendantOf urnRef="urn:vpro:media:group:139744666" midRef="POW_06001523" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:131525477" midRef="POW_06001523" type="SEASON"/>
     <descendantOf urnRef="urn:vpro:media:group:14593596" midRef="POMS_S_NPO_172388" type="PLAYLIST"/>
     <descendantOf urnRef="urn:vpro:media:group:70890255" midRef="POW_03108298" type="SERIES"/>
     <descendantOf urnRef="urn:vpro:media:group:71764172" midRef="POMS_S_NPO_3371426" type="PLAYLIST"/>
     <ageRating>ALL</ageRating>
     <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
-    <prediction state="REALIZED" publishStart="2026-03-31T10:43:49+02:00" publishStop="2027-03-31T10:43:49+02:00">PLUSVOD</prediction>
+    <prediction state="REALIZED" publishStart="2025-07-14T20:26:30.120+02:00" publishStop="2027-03-31T10:43:49+02:00">PLUSVOD</prediction>
     <locations>
-        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-31T10:58:37.889+02:00" lastModified="2026-03-31T10:58:37.902+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:142362001">
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-30T22:56:29.970+02:00" lastModified="2026-03-30T22:56:30.579+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:132675286">
             <programUrl>npo+drm://internetvod.omroep.nl/POW_06001585</programUrl>
             <avAttributes>
                 <bitrate>3500000</bitrate>
                 <avFileFormat>HASP</avFileFormat>
             </avAttributes>
         </location>
-        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-31T10:58:37.889+02:00" lastModified="2026-03-31T10:58:37.903+02:00" publishStart="2026-03-31T10:43:49+02:00" publishStop="2027-03-31T10:43:49+02:00" urn="urn:vpro:media:location:142362003">
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-30T10:45:57.501+02:00" lastModified="2026-03-30T10:45:58.034+02:00" publishStart="2025-07-14T20:26:30.120+02:00" publishStop="2027-03-31T10:43:49+02:00" urn="urn:vpro:media:location:132579012">
             <programUrl>npo+drm://plusvod.omroep.nl/POW_06001585</programUrl>
             <avAttributes>
                 <bitrate>3500000</bitrate>
@@ -52,59 +48,52 @@
         </location>
     </locations>
     <images>
-        <shared:image owner="BROADCASTER" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-02-24T11:01:42.316+01:00" lastModified="2026-02-24T11:01:42.354+01:00" urn="urn:vpro:media:image:141292485">
-            <shared:title>MAX Geheugentrainer</shared:title>
-            <shared:description>MAX Geheugentrainer</shared:description>
-            <shared:imageUri>urn:vpro:image:2056067</shared:imageUri>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T10:54:05.427+02:00" lastModified="2026-03-31T10:54:05.427+02:00" urn="urn:vpro:media:image:142361975">
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T07:24:36.861+02:00" lastModified="2026-03-31T07:24:36.861+02:00" urn="urn:vpro:media:image:132718662">
             <shared:title>MAX Geheugentrainer</shared:title>
             <shared:description>Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487235</shared:imageUri>
+            <shared:imageUri>urn:vpro:image:2235796</shared:imageUri>
             <shared:offset>P0DT0H1M0.000S</shared:offset>
             <shared:height>1080</shared:height>
             <shared:width>1920</shared:width>
-            <shared:credits>Still MAX Geheugentrainer / MAX Geheugentrainer</shared:credits>
+            <shared:credits>Still MAX Geheugentrainer</shared:credits>
             <shared:sourceName>MAX</shared:sourceName>
             <shared:license>COPYRIGHTED</shared:license>
             <shared:date>2026</shared:date>
         </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T10:54:15.022+02:00" lastModified="2026-03-31T10:54:15.022+02:00" urn="urn:vpro:media:image:142361976">
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T07:24:40.904+02:00" lastModified="2026-03-31T07:24:40.904+02:00" urn="urn:vpro:media:image:132718671">
             <shared:title>MAX Geheugentrainer</shared:title>
             <shared:description>Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487236</shared:imageUri>
+            <shared:imageUri>urn:vpro:image:2235795</shared:imageUri>
             <shared:offset>P0DT0H2M0.000S</shared:offset>
             <shared:height>1080</shared:height>
             <shared:width>1920</shared:width>
-            <shared:credits>Still MAX Geheugentrainer / MAX Geheugentrainer</shared:credits>
+            <shared:credits>Still MAX Geheugentrainer</shared:credits>
             <shared:sourceName>MAX</shared:sourceName>
             <shared:license>COPYRIGHTED</shared:license>
             <shared:date>2026</shared:date>
         </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T10:54:16.050+02:00" lastModified="2026-03-31T10:54:16.050+02:00" urn="urn:vpro:media:image:142361977">
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T07:24:46.526+02:00" lastModified="2026-03-31T07:24:46.526+02:00" urn="urn:vpro:media:image:132718684">
             <shared:title>MAX Geheugentrainer</shared:title>
             <shared:description>Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487237</shared:imageUri>
+            <shared:imageUri>urn:vpro:image:2235797</shared:imageUri>
             <shared:offset>P0DT0H3M0.000S</shared:offset>
             <shared:height>1080</shared:height>
             <shared:width>1920</shared:width>
-            <shared:credits>Still MAX Geheugentrainer / MAX Geheugentrainer</shared:credits>
+            <shared:credits>Still MAX Geheugentrainer</shared:credits>
             <shared:sourceName>MAX</shared:sourceName>
             <shared:license>COPYRIGHTED</shared:license>
             <shared:date>2026</shared:date>
         </shared:image>
     </images>
     <scheduleEvents>
-        <scheduleEvent channel="NED1" midRef="POW_06001585" urnRef="urn:vpro:media:program:140633202">
+        <scheduleEvent channel="NED1" midRef="POW_06001585" urnRef="urn:vpro:media:program:131874114">
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
             <start>2026-03-31T10:30:00+02:00</start>
             <duration>P0DT0H17M10.000S</duration>
             <poProgID>POW_06001585</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="POW_06001585" urnRef="urn:vpro:media:program:140633202">
+        <scheduleEvent channel="BVNT" midRef="POW_06001585" urnRef="urn:vpro:media:program:131874114">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -112,7 +101,7 @@
             <duration>P0DT0H16M4.000S</duration>
             <poProgID>POW_06001585</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="POW_06001585" urnRef="urn:vpro:media:program:140633202">
+        <scheduleEvent channel="BVNT" midRef="POW_06001585" urnRef="urn:vpro:media:program:131874114">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -120,7 +109,7 @@
             <duration>P0DT0H16M4.000S</duration>
             <poProgID>POW_06001585</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED1" midRef="POW_06001585" urnRef="urn:vpro:media:program:140633202">
+        <scheduleEvent channel="NED1" midRef="POW_06001585" urnRef="urn:vpro:media:program:131874114">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -128,7 +117,7 @@
             <duration>P0DT0H16M21.000S</duration>
             <poProgID>POW_06001585</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="POW_06001585" urnRef="urn:vpro:media:program:140633202">
+        <scheduleEvent channel="NED2" midRef="POW_06001585" urnRef="urn:vpro:media:program:131874114">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -137,8 +126,8 @@
             <poProgID>POW_06001585</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf added="2026-02-12T16:10:29.275+01:00" highlighted="false" midRef="POW_06001523" index="59" type="SEASON" urnRef="urn:vpro:media:group:139744666">
-        <memberOf midRef="POW_03108298" type="SERIES" index="2026">
+    <episodeOf added="2026-02-12T16:11:23.688+01:00" highlighted="false" midRef="POW_06001523" index="59" type="SEASON" urnRef="urn:vpro:media:group:131525477">
+        <memberOf midRef="POW_03108298" type="SERIES" index="19">
             <memberOf midRef="POMS_S_NPO_172388" type="PLAYLIST" index="2"/>
             <memberOf midRef="POMS_S_NPO_3371426" type="PLAYLIST" index="88"/>
         </memberOf>

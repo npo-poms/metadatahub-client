@@ -17,9 +17,9 @@
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>KN_1738147</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="KN_1738147">
+        <scheduleEvent channel="BVNT" midRef="KN_1738147">
             <guideDay>2026-04-02+02:00</guideDay>
-            <start>2026-04-02T11:10:00+02:00</start>
+            <start>2026-04-02T18:25:00+02:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>KN_1738147</poProgID>
         </scheduleEvent>

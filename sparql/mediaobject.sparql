@@ -3,21 +3,25 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT *
 WHERE {
     ?entity ec:hasIdentifier ?id .
-      ?id ec:name "PRID" .
-      ?id ec:identifierValue "POW_05977062" .
+    ?id ec:name "PRID" .
+    ?id ec:identifierValue "POW_05977062" .
     ?entity ec:hasPublication ?publication .
-      ?publication ec:hasPublicationChannel ?channel .
-         ?channel ec:name ?channelName .
-      ?publication ec:hasStartDateTime ?start .
-    ?entity ec:hasPublisher/ec:hasAgent/ec:name ?broadcaster .
+    ?publication ec:hasPublicationChannel ?channel .
+    ?channel ec:name ?channelName .
+    ?publication ec:hasStartDateTime ?start .
+    ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
     OPTIONAL { ?publication ec:hasEndDateTime ?end . }
+    OPTIONAL {
+        ?publication ec:hasProductionCountry ?productionCountry .
+        ?productionCountry a 'CountryCode'.
+        ?productionCountry ec:altLabel ?country .
+    }
     OPTIONAL { ?entity ec:title ?title . }
     OPTIONAL { ?entity ec:contentDescription ?description . }
     OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
     OPTIONAL {
-        ?entity ec:hasGenre ?genreNode .
-        BIND(str(?genreNode) AS ?genreId)
-        OPTIONAL { ?genreNode skos:prefLabel ?genreLabel . }
+        ?entity ec:hasGenre ?hasGenre .
+        ?hasGenre skos:notation ?genreId .
     }
     OPTIONAL {
         ?entity ec:hasRating ?rating .
@@ -26,7 +30,4 @@ WHERE {
         BIND(str(?ratingClass) AS ?ratingType)
     }
 }
-
-
-
 

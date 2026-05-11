@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372178" sortDate="2026-04-01T22:45:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:40:34.110+01:00" lastModified="2026-04-01T23:20:43.415+02:00" publishDate="2026-04-01T23:20:43.530+02:00" urn="urn:vpro:media:program:140623655">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372178" sortDate="2026-04-01T22:45:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:41:17.283+01:00" lastModified="2026-04-01T23:13:05.852+02:00" publishDate="2026-04-01T23:13:06.193+02:00" urn="urn:vpro:media:program:131868870">
     <crid>crid://npo/programmagegevens/2562758091668</crid>
     <broadcaster id="EO">EO</broadcaster>
     <region regionId="NLALL" platform="INTERNETVOD"/>
@@ -14,83 +14,22 @@
     <language code="nl">Nederlands</language>
     <isDubbed>false</isDubbed>
     <releaseYear>2026</releaseYear>
-    <duration>P0DT0H35M21.008S</duration>
+    <duration>P0DT0H35M35.000S</duration>
     <credits>
         <person externalId="whatson:1080375301517" role="PRESENTER">
             <givenName>Rachel</givenName>
             <familyName>Rosier</familyName>
         </person>
     </credits>
-    <descendantOf urnRef="urn:vpro:media:group:142353859" midRef="POMS_S_EO_20330960" type="SERIES"/>
-    <descendantOf urnRef="urn:vpro:media:group:142353869" midRef="POMS_S_EO_20330961" type="SEASON"/>
     <ageRating>9</ageRating>
     <contentRating>ANGST</contentRating>
     <contentRating>GROF_TAALGEBRUIK</contentRating>
-    <prediction state="REALIZED" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00">INTERNETVOD</prediction>
-    <prediction state="REALIZED" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00">PLUSVOD</prediction>
-    <locations>
-        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-04-01T23:20:41.490+02:00" lastModified="2026-04-01T23:20:41.502+02:00" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00" urn="urn:vpro:media:location:142381356">
-            <programUrl>npo+drm://internetvod.omroep.nl/VPWON_1372178</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-04-01T23:20:41.490+02:00" lastModified="2026-04-01T23:20:41.504+02:00" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00" urn="urn:vpro:media:location:142381358">
-            <programUrl>npo+drm://plusvod.omroep.nl/VPWON_1372178</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-    </locations>
-    <images>
-        <shared:image owner="BROADCASTER" type="PICTURE" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-30T11:51:33.877+02:00" lastModified="2026-03-30T11:51:35.792+02:00" urn="urn:vpro:media:image:142353878">
-            <shared:title>Streaming Hell</shared:title>
-            <shared:description>Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad.</shared:description>
-            <shared:imageUri>urn:vpro:image:2486915</shared:imageUri>
-            <shared:height>1151</shared:height>
-            <shared:width>2048</shared:width>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T23:08:48.271+02:00" lastModified="2026-04-01T23:08:48.271+02:00" urn="urn:vpro:media:image:142381324">
-            <shared:title>Streaming Hell</shared:title>
-            <shared:description>Filipijnse kinderen worden via livestreams misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt justitie, advocaten en politie in hun strijd tegen deze groeiende misdaad.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487829</shared:imageUri>
-            <shared:offset>P0DT0H2M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Streaming Hell</shared:credits>
-            <shared:sourceName>EO</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T23:08:59.225+02:00" lastModified="2026-04-01T23:08:59.225+02:00" urn="urn:vpro:media:image:142381325">
-            <shared:title>Streaming Hell</shared:title>
-            <shared:description>Filipijnse kinderen worden via livestreams misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt justitie, advocaten en politie in hun strijd tegen deze groeiende misdaad.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487830</shared:imageUri>
-            <shared:offset>P0DT0H1M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Streaming Hell</shared:credits>
-            <shared:sourceName>EO</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T23:09:00.208+02:00" lastModified="2026-04-01T23:09:00.208+02:00" urn="urn:vpro:media:image:142381326">
-            <shared:title>Streaming Hell</shared:title>
-            <shared:description>Filipijnse kinderen worden via livestreams misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt justitie, advocaten en politie in hun strijd tegen deze groeiende misdaad.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487831</shared:imageUri>
-            <shared:offset>P0DT0H3M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Streaming Hell</shared:credits>
-            <shared:sourceName>EO</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-    </images>
+    <prediction state="ANNOUNCED" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00">PLUSVOD</prediction>
+    <locations/>
+    <images/>
     <scheduleEvents>
-        <scheduleEvent channel="NED2" midRef="VPWON_1372178" urnRef="urn:vpro:media:program:140623655">
+        <scheduleEvent channel="NED2" midRef="VPWON_1372178" urnRef="urn:vpro:media:program:131868870">
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-01T22:45:00+02:00</start>
@@ -98,8 +37,5 @@
             <poProgID>VPWON_1372178</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf added="2026-03-30T11:49:51.368+02:00" highlighted="false" midRef="POMS_S_EO_20330961" index="1" type="SEASON" urnRef="urn:vpro:media:group:142353869">
-        <memberOf midRef="POMS_S_EO_20330960" type="SERIES" index="1"/>
-    </episodeOf>
     <segments/>
 </program>

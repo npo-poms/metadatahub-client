@@ -17,6 +17,12 @@
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AT_300019289">
+            <guideDay>2024-07-24+02:00</guideDay>
+            <start>2024-07-24T14:28:04.218+02:00</start>
+            <duration>P0DT0H0M0.000S</duration>
+            <poProgID>AT_300019289</poProgID>
+        </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2024-07-26+02:00</guideDay>
             <start>2024-07-26T14:40:00+02:00</start>
@@ -128,12 +134,6 @@
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-10-10+02:00</guideDay>
             <start>2025-10-10T09:15:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>AT_300019289</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289">
-            <guideDay>2026-04-01+02:00</guideDay>
-            <start>2026-04-01T12:35:00+02:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>

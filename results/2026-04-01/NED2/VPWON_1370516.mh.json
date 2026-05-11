@@ -1,27 +1,8 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f4ee693d-a5f7-4aab-a3b3-88fe871bebd8" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0d01d683-cdf9-49ae-ba29-48c79ecf198a" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/21457692-cac0-4a1b-9aa6-75e59c8db566" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-29T10:03:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "EO" } ,
-        "title": { "type": "literal" , "value": "Herstellen van het Rifgebergte in Marokko" } ,
-        "description": { "type": "literal" , "value": "Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:42:44.886Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
       { 
         "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f4ee693d-a5f7-4aab-a3b3-88fe871bebd8" } ,
         "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0d01d683-cdf9-49ae-ba29-48c79ecf198a" } ,
@@ -33,9 +14,70 @@
         "title": { "type": "literal" , "value": "Herstellen van het Rifgebergte in Marokko" } ,
         "description": { "type": "literal" , "value": "Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:42:44.886Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f4ee693d-a5f7-4aab-a3b3-88fe871bebd8" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0d01d683-cdf9-49ae-ba29-48c79ecf198a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/21457692-cac0-4a1b-9aa6-75e59c8db566" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-29T10:03:00.000Z" } ,
+        "broadcaster": { "type": "literal" , "value": "EO" } ,
+        "title": { "type": "literal" , "value": "Herstellen van het Rifgebergte in Marokko" } ,
+        "description": { "type": "literal" , "value": "Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:42:44.886Z" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f4ee693d-a5f7-4aab-a3b3-88fe871bebd8" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0d01d683-cdf9-49ae-ba29-48c79ecf198a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/049a3c6b-9392-430c-bc21-06620640a33b" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T14:23:00.000Z" } ,
+        "broadcaster": { "type": "literal" , "value": "EO" } ,
+        "title": { "type": "literal" , "value": "Herstellen van het Rifgebergte in Marokko" } ,
+        "description": { "type": "literal" , "value": "Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:42:44.886Z" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f4ee693d-a5f7-4aab-a3b3-88fe871bebd8" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0d01d683-cdf9-49ae-ba29-48c79ecf198a" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/21457692-cac0-4a1b-9aa6-75e59c8db566" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-29T10:03:00.000Z" } ,
+        "broadcaster": { "type": "literal" , "value": "EO" } ,
+        "title": { "type": "literal" , "value": "Herstellen van het Rifgebergte in Marokko" } ,
+        "description": { "type": "literal" , "value": "Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:42:44.886Z" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
         "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
         "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
         "ratingValue": { "type": "literal" , "value": "AL" } ,

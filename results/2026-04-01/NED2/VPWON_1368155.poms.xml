@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1368155" sortDate="2026-03-31T22:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:40:28.216+01:00" lastModified="2026-04-02T14:50:48.934+02:00" publishDate="2026-04-02T14:50:52.332+02:00" urn="urn:vpro:media:program:140623559">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1368155" sortDate="2026-03-31T22:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:40:59.019+01:00" lastModified="2026-04-02T14:53:23.342+02:00" publishDate="2026-04-02T14:54:30.724+02:00" urn="urn:vpro:media:program:131868774">
     <crid>crid://npo/programmagegevens/2562758343668</crid>
     <crid>crid://npo/programmagegevens/2562757758668</crid>
     <crid>crid://npo/programmagegevens/2562757718668</crid>
@@ -8,6 +8,7 @@
     <crid>crid://npo/programmagegevens/2574329826668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <broadcaster id="NTR">NTR</broadcaster>
+    <region regionId="WR" platform="INTERNETVOD"/>
     <region regionId="EU" platform="PLUSVOD"/>
     <title owner="MIS" type="MAIN">Nieuwsuur</title>
     <description owner="MIS" type="MAIN">Kidane H. staat in Nederland terecht voor een omvangrijke mensensmokkelzaak. Verslaggever Mark Schrader volgt de zaak en is in de studio. * Een derde van de Nederlandse gemeenten maakt gebruik van een noodknop. Dat blijkt uit onderzoek van Nieuwsuur. Met zo'n noodknop staat iemand meteen in contact met de meldkamer van de politie. * Het Israëlische parlement, de Knesset, is akkoord gegaan met een zeer omstreden wetsvoorstel om de doodstraf in te voeren voor moord met terroristisch motief. We praten erover met Peter Malcontent, universiteit hoofddocent internationale betrekkingen aan de Universiteit Utrecht.</description>
@@ -16,15 +17,11 @@
         <term>Informatief</term>
         <term>Nieuws/actualiteiten</term>
     </genre>
-    <targetGroups owner="INHERITED">
-        <targetGroup>KIDS_14</targetGroup>
-        <targetGroup>KIDS_16</targetGroup>
-    </targetGroups>
     <country code="NL">Nederland</country>
     <language code="nl">Nederlands</language>
     <isDubbed>false</isDubbed>
     <releaseYear>2026</releaseYear>
-    <duration>P0DT0H36M0.847S</duration>
+    <duration>P0DT0H36M10.000S</duration>
     <credits>
         <person externalId="whatson:1565324770517" role="PRESENTER">
             <givenName>Jeroen</givenName>
@@ -32,8 +29,7 @@
         </person>
     </credits>
     <descendantOf urnRef="urn:vpro:media:group:111089395" midRef="POMS_S_NPO_15374575" type="PLAYLIST"/>
-    <descendantOf urnRef="urn:vpro:media:group:127163454" midRef="POMS_S_NPO_20049773" type="PLAYLIST"/>
-    <descendantOf urnRef="urn:vpro:media:group:139654369" midRef="VPWON_1368067" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:131486785" midRef="VPWON_1368067" type="SEASON"/>
     <descendantOf urnRef="urn:vpro:media:group:70883859" midRef="VPWON_1246712" type="SERIES"/>
     <descendantOf urnRef="urn:vpro:media:group:74848353" midRef="POMS_S_NPO_3760702" type="COLLECTION"/>
     <descendantOf urnRef="urn:vpro:media:group:74908339" midRef="POMS_S_NPO_3767333" type="COLLECTION"/>
@@ -41,78 +37,19 @@
     <descendantOf urnRef="urn:vpro:media:group:95895388" midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
     <descendantOf urnRef="urn:vpro:media:group:97022679" midRef="POMS_S_NPO_10444886" type="PLAYLIST"/>
     <descendantOf urnRef="urn:vpro:media:group:97133697" midRef="POMS_S_NPO_10505903" type="PLAYLIST"/>
-    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
-    <prediction state="REALIZED" publishStart="2026-03-31T22:36:07+02:00" publishStop="2027-03-31T22:36:07+02:00">PLUSVOD</prediction>
-    <locations>
-        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-31T23:04:22.652+02:00" lastModified="2026-03-31T23:04:22.665+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:142371553">
-            <programUrl>npo+drm://internetvod.omroep.nl/VPWON_1368155</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-31T23:04:22.652+02:00" lastModified="2026-03-31T23:04:22.667+02:00" publishStart="2026-03-31T22:36:07+02:00" publishStop="2027-03-31T22:36:07+02:00" urn="urn:vpro:media:location:142371555">
-            <programUrl>npo+drm://plusvod.omroep.nl/VPWON_1368155</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-    </locations>
-    <images>
-        <shared:image owner="BROADCASTER" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T22:41:12.419+02:00" lastModified="2026-03-31T22:41:12.536+02:00" urn="urn:vpro:media:image:142371530">
-            <shared:title>Nieuwsuur</shared:title>
-            <shared:description>Nieuwsuur</shared:description>
-            <shared:imageUri>urn:vpro:image:2487476</shared:imageUri>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T22:54:10.480+02:00" lastModified="2026-03-31T22:54:10.480+02:00" urn="urn:vpro:media:image:142371547">
-            <shared:title>Nieuwsuur</shared:title>
-            <shared:description>Beruchte mensensmokkelaar voor de rechter * Personeel heeft vaker een noodknop * Parlement Israël stemt in met omstreden wet voor doodstraf</shared:description>
-            <shared:imageUri>urn:vpro:image:2487477</shared:imageUri>
-            <shared:offset>P0DT0H2M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Nieuwsuur</shared:credits>
-            <shared:sourceName>NOS, NTR</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T22:54:11.666+02:00" lastModified="2026-03-31T22:54:11.666+02:00" urn="urn:vpro:media:image:142371548">
-            <shared:title>Nieuwsuur</shared:title>
-            <shared:description>Beruchte mensensmokkelaar voor de rechter * Personeel heeft vaker een noodknop * Parlement Israël stemt in met omstreden wet voor doodstraf</shared:description>
-            <shared:imageUri>urn:vpro:image:2487478</shared:imageUri>
-            <shared:offset>P0DT0H1M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Nieuwsuur</shared:credits>
-            <shared:sourceName>NOS, NTR</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T22:54:12.187+02:00" lastModified="2026-03-31T22:54:12.187+02:00" urn="urn:vpro:media:image:142371549">
-            <shared:title>Nieuwsuur</shared:title>
-            <shared:description>Beruchte mensensmokkelaar voor de rechter * Personeel heeft vaker een noodknop * Parlement Israël stemt in met omstreden wet voor doodstraf</shared:description>
-            <shared:imageUri>urn:vpro:image:2487479</shared:imageUri>
-            <shared:offset>P0DT0H3M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Nieuwsuur</shared:credits>
-            <shared:sourceName>NOS, NTR</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-    </images>
+    <prediction state="ANNOUNCED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2026-03-31T22:36:07+02:00" publishStop="2027-03-31T22:36:07+02:00">PLUSVOD</prediction>
+    <locations/>
+    <images/>
     <scheduleEvents>
-        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
             <start>2026-03-31T22:00:00+02:00</start>
             <duration>P0DT0H35M29.000S</duration>
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="BVNT" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -120,7 +57,7 @@
             <duration>P0DT0H35M32.000S</duration>
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -128,7 +65,7 @@
             <duration>P0DT0H36M20.000S</duration>
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -136,7 +73,7 @@
             <duration>P0DT0H36M11.000S</duration>
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -144,7 +81,7 @@
             <duration>P0DT0H36M22.000S</duration>
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -152,7 +89,7 @@
             <duration>P0DT0H36M11.000S</duration>
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="NED2" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -160,7 +97,7 @@
             <duration>P0DT0H36M19.000S</duration>
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:140623559">
+        <scheduleEvent channel="BVNT" midRef="VPWON_1368155" urnRef="urn:vpro:media:program:131868774">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
@@ -169,13 +106,12 @@
             <poProgID>VPWON_1368155</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf added="2026-02-11T15:40:28.393+01:00" highlighted="false" midRef="VPWON_1368067" index="88" type="SEASON" urnRef="urn:vpro:media:group:139654369">
-        <memberOf midRef="VPWON_1246712" type="SERIES" index="2026">
+    <episodeOf added="2026-02-11T15:40:59.881+01:00" highlighted="false" midRef="VPWON_1368067" index="88" type="SEASON" urnRef="urn:vpro:media:group:131486785">
+        <memberOf midRef="VPWON_1246712" type="SERIES" index="18">
             <memberOf midRef="POMS_S_NPO_15374575" type="PLAYLIST" index="12"/>
             <memberOf midRef="POMS_S_NPO_10505903" type="PLAYLIST" index="13">
                 <memberOf midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
             </memberOf>
-            <memberOf midRef="POMS_S_NPO_20049773" type="PLAYLIST" index="13"/>
             <memberOf midRef="POMS_S_NPO_10444886" type="PLAYLIST" index="15">
                 <memberOf midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
             </memberOf>

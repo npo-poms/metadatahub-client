@@ -22,8 +22,8 @@
             <BasicDescription>
                <Title type="main">Tijd voor MAX</Title>
                <Title type="episodeTitle">Het ontstaan van de jazzscène in Amsterdam</Title>
-               <Synopsis length="short">Te gast: Eva Posthuma de Boer, Bas Ragas, Stijn Fransen, Mark Ponté, Michael Varekamp.</Synopsis>
-               <Synopsis length="medium">Eva Posthuma de Boer heeft een nieuwe roman geschreven dat gaat over verlies, vriendschap en liefde. Bas Ragas en Stijn Fransen zijn te zien in The Passion en blikken met ons vooruit op de komende editie. Mark Ponté en Michael Varekamp over het onstaan van de jazzscène in de jaren 30 in Amsterdam, waar nu een tentoonstelling over is gemaakt. Michael treedt ook op. Roy Khemradj praat ons bij over het onverwachte overlijden van de Surinaamse oud-president Chan Santokhi.</Synopsis>
+               <Synopsis length="short">Te gast: Eva Posthuma de Boer, Bas Ragas, Stijn Fransen, Roy Khemradj, Mark Ponté en Michael Varekamp.</Synopsis>
+               <Synopsis length="medium">Eva Posthuma de Boer heeft een nieuwe roman geschreven die gaat over verlies, vriendschap en liefde. * Bas Ragas en Stijn Fransen zijn te zien in The Passion en blikken vooruit op de komende editie. * Mark Ponté en Michael Varekamp over het onstaan van de jazzscène in de jaren 30 in Amsterdam, waar nu een tentoonstelling over is gemaakt. Michael treedt ook op. Roy Khemradj praat ons bij over het onverwachte overlijden van de Surinaamse oud-president Chan Santokhi.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
                   <Name>InformatiefNieuws/actualiteiten</Name>
                </Genre>
@@ -55,7 +55,6 @@
          <ProgramInformation programId="crid://npo/programmagegevens/2526820606668">
             <BasicDescription>
                <Title type="main">MAX Geheugentrainer</Title>
-               <Title type="episodeTitle">MAX Geheugentrainer</Title>
                <Synopsis length="short">Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</Synopsis>
                <Synopsis length="medium">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:InformatiefSpel/quiz">
@@ -82,7 +81,6 @@
          <ProgramInformation programId="crid://npo/programmagegevens/2471841190668">
             <BasicDescription>
                <Title type="main">Nederland in Beweging</Title>
-               <Title type="episodeTitle">Nederland in Beweging</Title>
                <Synopsis length="short">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Synopsis length="medium">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Sport">
@@ -448,8 +446,7 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2563287760668">
             <BasicDescription>
-               <Title type="main">NPO Doc</Title>
-               <Title type="episodeTitle">Blauw Licht - Herinneringen van een Ambulancebroeder</Title>
+               <Title type="main">NPO Doc: Blauw Licht - Herinneringen van een Ambulancebroeder</Title>
                <Synopsis length="short">Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Is het wel normaal dat één mens zoveel lijden moet zien?</Synopsis>
                <Synopsis length="medium">Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Na 23 jaar op de ambulance staat een verzameling verhalen en gezichten op zijn netvlies gebrand. Hier lag het 'binkie' op de bouwplaats dat om zijn moeder bleef roepen. Daar het jongetje dat frontaal door een stadsbus werd geschept. Daar het meisje met de vlechten dat verdronk in het kanaal. Als eerste ter plaatse, was hij voor vele mensen de laatste die hun hand vasthield. Is het wel normaal dat één mens zoveel lijden moet zien?</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:DocumentaireHuman Interest">
@@ -944,8 +941,6 @@
                <PublishedStartTime>2026-04-01T21:00:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT0H17M33.000S</PublishedDuration>
                <OtherIdentifier type="ProductID">VPWON_1372616</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">POMS_S_NPO_20243715</OtherIdentifier>
-               <OtherIdentifier type="ParentSeriesID">POMS_S_NPO_20243592</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
                <Program crid="crid://npo/programmagegevens/2562758421668"/>
@@ -968,8 +963,6 @@
                <PublishedStartTime>2026-04-01T22:45:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT0H35M44.000S</PublishedDuration>
                <OtherIdentifier type="ProductID">VPWON_1372178</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">POMS_S_EO_20330961</OtherIdentifier>
-               <OtherIdentifier type="ParentSeriesID">POMS_S_EO_20330960</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
                <Program crid="crid://npo/programmagegevens/2560400459668"/>

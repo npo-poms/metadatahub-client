@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000065" sortDate="2026-03-31T18:30:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:41:46.196+01:00" lastModified="2026-04-02T14:50:49.157+02:00" publishDate="2026-04-02T14:50:52.465+02:00" urn="urn:vpro:media:program:140624041">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000065" sortDate="2026-03-31T18:30:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:44:33.855+01:00" lastModified="2026-04-02T14:53:24.069+02:00" publishDate="2026-04-02T14:54:30.642+02:00" urn="urn:vpro:media:program:131869256">
     <crid>crid://npo/programmagegevens/2562757990668</crid>
     <crid>crid://npo/programmagegevens/2570972044668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
+    <region regionId="WR" platform="INTERNETVOD"/>
     <region regionId="EU" platform="PLUSVOD"/>
     <title owner="MIS" type="MAIN">Noord-Zuid-Oost-West</title>
     <title owner="MIS" type="SUB">Limburg in de Waereld - Drijfveren</title>
@@ -11,91 +12,28 @@
     <genre id="3.0.1.7">
         <term>Informatief</term>
     </genre>
-    <targetGroups owner="INHERITED">
-        <targetGroup>KIDS_14</targetGroup>
-        <targetGroup>KIDS_16</targetGroup>
-    </targetGroups>
     <country code="NL">Nederland</country>
     <language code="nl">Nederlands</language>
     <isDubbed>false</isDubbed>
     <releaseYear>2026</releaseYear>
-    <duration>P0DT0H30M36.487S</duration>
+    <duration>P0DT0H31M10.000S</duration>
     <credits/>
     <descendantOf urnRef="urn:vpro:media:group:120319868" midRef="POW_05039552" type="SERIES"/>
-    <descendantOf urnRef="urn:vpro:media:group:139654356" midRef="POW_06000015" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:131486777" midRef="POW_06000015" type="SEASON"/>
     <ageRating>ALL</ageRating>
-    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
-    <prediction state="REALIZED" publishStart="2026-03-31T19:02:08+02:00" publishStop="2027-03-31T19:02:08+02:00">PLUSVOD</prediction>
-    <locations>
-        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-31T19:27:18.133+02:00" lastModified="2026-03-31T19:27:18.146+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:142371105">
-            <programUrl>npo+drm://internetvod.omroep.nl/POW_06000065</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-31T19:27:18.133+02:00" lastModified="2026-03-31T19:27:18.148+02:00" publishStart="2026-03-31T19:02:08+02:00" publishStop="2027-03-31T19:02:08+02:00" urn="urn:vpro:media:location:142371107">
-            <programUrl>npo+drm://plusvod.omroep.nl/POW_06000065</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-    </locations>
-    <images>
-        <shared:image owner="BROADCASTER" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-12T14:33:07.162+01:00" lastModified="2026-03-12T14:33:07.185+01:00" urn="urn:vpro:media:image:142113077">
-            <shared:title>Noord-Zuid-Oost-West</shared:title>
-            <shared:description>Noord-Zuid-Oost-West</shared:description>
-            <shared:imageUri>urn:vpro:image:2226348</shared:imageUri>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T19:19:00.572+02:00" lastModified="2026-03-31T19:19:00.572+02:00" urn="urn:vpro:media:image:142371067">
-            <shared:title>Noord-Zuid-Oost-West</shared:title>
-            <shared:description>Limburg in de Waereld laat zien wat de Franse revolutie en de Verlichting betekenden voor Limburg van de negentiende eeuw tot de Eerste Wereldoorlog. Drijfveren toont mensen met een bijzondere passie.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487419</shared:imageUri>
-            <shared:offset>P0DT0H1M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Noord-Zuid-Oost-West / Limburg in de Waereld - Drijfveren</shared:credits>
-            <shared:sourceName>MAX</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T19:19:03.075+02:00" lastModified="2026-03-31T19:19:03.075+02:00" urn="urn:vpro:media:image:142371068">
-            <shared:title>Noord-Zuid-Oost-West</shared:title>
-            <shared:description>Limburg in de Waereld laat zien wat de Franse revolutie en de Verlichting betekenden voor Limburg van de negentiende eeuw tot de Eerste Wereldoorlog. Drijfveren toont mensen met een bijzondere passie.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487420</shared:imageUri>
-            <shared:offset>P0DT0H2M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Noord-Zuid-Oost-West / Limburg in de Waereld - Drijfveren</shared:credits>
-            <shared:sourceName>MAX</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-31T19:19:08.077+02:00" lastModified="2026-03-31T19:19:08.077+02:00" urn="urn:vpro:media:image:142371069">
-            <shared:title>Noord-Zuid-Oost-West</shared:title>
-            <shared:description>Limburg in de Waereld laat zien wat de Franse revolutie en de Verlichting betekenden voor Limburg van de negentiende eeuw tot de Eerste Wereldoorlog. Drijfveren toont mensen met een bijzondere passie.</shared:description>
-            <shared:imageUri>urn:vpro:image:2487421</shared:imageUri>
-            <shared:offset>P0DT0H3M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Noord-Zuid-Oost-West / Limburg in de Waereld - Drijfveren</shared:credits>
-            <shared:sourceName>MAX</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-    </images>
+    <prediction state="ANNOUNCED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2026-03-31T19:02:08+02:00" publishStop="2027-03-31T19:02:08+02:00">PLUSVOD</prediction>
+    <locations/>
+    <images/>
     <scheduleEvents>
-        <scheduleEvent channel="NED2" midRef="POW_06000065" urnRef="urn:vpro:media:program:140624041">
+        <scheduleEvent channel="NED2" midRef="POW_06000065" urnRef="urn:vpro:media:program:131869256">
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-31+02:00</guideDay>
             <start>2026-03-31T18:30:00+02:00</start>
             <duration>P0DT0H31M42.000S</duration>
             <poProgID>POW_06000065</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="POW_06000065" urnRef="urn:vpro:media:program:140624041">
+        <scheduleEvent channel="NED2" midRef="POW_06000065" urnRef="urn:vpro:media:program:131869256">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -104,7 +42,7 @@
             <poProgID>POW_06000065</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf added="2026-02-11T15:41:46.343+01:00" highlighted="false" midRef="POW_06000015" index="50" type="SEASON" urnRef="urn:vpro:media:group:139654356">
+    <episodeOf added="2026-02-11T15:44:34.502+01:00" highlighted="false" midRef="POW_06000015" index="50" type="SEASON" urnRef="urn:vpro:media:group:131486777">
         <memberOf midRef="POW_05039552" type="SERIES" index="6"/>
     </episodeOf>
     <segments/>

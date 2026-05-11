@@ -34,13 +34,13 @@ void main() throws Exception {
 
     var resultsPrent = Paths.get("results");
     try(
-        var pomsServices = NpoApiClients.configured(Env.PROD).build();
+        var pomsServices = NpoApiClients.configured(Env.ACC).build();
         var metadataHubMediaService = new MetadataHubService(new Configuration().createClient());
         ) {
         for (Day day : List.of(
-            new Day(Channel.NED2, LocalDate.of(2026, 4, 1)),
-            new Day(Channel.NED1, LocalDate.of(2026, 3, 1)),
-            new Day(Channel.RAD1, LocalDate.of(2026, 4, 1))
+            new Day(Channel.NED2, LocalDate.of(2026, 4, 1))
+            //new Day(Channel.NED1, LocalDate.of(2026, 3, 1)),
+            //new Day(Channel.RAD1, LocalDate.of(2026, 4, 1))
         )) {
 
             // todo, I couldn't get this working yet via MH

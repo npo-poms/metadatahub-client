@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
@@ -14,9 +14,34 @@
         "title": { "type": "literal" , "value": "Carolina Dijkhuizen" } ,
         "description": { "type": "literal" , "value": "Carolina Dijkhuizen is actrice en zangeres. Ze speelt de iconische rol van Hermelien Griffel in het toneelstuk Harry Potter en het Vervloekte Kind, een voorstelling vol magie, emotie en onverwachte wendingen. Dijkhuizen is een vertrouwd gezicht in de Nederlandse theaterwereld en speelde eerdere hoofdrollen in musicals als Aida, The Lion King en Sister Act. Daarnaast was ze te zien in populaire televisieprogramma's zoals De Beste Zangers van Nederland, Wie is de Mol? en Expeditie Robinson." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:05.237Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Kunst/cultuur" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.7.24" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f280070f-681c-432f-af78-b433d3a6d11e" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/406ca2eb-730b-499a-81c4-23f35e852219" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a2c6d179-7303-4006-acef-ac8c65436128" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T12:15:00.000Z" } ,
+        "broadcaster": { "type": "literal" , "value": "NTR" } ,
+        "title": { "type": "literal" , "value": "Carolina Dijkhuizen" } ,
+        "description": { "type": "literal" , "value": "Carolina Dijkhuizen is actrice en zangeres. Ze speelt de iconische rol van Hermelien Griffel in het toneelstuk Harry Potter en het Vervloekte Kind, een voorstelling vol magie, emotie en onverwachte wendingen. Dijkhuizen is een vertrouwd gezicht in de Nederlandse theaterwereld en speelde eerdere hoofdrollen in musicals als Aida, The Lion King en Sister Act. Daarnaast was ze te zien in populaire televisieprogramma's zoals De Beste Zangers van Nederland, Wie is de Mol? en Expeditie Robinson." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:05.237Z" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.7.24" } ,
         "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
         "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
         "ratingValue": { "type": "literal" , "value": "AL" } ,

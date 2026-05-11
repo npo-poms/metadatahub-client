@@ -2,11 +2,12 @@ PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
 SELECT *
 WHERE {
     ?entity ec:hasIdentifier ?id .
-    ?id ec:name "PRID" .
+      ?id ec:name "PRID" .
+      ?id ec:identifierValue ?prid .
     ?entity ec:isPartOf ?part .
-    ?part ec:hasIdentifier ?partId .
-    ?partId ec:name "PRID" .
-    ?partId ec:identifierValue "AT_300013241" .
+      ?part ec:hasIdentifier ?partId .
+      ?partId ec:name "PRID" .
+    ?partId ec:identifierValue "POW_05999846" .
 
     OPTIONAL { ?entity ec:title ?title . }
     OPTIONAL { ?entity ec:description ?description . }

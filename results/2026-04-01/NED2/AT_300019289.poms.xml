@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300019289" sortDate="2024-07-24T14:05:00+02:00" workflow="PUBLISHED" creationDate="2024-07-23T09:48:28.746+02:00" lastModified="2026-04-08T11:10:45.381+02:00" publishDate="2026-04-08T11:12:08.847+02:00" urn="urn:vpro:media:program:135073679">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" hasSubtitles="true" mid="AT_300019289" sortDate="2024-07-24T14:05:00+02:00" workflow="PUBLISHED" creationDate="2024-07-23T09:50:29.100+02:00" lastModified="2026-04-08T11:12:48.306+02:00" publishDate="2026-04-08T11:14:01.561+02:00" urn="urn:vpro:media:program:129312123">
     <crid>crid://npo/programmagegevens/2417789124668</crid>
     <crid>crid://npo/programmagegevens/2417789351668</crid>
     <crid>crid://npo/programmagegevens/2416210364668</crid>
+    <crid>crid://npo/programmagegevens/2421132978668</crid>
     <crid>crid://npo/programmagegevens/2450373325668</crid>
     <crid>crid://npo/programmagegevens/2453099588668</crid>
     <crid>crid://npo/programmagegevens/2470033820668</crid>
@@ -15,6 +16,7 @@
     <crid>crid://npo/programmagegevens/2562758181668</crid>
     <crid>crid://npo/programmagegevens/2574699821668</crid>
     <broadcaster id="AVTR">AVROTROS</broadcaster>
+    <region regionId="WR" platform="INTERNETVOD"/>
     <title owner="MIS" type="MAIN">Tussen Kunst en Kitsch Extra</title>
     <title owner="MIS" type="SUB">40 jaar Tussen Kunst en Kitsch</title>
     <description owner="MIS" type="MAIN">Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</description>
@@ -23,41 +25,22 @@
         <term>Informatief</term>
         <term>Kunst/cultuur</term>
     </genre>
-    <targetGroups owner="INHERITED">
-        <targetGroup>KIDS_14</targetGroup>
-        <targetGroup>KIDS_16</targetGroup>
-    </targetGroups>
     <country code="NL">Nederland</country>
     <language code="nl">Nederlands</language>
     <isDubbed>false</isDubbed>
+    <availableSubtitles language="nl" type="CAPTION" workflow="MISSING"/>
     <releaseYear>2024</releaseYear>
-    <duration>P0DT0H13M13.200S</duration>
+    <duration>P0DT0H13M32.000S</duration>
     <credits/>
-    <descendantOf urnRef="urn:vpro:media:group:110421630" midRef="POMS_S_NPO_15179219" type="PLAYLIST"/>
-    <descendantOf urnRef="urn:vpro:media:group:120059975" midRef="POMS_S_NPO_16465738" type="PLAYLIST"/>
-    <descendantOf urnRef="urn:vpro:media:group:135073682" midRef="AT_300019288" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:129312131" midRef="AT_300019288" type="SEASON"/>
     <descendantOf urnRef="urn:vpro:media:group:38230019" midRef="POMS_S_AVRO_501459" type="COLLECTION"/>
     <descendantOf urnRef="urn:vpro:media:group:70884932" midRef="AT_2036145" type="SERIES"/>
     <descendantOf urnRef="urn:vpro:media:group:74453774" midRef="POMS_S_NPO_3712257" type="PLAYLIST"/>
     <ageRating>ALL</ageRating>
-    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</prediction>
     <prediction state="REALIZED">PLUSVOD</prediction>
     <locations>
-        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2024-07-24T14:36:26.762+02:00" lastModified="2024-07-24T14:36:27.103+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00" urn="urn:vpro:media:location:135083564">
-            <programUrl>npo+drm://internetvod.omroep.nl/AT_300019289</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2024-07-24T14:36:26.763+02:00" lastModified="2024-07-24T14:36:27.106+02:00" urn="urn:vpro:media:location:135083566">
-            <programUrl>npo+drm://plusvod.omroep.nl/AT_300019289</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-        <location owner="PROJECTM" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2024-07-24T14:28:03.537+02:00" lastModified="2024-07-24T14:28:03.638+02:00" urn="urn:vpro:media:location:135083519">
+        <location owner="PROJECTM" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2024-07-24T14:28:04.218+02:00" lastModified="2024-07-24T14:28:04.325+02:00" urn="urn:vpro:media:location:129364410">
             <programUrl>sub+http://npo.npoplus.nl/video/MXF/AT_300019289</programUrl>
             <avAttributes>
                 <bitrate>3500000</bitrate>
@@ -65,62 +48,16 @@
             </avAttributes>
         </location>
     </locations>
-    <images>
-        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="true" workflow="PUBLISHED" creationDate="2024-07-23T09:57:25.423+02:00" lastModified="2024-07-23T09:57:25.703+02:00" urn="urn:vpro:media:image:135073742">
-            <shared:title>TKK Extra</shared:title>
-            <shared:description>TKK Extra</shared:description>
-            <shared:imageUri>urn:vpro:image:2167138</shared:imageUri>
-            <shared:height>682</shared:height>
-            <shared:width>1235</shared:width>
-            <shared:credits>avrotros</shared:credits>
-            <shared:sourceName>still uit uitzending</shared:sourceName>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2024-07-24T14:27:20.087+02:00" lastModified="2024-07-24T14:27:20.087+02:00" urn="urn:vpro:media:image:135083515">
-            <shared:title>Tussen Kunst en Kitsch Extra</shared:title>
-            <shared:description>Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</shared:description>
-            <shared:imageUri>urn:vpro:image:2168353</shared:imageUri>
-            <shared:offset>P0DT0H1M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Tussen Kunst en Kitsch Extra / 40 jaar Tussen Kunst en Kitsch</shared:credits>
-            <shared:sourceName>AVROTROS</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2024</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2024-07-24T14:27:31.935+02:00" lastModified="2024-07-24T14:27:31.935+02:00" urn="urn:vpro:media:image:135083516">
-            <shared:title>Tussen Kunst en Kitsch Extra</shared:title>
-            <shared:description>Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</shared:description>
-            <shared:imageUri>urn:vpro:image:2168354</shared:imageUri>
-            <shared:offset>P0DT0H2M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Tussen Kunst en Kitsch Extra / 40 jaar Tussen Kunst en Kitsch</shared:credits>
-            <shared:sourceName>AVROTROS</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2024</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2024-07-24T14:27:34.773+02:00" lastModified="2024-07-24T14:27:34.773+02:00" urn="urn:vpro:media:image:135083517">
-            <shared:title>Tussen Kunst en Kitsch Extra</shared:title>
-            <shared:description>Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</shared:description>
-            <shared:imageUri>urn:vpro:image:2168355</shared:imageUri>
-            <shared:offset>P0DT0H3M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Tussen Kunst en Kitsch Extra / 40 jaar Tussen Kunst en Kitsch</shared:credits>
-            <shared:sourceName>AVROTROS</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2024</shared:date>
-        </shared:image>
-    </images>
+    <images/>
     <scheduleEvents>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2024-07-24+02:00</guideDay>
             <start>2024-07-24T14:05:00+02:00</start>
             <duration>P0DT0H13M32.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2024-07-26+02:00</guideDay>
@@ -128,7 +65,7 @@
             <duration>P0DT0H13M39.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2024-08-13+02:00</guideDay>
@@ -136,7 +73,7 @@
             <duration>P0DT0H14M28.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2024-08-13+02:00</guideDay>
@@ -144,7 +81,7 @@
             <duration>P0DT0H14M28.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2024-12-31+01:00</guideDay>
@@ -152,7 +89,7 @@
             <duration>P0DT0H14M21.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-02-18+01:00</guideDay>
@@ -160,7 +97,7 @@
             <duration>P0DT0H14M32.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-04-08+02:00</guideDay>
@@ -168,7 +105,7 @@
             <duration>P0DT0H15M53.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-07-09+02:00</guideDay>
@@ -176,7 +113,7 @@
             <duration>P0DT0H14M26.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-07-09+02:00</guideDay>
@@ -184,7 +121,7 @@
             <duration>P0DT0H14M26.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-07-24+02:00</guideDay>
@@ -192,7 +129,7 @@
             <duration>P0DT0H17M42.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-07-27+02:00</guideDay>
@@ -200,7 +137,7 @@
             <duration>P0DT0H13M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-07-27+02:00</guideDay>
@@ -208,7 +145,7 @@
             <duration>P0DT0H13M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-09-24+02:00</guideDay>
@@ -216,7 +153,7 @@
             <duration>P0DT0H13M51.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-09-25+02:00</guideDay>
@@ -224,7 +161,7 @@
             <duration>P0DT0H19M9.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-09-27+02:00</guideDay>
@@ -232,7 +169,7 @@
             <duration>P0DT0H13M48.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-09-27+02:00</guideDay>
@@ -240,7 +177,7 @@
             <duration>P0DT0H13M48.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-10-01+02:00</guideDay>
@@ -248,7 +185,7 @@
             <duration>P0DT0H14M31.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-10-06+02:00</guideDay>
@@ -256,7 +193,7 @@
             <duration>P0DT0H13M1.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-10-09+02:00</guideDay>
@@ -264,7 +201,7 @@
             <duration>P0DT0H14M18.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="BVNT" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2025-10-09+02:00</guideDay>
@@ -272,7 +209,7 @@
             <duration>P0DT0H14M18.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-01+02:00</guideDay>
@@ -280,7 +217,7 @@
             <duration>P0DT0H19M2.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:135073679">
+        <scheduleEvent channel="NED2" midRef="AT_300019289" urnRef="urn:vpro:media:program:129312123">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-04-07+02:00</guideDay>
@@ -289,12 +226,10 @@
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf added="2024-07-23T09:48:29.685+02:00" highlighted="false" midRef="AT_300019288" index="2" type="SEASON" urnRef="urn:vpro:media:group:135073682">
-        <memberOf midRef="AT_2036145" type="SERIES" index="21">
+    <episodeOf added="2024-07-23T09:50:40.931+02:00" highlighted="false" midRef="AT_300019288" index="1" type="SEASON" urnRef="urn:vpro:media:group:129312131">
+        <memberOf midRef="AT_2036145" type="SERIES" index="2025">
             <memberOf midRef="POMS_S_AVRO_501459" type="COLLECTION" index="3"/>
             <memberOf midRef="POMS_S_NPO_3712257" type="PLAYLIST" index="133"/>
-            <memberOf midRef="POMS_S_NPO_16465738" type="PLAYLIST" index="1506"/>
-            <memberOf midRef="POMS_S_NPO_15179219" type="PLAYLIST" index="2500"/>
         </memberOf>
     </episodeOf>
     <segments/>

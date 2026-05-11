@@ -1,27 +1,8 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
   } ,
   "results": {
     "bindings": [
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6187cdbf-ce07-4b66-9bdd-d82308f58768" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/41fd8b79-79ae-4561-9ae7-246184e6721b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c690efc9-3600-4b99-982f-65b7f03b0020" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-26T19:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "VPRO" } ,
-        "title": { "type": "literal" , "value": "Ticket naar Antarctica (1/2)" } ,
-        "description": { "type": "literal" , "value": "Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-04T10:32:40.905Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
-        "genreLabel": { "type": "literal" , "value": "Documentaire-Reizen" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
       { 
         "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6187cdbf-ce07-4b66-9bdd-d82308f58768" } ,
         "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/41fd8b79-79ae-4561-9ae7-246184e6721b" } ,
@@ -33,9 +14,70 @@
         "title": { "type": "literal" , "value": "Ticket naar Antarctica (1/2)" } ,
         "description": { "type": "literal" , "value": "Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-04T10:32:40.905Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
-        "genreLabel": { "type": "literal" , "value": "Documentaire-Reizen" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.8.29" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6187cdbf-ce07-4b66-9bdd-d82308f58768" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/41fd8b79-79ae-4561-9ae7-246184e6721b" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c690efc9-3600-4b99-982f-65b7f03b0020" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-26T19:30:00.000Z" } ,
+        "broadcaster": { "type": "literal" , "value": "VPRO" } ,
+        "title": { "type": "literal" , "value": "Ticket naar Antarctica (1/2)" } ,
+        "description": { "type": "literal" , "value": "Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-04T10:32:40.905Z" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.8.29" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6187cdbf-ce07-4b66-9bdd-d82308f58768" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/41fd8b79-79ae-4561-9ae7-246184e6721b" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55946359-8257-4551-98fe-8437a9df5f9a" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T21:30:00.000Z" } ,
+        "broadcaster": { "type": "literal" , "value": "VPRO" } ,
+        "title": { "type": "literal" , "value": "Ticket naar Antarctica (1/2)" } ,
+        "description": { "type": "literal" , "value": "Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-04T10:32:40.905Z" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.8.29" } ,
+        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
+        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
+        "ratingValue": { "type": "literal" , "value": "AL" } ,
+        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+      } ,
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6187cdbf-ce07-4b66-9bdd-d82308f58768" } ,
+        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/41fd8b79-79ae-4561-9ae7-246184e6721b" } ,
+        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c690efc9-3600-4b99-982f-65b7f03b0020" } ,
+        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
+        "channelName": { "type": "literal" , "value": "NPO 2" } ,
+        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-26T19:30:00.000Z" } ,
+        "broadcaster": { "type": "literal" , "value": "VPRO" } ,
+        "title": { "type": "literal" , "value": "Ticket naar Antarctica (1/2)" } ,
+        "description": { "type": "literal" , "value": "Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-04T10:32:40.905Z" } ,
+        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/925e95d0-3cae-48f3-98f7-d22d7dd713e1" } ,
+        "genreId": { "type": "literal" , "value": "3.0.1.8.29" } ,
         "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
         "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
         "ratingValue": { "type": "literal" , "value": "AL" } ,

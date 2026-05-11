@@ -13,6 +13,12 @@
     <scheduleEvents>
         <scheduleEvent channel="NVOD" midRef="POW_06001585">
             <guideDay>2026-03-30+02:00</guideDay>
+            <start>2026-03-30T10:45:57.501+02:00</start>
+            <duration>P1Y0M0DT23H57M51.499S</duration>
+            <poProgID>POW_06001585</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="POW_06001585">
+            <guideDay>2026-03-30+02:00</guideDay>
             <start>2026-03-30T22:56:29.970+02:00</start>
             <duration>P74Y9M2DT3H2M30.030S</duration>
             <poProgID>POW_06001585</poProgID>
@@ -20,12 +26,6 @@
         <scheduleEvent channel="NED1" midRef="POW_06001585">
             <guideDay>2026-03-31+02:00</guideDay>
             <start>2026-03-31T10:30:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
-            <poProgID>POW_06001585</poProgID>
-        </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="POW_06001585">
-            <guideDay>2026-03-31+02:00</guideDay>
-            <start>2026-03-31T13:35:00+02:00</start>
             <duration>P0DT0H0M0.000S</duration>
             <poProgID>POW_06001585</poProgID>
         </scheduleEvent>

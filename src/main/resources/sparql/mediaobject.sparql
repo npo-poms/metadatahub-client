@@ -9,15 +9,19 @@ WHERE {
       ?publication ec:hasPublicationChannel ?channel .
          ?channel ec:name ?channelName .
       ?publication ec:hasStartDateTime ?start .
-    ?entity ec:hasPublisher/ec:hasAgent/ec:name ?broadcaster .
+    ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
     OPTIONAL { ?publication ec:hasEndDateTime ?end . }
+    OPTIONAL {
+        ?publication ec:hasProductionCountry ?productionCountry .
+          ?productionCountry a 'CountryCode'.
+          ?productionCountry ec:altLabel ?country .
+        }
     OPTIONAL { ?entity ec:title ?title . }
     OPTIONAL { ?entity ec:contentDescription ?description . }
     OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
     OPTIONAL {
-        ?entity ec:hasGenre ?genreNode .
-        BIND(str(?genreNode) AS ?genreId)
-        OPTIONAL { ?genreNode skos:prefLabel ?genreLabel . }
+        ?entity ec:hasGenre ?hasGenre .
+        ?hasGenre skos:notation ?genreId .
     }
     OPTIONAL {
         ?entity ec:hasRating ?rating .

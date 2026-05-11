@@ -53,6 +53,11 @@ public class MetadataHubService implements MediaProvider, AutoCloseable {
         ResultSet resultSet = client.selectQuery(query);
         var builder = MediaBuilder.broadcast().mid(mid);
         if (mapper.toProgram(resultSet, builder)) {
+            String segments = readQueryTemplate("segments_of.sparql");
+            String segmentsQuery = template.formatted(mid);
+            ResultSet segmentsResult  = client.selectQuery(segmentsQuery);
+
+
             return Optional.of(builder.build());
         } else {
             return Optional.empty();
