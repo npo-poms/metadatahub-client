@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300019289" sortDate="2026-04-07T12:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2024-07-23T09:50:29.100+02:00">
     <crid>crid://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc</crid>
-    <crid>crid://npo/programmagegevens/2416210364668</crid>
-    <crid>crid://npo/programmagegevens/2518652685668</crid>
-    <crid>crid://npo/programmagegevens/2421132978668</crid>
-    <crid>crid://npo/programmagegevens/2523283485668</crid>
     <crid>crid://npo/programmagegevens/2500781270668</crid>
-    <crid>crid://npo/programmagegevens/2562758181668</crid>
-    <crid>crid://npo/programmagegevens/2574699821668</crid>
     <crid>crid://npo/programmagegevens/2417789124668</crid>
     <crid>crid://npo/programmagegevens/2417789351668</crid>
     <crid>crid://npo/programmagegevens/2453099588668</crid>
@@ -16,7 +10,13 @@
     <crid>crid://npo/programmagegevens/2518662314668</crid>
     <crid>crid://npo/programmagegevens/2484727567668</crid>
     <crid>crid://npo/programmagegevens/2470033820668</crid>
-    <broadcaster id="AVTR">AVTR</broadcaster>
+    <crid>crid://npo/programmagegevens/2562758181668</crid>
+    <crid>crid://npo/programmagegevens/2416210364668</crid>
+    <crid>crid://npo/programmagegevens/2518652685668</crid>
+    <crid>crid://npo/programmagegevens/2421132978668</crid>
+    <crid>crid://npo/programmagegevens/2523283485668</crid>
+    <crid>crid://npo/programmagegevens/2574699821668</crid>
+    <broadcaster id="AVTR">AVROTROS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">40 jaar Tussen Kunst en Kitsch</title>
     <description owner="AUTHORITY" type="MAIN">Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</description>
     <genre id="3.0.1.7.24">

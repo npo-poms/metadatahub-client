@@ -14,6 +14,7 @@ import nl.vpro.logging.simple.OutputStreamSimpleLogger;
 import nl.vpro.media.tva.Transform;
 import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
+import org.apache.commons.io.FileUtils;
 import static org.apache.jena.query.ResultSetFormatter.*;
 import org.apache.logging.log4j.jul.Log4jBridgeHandler;
 
@@ -50,7 +51,9 @@ void main() throws Exception {
             //var resultFromPoms = pomsServices.getScheduleService().listChannel(day.channelString(), day.day, null, null, "all", null, 0L, 240);
 
             Path dayDir = resultsPrent.resolve(day.day().toString());
+
             Path results = dayDir.resolve(day.channel.name());
+            FileUtils.deleteDirectory(results.toFile());
             Files.createDirectories(results);
             MediaTable pomsMediaTable = new MediaTable();
             MediaTable mhMediaTable = new MediaTable();

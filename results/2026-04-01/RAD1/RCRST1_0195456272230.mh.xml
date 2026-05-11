@@ -3,10 +3,10 @@
     <crid>crid://metadatahub.bijnpo.nl/6bf2cc97-5d35-4c4c-976a-8d3805c4da81</crid>
     <crid>crid://npo/rcrs/DEV/685a959295fcf61529e5e021</crid>
     <broadcaster id="EO">EO</broadcaster>
-    <broadcaster id="KRNC">KRNC</broadcaster>
+    <broadcaster id="KRNC">KRO-NCRV</broadcaster>
     <broadcaster id="NTR">NTR</broadcaster>
-    <broadcaster id="OZW">OZW</broadcaster>
-    <broadcaster id="BNVA">BNVA</broadcaster>
+    <broadcaster id="OZW">Omroep Zwart</broadcaster>
+    <broadcaster id="BNVA">BNNVARA</broadcaster>
     <title owner="AUTHORITY" type="MAIN">De Nacht van</title>
     <description owner="AUTHORITY" type="MAIN">Voor de graveyard shift van NPO Radio 1 slaan vijf omroepen de handen ineen. De NTR, EO, KRO-NCRV, BNNVARA en Omroep ZWART nemen elk één nacht voor hun rekening. Jonge makers creëren nachtradio waar je wakker van ligt, met onderwerpen waar je wakker voor wilt blijven. Zowel onvoorspelbaar als kwetsbaar, met een intimiteit die alleen de nacht kan bieden.</description>
     <genre id="3.0.1.7.21">
