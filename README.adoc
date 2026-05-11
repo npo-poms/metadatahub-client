@@ -38,50 +38,7 @@ TODO
 
 |  credits
 | dit is er wel denk ik
-a|
-[source, json]
-====
-"hasContributor": [
-{
-"@id": "http://metadatahub.bijnpo.nl/ec2d4c1b-bb8f-4071-b550-3d265d89193f",
-"@type": "Involvement",
-"hasAgent": {
-"@id": "http://metadatahub.bijnpo.nl/27828b9c-9b1e-4dd2-8d95-3427436831a9",
-"@type": "Person",
-"source": {
-"@id": "http://metadatahub.bijnpo.nl/15025f88-2fe9-4c7b-802c-5dd6f2f39de0",
-"@type": "Organisation",
-"label": "Nederlands Instituut voor Beeld en Geluid - GTAA",
-"homepage": "https://www.beeldengeluid.nl/kennis/expertisecentra/thesaurus"
-},
-"hasIdentifier": [
-{
-"@id": "http://metadatahub.bijnpo.nl/df8ecb53-7e49-4ba3-9df8-6ec8e0f005f3",
-"@type": "Identifier",
-"gtaaStatus": "approved",
-"hasObjectType": {
-"@id": "http://metadatahub.bijnpo.nl/c17f5f19-329f-4402-8ed7-a865a60bc6c4",
-"@type": "Concept",
-"definition": "Gemeenschappelijke Thesaurus Audiovisuele Archieven identifier",
-"prefLabel": "GTAA URI"
-},
-"identifierValue": "http://data.beeldengeluid.nl/gtaa/244738"
-}
-],
-"name": "Mischa Blok"
-},
-"hasObjectType": {
-"@id": "http://metadatahub.bijnpo.nl/5e14c899-0a1f-407b-9fdb-846fa05677bf",
-"@type": "Concept",
-"date": "2007-04-12",
-"definition": "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
-"inScheme": {
-"@id": "urn:ebu:metadata-cs:RoleCodeCS"
-},
-"notation": "25.10",
-"prefLabel": "Presenter"
-}
-====
+| voor/achternaam?
 
 |  targetgroups
 |  is er
