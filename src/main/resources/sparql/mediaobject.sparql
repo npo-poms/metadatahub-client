@@ -2,8 +2,13 @@ PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
+# I went for a solution with group by for all multi valued properties
+# otherwise for every single object the cartesion product of everyhing must be transferred, containing a lot of duplicatoijn
+# which does not seem ideal
+# but perhaps now it is going a bit too far
+# May we more complex things like schedulevents should just be fetched with e new query, because all this stuff with coelescce and reparsing is not ideal either
 SELECT
-    (SAMPLE(?title) as ?title)
+    (SAMPLE(?title) as ?title) # sample just to avoid to have to group by
     (SAMPLE(?description) as ?description)
     (SAMPLE(?dateCreated) as ?dateCreated)
     (GROUP_CONCAT(DISTINCT CONCAT(STR(?channelName), ",", STR(?start), ",", COALESCE(STR(?duration), "")); SEPARATOR="|") AS ?scheduleEvents)
