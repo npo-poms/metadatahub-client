@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101414120" sortDate="2026-03-01T22:45:00+01:00" workflow="PUBLISHED" creationDate="2026-03-01T10:30:16.837+01:00" lastModified="2026-03-03T08:48:37.841+01:00" publishDate="2026-03-03T08:48:50.265+01:00" urn="urn:vpro:media:program:141841120">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101414120" sortDate="2026-03-01T22:45:00+01:00" workflow="PUBLISHED" creationDate="2026-03-01T10:30:24.826+01:00" lastModified="2026-03-02T12:03:10.024+01:00" publishDate="2026-03-02T12:03:16.233+01:00" urn="urn:vpro:media:program:131955575">
     <crid>crid://npo/programmagegevens/2566910337668</crid>
     <crid>crid://npo/programmagegevens/2566910530668</crid>
     <broadcaster id="BNVA">BNNVARA</broadcaster>
@@ -10,85 +10,25 @@
         <term>Informatief</term>
         <term>Nieuws/actualiteiten</term>
     </genre>
-    <targetGroups owner="INHERITED">
-        <targetGroup>KIDS_14</targetGroup>
-        <targetGroup>KIDS_16</targetGroup>
-    </targetGroups>
     <country code="NL">Nederland</country>
     <language code="nl">Nederlands</language>
     <isDubbed>false</isDubbed>
     <releaseYear>2026</releaseYear>
-    <duration>P0DT0H45M5.806S</duration>
+    <duration>P0DT0H47M59.000S</duration>
     <credits>
-        <person role="PRESENTER">
+        <person externalId="whatson:2362156779517" role="PRESENTER">
             <givenName>Tim</givenName>
             <familyName>de Wit</familyName>
         </person>
     </credits>
-    <descendantOf urnRef="urn:vpro:media:group:137685450" midRef="BV_101413341" type="SERIES"/>
-    <descendantOf urnRef="urn:vpro:media:group:139744787" midRef="BV_101413581" type="SEASON"/>
-    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</prediction>
-    <prediction state="REALIZED" publishStart="2026-03-01T23:29:35+01:00" publishStop="2027-03-01T23:29:35+01:00">PLUSVOD</prediction>
-    <locations>
-        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-02T00:04:55.072+01:00" lastModified="2026-03-02T00:04:55.083+01:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00" urn="urn:vpro:media:location:141842869">
-            <programUrl>npo://internetvod.omroep.nl/BV_101414120</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-02T00:04:55.072+01:00" lastModified="2026-03-02T00:04:55.085+01:00" publishStart="2026-03-01T23:29:35+01:00" publishStop="2027-03-01T23:29:35+01:00" urn="urn:vpro:media:location:141842871">
-            <programUrl>npo://plusvod.omroep.nl/BV_101414120</programUrl>
-            <avAttributes>
-                <bitrate>3500000</bitrate>
-                <avFileFormat>HASP</avFileFormat>
-            </avAttributes>
-        </location>
-    </locations>
-    <images>
-        <shared:image owner="BROADCASTER" type="PROMO_LANDSCAPE" highlighted="true" workflow="PUBLISHED" creationDate="2026-03-02T00:47:46.516+01:00" lastModified="2026-03-02T00:47:48.511+01:00" urn="urn:vpro:media:image:141842918">
-            <shared:title>neggin</shared:title>
-            <shared:description>neggin</shared:description>
-            <shared:imageUri>urn:vpro:image:2475220</shared:imageUri>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:04.400+01:00" lastModified="2026-03-01T23:54:04.400+01:00" urn="urn:vpro:media:image:141842855">
-            <shared:title>Pauw &amp; De Wit</shared:title>
-            <shared:imageUri>urn:vpro:image:2475217</shared:imageUri>
-            <shared:offset>P0DT0H1M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
-            <shared:sourceName>BNNVARA</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:07.195+01:00" lastModified="2026-03-01T23:54:07.195+01:00" urn="urn:vpro:media:image:141842856">
-            <shared:title>Pauw &amp; De Wit</shared:title>
-            <shared:imageUri>urn:vpro:image:2475218</shared:imageUri>
-            <shared:offset>P0DT0H2M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
-            <shared:sourceName>BNNVARA</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-01T23:54:14.734+01:00" lastModified="2026-03-01T23:54:14.734+01:00" urn="urn:vpro:media:image:141842857">
-            <shared:title>Pauw &amp; De Wit</shared:title>
-            <shared:imageUri>urn:vpro:image:2475219</shared:imageUri>
-            <shared:offset>P0DT0H3M0.000S</shared:offset>
-            <shared:height>1080</shared:height>
-            <shared:width>1920</shared:width>
-            <shared:credits>Still Pauw &amp; De Wit</shared:credits>
-            <shared:sourceName>BNNVARA</shared:sourceName>
-            <shared:license>COPYRIGHTED</shared:license>
-            <shared:date>2026</shared:date>
-        </shared:image>
-    </images>
+    <descendantOf urnRef="urn:vpro:media:group:130730005" midRef="BV_101413341" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:131525614" midRef="BV_101413581" type="SEASON"/>
+    <prediction state="ANNOUNCED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2100-01-01T01:00:00+01:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2026-03-01T23:29:35+01:00" publishStop="2027-03-01T23:29:35+01:00">PLUSVOD</prediction>
+    <locations/>
+    <images/>
     <scheduleEvents>
-        <scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+        <scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:131955575">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-01+01:00</guideDay>
@@ -96,14 +36,14 @@
             <duration>P0DT0H47M59.000S</duration>
             <poProgID>BV_101414120</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+        <scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:131955575">
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-01T22:45:00+01:00</start>
             <duration>P0DT0H44M52.000S</duration>
             <poProgID>BV_101414120</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+        <scheduleEvent channel="NED1" midRef="BV_101414120" urnRef="urn:vpro:media:program:131955575">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-01+01:00</guideDay>
@@ -111,7 +51,7 @@
             <duration>P0DT0H45M6.000S</duration>
             <poProgID>BV_101414120</poProgID>
         </scheduleEvent>
-        <scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:141841120">
+        <scheduleEvent channel="BVNT" midRef="BV_101414120" urnRef="urn:vpro:media:program:131955575">
             <repeat isRerun="true"/>
             <textSubtitles>Teletekst ondertitels</textSubtitles>
             <guideDay>2026-03-01+01:00</guideDay>
@@ -120,7 +60,7 @@
             <poProgID>BV_101414120</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf added="2026-03-01T10:30:17.599+01:00" highlighted="false" midRef="BV_101413581" index="35" type="SEASON" urnRef="urn:vpro:media:group:139744787">
+    <episodeOf added="2026-03-01T10:30:29.280+01:00" highlighted="false" midRef="BV_101413581" index="82" type="SEASON" urnRef="urn:vpro:media:group:131525614">
         <memberOf midRef="BV_101413341" type="SERIES" index="2"/>
     </episodeOf>
     <segments/>

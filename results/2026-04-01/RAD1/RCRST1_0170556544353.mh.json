@@ -1,9 +1,0 @@
-{ "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
-  } ,
-  "results": {
-    "bindings": [
-      
-    ]
-  }
-}

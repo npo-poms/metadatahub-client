@@ -1,155 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/644e2c03-264c-4b2e-8087-e9fd16e27b4c" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T13:50:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
         "title": { "type": "literal" , "value": "Kassa" } ,
         "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e4399d17-7fce-4461-ac15-cc1445fcce5d" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-05T01:50:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/86ee860e-01a2-434d-9e2b-26eb387a7bfd" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T11:25:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bc937144-1192-4935-9255-8cefc7cff49b" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T07:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b864cf92-3df6-49f4-ab4e-b3a7ce8c2d71" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-28T18:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      }
-    ]
-  }
-}
-{ "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
-  } ,
-  "results": {
-    "bindings": [
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/644e2c03-264c-4b2e-8087-e9fd16e27b4c" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T13:50:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e4399d17-7fce-4461-ac15-cc1445fcce5d" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-05T01:50:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/86ee860e-01a2-434d-9e2b-26eb387a7bfd" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T11:25:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bc937144-1192-4935-9255-8cefc7cff49b" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T07:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/83a2c5ba-6544-47e7-816a-37b4258464ae" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5f7046a4-b3a7-4ec0-ab80-1f36aa8bfb5b" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b864cf92-3df6-49f4-ab4e-b3a7ce8c2d71" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-28T18:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "BNVA" } ,
-        "title": { "type": "literal" , "value": "Kassa" } ,
-        "description": { "type": "literal" , "value": "Door de oorlog in Iran stijgen de brandstofprijzen fors en nemen de zorgen over energie in huis toe. Ook wordt gekeken naar de vraag of de samenleving te afhankelijk is geworden van plastic en wat dat betekent voor onze gezondheid. Daarnaast wordt onderzocht wat de beste oordopjes voor het festivalseizoen zijn, wordt opnieuw gekeken naar scootmobelfraude en wordt ingezoomd op de paastafel: want hoe kipvriendelijk is dat gekookte eitje op tafel eigenlijk?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-10T14:40:49.212Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b2f01ebc-5d0b-45e1-91b4-fc5f5fd2ee2e" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7.28" }
+        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-04-04T13:50:00.000Z,2799000.0|BVN,2026-04-05T01:50:00.000Z,2799000.0|NPO 2,2026-04-01T11:25:00.000Z,2721000.0|NPO 2,2026-04-04T07:00:00.000Z,2761000.0|NPO 2,2026-03-28T18:00:00.000Z,2771000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "BNVA" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.28" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }

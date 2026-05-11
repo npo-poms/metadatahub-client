@@ -7,7 +7,7 @@ source auth.sh
 
 Q=$(<$1)
 #Q="$(<src/main/resources/sparql/firstquery.sparql)"
-printf -v QUERY '%s\nLIMIT 2' "$Q"
+printf -v QUERY '%s\nLIMIT 20' "$Q"
 echo EXECUTING SPARQL QUERY:
 echo "$QUERY"
 curl -G "${sparql_endpoint}" \

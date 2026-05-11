@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0449589130463" sortDate="2026-04-01T23:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:03:40.779+01:00" lastModified="2026-02-11T01:03:44.800+01:00" publishDate="2026-03-26T05:30:24.650+01:00" urn="urn:vpro:media:program:131865645">
+    <crid>crid://npo/rcrs/DEV/685a971495fcf61529e5e3d9</crid>
+    <broadcaster id="OZW">Omroep Zwart</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Met het Oog Op Morgen</title>
+    <description owner="AUTHORITY" type="MAIN">Het Oog brengt aan het eind van de dag een overzicht van het nieuws, de ochtendkranten en journalistieke interviews met mensen in en achter het nieuws, omlijst door mooie muziek.
+Elke dag van de week heeft zijn eigen presentator. Door deze vaste dag, de persoonlijke opening van het programma en de manier van interviewen, drukt de presentator een eigen stempel op de uitzending. We noemen NOS Met het Oog op Morgen ook wel een 'journalistieke personality show'.
+De ijzersterke formule en de persoonlijkheid en kwaliteit van de presentatoren zorgen ervoor dat het programma al sinds 1976 een uniek radioprogramma is dat zeer goed beluisterd en hoog gewaardeerd wordt.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT1H0M0.000S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Wilfried</givenName>
+            <familyName>de Jong</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:128209995" midRef="RCRSA1_0478388883454" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="ANNOUNCED">INTERNETVOD</prediction>
+    <locations/>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-02-11T01:03:40.868+01:00" lastModified="2026-02-11T01:03:55.125+01:00" urn="urn:vpro:media:image:131865649">
+            <shared:title>Met het Oog op Morgen</shared:title>
+            <shared:imageUri>urn:vpro:image:2223003</shared:imageUri>
+            <shared:height>420</shared:height>
+            <shared:width>420</shared:width>
+            <shared:credits>NPO Radio 1</shared:credits>
+            <shared:source>https://npotest.b-cdn.net/RAD1/image/b3661b97-625a-4a74-b160-562af62cf60c/Het%20Oog.webp</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0449589130463" urnRef="urn:vpro:media:program:131865645">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T23:00:00+02:00</start>
+            <duration>P0DT1H0M0.000S</duration>
+            <poProgID>RCRST1_0449589130463</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:03:41.203+01:00" highlighted="false" midRef="RCRSA1_0478388883454" index="432" type="SERIES" urnRef="urn:vpro:media:group:128209995"/>
+    <segments/>
+</program>

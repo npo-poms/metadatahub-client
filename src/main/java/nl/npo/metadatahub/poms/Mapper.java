@@ -52,69 +52,31 @@ public class Mapper {
         setInstant("dateModified", fields, first, builder::lastModified);
 
 
+        String[] broadcasters = split(first.getLiteral("broadcasters"));
+        builder.broadcasters(broadcasters);
+
+        String[] countries = split(first.getLiteral("countries"));
+        builder.countries(countries);
+
+        String[] genres = split(first.getLiteral("genres"));
+        builder.genres(Arrays.stream(genres).map(this::matchTermId).filter(Optional::isPresent).map(Optional::get).toList());
+
+        String[] contentRatings = split(first.getLiteral("contentRatings"));
+        builder.contentRatings(
+            Arrays.stream(contentRatings)
+                .map(this::parseContentRating)
+                .filter(Optional::isPresent)
+                .map(Optional::get).toArray(i -> new ContentRating[i])
+        );
 
 
-        // Collect multi-valued fields across all rows
 
-        // todo, I think the number of considered rows is a bit over the top
-        // we should use unions or group by or so.
-        List<ScheduleEvent> scheduleEvents = new ArrayList<>();
-        Set<String> genreIds = new LinkedHashSet<>();
-        AgeRating ageRating = null;
-        Set<ContentRating> contentRatings = new LinkedHashSet<>();
-        Set<Broadcaster> broadcasters = new LinkedHashSet<>();
+        String[]  scheduleEventsSplit = split(first.getLiteral("scheduleEvents"));
+        for (String scheduleEvent : scheduleEventsSplit) {
+            builder.scheduleEvent(parseScheduleEvent(scheduleEvent));
 
-        while(resultSet.hasNext()) {
-            QuerySolution row = resultSet.next();
-            toScheduleEvent(fields, row).ifPresent(scheduleEvents::add);
-
-            if (fields.contains("country")) {
-                setString("country", fields, row, builder::countries);
-
-            }
-            // Genre
-            if (fields.contains("genreId")) {
-                Literal genreLit = row.getLiteral("genreId");
-                if (genreLit != null) {
-                    genreIds.add(genreLit.getString());
-                }
-            }
-
-            // Rating: age vs content, determined by ratingType URI
-            if (fields.contains("ratingType") && fields.contains("ratingValue")) {
-                Literal typeLit  = row.getLiteral("ratingType");
-                Literal valueLit = row.getLiteral("ratingValue");
-                if (typeLit != null && valueLit != null) {
-                    String ratingType = typeLit.getString();
-                    if (ratingType.contains(AGE_RATING_TYPE_SUFFIX)) {
-                        // e.g. ratingValue = "6", "12", "ALL"
-                        ageRating = parseAgeRating(valueLit.getString());
-                    } else {
-                        // content warning: GEWELD, SEKS, ANGST, etc.
-                        parseContentRating(valueLit.getString()).ifPresent(contentRatings::add);
-                    }
-                }
-            }
-            // Broadcaster
-            if (fields.contains("broadcaster")) {
-                Literal broadcasterLit = row.getLiteral("broadcaster");
-                if (broadcasterLit != null) {
-                    ServiceLocator.getBroadcasterService().findForIds(broadcasterLit.getString())
-                        .ifPresentOrElse(
-                            broadcasters::add
-                            ,
-                            () -> log.warning("Broadcaster " + broadcasterLit + " snot found")
-                        );
-
-                }
-            }
         }
 
-        builder.scheduleEvents(scheduleEvents.toArray(new ScheduleEvent[0]));
-        builder.genres(genreIds.stream().map(this::matchTermId).filter(Optional::isPresent).map(Optional::get).toList());
-        builder.ageRating(ageRating);
-        builder.contentRatings(contentRatings.toArray(new ContentRating[0]));
-        builder.broadcasters(broadcasters.toArray(new Broadcaster[0]));
         return true;
     }
 
@@ -132,41 +94,6 @@ public class Mapper {
         }
     }
 
-    private Optional<Genre> loadGenre(String key) {
-        String[] split = key.split("-", 2);
-        String primary = split[0].trim();
-        String secondary;
-        if  (split.length > 1) {
-            secondary = split[1].trim();
-        } else {
-            secondary = null;
-        }
-        Optional<Term> primaryTerm = classificationService.values().stream()
-            .filter(t -> t.depth() == 4)
-            .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(primary)).findFirst();
-
-        if (primaryTerm.isEmpty()) {
-            log.warning("Could not find primary term for " + primary);
-            return Optional.empty();
-        }
-
-        final Optional<Term> secondaryTerm = classificationService.values().stream()
-            .filter(t -> primaryTerm.get().equals(t.getParent()))
-            .filter(k -> k.getName(nl_vpp).equalsIgnoreCase(secondary))
-            .findFirst();
-
-
-        if (secondaryTerm.isPresent()) {
-            return Optional.of(Genre.of(secondaryTerm.get()));
-        } else {
-            if (StringUtils.isNotEmpty(secondary)) {
-                if (! "Overig".equalsIgnoreCase(secondary)) {
-                    throw new NoSuchElementException("No such term " + secondary + " for " + primaryTerm);
-                }
-            }
-        }
-        return Optional.of(Genre.of(primaryTerm.get()));
-    }
 
 
     private AgeRating parseAgeRating(String value) {
@@ -205,7 +132,6 @@ public class Mapper {
         }
         Channel channel = getChannelByDisplayName(channelLit.getString()).orElse(null);
         if (channel == null) {
-
             return Optional.empty();
         }
         Instant start = ((XSDDateTime) startLit.getValue()).asCalendar().toInstant();
@@ -221,6 +147,28 @@ public class Mapper {
         return Optional.of(new ScheduleEvent(channel, start, duration));
     }
 
+    /**
+     * Parse the aggregated ?scheduleEvents field (triplets: channelName|start|duration, separated by "|").
+     * Returns one ScheduleEvent per triplet.
+     */
+    public ScheduleEvent parseScheduleEvent(String scheduleEvents) {
+
+        String[] parts = scheduleEvents.split(",", 3);
+        List<ScheduleEvent> result = new ArrayList<>();
+        // triplets: channelName, start, duration
+        String channelName = parts[0];
+        String startStr    = parts[1];
+        String durationStr = parts[2];
+        Channel channel = getChannelByDisplayName(channelName).orElse(null);
+        Instant start = Instant.parse(startStr);
+        Duration duration = null;
+        if (!durationStr.isEmpty()) {
+            duration = Duration.ofSeconds(Math.round(1000 * Float.parseFloat(durationStr)));
+        }
+        return new ScheduleEvent(channel, start, duration);
+
+    }
+
     public static Optional<Channel> getChannelByDisplayName(String name) {
         if ("INTERNETVOD".equals(name)) {
             return Optional.of(Channel.NVOD);
@@ -233,6 +181,9 @@ public class Mapper {
         }
         if ("NPO 3 & Zapp".equals(name)) {
             return Optional.of(Channel.NED3);
+        }
+        if ("NPO Radio 1".equals(name)) {
+            return Optional.of(Channel.RAD1);
         }
         for (Channel channel : Channel.values()) {
             if (channel.getDisplayName().equalsIgnoreCase(name)) {
@@ -260,6 +211,20 @@ public class Mapper {
             } else {
                 consumer.accept(converter.apply(lit));
             }
+        }
+    }
+
+    String[] split(Literal lit){
+        if (lit == null) {
+            return new String[0];
+        }
+        String s= lit.getString();
+
+        if (s.isEmpty()) {
+            return new String[0];
+        } else {
+            return s.split("\\|");
+
         }
     }
 }

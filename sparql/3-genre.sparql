@@ -1,0 +1,15 @@
+PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT ?entity ?channelName ?start (GROUP_CONCAT(DISTINCT STR(?genreId); SEPARATOR="|") AS ?genreIds)
+WHERE {
+  ?entity ec:hasIdentifier ?id .
+  ?id ec:name "PRID" ; ec:identifierValue "POW_05977062" .
+  ?entity ec:hasPublication ?publication .
+  ?publication ec:hasPublicationChannel ?channel .
+  ?channel ec:name ?channelName .
+  ?publication ec:hasStartDateTime ?start .
+  OPTIONAL { ?entity ec:hasGenre ?g . ?g skos:notation ?genreId . }
+}
+GROUP BY ?entity ?channelName ?start
+LIMIT 20
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1367607" sortDate="2026-04-04T12:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-13T16:02:40.146+01:00">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1367607" sortDate="2026-04-04T15:15:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-13T16:02:40.146+01:00">
     <broadcaster id="EO">EO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Libanon: actie voor vluchtelingen</title>
     <description owner="AUTHORITY" type="MAIN">Sinds het begin van de oorlog in het Midden-Oosten zijn meer dan 700.000 mensen in Libanon op de vlucht geslagen. Voor EO Metterdaad reisden EO-directeur Arjan Lock en filmmaker Daniel de Wit naar Libanon om aandacht te vragen voor de hulp die daar dringend nodig is.</description>
@@ -7,31 +7,38 @@
         <term>Human Interest</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="NED2" midRef="VPWON_1367607">
             <guideDay>2026-03-28+01:00</guideDay>
             <start>2026-03-28T17:55:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P21Y6M7DT19H6M40.000S</duration>
             <poProgID>VPWON_1367607</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="VPWON_1367607">
             <guideDay>2026-03-29+01:00</guideDay>
             <start>2026-03-29T12:05:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P20Y7M29DT7H6M40.000S</duration>
             <poProgID>VPWON_1367607</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="VPWON_1367607">
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-01T15:10:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P20Y0M9DT19H33M20.000S</duration>
             <poProgID>VPWON_1367607</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="VPWON_1367607">
             <guideDay>2026-04-04+02:00</guideDay>
             <start>2026-04-04T12:40:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P20Y8M21DT10H40M0.000S</duration>
+            <poProgID>VPWON_1367607</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1367607">
+            <guideDay>2026-04-04+02:00</guideDay>
+            <start>2026-04-04T15:15:00+02:00</start>
+            <duration>P20Y9M26DT4H0M0.000S</duration>
             <poProgID>VPWON_1367607</poProgID>
         </scheduleEvent>
     </scheduleEvents>

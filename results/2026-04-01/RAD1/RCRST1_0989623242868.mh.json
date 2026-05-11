@@ -1,0 +1,20 @@
+{ "head": {
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "title": { "type": "literal" , "value": "Spraakmakers" } ,
+        "description": { "type": "literal" , "value": "Spraakmakers is dé radiotalkshow op NPO Radio 1. Ghislaine Plag, Carl-Johan de Zwart en Roos Abelman ontvangen bevlogen gasten die je nét even anders naar het nieuws laten kijken. Wil je meepraten met Spraakmakers? Meld je rechtsonder in deze pagina aan voor onze community." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T00:06:03.039Z" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO Radio 1,2026-04-01T08:00:00.000Z,5400000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "KRNC" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
+      }
+    ]
+  }
+}

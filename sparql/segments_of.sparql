@@ -7,9 +7,9 @@ WHERE {
     ?entity ec:isPartOf ?part .
       ?part ec:hasIdentifier ?partId .
       ?partId ec:name "PRID" .
-    ?partId ec:identifierValue "POW_05999846" .
+    ?partId ec:identifierValue "AVRO_1353119" .
 
     OPTIONAL { ?entity ec:title ?title . }
-    OPTIONAL { ?entity ec:description ?description . }
+    OPTIONAL { ?entity ec:contentDescription ?description . }
     OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
 }

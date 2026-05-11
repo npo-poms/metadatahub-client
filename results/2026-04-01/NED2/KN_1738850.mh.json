@@ -1,123 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ea789143-a13f-415a-8e46-166b960bb35e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c2749f02-0db6-44dd-a136-6a9292ba7bcc" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T18:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
         "title": { "type": "literal" , "value": "Hulp arriveert" } ,
         "description": { "type": "literal" , "value": "Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:40.675Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6def8fb6-26cc-4f26-a72a-311d9b1efc30" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.8.44" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f56f037d-f822-4be7-97e4-d8f2d1fdabd2" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "12" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ea789143-a13f-415a-8e46-166b960bb35e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c2749f02-0db6-44dd-a136-6a9292ba7bcc" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T18:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Hulp arriveert" } ,
-        "description": { "type": "literal" , "value": "Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:40.675Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6def8fb6-26cc-4f26-a72a-311d9b1efc30" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.8.44" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6f83abbb-92e7-42ce-b8d9-0ca275977661" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
-        "ratingValue": { "type": "literal" , "value": "Grof taalgebruik" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ea789143-a13f-415a-8e46-166b960bb35e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c2749f02-0db6-44dd-a136-6a9292ba7bcc" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T18:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Hulp arriveert" } ,
-        "description": { "type": "literal" , "value": "Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:40.675Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6def8fb6-26cc-4f26-a72a-311d9b1efc30" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.8.44" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0decacd5-0d97-4361-856d-8262f3ef5e62" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
-        "ratingValue": { "type": "literal" , "value": "Angst" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
-      }
-    ]
-  }
-}
-{ "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
-  } ,
-  "results": {
-    "bindings": [
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ea789143-a13f-415a-8e46-166b960bb35e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c2749f02-0db6-44dd-a136-6a9292ba7bcc" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T18:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Hulp arriveert" } ,
-        "description": { "type": "literal" , "value": "Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:40.675Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6def8fb6-26cc-4f26-a72a-311d9b1efc30" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.8.44" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f56f037d-f822-4be7-97e4-d8f2d1fdabd2" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "12" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ea789143-a13f-415a-8e46-166b960bb35e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c2749f02-0db6-44dd-a136-6a9292ba7bcc" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T18:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Hulp arriveert" } ,
-        "description": { "type": "literal" , "value": "Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:40.675Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6def8fb6-26cc-4f26-a72a-311d9b1efc30" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.8.44" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6f83abbb-92e7-42ce-b8d9-0ca275977661" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
-        "ratingValue": { "type": "literal" , "value": "Grof taalgebruik" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ea789143-a13f-415a-8e46-166b960bb35e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c2749f02-0db6-44dd-a136-6a9292ba7bcc" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T18:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Hulp arriveert" } ,
-        "description": { "type": "literal" , "value": "Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:40.675Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6def8fb6-26cc-4f26-a72a-311d9b1efc30" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.8.44" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0decacd5-0d97-4361-856d-8262f3ef5e62" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" } ,
-        "ratingValue": { "type": "literal" , "value": "Angst" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#Rating" }
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T18:30:00.000Z,1848000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "KRNC" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.8.44" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }

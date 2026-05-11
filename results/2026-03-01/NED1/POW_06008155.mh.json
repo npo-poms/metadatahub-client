@@ -1,52 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/738efa9c-1142-42f5-811b-602729678aa1" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/4677c1bf-acaf-4ec6-ab01-4d7a609abb19" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/a047d18e-2a7f-4989-bc46-e0abfe11fbe1" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T00:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
         "title": { "type": "literal" , "value": "NOS Journaal ivm aanval Israël/VS op Iran" } ,
         "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-28T16:20:26.017Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/738efa9c-1142-42f5-811b-602729678aa1" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/4677c1bf-acaf-4ec6-ab01-4d7a609abb19" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/4ac04e5f-7f78-48cc-b4d6-214e8b69a3b1" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T12:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
-        "title": { "type": "literal" , "value": "NOS Journaal ivm aanval Israël/VS op Iran" } ,
-        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-28T16:20:26.017Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/738efa9c-1142-42f5-811b-602729678aa1" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/4677c1bf-acaf-4ec6-ab01-4d7a609abb19" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0a4dd0b6-370c-4360-bae5-59d702786360" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
-        "channelName": { "type": "literal" , "value": "NPO 1" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T10:25:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
-        "title": { "type": "literal" , "value": "NOS Journaal ivm aanval Israël/VS op Iran" } ,
-        "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-28T16:20:26.017Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-03-01T12:00:00.000Z,2329000.0|BVN,2026-03-02T00:00:00.000Z,2329000.0|NPO 1,2026-03-01T10:25:00.000Z,2303000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NOS" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }

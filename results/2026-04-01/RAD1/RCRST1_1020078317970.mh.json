@@ -1,0 +1,20 @@
+{ "head": {
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "title": { "type": "literal" , "value": "Nieuws en Co" } ,
+        "description": { "type": "literal" , "value": "Nieuws en Co maakt het nieuws persoonlijk. Wetenschap, cultuur en diversiteit staan centraal. Fleur Wallenburg brengt de luisteraars van maandag tot en met donderdag op de hoogte van het nieuws van de dag. Op vrijdag hoor je Dieuwke Teertstra Nieuws en Co is een coproductie van NOS en NTR en hoor je iedere werkdag van 17.00 - 18.30 uur op NPO Radio 1." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T00:04:11.553Z" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO Radio 1,2026-04-01T18:00:00.000Z,7200000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NOS|NTR" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
+      }
+    ]
+  }
+}

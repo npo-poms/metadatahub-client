@@ -1,159 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/293d178f-783f-4ab4-adc1-c0ff9cf10e77" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T07:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
         "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
         "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/238ce765-7a6a-4b59-a588-f6650cf8172e" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-08-07T07:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
-        "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/37474b5c-ebb5-40a7-86f5-63f500b13382" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-24T07:35:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
-        "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8ffff707-3fa4-4a80-be17-449b85f870f1" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-09-02T07:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
-        "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      }
-    ]
-  }
-}
-{ "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
-  } ,
-  "results": {
-    "bindings": [
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/293d178f-783f-4ab4-adc1-c0ff9cf10e77" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T07:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
-        "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/238ce765-7a6a-4b59-a588-f6650cf8172e" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-08-07T07:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
-        "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/37474b5c-ebb5-40a7-86f5-63f500b13382" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-24T07:35:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
-        "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/614086cf-14d2-443d-903a-1376d82a6144" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8ffff707-3fa4-4a80-be17-449b85f870f1" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-09-02T07:30:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "KRNC" } ,
-        "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
-        "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/78c652f8-8bbc-4a44-b70e-6ebf5dd7b973" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.40.60" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T07:30:00.000Z,993000.0|NPO 2,2025-08-07T07:30:00.000Z,1010000.0|NPO 2,2025-04-24T07:35:00.000Z,986000.0|NPO 2,2025-09-02T07:30:00.000Z,1013000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "KRNC" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.40.60" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }

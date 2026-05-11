@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000066" sortDate="2026-04-01T18:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:12.379+01:00">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000066" sortDate="2026-04-02T10:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:12.379+01:00">
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Trugkieke - Dwars Door De Delta - Klik mei de natuer</title>
     <description owner="AUTHORITY" type="MAIN">Trugkieke gaat over het Zeeland van toen en nu. Domburg is de oudste badplaats van Zeeland. Ooit een kuuroord voor welgestelden en een inspiratiebron voor kunstenaars. Dwars Door De Delta: Falco en Maas wandelen door het nieuwste Unesco Geopark van Nederland; Geopark Schelde Delta. Klik! mei de natuer: Laura gaat op zoek naar reptielen en amfibieën.</description>
@@ -7,13 +7,20 @@
         <term>Informatief</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="NED2" midRef="POW_06000066">
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-01T18:30:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P57Y8M2DT19H33M20.000S</duration>
+            <poProgID>POW_06000066</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="POW_06000066">
+            <guideDay>2026-04-02+02:00</guideDay>
+            <start>2026-04-02T10:40:00+02:00</start>
+            <duration>P56Y0M20DT12H52M16.000S</duration>
             <poProgID>POW_06000066</poProgID>
         </scheduleEvent>
     </scheduleEvents>

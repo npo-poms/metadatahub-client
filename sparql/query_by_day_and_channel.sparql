@@ -1,16 +1,15 @@
 PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?prid ?title ?start ?end
+SELECT ?prid  ?start  ?title
 WHERE {
-    ?entity ec:hasIdentifier ?id .
-    ?id ec:name "PRID" .
-    ?id ec:identifierValue ?prid .
     ?entity ec:hasPublication ?publication .
+    ?entity ec:hasIdentifier ?id .
+      ?id ec:name "PRID" .
+      ?id ec:identifierValue ?prid .
     ?publication ec:hasStartDateTime ?start .
-    FILTER(?start >= "2026-03-01T06:00"^^xsd:dateTime && ?start < "2026-03-02T06:00"^^xsd:dateTime)
-    ?publication ec:hasPublicationChannel ?channel .
-    ?channel ec:name "NPO 1" .
-    OPTIONAL { ?publication ec:hasEndDateTime ?end . }
+      FILTER(?start >= "2024-02-16T00:00:00.000Z"^^xsd:dateTime && ?start < "2024-02-17T00:00:00.000Z"^^xsd:dateTime)
+    ?publication ec:hasPublicationChannel/ec:name ?publicationChannel .
+      FILTER(?publicationChannel = "NPO Radio 1")
+
     OPTIONAL { ?entity ec:title ?title . }
 }
-ORDER BY ?start

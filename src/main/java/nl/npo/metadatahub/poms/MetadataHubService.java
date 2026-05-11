@@ -53,10 +53,7 @@ public class MetadataHubService implements MediaProvider, AutoCloseable {
         ResultSet resultSet = client.selectQuery(query);
         var builder = MediaBuilder.broadcast().mid(mid);
         if (mapper.toProgram(resultSet, builder)) {
-            String segments = readQueryTemplate("segments_of.sparql");
-            String segmentsQuery = template.formatted(mid);
-            ResultSet segmentsResult  = client.selectQuery(segmentsQuery);
-
+            //getSegments(mid).forEach(builder::segments);
 
             return Optional.of(builder.build());
         } else {
@@ -83,6 +80,22 @@ public class MetadataHubService implements MediaProvider, AutoCloseable {
         return events;
     }
 
+
+    @SneakyThrows
+    public List<Segment> getSegments(String mid) {
+        String template = readQueryTemplate("segments_of.sparql");
+        String segmentsQuery = template.formatted(mid);
+        ResultSet segmentsResult  = client.selectQuery(segmentsQuery);
+        List<ScheduleEvent> events = new ArrayList<>();
+
+        List<Segment> segments = new ArrayList<>();
+        MediaBuilder.ProgramBuilder builder = MediaBuilder.program().mid(mid);
+        while (segmentsResult.hasNext()) {
+            mapper.toProgram(segmentsResult, builder);
+        }
+
+        return segments;
+    }
     @Override
     public void close() {
         client.close();

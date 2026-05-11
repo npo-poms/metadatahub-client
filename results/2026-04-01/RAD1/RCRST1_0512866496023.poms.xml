@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0512866496023" sortDate="2026-04-02T00:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:06:39.927+01:00" lastModified="2026-04-01T16:05:35.050+02:00" publishDate="2026-04-01T16:06:36.380+02:00" urn="urn:vpro:media:program:131865772">
+    <crid>crid://npo/rcrs/DEV/685a955f95fcf61529e5df95</crid>
+    <broadcaster id="VPRO">VPRO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Nooit Meer Slapenn</title>
+    <description owner="AUTHORITY" type="MAIN">Interviewprogramma van de VPRO</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT3H0M0.000S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Femke</givenName>
+            <familyName>van der Laan</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:128011184" midRef="RCRSA1_1003110881439" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="ANNOUNCED">INTERNETVOD</prediction>
+    <locations/>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-04-01T14:54:09.201+02:00" lastModified="2026-04-01T16:05:49.950+02:00" urn="urn:vpro:media:image:132749895">
+            <shared:title>Nooit Meer Slapen</shared:title>
+            <shared:imageUri>urn:vpro:image:2235118</shared:imageUri>
+            <shared:height>420</shared:height>
+            <shared:width>420</shared:width>
+            <shared:credits>NPO Radio 1</shared:credits>
+            <shared:source>https://npotest.b-cdn.net/RAD1/image/24e682ec-669f-4bf7-a578-d59f8140feed/NooitMeerSlapen.webp</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0512866496023" urnRef="urn:vpro:media:program:131865772">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T00:00:00+02:00</start>
+            <duration>P0DT3H0M0.000S</duration>
+            <poProgID>RCRST1_0512866496023</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:06:40.311+01:00" highlighted="false" midRef="RCRSA1_1003110881439" index="429" type="SERIES" urnRef="urn:vpro:media:group:128011184"/>
+    <segments/>
+</program>

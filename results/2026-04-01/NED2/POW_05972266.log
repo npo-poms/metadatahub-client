@@ -2,5 +2,4 @@ INFO POMS: results/2026-04-01/NED2/POW_05972266.poms.xml
 INFO Requesting new OAuth2 token from: https://sso.metadatahub.bijnpo.nl/auth/realms/MDS-ACC/protocol/openid-connect/token
 INFO Successfully obtained new OAuth2 token
 INFO Sparql response: results/2026-04-01/NED2/POW_05972266.mh.json
-INFO Sparql response: results/2026-04-01/NED2/POW_05972266.mh.json
 INFO MH: results/2026-04-01/NED2/POW_05972266.mh.xml

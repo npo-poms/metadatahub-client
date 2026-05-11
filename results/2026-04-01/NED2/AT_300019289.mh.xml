@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300019289" sortDate="2026-04-07T12:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2024-07-23T09:50:29.100+02:00">
-    <broadcaster id="AVTR">AVROTROS</broadcaster>
+    <broadcaster id="AVTR">AVTR</broadcaster>
     <title owner="AUTHORITY" type="MAIN">40 jaar Tussen Kunst en Kitsch</title>
     <description owner="AUTHORITY" type="MAIN">Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.</description>
     <genre id="3.0.1.7.24">
@@ -8,139 +8,145 @@
         <term>Kunst/cultuur</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2024-07-24+02:00</guideDay>
             <start>2024-07-24T14:05:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P25Y8M24DT3H33M20.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NVOD" midRef="AT_300019289">
             <guideDay>2024-07-24+02:00</guideDay>
             <start>2024-07-24T14:28:04.218+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2024-07-26+02:00</guideDay>
             <start>2024-07-26T14:40:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P25Y11M14DT4H0M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2024-08-13+02:00</guideDay>
             <start>2024-08-13T13:45:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y6M3DT7H6M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2024-08-13+02:00</guideDay>
             <start>2024-08-14T01:45:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y6M3DT7H6M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2024-12-31+01:00</guideDay>
             <start>2024-12-31T12:40:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y3M13DT6H40M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2025-02-18+01:00</guideDay>
             <start>2025-02-18T12:40:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y7M18DT14H13M20.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2025-04-08+02:00</guideDay>
             <start>2025-04-08T12:35:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P30Y2M13DT2H13M20.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-07-09+02:00</guideDay>
             <start>2025-07-09T14:50:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y5M10DT3H33M20.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-07-09+02:00</guideDay>
             <start>2025-07-10T02:50:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y5M10DT3H33M20.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2025-07-24+02:00</guideDay>
             <start>2025-07-24T12:35:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P33Y7M26DT16H0M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-07-27+02:00</guideDay>
             <start>2025-07-28T00:00:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P25Y11M25DT17H46M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-07-28+02:00</guideDay>
             <start>2025-07-28T12:00:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P25Y11M25DT17H46M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2025-09-24+02:00</guideDay>
             <start>2025-09-24T12:40:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P26Y4M1DT1H20M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2025-09-25+02:00</guideDay>
             <start>2025-09-25T08:40:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P36Y4M29DT14H38M56.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-09-27+02:00</guideDay>
             <start>2025-09-27T18:15:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P26Y2M27DT8H0M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-09-28+02:00</guideDay>
             <start>2025-09-28T06:15:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P26Y2M27DT8H0M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2025-10-01+02:00</guideDay>
             <start>2025-10-01T10:45:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y7M7DT0H26M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2025-10-06+02:00</guideDay>
             <start>2025-10-06T07:15:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P24Y9M0DT8H26M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-10-09+02:00</guideDay>
             <start>2025-10-09T21:15:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y2M9DT13H20M0.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="AT_300019289">
             <guideDay>2025-10-10+02:00</guideDay>
             <start>2025-10-10T09:15:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y2M9DT13H20M0.000S</duration>
+            <poProgID>AT_300019289</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="AT_300019289">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T12:35:00+02:00</start>
+            <duration>P36Y2M9DT14H13M20.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED2" midRef="AT_300019289">
             <guideDay>2026-04-07+02:00</guideDay>
             <start>2026-04-07T12:40:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P27Y8M10DT17H46M40.000S</duration>
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
     </scheduleEvents>

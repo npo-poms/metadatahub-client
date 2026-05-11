@@ -1,87 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2238fbe0-b971-4d07-b23e-84ceebb0438d" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/43122136-9895-4ee7-bab6-70aa6cc008c9" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T10:15:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "EO" } ,
         "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
         "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2238fbe0-b971-4d07-b23e-84ceebb0438d" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/45318637-b678-4403-a282-d1362779d320" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T19:25:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "EO" } ,
-        "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
-        "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      }
-    ]
-  }
-}
-{ "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
-  } ,
-  "results": {
-    "bindings": [
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2238fbe0-b971-4d07-b23e-84ceebb0438d" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/43122136-9895-4ee7-bab6-70aa6cc008c9" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-04T10:15:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "EO" } ,
-        "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
-        "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2238fbe0-b971-4d07-b23e-84ceebb0438d" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/45318637-b678-4403-a282-d1362779d320" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T19:25:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "EO" } ,
-        "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
-        "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.7" } ,
-        "rating": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" } ,
-        "ratingClass": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" } ,
-        "ratingValue": { "type": "literal" , "value": "AL" } ,
-        "ratingType": { "type": "literal" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudienceRating" }
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-04T10:15:00.000Z,1551000.0|NPO 2,2026-04-01T19:25:00.000Z,1582000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "EO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }

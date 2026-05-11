@@ -13,7 +13,7 @@ WHERE {
     OPTIONAL { ?publication ec:hasEndDateTime ?end . }
     OPTIONAL { ?entity ec:title ?title . }
 }
-ORDER BY ?start
+
 
 
 

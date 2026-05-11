@@ -1,0 +1,20 @@
+{ "head": {
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "title": { "type": "literal" , "value": "Sven op 1" } ,
+        "description": { "type": "literal" , "value": "Een dagelijks actueel interviewprogramma rond het nieuws van de dag of de week. Bij voorkeur met de hoofdpersoon uit of bij dat nieuws, het liefst zelfs met de verantwoordelijke. Presentatie: Sven Kockelmann.\nVolg Sven op 1 op Twitter\nLuister de podcast" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T00:05:32.016Z" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO Radio 1,2026-04-01T09:30:00.000Z,1800000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "WNL" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
+      }
+    ]
+  }
+}

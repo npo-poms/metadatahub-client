@@ -18,7 +18,7 @@ https://docs.metadatahub.bijnpo.nl/handleiding/developers/sparql-service/
 I'm adding some 'poms' mapping code to proof the concept.
 See
 link:src/main/java/nl/npo/metadatahub/poms/MetadataHubMediaService.java[service],
-link:src/test/java/Example.java[Example.java]
+link:src/test/java/QueryDays.java[Example.java]
 
 
 Results of Example can be found in link:results[results]

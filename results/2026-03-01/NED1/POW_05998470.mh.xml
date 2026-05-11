@@ -7,25 +7,32 @@
         <term>Informatief</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="NED1" midRef="POW_05998470">
             <guideDay>2026-02-24+01:00</guideDay>
             <start>2026-02-24T20:35:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>POW_05998470</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="POW_05998470">
+            <guideDay>2026-02-25+01:00</guideDay>
+            <start>2026-02-25T20:45:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
             <poProgID>POW_05998470</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="POW_05998470">
             <guideDay>2026-02-26+01:00</guideDay>
             <start>2026-02-26T08:45:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
             <poProgID>POW_05998470</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED1" midRef="POW_05998470">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-01T23:45:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
             <poProgID>POW_05998470</poProgID>
         </scheduleEvent>
     </scheduleEvents>

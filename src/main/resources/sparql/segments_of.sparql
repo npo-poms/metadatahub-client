@@ -1,5 +1,5 @@
 PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
-SELECT *
+SELECT ?prid
 WHERE {
     ?entity ec:hasIdentifier ?id .
        ?id ec:name "PRID" .
@@ -10,7 +10,7 @@ WHERE {
       ?partId ec:identifierValue "%s" .
 
     OPTIONAL { ?entity ec:title ?title . }
-    OPTIONAL { ?entity ec:description ?description . }
+    OPTIONAL { ?entity ec:contentDescription ?description . }
     OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
 }
 

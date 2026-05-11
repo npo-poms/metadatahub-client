@@ -7,11 +7,10 @@
       -->
    <ProgramDescription>
       <ProgramInformationTable>
-         <ProgramInformation programId="crid://npo/rcrs/69441a311ce98d2825f8a674">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a95d9780458463f05f4eb">
             <BasicDescription>
                <Title type="main">NOS Radio 1 Journaal</Title>
-               <Title type="episodeTitle">NOS Radio 1 Journaal</Title>
-               <Synopsis length="medium">De dag begint om 06.00 uur met het NOS Radio 1 Journaal. Je wordt bijgepraat over het nieuws van dat moment en de grote nieuwsverhalen van de dag. Met context, duiding, reacties en analyses bij het nieuws.</Synopsis>
+               <Synopsis length="medium">Elke ochtend tussen 06:00 en 09:30 uur: het NOS Radio 1 Journaal. In de uitzendingen komen het laatste nieuws, achtergronden, reacties, analyses en sport aan bod.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -21,11 +20,10 @@
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/68de715df60b46d81b57a404">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a95ba780458463f05f482">
             <BasicDescription>
                <Title type="main">Spraakmakers</Title>
-               <Title type="episodeTitle">Spraakmakers</Title>
-               <Synopsis length="medium">Spraakmaker is vandaag Marit Törnqvist. In het Mediaforum zijn Roos Moggré en Michelle Salomons te gast. Bij Stand.nl de stelling: 'We moeten de oproepen om energie te besparen serieus nemen.' In het tweede uur gaan we het hebben over het 25-jarig jubileum van het homohuwelijk en over Marit Törnqvists toch langs azc's om kinderen voor te lezen.</Synopsis>
+               <Synopsis length="medium">Spraakmakers is dé radiotalkshow op NPO Radio 1. Ghislaine Plag, Carl-Johan de Zwart en Roos Abelman ontvangen bevlogen gasten die je nét even anders naar het nieuws laten kijken. Wil je meepraten met Spraakmakers? Meld je rechtsonder in deze pagina aan voor onze community.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -35,11 +33,10 @@
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/69441ecaddd27ea767ab526f">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a95e8780458463f05f525">
             <BasicDescription>
-               <Title type="main">Sven op 1 met André Kuipers</Title>
-               <Title type="episodeTitle">Sven op 1 met André Kuipers</Title>
-               <Synopsis length="medium">Een dagelijks actueel interviewprogramma met Sven Kockelmann rond het nieuws van de dag of de week. Bij voorkeur met de hoofdpersoon uit of bij dat nieuws, het liefst zelfs met de verantwoordelijke.</Synopsis>
+               <Title type="main">Sven op 1</Title>
+               <Synopsis length="medium">Een dagelijks actueel interviewprogramma rond het nieuws van de dag of de week. Bij voorkeur met de hoofdpersoon uit of bij dat nieuws, het liefst zelfs met de verantwoordelijke. Presentatie: Sven Kockelmann. Volg Sven op 1 op Twitter Luister de podcast</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -49,19 +46,62 @@
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/6957e2e24db39f1c9ab91566">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/68d1266e0cd0302612b25571">
+            <BasicDescription>
+               <Title type="main">Tony in de middag</Title>
+               <Synopsis length="medium">We zijn eindelijk het zuur voorbij: Tony houdt het volledig zoet in de middag!</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a9612780458463f05f5f0">
+            <BasicDescription>
+               <Title type="main">Bureau Buitenland</Title>
+               <Synopsis length="medium">In Bureau Buitenland hoor je internationaal nieuws, reportages en geopolitiek. Met achtergronden en opmerkelijke verhalen, van maandag tot en met vrijdag van 13.30 tot 14.00 uur.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a962595fcf61529e5e233">
+            <BasicDescription>
+               <Title type="main">Villa BVD</Title>
+               <Synopsis length="medium">Jurgen van den Berg presenteert een programma waarin nadrukkelijk verder wordt gekeken dan de waan van de dag. Met omdenken, doordenken en terugdenken wordt een gelaagdheid aangebracht bij de dagelijkse nieuwsstroom. Het programma beweegt mee met de samenleving: we vieren of tonen medeleven. Een lach en een traan zijn niet verboden. Oud nieuws wordt nieuw leven ingeblazen in de historische rubriek Terug naar Toen. En in het kader van: ‘Wie luistert, weet meer’ is er de ‘Nieuwssnipper’, een spel dat als rode draad door de uitzending loopt en waarmee nieuwskenners prijzen kunnen winnen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a968595fcf61529e5e296">
+            <BasicDescription>
+               <Title type="main">Dit is de Dag</Title>
+               <Synopsis length="medium">Dit is de Dag is een stevig opiniërend programma van de EO met Tijs van den Brink. Op dinsdag en vrijdag hoor je Margje Fikse of Hans van der Steeg.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a96e0780458463f05f711">
             <BasicDescription>
                <Title type="main">EenVandaag</Title>
-               <Title type="episodeTitle">EenVandaag</Title>
-               <Synopsis length="medium">Het actualiteitenprogramma EenVandaag wordt dagelijks uitgezonden tussen 12.00 uur en 13.30 uur op NPO Radio 1. De presentatie is in handen van Suzanne Bosman, en op woensdag van Hila Noorzai.</Synopsis>
-               <CreditsList/>
-            </BasicDescription>
-         </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/68de7255f60b46d81b57a5c0">
-            <BasicDescription>
-               <Title type="main">Bureau Buitenland - Wie is dé Amerikaan?</Title>
-               <Title type="episodeTitle">Bureau Buitenland - Wie is dé Amerikaan?</Title>
-               <Synopsis length="medium">In Bureau Buitenland hoor je internationaal nieuws, reportages en geopolitiek. Met achtergronden en opmerkelijke verhalen, van maandag tot en met vrijdag van 13.30 tot 14.00 uur. Wie is dé Amerikaan? Vandaag buigt het Hooggerechtshof zich over een slepende kwestie in de VS: het recht op staatsburgerschap door geboorte op Amerikaans grondgebied. Trump wil er heel graag van af. Maar volgens critici gaat dat de wens van de president in tegen de kernwaarden van Amerika en schuilt er een idee van witte suprematie achter. Daarover correspondent Mari Meyer en Amerikanist Manon Portos Minetti, verbonden aan de Universiteit Leiden. Droneoorlog verhardt conflict Oost-Congo Terwijl de Verenigde Staten in december nog met veel bombarie een vredesakkoord aankondigden voor het conflict in Oost-Congo, botst dat beeld hard met de gewelddadige realiteit op de grond. De onrust neemt verder toe, te meer nu het Congolese leger ook drones inzet in de strijd tegen de door Rwanda gesteunde M23 rebellen. Ondertussen vloeien wel grondstoffen uit dit conflictgebied naar Amerika. We spreken erover met journalist en Congokenner Elien Spillebeen.</Synopsis>
+               <Synopsis length="medium">Het actualiteitenprogramma EenVandaag wordt dagelijks uitgezonden tussen 16.00 uur en 17.00 uur op NPO Radio 1. De presentatie is in handen van Suzanne Bosman.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -71,27 +111,10 @@
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/691da4b5a4f48bc8fe36f00a">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a96f995fcf61529e5e363">
             <BasicDescription>
-               <Title type="main">Villa VdB</Title>
-               <Title type="episodeTitle">Villa VdB</Title>
-               <Synopsis length="medium">Jurgen van den Berg presenteert een programma waarin verder wordt gekeken dan de waan van de dag. Met omdenken, doordenken en terugdenken wordt een gelaagdheid aangebracht bij de dagelijkse nieuwsstroom. Dagelijks staat er bij de intercom een Huisvriend van de villa om ontwikkelingen uit zijn of haar vakgebied te signaleren. Het programma beweegt mee met de samenleving: we vieren of tonen medeleven. We inspireren met constructieve oplossingen voor maatschappelijke vraagstukken als de vergrijzing. Een lach en een traan zijn niet verboden. Oud nieuws wordt nieuw leven ingeblazen in de historische rubriek Terug naar Toen. En we spelen het spel 'Tijdje Terug' waarbij kennis van nieuwsfeiten uit het verleden voor prijzen kan zorgen.</Synopsis>
-               <CreditsList/>
-            </BasicDescription>
-         </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/698605644975ad95d4e9e4ac">
-            <BasicDescription>
-               <Title type="main">NOS Radio 1 Journaal</Title>
-               <Title type="episodeTitle">NOS Radio 1 Journaal</Title>
-               <Synopsis length="medium">Het NOS Radio 1 Journaal in de middag wordt gemaakt door de NOS en de NTR. Je wordt bijgepraat over de belangrijkste nieuwsverhalen van de dag en de nieuwsontwikkelingen van dat moment. Ook is er ruimte voor achtergronden bij het nieuws, onderzoeksverhalen en wetenschap.</Synopsis>
-               <CreditsList/>
-            </BasicDescription>
-         </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/697c7f83ec4b78213ea2af55">
-            <BasicDescription>
-               <Title type="main">Dit is de Dag: Trump dreigt uit NAVO te stappen | nieuwe voorzitter CNV | Trouwen nog van deze tijd?</Title>
-               <Title type="episodeTitle">Dit is de Dag: Trump dreigt uit NAVO te stappen | nieuwe voorzitter CNV | Trouwen nog van deze tijd?</Title>
-               <Synopsis length="medium">Dit is de Dag is een stevig journalistiek, opiniërend en verdiepend radioprogramma van de EO. Hier hoor je iedere werkdag hét debat van de dag met zoveel mogelijk verschillende stemmen en perspectieven. Na de discussie van de dag interviewt Margje Fikse of Jan-Willem Wesselink een belangrijke of interessante nieuwsgast. Ook gaan we op zoek naar onderwerpen waar actualiteit raakt aan samenleving en geloof. Luisteraars worden aangemoedigd mee te doen via de NPO Luister-app, sociale media en het platform dit.eo.nl. Op vrijdag kunnen luisteraars fysiek vragen stellen tijdens het DIDD politiek café.</Synopsis>
+               <Title type="main">Nieuws en Co</Title>
+               <Synopsis length="medium">Nieuws en Co maakt het nieuws persoonlijk. Wetenschap, cultuur en diversiteit staan centraal. Fleur Wallenburg brengt de luisteraars van maandag tot en met donderdag op de hoogte van het nieuws van de dag. Op vrijdag hoor je Dieuwke Teertstra Nieuws en Co is een coproductie van NOS en NTR en hoor je iedere werkdag van 17.00 - 18.30 uur op NPO Radio 1.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -101,11 +124,10 @@
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/69319ae6f7f7a0241bfc2ebd">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a970695fcf61529e5e3a8">
             <BasicDescription>
-               <Title type="main">De Rode Draad</Title>
-               <Title type="episodeTitle">De Rode Draad</Title>
-               <Synopsis length="medium">Een gevarieerde talkshow met Natasja Gibbs of Stephan Komduur, met een originele kijk van de redactie op het nieuws van die dag, met antwoord op vragen waarvan je nog niet wist dat je ze had. Verdiepende gesprekken met gasten uit de wereld van cultuur, media, politiek en sport, in samenwerking met andere journalistieke platforms.</Synopsis>
+               <Title type="main">Langs de Lijn EO</Title>
+               <Synopsis length="medium">Langs de Lijn En Omstreken is een gevarieerd magazine van de NOS en de EO waarin live sport, persoonlijke gesprekken bij het nieuws en het nieuws van de avond elkaar op een vanzelfsprekende manier afwisselen.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -115,51 +137,36 @@
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/696e05e9e873067a87554421">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a971495fcf61529e5e3d9">
             <BasicDescription>
-               <Title type="main">Langs de Lijn En Omstreken</Title>
-               <Title type="episodeTitle">Langs de Lijn En Omstreken</Title>
-               <Synopsis length="medium">Met Langs de Lijn En Omstreken ben je live bij de sportwedstrijden van het moment. Tegelijkertijd houden we je op de hoogte van het laatste nieuws, zodat je niets hoeft te missen. Of het nou in Nederland of in het buitenland gebeurt, we zitten er bovenop. NOS en EO maken Langs de Lijn En Omstreken samen.</Synopsis>
-               <CreditsList/>
-            </BasicDescription>
-         </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/68de735c5a52f9724ecebb30">
-            <BasicDescription>
-               <Title type="main">NOS Met het Oog op Morgen</Title>
-               <Title type="episodeTitle">NOS Met het Oog op Morgen</Title>
+               <Title type="main">Met het Oog Op Morgen</Title>
                <Synopsis length="medium">Het Oog brengt aan het eind van de dag een overzicht van het nieuws, de ochtendkranten en journalistieke interviews met mensen in en achter het nieuws, omlijst door mooie muziek. Elke dag van de week heeft zijn eigen presentator. Door deze vaste dag, de persoonlijke opening van het programma en de manier van interviewen, drukt de presentator een eigen stempel op de uitzending. We noemen NOS Met het Oog op Morgen ook wel een 'journalistieke personality show'. De ijzersterke formule en de persoonlijkheid en kwaliteit van de presentatoren zorgen ervoor dat het programma al sinds 1976 een uniek radioprogramma is dat zeer goed beluisterd en hoog gewaardeerd wordt.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/68de70d0f60b46d81b57a2b4">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a955f95fcf61529e5df95">
             <BasicDescription>
-               <Title type="main">Nooit Meer Slapen - Robert Serry</Title>
-               <Title type="episodeTitle">Nooit Meer Slapen - Robert Serry</Title>
-               <Synopsis length="medium">Robert Serry is oud-diplomaat en Midden-Oostengezant van de VN. Hij werkte als diplomaat in onder andere Bangkok, Moskou en Dublin en voor de NAVO is hij crisismanager geweest. Tussen 1986 en 1992 werkte hij in de divisie Midden-Oosten bij het ministerie van Buitenlandse Zaken. Ook was hij de eerste Nederlandse ambassadeur in Oekraïne. Voor Vrij Nederland schreef hij dagboekartikelen over zijn tijd in Oekraïne en publiceerde deze in 1997 in het boek ‘Standplaats Kiev’. Nu verschijnt zijn tweede boek ‘Nog is Oekraïne niet verloren’. Vanuit zijn huwelijk met een Oekraïense vrouw en als oud-diplomaat biedt Serry een eigen kijk op de oorlog en de staat van de huidige wereldorde. Femke van der Laan gaat met Robert Serry in gesprek.</Synopsis>
+               <Title type="main">Nooit Meer Slapenn</Title>
+               <Synopsis length="medium">Interviewprogramma van de VPRO</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
                <CreditsList/>
             </BasicDescription>
          </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/68de70edf60b46d81b57a2f4">
+         <ProgramInformation programId="crid://npo/rcrs/DEV/685a959295fcf61529e5e021">
             <BasicDescription>
-               <Title type="main">MISCHA! met Marwan Magroun</Title>
-               <Title type="episodeTitle">MISCHA! met Marwan Magroun</Title>
-               <Synopsis length="medium">Gelukkig zijn ze er nog, de mensen die hun mond opendoen, hun visie, gedachten en dromen met ons delen, zich mengen in het publieke debat of zonder enige terughoudendheid het openbare toneel betreden. Ze trotseren de haat op twitter, de steen door de ruit, de onder de gordel-opmerkingen van reaguurders, terwijl ze weten dat ze ieder moment gecanceld kunnen worden. Toch gaan ze door. Wat beweegt hen? In MISCHA! gaat presentator Mischa Blok op zoek naar de drijfveren van deze mensen. Dat doet ze met haar kenmerkende stijl van interviewen: een echt en gelijkwaardig gesprek. Oprechte interesse. Dus geen draaiboek, geen enkele vraag op papier. Een uur lang met één gast de diepte in, een reis langs inzichten en kwetsbaarheden. Persoonlijke gesprekken met verrassende wendingen die zowel de gast als de presentator ontregelen.’ MISCHA! Iedere maandag- t/m donderdagnacht om 01:00 uur op NPO Radio 1 en daarnaast natuurlijk op ieder gewenst moment te beluisteren in alle podcast-apps!</Synopsis>
-               <CreditsList/>
-            </BasicDescription>
-         </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/68f783a73438a9c6b5909ff7">
-            <BasicDescription>
-               <Title type="main">De Nacht van NTR Wetenschap over missiewerk</Title>
-               <Title type="episodeTitle">De Nacht van NTR Wetenschap over missiewerk</Title>
-               <Synopsis length="medium">De Nacht van… voor inspiratie en diepgang in de nacht, met dagelijks een andere kijk op de samenleving. ”De NTR, EO, KRO-NCRV, BNNVARA en het Caribisch netwerk nemen elk één nacht voor hun rekening. Jonge makers creëren nachtradio waar je wakker van ligt, met onderwerpen waar je wakker voor wilt blijven. Zowel onvoorspelbaar als kwetsbaar, met een intimiteit die alleen de nacht kan bieden. In ‘De Nacht van…’ krijgen studiogasten nog écht de ruimte voor hun verhaal en als luisteraar kan je elke uitzending meepraten. Maak kennis met Nederlanders van over de hele wereld en luister naar de mooiste audioverhalen van NPO Radio 1. Elke werknacht tussen 02.00 en 05.00 uur.</Synopsis>
-               <CreditsList/>
-            </BasicDescription>
-         </ProgramInformation>
-         <ProgramInformation programId="crid://npo/rcrs/68de711d5a52f9724eceb6c2">
-            <BasicDescription>
-               <Title type="main">Vroeg!</Title>
-               <Title type="episodeTitle">Vroeg!</Title>
-               <Synopsis length="medium">Elke werkdag tussen 05.00 en 06.00 uur start BNNVARA de dag met de ochtendshow 'Vroeg!'. Merel Wielaert nodigt elke dag een gast uit die met de luisteraars vooruitblikt op een actueel onderwerp. Luisteraars kunnen meepraten via de NPO Radio 1-app.</Synopsis>
+               <Title type="main">De Nacht van</Title>
+               <Synopsis length="medium">Voor de graveyard shift van NPO Radio 1 slaan vijf omroepen de handen ineen. De NTR, EO, KRO-NCRV, BNNVARA en Omroep ZWART nemen elk één nacht voor hun rekening. Jonge makers creëren nachtradio waar je wakker van ligt, met onderwerpen waar je wakker voor wilt blijven. Zowel onvoorspelbaar als kwetsbaar, met een intimiteit die alleen de nacht kan bieden.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Informatief">
                   <Name>Informatief</Name>
                </Genre>
@@ -174,109 +181,95 @@
       <ProgramLocationTable>
          <Schedule>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/69441a311ce98d2825f8a674"/>
+               <Program crid="crid://npo/rcrs/DEV/685a95d9780458463f05f4eb"/>
                <PublishedStartTime>2026-04-01T06:00:00+02:00</PublishedStartTime>
-               <PublishedDuration>P0DT3H30M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRST1_0060214266869</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RBX_S_NOS_553954</OtherIdentifier>
+               <PublishedDuration>P0DT4H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_0672830272592</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0957872904243</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/68de715df60b46d81b57a404"/>
-               <PublishedStartTime>2026-04-01T09:30:00+02:00</PublishedStartTime>
-               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0355592661206</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RBX_S_KN_12096876</OtherIdentifier>
+               <Program crid="crid://npo/rcrs/DEV/685a95ba780458463f05f482"/>
+               <PublishedStartTime>2026-04-01T10:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H30M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_0989623242868</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0816092710308</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/69441ecaddd27ea767ab526f"/>
+               <Program crid="crid://npo/rcrs/DEV/685a95e8780458463f05f525"/>
                <PublishedStartTime>2026-04-01T11:30:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT0H30M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRST1_0170556544353</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">PREPR_S_RA1_16702815</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0415225573356</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0728300946067</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/6957e2e24db39f1c9ab91566"/>
+               <Program crid="crid://npo/rcrs/DEV/68d1266e0cd0302612b25571"/>
                <PublishedStartTime>2026-04-01T12:00:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT1H30M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRST1_0136769270476</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RBX_S_TROS_553952</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0441208333778</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRST1_0314043492586</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/68de7255f60b46d81b57a5c0"/>
+               <Program crid="crid://npo/rcrs/DEV/685a9612780458463f05f5f0"/>
                <PublishedStartTime>2026-04-01T13:30:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT0H30M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0326531742734</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RBX_S_VPRO_553970</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0894488474263</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0231877701580</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/691da4b5a4f48bc8fe36f00a"/>
+               <Program crid="crid://npo/rcrs/DEV/685a962595fcf61529e5e233"/>
                <PublishedStartTime>2026-04-01T14:00:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0505639798694</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">PREPR_S_RA1_16714076</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0719933876218</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0467900916207</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/698605644975ad95d4e9e4ac"/>
+               <Program crid="crid://npo/rcrs/DEV/685a968595fcf61529e5e296"/>
                <PublishedStartTime>2026-04-01T16:00:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0302278264227</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RCRSA1_0975087235776</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0698647581056</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0694939312469</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/697c7f83ec4b78213ea2af55"/>
+               <Program crid="crid://npo/rcrs/DEV/685a96e0780458463f05f711"/>
                <PublishedStartTime>2026-04-01T18:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_0719908022923</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0731930621886</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/DEV/685a96f995fcf61529e5e363"/>
+               <PublishedStartTime>2026-04-01T20:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_1020078317970</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0689877254489</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/rcrs/DEV/685a970695fcf61529e5e3a8"/>
+               <PublishedStartTime>2026-04-01T22:00:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_1096345517559</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RBX_S_EO_553956</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0792584764151</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0173598305748</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/69319ae6f7f7a0241bfc2ebd"/>
-               <PublishedStartTime>2026-04-01T19:00:00+02:00</PublishedStartTime>
-               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0528666245850</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RCRSA1_0717451035939</OtherIdentifier>
-            </ScheduleEvent>
-            <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/696e05e9e873067a87554421"/>
-               <PublishedStartTime>2026-04-01T21:00:00+02:00</PublishedStartTime>
-               <PublishedDuration>P0DT2H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0192642439060</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RBX_S_NOS_2868025</OtherIdentifier>
-            </ScheduleEvent>
-            <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/68de735c5a52f9724ecebb30"/>
+               <Program crid="crid://npo/rcrs/DEV/685a971495fcf61529e5e3d9"/>
                <PublishedStartTime>2026-04-01T23:00:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0545952112283</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">AUTO_NOSMETHETOOGOPMORGEN</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0449589130463</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_0478388883454</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/68de70d0f60b46d81b57a2b4"/>
+               <Program crid="crid://npo/rcrs/DEV/685a955f95fcf61529e5df95"/>
                <PublishedStartTime>2026-04-02T00:00:00+02:00</PublishedStartTime>
-               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0399698759492</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">RBX_S_VPRO_554445</OtherIdentifier>
-            </ScheduleEvent>
-            <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/68de70edf60b46d81b57a2f4"/>
-               <PublishedStartTime>2026-04-02T01:00:00+02:00</PublishedStartTime>
-               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0509926599083</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">PREPR_S_AT_16714075</OtherIdentifier>
-            </ScheduleEvent>
-            <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/68f783a73438a9c6b5909ff7"/>
-               <PublishedStartTime>2026-04-02T02:00:00+02:00</PublishedStartTime>
                <PublishedDuration>P0DT3H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0574536771911</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">PREPR_S_BV_16715366</OtherIdentifier>
+               <OtherIdentifier type="ProductID">RCRST1_0512866496023</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_1003110881439</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
-               <Program crid="crid://npo/rcrs/68de711d5a52f9724eceb6c2"/>
-               <PublishedStartTime>2026-04-02T05:00:00+02:00</PublishedStartTime>
-               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
-               <OtherIdentifier type="ProductID">RCRSA1_0136180652010</OtherIdentifier>
-               <OtherIdentifier type="SeriesID">PREPR_S_BV_16715433</OtherIdentifier>
+               <Program crid="crid://npo/rcrs/DEV/685a959295fcf61529e5e021"/>
+               <PublishedStartTime>2026-04-02T03:00:00+02:00</PublishedStartTime>
+               <PublishedDuration>P0DT3H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">RCRST1_0195456272230</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">RCRSA1_1051381707705</OtherIdentifier>
             </ScheduleEvent>
          </Schedule>
       </ProgramLocationTable>

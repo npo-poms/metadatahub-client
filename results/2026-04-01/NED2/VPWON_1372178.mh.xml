@@ -7,14 +7,14 @@
         <term>Human Interest</term>
     </genre>
     <credits/>
-    <contentRating>ANGST</contentRating>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="NED2" midRef="VPWON_1372178">
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-01T22:45:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P67Y11M8DT19H33M20.000S</duration>
             <poProgID>VPWON_1372178</poProgID>
         </scheduleEvent>
     </scheduleEvents>

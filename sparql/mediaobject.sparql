@@ -1,16 +1,31 @@
 PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-SELECT *
+SELECT
+    (SAMPLE(?title) as ?title)
+    (SAMPLE(?description) as ?description)
+    (SAMPLE(?dateCreated) as ?dateCreated)
+    (GROUP_CONCAT(DISTINCT CONCAT(STR(?channelName), "|", STR(?start), "|", COALESCE(STR(?duration), "")); SEPARATOR="|") AS ?scheduleEvents)
+    (GROUP_CONCAT(DISTINCT ?broadcaster; SEPARATOR="|") AS ?broadcasters)
+    (GROUP_CONCAT(DISTINCT ?country; SEPARATOR="|") AS ?countries)
+    (GROUP_CONCAT(DISTINCT ?genreId; SEPARATOR="|") AS ?genres)
+    (GROUP_CONCAT(DISTINCT ?ta; SEPARATOR="|") AS ?targetGroups)
+    (GROUP_CONCAT(DISTINCT ?ageRatingValue) as ?ageRating)
+    (GROUP_CONCAT(DISTINCT ?contentRatingValue; SEPARATOR="|") AS ?contentRatings)
+
 WHERE {
     ?entity ec:hasIdentifier ?id .
     ?id ec:name "PRID" .
-    ?id ec:identifierValue "POW_05977062" .
-    ?entity ec:hasPublication ?publication .
-    ?publication ec:hasPublicationChannel ?channel .
-    ?channel ec:name ?channelName .
-    ?publication ec:hasStartDateTime ?start .
-    ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
-    OPTIONAL { ?publication ec:hasEndDateTime ?end . }
+    ?id ec:identifierValue "POMS_AT_10136616" .
+    OPTIONAL {
+        ?entity ec:hasPublication ?publication .
+        ?publication ec:hasPublicationChannel ?channel .
+        ?channel ec:name ?channelName .
+        ?publication ec:hasStartDateTime ?start .
+        OPTIONAL { ?publication ec:hasDuration/ec:equivalentTime ?duration . }
+    }
+    OPTIONAL {
+        ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
+    }
     OPTIONAL {
         ?publication ec:hasProductionCountry ?productionCountry .
         ?productionCountry a 'CountryCode'.
@@ -24,10 +39,20 @@ WHERE {
         ?hasGenre skos:notation ?genreId .
     }
     OPTIONAL {
+        ?entity ec:hasTargetAudience/ec:hasObjectType ?taNode .
+        ?taNode skos:notation ?ta .
+    }
+    OPTIONAL {
         ?entity ec:hasRating ?rating .
-        ?rating a ?ratingClass .
-        OPTIONAL { ?rating ec:ratingValue ?ratingValue . }
-        BIND(str(?ratingClass) AS ?ratingType)
+        ?rating  ec:ratingSystemName 'NL-NICAM' .
+        ?rating a "AudienceRating" .
+        ?rating ec:ratingValue ?ageRatingValue .
+    }
+    OPTIONAL {
+        ?entity ec:hasRating ?rating .
+        ?rating  ec:ratingSystemName 'NL-NICAM' .
+        ?rating a "Rating" .
+        ?rating ec:ratingValue ?contentRatingValue .
     }
 }
-
+group by ?entity

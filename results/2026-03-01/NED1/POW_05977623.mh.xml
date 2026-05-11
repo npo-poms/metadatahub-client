@@ -8,31 +8,38 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
         <scheduleEvent channel="NED1" midRef="POW_05977623">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-01T20:00:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P55Y6M7DT18H40M0.000S</duration>
             <poProgID>POW_05977623</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="POW_05977623">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-01T20:00:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P47Y7M16DT20H1M4.000S</duration>
             <poProgID>POW_05977623</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="NED1" midRef="POW_05977623">
             <guideDay>2026-03-01+01:00</guideDay>
             <start>2026-03-02T04:15:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P53Y6M21DT4H26M40.000S</duration>
+            <poProgID>POW_05977623</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_05977623">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T04:45:00+01:00</start>
+            <duration>P53Y6M21DT4H26M40.000S</duration>
             <poProgID>POW_05977623</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="POW_05977623">
             <guideDay>2026-03-02+01:00</guideDay>
             <start>2026-03-02T08:00:00+01:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P47Y7M16DT20H1M4.000S</duration>
             <poProgID>POW_05977623</poProgID>
         </scheduleEvent>
     </scheduleEvents>

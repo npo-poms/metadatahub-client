@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0512866496023" sortDate="2026-04-02T00:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:06:39.927+01:00">
+    <broadcaster id="VPRO">VPRO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Nooit Meer Slapenn</title>
+    <description owner="AUTHORITY" type="MAIN">Interviewprogramma van de VPRO</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0512866496023">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T00:00:00+02:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>RCRST1_0512866496023</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

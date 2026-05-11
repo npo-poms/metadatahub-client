@@ -21,13 +21,19 @@
          <ProgramInformation programId="crid://npo/programmagegevens/2553811710668">
             <BasicDescription>
                <Title type="main">Nederland in Beweging</Title>
-               <Title type="episodeTitle">Nederland in Beweging</Title>
                <Synopsis length="short">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Synopsis length="medium">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Sport">
                   <Name>Sport</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="333888463517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="579155485517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2566758987668">
@@ -72,6 +78,24 @@
                   <Name>InformatiefNieuws/actualiteiten</Name>
                </Genre>
                <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://npo/programmagegevens/2549805525668">
+            <BasicDescription>
+               <Title type="main">Nederland in Beweging</Title>
+               <Synopsis length="short">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
+               <Synopsis length="medium">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Sport">
+                  <Name>Sport</Name>
+               </Genre>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="333888463517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="579155485517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2566821581668">
@@ -109,13 +133,17 @@
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016069668">
             <BasicDescription>
-               <Title type="main">Afshin Ellian en Uri Rosenthal</Title>
+               <Title type="main">WNL Op Zondag</Title>
                <Synopsis length="short">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</Synopsis>
                <Synopsis length="medium">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
                   <Name>InformatiefNieuws/actualiteiten</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="125465917517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2566821616668">
@@ -211,7 +239,11 @@
                <Genre href="urn:tva:metadata:cs:2004:SportAnalyse">
                   <Name>SportAnalyse</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="606614554517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016188668">
@@ -234,7 +266,11 @@
                <Genre href="urn:tva:metadata:cs:2004:Human InterestLiefde">
                   <Name>Human InterestLiefde</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1902239487517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016131668">
@@ -261,7 +297,11 @@
                <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
                   <Name>InformatiefNieuws/actualiteiten</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="2362156779517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016232668">
@@ -306,7 +346,11 @@
                <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
                   <Name>InformatiefNieuws/actualiteiten</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="2362156779517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016216668">
@@ -318,18 +362,26 @@
                <Genre href="urn:tva:metadata:cs:2004:Human InterestLiefde">
                   <Name>Human InterestLiefde</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="1902239487517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016069668">
             <BasicDescription>
-               <Title type="main">Afshin Ellian en Uri Rosenthal</Title>
+               <Title type="main">WNL Op Zondag</Title>
                <Synopsis length="short">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn Uri Rosenthal, Leon de Winter, Anna van Zoest, Darya Safai, Afshin Elian en Han Bouwmeester.</Synopsis>
                <Synopsis length="medium">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
                   <Name>InformatiefNieuws/actualiteiten</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="125465917517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
          <ProgramInformation programId="crid://npo/programmagegevens/2555016050668">
@@ -401,13 +453,19 @@
          <ProgramInformation programId="crid://npo/programmagegevens/2553833837668">
             <BasicDescription>
                <Title type="main">Nederland in Beweging</Title>
-               <Title type="episodeTitle">Nederland in Beweging</Title>
                <Synopsis length="short">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Synopsis length="medium">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</Synopsis>
                <Genre href="urn:tva:metadata:cs:2004:Sport">
                   <Name>Sport</Name>
                </Genre>
-               <CreditsList/>
+               <CreditsList>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="333888463517"/>
+                  </CreditsItem>
+                  <CreditsItem role="urn:tva:metadata:cs:TVARoleCS:2004:V721">
+                     <PersonNameIDRef ref="579155485517"/>
+                  </CreditsItem>
+               </CreditsList>
             </BasicDescription>
          </ProgramInformation>
       </ProgramInformationTable>
@@ -445,6 +503,14 @@
                <OtherIdentifier type="ProductID">POW_05977758</OtherIdentifier>
                <OtherIdentifier type="SeriesID">26JnlExtra</OtherIdentifier>
                <OtherIdentifier type="ParentSeriesID">NOSJournaal</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://npo/programmagegevens/2549805525668"/>
+               <PublishedStartTime>2026-03-01T08:50:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H14M35.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_06001831</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_06001803</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03108318</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
                <Program crid="crid://npo/programmagegevens/2566821581668 crid://npo/programmagegevens/2566821581668"/>
@@ -540,7 +606,7 @@
                <PublishedDuration>P0DT0H29M12.000S</PublishedDuration>
                <OtherIdentifier type="ProductID">POW_05977623</OtherIdentifier>
                <OtherIdentifier type="SeriesID">26Jnl2000Zon</OtherIdentifier>
-               <OtherIdentifier type="ParentSeriesID">NOSjnl2000</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSJournaal</OtherIdentifier>
             </ScheduleEvent>
             <ScheduleEvent>
                <Program crid="crid://npo/programmagegevens/2555016216668 crid://npo/programmagegevens/2555016216668"/>
@@ -601,13 +667,37 @@
          </Schedule>
       </ProgramLocationTable>
       <CreditsInformationTable>
+         <PersonName personNameId="333888463517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Barbara</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">de Loor</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="579155485517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Duco</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Bauwens</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="125465917517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Rick</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Nieman</mpeg7:FamilyName>
+         </PersonName>
          <PersonName personNameId="782933695517">
             <mpeg7:GivenName xml:lang="NL" initial="">Joost</mpeg7:GivenName>
             <mpeg7:FamilyName xml:lang="NL">Vullings</mpeg7:FamilyName>
          </PersonName>
+         <PersonName personNameId="606614554517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Gert</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">van 't Hof</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="1902239487517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Yvon</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">Jaspers</mpeg7:FamilyName>
+         </PersonName>
          <PersonName personNameId="572107871517">
             <mpeg7:GivenName xml:lang="NL" initial="">Frits</mpeg7:GivenName>
             <mpeg7:FamilyName xml:lang="NL">Sissing</mpeg7:FamilyName>
+         </PersonName>
+         <PersonName personNameId="2362156779517">
+            <mpeg7:GivenName xml:lang="NL" initial="">Tim</mpeg7:GivenName>
+            <mpeg7:FamilyName xml:lang="NL">de Wit</mpeg7:FamilyName>
          </PersonName>
       </CreditsInformationTable>
    </ProgramDescription>

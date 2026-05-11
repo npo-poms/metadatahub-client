@@ -1,82 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/687f2008-6b60-44c0-8382-d2ec0bdbc7dc" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1c184fa3-e34a-475e-ac43-5e87c09ec828" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ddb48624-29e9-453b-a7ee-81802b6e932d" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
-        "channelName": { "type": "literal" , "value": "NPO 1" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T03:45:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
         "title": { "type": "literal" , "value": "NOS Journaal" } ,
         "description": { "type": "literal" , "value": "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting. En op NPO 1 extra met gebarentaal." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:11.992Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/687f2008-6b60-44c0-8382-d2ec0bdbc7dc" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1c184fa3-e34a-475e-ac43-5e87c09ec828" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bbf0a76d-351e-43b6-af6b-76fe09dd5369" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
-        "channelName": { "type": "literal" , "value": "NPO 1" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T03:15:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
-        "title": { "type": "literal" , "value": "NOS Journaal" } ,
-        "description": { "type": "literal" , "value": "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting. En op NPO 1 extra met gebarentaal." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:11.992Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/687f2008-6b60-44c0-8382-d2ec0bdbc7dc" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1c184fa3-e34a-475e-ac43-5e87c09ec828" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/bdd6c344-bb4a-45af-a717-d4cdc522ce6b" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
-        "channelName": { "type": "literal" , "value": "NPO 1" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T19:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
-        "title": { "type": "literal" , "value": "NOS Journaal" } ,
-        "description": { "type": "literal" , "value": "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting. En op NPO 1 extra met gebarentaal." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:11.992Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/687f2008-6b60-44c0-8382-d2ec0bdbc7dc" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1c184fa3-e34a-475e-ac43-5e87c09ec828" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e921489a-b611-4549-872e-319548e6de96" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T19:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
-        "title": { "type": "literal" , "value": "NOS Journaal" } ,
-        "description": { "type": "literal" , "value": "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting. En op NPO 1 extra met gebarentaal." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:11.992Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/687f2008-6b60-44c0-8382-d2ec0bdbc7dc" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/1c184fa3-e34a-475e-ac43-5e87c09ec828" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/d6d20c70-0818-4bc7-bd59-dcd53dded85c" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0" } ,
-        "channelName": { "type": "literal" , "value": "BVN" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T07:00:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
-        "title": { "type": "literal" , "value": "NOS Journaal" } ,
-        "description": { "type": "literal" , "value": "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting. En op NPO 1 extra met gebarentaal." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:11.992Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" } ,
-        "genreLabel": { "type": "literal" , "value": "Informatief-Nieuws/actualiteiten" }
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T19:00:00.000Z,1752000.0|NPO 1,2026-03-02T03:15:00.000Z,1690000.0|NPO 1,2026-03-02T03:45:00.000Z,1690000.0|BVN,2026-03-02T07:00:00.000Z,1503000.0|BVN,2026-03-01T19:00:00.000Z,1503000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NOS" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }

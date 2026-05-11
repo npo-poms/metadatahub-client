@@ -8,19 +8,26 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="POW_05975208">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T13:00:00+02:00</start>
+            <duration>P19Y4M11DT18H13M20.000S</duration>
+            <poProgID>POW_05975208</poProgID>
+        </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="POW_05975208">
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-01T13:00:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P36Y7M7DT1H21M4.000S</duration>
             <poProgID>POW_05975208</poProgID>
         </scheduleEvent>
         <scheduleEvent channel="BVNT" midRef="POW_05975208">
             <guideDay>2026-04-01+02:00</guideDay>
             <start>2026-04-02T01:00:00+02:00</start>
-            <duration>P0DT0H0M0.000S</duration>
+            <duration>P36Y7M7DT1H21M4.000S</duration>
             <poProgID>POW_05975208</poProgID>
         </scheduleEvent>
     </scheduleEvents>

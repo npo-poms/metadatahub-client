@@ -1,43 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8e160170-9c42-4f66-9242-39e3104dba23" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55bfbdda-d06c-4b39-a35f-11e71624f87e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c6933cbc-e2a8-45b7-a5a6-bdef78dfe310" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T13:25:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NTR" } ,
         "title": { "type": "literal" , "value": "Back to ESNS 2026" } ,
         "description": { "type": "literal" , "value": "Je ziet Antoon, die dit jaar op Noorderslag stond om zijn nieuwe plaat Tot Het Eind van Mij te presenteren. Ook muziek van de Nederlands-Indonesische supergroep Nusantara Beat. De Nederlandstalige elektronische popmuziek van IDA en we zien hoe Suzan en Freek de popprijs winnen." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:29.436Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2748fe10-d3e0-4194-9cd7-b592bdeed55b" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.5" }
-      }
-    ]
-  }
-}
-{ "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "productionCountry" , "country" , "title" , "description" , "dateCreated" , "hasGenre" , "genreId" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
-  } ,
-  "results": {
-    "bindings": [
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8e160170-9c42-4f66-9242-39e3104dba23" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/55bfbdda-d06c-4b39-a35f-11e71624f87e" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c6933cbc-e2a8-45b7-a5a6-bdef78dfe310" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236" } ,
-        "channelName": { "type": "literal" , "value": "NPO 2" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-04-01T13:25:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NTR" } ,
-        "title": { "type": "literal" , "value": "Back to ESNS 2026" } ,
-        "description": { "type": "literal" , "value": "Je ziet Antoon, die dit jaar op Noorderslag stond om zijn nieuwe plaat Tot Het Eind van Mij te presenteren. Ook muziek van de Nederlands-Indonesische supergroep Nusantara Beat. De Nederlandstalige elektronische popmuziek van IDA en we zien hoe Suzan en Freek de popprijs winnen." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:29.436Z" } ,
-        "hasGenre": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2748fe10-d3e0-4194-9cd7-b592bdeed55b" } ,
-        "genreId": { "type": "literal" , "value": "3.0.1.5" }
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T13:25:00.000Z," } ,
+        "broadcasters": { "type": "literal" , "value": "NTR" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.5" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }

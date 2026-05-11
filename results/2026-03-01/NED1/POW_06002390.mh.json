@@ -1,37 +1,19 @@
 { "head": {
-    "vars": [ "entity" , "id" , "publication" , "channel" , "channelName" , "start" , "broadcaster" , "end" , "title" , "description" , "dateCreated" , "genreNode" , "genreId" , "genreLabel" , "rating" , "ratingClass" , "ratingValue" , "ratingType" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
   } ,
   "results": {
     "bindings": [
       { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/91e2937a-fbe8-409d-99db-8e8c58365a62" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c43f675d-39ae-4116-8766-246a38e75dbf" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/d099a08a-83c0-40a2-92cc-cda6fa11ea09" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d" } ,
-        "channelName": { "type": "literal" , "value": "NPO 1" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T17:10:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
         "title": { "type": "literal" , "value": "NOS Studio Sport" } ,
         "description": { "type": "literal" , "value": "Livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag, met interviews en reportages." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:54.674Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f" } ,
-        "genreLabel": { "type": "literal" , "value": "Sport-Sport - informatie" }
-      } ,
-      { 
-        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/91e2937a-fbe8-409d-99db-8e8c58365a62" } ,
-        "id": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c43f675d-39ae-4116-8766-246a38e75dbf" } ,
-        "publication": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/d3102311-1a10-4301-9461-c7bc0b5956ce" } ,
-        "channel": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/32efdb81-b573-43ae-97ce-bc4fda544d62" } ,
-        "channelName": { "type": "literal" , "value": "NPO 3 & Zapp" } ,
-        "start": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-02T01:15:00.000Z" } ,
-        "broadcaster": { "type": "literal" , "value": "NOS" } ,
-        "title": { "type": "literal" , "value": "NOS Studio Sport" } ,
-        "description": { "type": "literal" , "value": "Livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag, met interviews en reportages." } ,
-        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:54.674Z" } ,
-        "genreNode": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f" } ,
-        "genreId": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f" } ,
-        "genreLabel": { "type": "literal" , "value": "Sport-Sport - informatie" }
+        "scheduleEvents": { "type": "literal" , "value": "NPO 3 & Zapp,2026-03-02T01:15:00.000Z,2525000.0|NPO 1,2026-03-01T17:10:00.000Z,2478000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NOS" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.4.14" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
       }
     ]
   }
