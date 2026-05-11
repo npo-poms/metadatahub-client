@@ -1,0 +1,14 @@
+PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?entity ?rating ?ratingClass ?ratingSystemName ?ratingValue
+WHERE {
+    ?entity ec:hasIdentifier ?id .
+    ?id ec:name "PRID" .
+    ?id ec:identifierValue "%s" .
+    ?entity ec:hasRating ?rating .
+    OPTIONAL { ?rating rdf:type ?ratingClass . }
+    OPTIONAL { ?rating ec:ratingSystemName ?ratingSystemName . }
+    OPTIONAL { ?rating ec:ratingValue ?ratingValue . }
+}
+LIMIT 50
+

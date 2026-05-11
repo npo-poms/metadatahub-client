@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -15,6 +15,15 @@
         "ageRating": { "type": "literal" , "value": "" } ,
         "contentRatings": { "type": "literal" , "value": "" }
       }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
     ]
   }
 }

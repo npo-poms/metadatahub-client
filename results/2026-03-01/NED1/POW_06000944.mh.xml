@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000944" sortDate="2026-03-02T02:35:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:04.451+01:00">
+    <broadcaster id="WNL">WNL</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">WNL Op Zondag</title>
+    <description owner="AUTHORITY" type="MAIN">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_06000944">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T10:20:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="POW_06000944">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T13:15:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="POW_06000944">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T01:15:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_06000944">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T02:35:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>POW_06000944</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

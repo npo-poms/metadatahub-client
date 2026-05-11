@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "Toast met tuinbonenspread, ei en citroenyoghurt" } ,
         "description": { "type": "literal" , "value": "Sandra maakt toast met tuinbonenspread en een gepocheerd ei met frisse citroenyoghurt. Een echt lentegerecht." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-03T14:23:51.690Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-03-25T13:35:00.000Z,764000.0|BVN,2026-03-26T01:35:00.000Z,764000.0|NPO 2,2026-03-25T11:15:00.000Z,777000.0|NPO 2,2026-04-01T14:10:00.000Z,776000.0|NPO 1,2026-03-25T12:20:00.000Z,847000.0|INTERNETVOD,2026-03-25T11:38:32.566Z,|PLUSVOD,2026-03-25T11:42:24.402Z," } ,
+        "scheduleEvents": { "type": "literal" , "value": "PLUSVOD,2026-03-25T11:42:24.402Z,|INTERNETVOD,2026-03-25T11:38:32.566Z,|NPO 1,2026-03-25T12:20:00.000Z,847000.0|NPO 2,2026-04-01T14:10:00.000Z,776000.0|NPO 2,2026-03-25T11:15:00.000Z,777000.0|BVN,2026-03-26T01:35:00.000Z,764000.0|BVN,2026-03-25T13:35:00.000Z,764000.0" } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.23" } ,

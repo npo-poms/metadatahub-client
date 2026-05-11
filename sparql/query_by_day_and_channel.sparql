@@ -9,7 +9,7 @@ WHERE {
     ?publication ec:hasStartDateTime ?start .
       FILTER(?start >= "2024-02-16T00:00:00.000Z"^^xsd:dateTime && ?start < "2024-02-17T00:00:00.000Z"^^xsd:dateTime)
     ?publication ec:hasPublicationChannel/ec:name ?publicationChannel .
-      FILTER(?publicationChannel = "NPO Radio 1")
+      FILTER(?publicationChannel = "NPO 3FM")
 
     OPTIONAL { ?entity ec:title ?title . }
 }

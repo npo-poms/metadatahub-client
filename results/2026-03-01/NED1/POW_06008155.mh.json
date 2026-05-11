@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "NOS Journaal ivm aanval Israël/VS op Iran" } ,
         "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-28T16:20:26.017Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-03-01T12:00:00.000Z,2329000.0|BVN,2026-03-02T00:00:00.000Z,2329000.0|NPO 1,2026-03-01T10:25:00.000Z,2303000.0" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T10:25:00.000Z,2303000.0|BVN,2026-03-02T00:00:00.000Z,2329000.0|BVN,2026-03-01T12:00:00.000Z,2329000.0" } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,

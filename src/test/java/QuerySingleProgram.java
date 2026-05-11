@@ -1,12 +1,15 @@
 
 import jakarta.xml.bind.JAXB;
+import static java.lang.ScopedValue.where;
 import java.util.logging.Logger;
 import nl.npo.metadatahub.client.Configuration;
+import static nl.npo.metadatahub.client.sparql.MetadataSparqlClient.onQueryExecuted;
 import nl.npo.metadatahub.poms.*;
 import nl.vpro.api.client.frontend.NpoApiClients;
 import nl.vpro.domain.media.*;
 import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
+import static org.apache.jena.query.ResultSetFormatter.outputAsJSON;
 import org.apache.logging.log4j.jul.Log4jBridgeHandler;
 
 /**
@@ -23,11 +26,17 @@ void main() throws Exception {
         var metadataHubMediaService = new MetadataHubService(new Configuration().createClient());
         ) {
 
-        List<Segment> segment = metadataHubMediaService.getSegments("AVRO_1353119");
-        for (Segment seg : segment) {
-            JAXB.marshal(seg, System.out);
-        }
+        where(onQueryExecuted,
+            (query, rs) -> {
+                log.info(query);
+                log.info("Sparql response: " + rs);
+            }).run(() -> {
 
+            Optional<Program> program = metadataHubMediaService.getProgram("POMS_VPRO_158293");
+            program.ifPresent(p -> {
+                JAXB.marshal(p, System.out);
+            });
+        });
     }
     log.info("ready");
     ThreadPools.shutdown();

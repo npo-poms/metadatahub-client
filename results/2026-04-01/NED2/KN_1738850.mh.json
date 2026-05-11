@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -13,7 +13,8 @@
         "genres": { "type": "literal" , "value": "3.0.1.8.44" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "Annemieke Ruggenberg\tDirector\t|Joey Boink\tDirector\t" }
       }
     ]
   }

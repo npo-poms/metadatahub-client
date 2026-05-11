@@ -1,5 +1,7 @@
 PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
 SELECT
     (SAMPLE(?title) as ?title)
     (SAMPLE(?description) as ?description)
@@ -11,6 +13,7 @@ SELECT
     (GROUP_CONCAT(DISTINCT ?ta; SEPARATOR="|") AS ?targetGroups)
     (GROUP_CONCAT(DISTINCT ?ageRatingValue) as ?ageRating)
     (GROUP_CONCAT(DISTINCT ?contentRatingValue; SEPARATOR="|") AS ?contentRatings)
+    (GROUP_CONCAT(DISTINCT CONCAT(STR(?personName), "\t", COALESCE(STR(?role), ""), "\t", COALESCE(STR(?gtaaUri), "")); SEPARATOR="|") AS ?persons)
 
 WHERE {
     ?entity ec:hasIdentifier ?id .
@@ -45,14 +48,26 @@ WHERE {
     OPTIONAL {
         ?entity ec:hasRating ?rating .
         ?rating  ec:ratingSystemName 'NL-NICAM' .
-        ?rating a "AudienceRating" .
+        ?rating rdf:type "AudienceRating" .
         ?rating ec:ratingValue ?ageRatingValue .
     }
     OPTIONAL {
         ?entity ec:hasRating ?rating .
         ?rating  ec:ratingSystemName 'NL-NICAM' .
-        ?rating a "Rating" .
+        ?rating rdf:type "Rating" .
         ?rating ec:ratingValue ?contentRatingValue .
+    }
+    OPTIONAL {
+        ?entity ec:hasContributor ?contributor .
+        ?contributor ec:hasAgent ?agent .
+        ?agent ec:name ?personName .
+        OPTIONAL {
+            ?agent ec:hasIdentifier ?agentIdentifier .
+            ?agentIdentifier ec:identifierValue ?gtaaUri .
+        }
+        OPTIONAL {
+            ?contributor ec:hasObjectType/skos:prefLabel ?role .
+        }
     }
 }
 group by ?entity

@@ -6,7 +6,12 @@
     <genre id="3.0.1.6">
         <term>Amusement</term>
     </genre>
-    <credits/>
+    <credits>
+        <person role="PRESENTER">
+            <givenName></givenName>
+            <familyName>Jetske van den Elsen</familyName>
+        </person>
+    </credits>
     <ageRating>ALL</ageRating>
     <locations/>
     <images/>

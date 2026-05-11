@@ -1,3 +1,4 @@
 INFO POMS: results/2010-01-26/NED1/VARA_101220748.poms.xml
 INFO Sparql response: results/2010-01-26/NED1/VARA_101220748.mh.json
-INFO MH: error fetching program for mid VARA_101220748: SPARQL endpoint returned status 502: {"statusCode":502,"message":"The graph database returned an error"}
+INFO Sparql response: results/2010-01-26/NED1/VARA_101220748.mh.json
+INFO MH: results/2010-01-26/NED1/VARA_101220748.mh.xml

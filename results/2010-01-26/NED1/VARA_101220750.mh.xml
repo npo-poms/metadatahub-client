@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VARA_101220750" sortDate="2013-02-17T16:03:50.691+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-17T16:03:50.688+01:00">
-    <broadcaster id="NPS">NPS</broadcaster>
     <broadcaster id="VARA">VARA</broadcaster>
+    <broadcaster id="NPS">NPS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Pauw &amp; Witteman</title>
     <genre id="3.0.1.6">
         <term>Amusement</term>
     </genre>
-    <credits/>
+    <credits>
+        <person role="PRESENTER">
+            <givenName></givenName>
+            <familyName>Paul Witteman</familyName>
+        </person>
+    </credits>
     <ageRating>ALL</ageRating>
     <locations/>
     <images/>

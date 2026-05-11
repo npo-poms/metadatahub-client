@@ -1,19 +1,29 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "Pauw & Witteman" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-17T11:10:44.825Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T22:05:00.000Z,3300000.0|NPO 1,2010-01-26T23:15:00.000Z,3300000.0|INTERNETVOD,2013-02-17T11:10:44.828Z,|INTERNETVOD,2013-02-17T11:10:44.829Z," } ,
-        "broadcasters": { "type": "literal" , "value": "VARA|NPS" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-17T11:10:44.829Z,|INTERNETVOD,2013-02-17T11:10:44.828Z,|NPO 1,2010-01-26T23:15:00.000Z,3300000.0|NPO 1,2010-01-26T22:05:00.000Z,3300000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NPS|VARA" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.6" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "Paul Witteman\tPresenter\t" }
       }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
     ]
   }
 }

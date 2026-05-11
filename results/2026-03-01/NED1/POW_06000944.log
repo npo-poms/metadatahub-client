@@ -1,3 +1,4 @@
 INFO POMS: results/2026-03-01/NED1/POW_06000944.poms.xml
 INFO Sparql response: results/2026-03-01/NED1/POW_06000944.mh.json
-INFO MH: error fetching program for mid POW_06000944: SPARQL endpoint returned status 502: {"statusCode":502,"message":"The graph database returned an error"}
+INFO Sparql response: results/2026-03-01/NED1/POW_06000944.mh.json
+INFO MH: results/2026-03-01/NED1/POW_06000944.mh.xml

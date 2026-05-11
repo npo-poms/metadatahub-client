@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "Twee keer Noord-Holland, een keer Zuid-Holland" } ,
         "description": { "type": "literal" , "value": "In de hoofdstad runt Isabel haar B&B met twee kamers die over zijn in haar huis. Daarna is iedereen te gast bij Simon en Corien; ook zij hebben een woning met een bed and breakfast in de stad van Vermeer. We sluiten af bij Priscilla en Paul; zij hebben een B&B waar ze vier gasten kunnen ontvangen. Ze nemen hun gasten mee naar de top van de Bavotoren." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:32:52.081Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T22:45:00.000Z,3042000.0|BVN,2026-02-26T07:45:00.000Z,3057000.0|NPO 1,2026-02-24T19:35:00.000Z,3045000.0|BVN,2026-02-25T19:45:00.000Z,3057000.0" } ,
+        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-02-25T19:45:00.000Z,3057000.0|NPO 1,2026-02-24T19:35:00.000Z,3045000.0|BVN,2026-02-26T07:45:00.000Z,3057000.0|NPO 1,2026-03-01T22:45:00.000Z,3042000.0" } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7" } ,

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1368155" sortDate="2026-04-01T10:20:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:40:59.019+01:00">
-    <broadcaster id="NOS">NOS</broadcaster>
     <broadcaster id="NTR">NTR</broadcaster>
+    <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nieuwsuur</title>
     <description owner="AUTHORITY" type="MAIN">Kidane H. staat in Nederland terecht voor een omvangrijke mensensmokkelzaak. Verslaggever Mark Schrader volgt de zaak en is in de studio. * Een derde van de Nederlandse gemeenten maakt gebruik van een noodknop. Dat blijkt uit onderzoek van Nieuwsuur. Met zo'n noodknop staat iemand meteen in contact met de meldkamer van de politie. * Het Israëlische parlement, de Knesset, is akkoord gegaan met een zeer omstreden wetsvoorstel om de doodstraf in te voeren voor moord met terroristisch motief. We praten erover met Peter Malcontent, universiteit hoofddocent internationale betrekkingen aan de Universiteit Utrecht.</description>
     <genre id="3.0.1.7.21">

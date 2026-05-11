@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "Zes boeren starten liefdesavontuur" } ,
         "description": { "type": "literal" , "value": "De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-02T15:50:25.101Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T19:35:00.000Z,3607000.0|BVN,2026-03-03T07:40:00.000Z,3660000.0|BVN,2026-03-02T19:40:00.000Z,3660000.0|NPO 1,2026-03-02T00:30:00.000Z,3649000.0" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-02T00:30:00.000Z,3649000.0|BVN,2026-03-02T19:40:00.000Z,3660000.0|BVN,2026-03-03T07:40:00.000Z,3660000.0|NPO 1,2026-03-01T19:35:00.000Z,3607000.0" } ,
         "broadcasters": { "type": "literal" , "value": "KRNC" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.40.62" } ,

@@ -20,14 +20,6 @@ import org.apache.jena.rdf.model.Literal;
 @Log
 public class Mapper {
 
-    private static final Locale nl_vpp = Locale.of("nl", "", "vpp");
-
-
-    // ratingType URI suffixes that indicate an age rating (Kijkwijzer)
-    private static final String AGE_RATING_TYPE_SUFFIX = "AgeRating";
-
-
-
     private final ClassificationService classificationService;
 
     protected Mapper() {
@@ -35,16 +27,15 @@ public class Mapper {
     }
 
 
-
-    public  void toProgram(QuerySolution first, MediaBuilder.ProgramBuilder builder) {
+    public void toProgram(QuerySolution first, MediaBuilder.ProgramBuilder builder) {
         toMediaObject(first, builder);
-        String[]  scheduleEventsSplit = split(first.getLiteral("scheduleEvents"));
+        String[] scheduleEventsSplit = split(first.getLiteral("scheduleEvents"));
         for (String scheduleEvent : scheduleEventsSplit) {
             builder.scheduleEvent(parseScheduleEvent(scheduleEvent));
-
         }
     }
-    public  <B extends MediaBuilder<B, M>, M extends MediaObject> void toMediaObject(QuerySolution first, MediaBuilder<B, M> builder) {
+
+    public <B extends MediaBuilder<B, M>, M extends MediaObject> void toMediaObject(QuerySolution first, MediaBuilder<B, M> builder) {
 
 
         setString("title", first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
@@ -68,12 +59,18 @@ public class Mapper {
             Arrays.stream(contentRatings)
                 .map(this::parseContentRating)
                 .filter(Optional::isPresent)
-                .map(Optional::get).toArray(i -> new ContentRating[i])
+                .map(Optional::get).toArray(ContentRating[]::new)
+        );
+        String[] persons = split(first.getLiteral("persons"));
+        //log.info("{}", persons);
+        builder.persons(
+            Arrays.stream(persons)
+                .map(this::parsePerson)
+                .filter(Optional::isPresent)
+                .map(Optional::get).toArray(Person[]::new)
         );
 
     }
-
-
 
 
     private Optional<Genre> matchTermId(String termId) {
@@ -86,7 +83,6 @@ public class Mapper {
 
         }
     }
-
 
 
     private AgeRating parseAgeRating(String value) {
@@ -113,13 +109,23 @@ public class Mapper {
         return Arrays.stream(ContentRating.values()).filter(c -> c.getDisplayName().equalsIgnoreCase(value)).findFirst();
     }
 
+    private Optional<Person> parsePerson(String value) {
+        String[] fields = value.split("\t");
+        Person person = Person.builder()
+            .name(fields[0])
+            .role(RoleType.valueOf(fields[1].toUpperCase()))
+            .gtaaUri(fields.length > 2 ? fields[2] : null)
+            .build();
+        return Optional.of(person);
+    }
+
 
     public Optional<ScheduleEvent> toScheduleEvent(List<String> fields, QuerySolution row) {
         if (!fields.contains("channelName") || !fields.contains("start")) {
             return Optional.empty();
         }
         Literal channelLit = row.getLiteral("channelName");
-        Literal startLit   = row.getLiteral("start");
+        Literal startLit = row.getLiteral("start");
         if (channelLit == null || startLit == null) {
             return Optional.empty();
         }
@@ -150,7 +156,7 @@ public class Mapper {
         List<ScheduleEvent> result = new ArrayList<>();
         // triplets: channelName, start, duration
         String channelName = parts[0];
-        String startStr    = parts[1];
+        String startStr = parts[1];
         String durationStr = parts[2];
         Channel channel = getChannelByDisplayName(channelName).orElse(null);
         Instant start = Instant.parse(startStr);
@@ -187,10 +193,11 @@ public class Mapper {
         return Optional.empty();
     }
 
-    protected void setString(String field,  QuerySolution item, Consumer<String> consumer, boolean optional) {
+    protected void setString(String field, QuerySolution item, Consumer<String> consumer, boolean optional) {
         set(field, item, consumer, Literal::getString, optional);
     }
-    protected void setString(String field,  QuerySolution item, Consumer<String> consumer) {
+
+    protected void setString(String field, QuerySolution item, Consumer<String> consumer) {
         setString(field, item, consumer, false);
     }
 
@@ -210,11 +217,11 @@ public class Mapper {
         }
     }
 
-    String[] split(Literal lit){
+    String[] split(Literal lit) {
         if (lit == null) {
             return new String[0];
         }
-        String s= lit.getString();
+        String s = lit.getString();
 
         if (s.isEmpty()) {
             return new String[0];
@@ -224,3 +231,4 @@ public class Mapper {
         }
     }
 }
+

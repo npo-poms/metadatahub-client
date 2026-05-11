@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "NOS Studio Sport" } ,
         "description": { "type": "literal" , "value": "Livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag, met interviews en reportages." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-12T14:33:54.674Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 3 & Zapp,2026-03-02T01:15:00.000Z,2525000.0|NPO 1,2026-03-01T17:10:00.000Z,2478000.0" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T17:10:00.000Z,2478000.0|NPO 3 & Zapp,2026-03-02T01:15:00.000Z,2525000.0" } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.4.14" } ,

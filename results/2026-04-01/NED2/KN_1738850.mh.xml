@@ -7,7 +7,16 @@
         <term>Documentaire</term>
         <term>Politiek</term>
     </genre>
-    <credits/>
+    <credits>
+        <person role="DIRECTOR">
+            <givenName></givenName>
+            <familyName>Annemieke Ruggenberg</familyName>
+        </person>
+        <person role="DIRECTOR">
+            <givenName></givenName>
+            <familyName>Joey Boink</familyName>
+        </person>
+    </credits>
     <ageRating>ALL</ageRating>
     <locations/>
     <images/>

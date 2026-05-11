@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "NOS Journaal" } ,
         "description": { "type": "literal" , "value": "Gevolgd door herhalingen." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T20:50:29.989Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T11:00:00.000Z,3600000.0|INTERNETVOD,2013-02-15T20:50:29.992Z," } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T20:50:29.992Z,|NPO 1,2010-01-26T11:00:00.000Z,3600000.0" } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,

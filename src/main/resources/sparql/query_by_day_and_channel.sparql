@@ -9,8 +9,9 @@ WHERE {
       ?publication ec:hasStartDateTime ?start .
       FILTER(?start >= "%s"^^xsd:dateTime && ?start < "%s"^^xsd:dateTime)
     ?publication ec:hasPublicationChannel ?channel .
-      ?channel ec:name "%s" .
-    OPTIONAL { ?publication ec:hasEndDateTime ?end . }
+      FILTER(?publicationChannel = "%s")
+    ?channel ec:name "%s" .
+ 
     OPTIONAL { ?entity ec:title ?title . }
 }
 

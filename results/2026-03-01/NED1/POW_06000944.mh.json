@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "WNL Op Zondag" } ,
         "description": { "type": "literal" , "value": "Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:04.451Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-03-02T00:15:00.000Z,3837000.0|BVN,2026-03-01T12:15:00.000Z,3837000.0|NPO 1,2026-03-02T01:35:00.000Z,3826000.0|NPO 1,2026-03-01T09:20:00.000Z,3822000.0" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T09:20:00.000Z,3822000.0|NPO 1,2026-03-02T01:35:00.000Z,3826000.0|BVN,2026-03-01T12:15:00.000Z,3837000.0|BVN,2026-03-02T00:15:00.000Z,3837000.0" } ,
         "broadcasters": { "type": "literal" , "value": "WNL" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
@@ -15,6 +15,15 @@
         "ageRating": { "type": "literal" , "value": "" } ,
         "contentRatings": { "type": "literal" , "value": "" }
       }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
     ]
   }
 }

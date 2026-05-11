@@ -1,2 +1,4 @@
 INFO POMS: results/2010-01-26/NED1/AVRO_1353396.poms.xml
-INFO MH: error fetching program for mid AVRO_1353396: SPARQL endpoint returned status 502: {"statusCode":502,"message":"The graph database returned an error"}
+INFO Sparql response: results/2010-01-26/NED1/AVRO_1353396.mh.json
+INFO Sparql response: results/2010-01-26/NED1/AVRO_1353396.mh.json
+INFO MH: results/2010-01-26/NED1/AVRO_1353396.mh.xml

@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,13 +7,14 @@
         "title": { "type": "literal" , "value": "Nederland in Beweging!" } ,
         "description": { "type": "literal" , "value": "Ouderen slapen meestal korter en minder diep. Dit hoort bij de leeftijd. Het is normaal om af en toe even wakker te worden, met name tegen de ochtend als de slaap minder diep is. Van slapeloosheid is pas sprake als je vaker slecht slaapt en overdag door te weinig nachtrust minder goed functioneert. Presentatie: Olga Commandeur, Duco Bauwens." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-05T12:28:33.456Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T08:15:00.000Z,900000.0|NPO 1,2010-01-26T05:45:00.000Z,840000.0|INTERNETVOD,2013-02-05T12:28:33.458Z," } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-05T12:28:33.458Z,|NPO 1,2010-01-26T05:45:00.000Z,840000.0|NPO 1,2010-01-26T08:15:00.000Z,900000.0" } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.4" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "Olga Commandeur\tPresenter\t" }
       }
     ]
   }

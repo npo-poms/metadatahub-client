@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
@@ -7,7 +7,7 @@
         "title": { "type": "literal" , "value": "Ademruimte: ochtendyoga voor de longen" } ,
         "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T07:30:00.000Z,993000.0|NPO 2,2025-08-07T07:30:00.000Z,1010000.0|NPO 2,2025-04-24T07:35:00.000Z,986000.0|NPO 2,2025-09-02T07:30:00.000Z,1013000.0" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2025-09-02T07:30:00.000Z,1013000.0|NPO 2,2025-04-24T07:35:00.000Z,986000.0|NPO 2,2025-08-07T07:30:00.000Z,1010000.0|NPO 2,2026-04-01T07:30:00.000Z,993000.0" } ,
         "broadcasters": { "type": "literal" , "value": "KRNC" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.40.60" } ,

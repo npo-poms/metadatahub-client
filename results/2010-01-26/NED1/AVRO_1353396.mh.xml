@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1353396" sortDate="2013-02-15T11:39:16.716+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:16.713+01:00">
+    <broadcaster id="AVRO">AVRO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Op de bon</title>
+    <description owner="AUTHORITY" type="MAIN">Alles en meer over het meest gehate gele papiertje: de bekeuring. Verkeersboetes, wildplassen, controle op illegaal vuurwerk, alcoholgebruik in het verkeer tijdens de donkere dagen rondom kerst én in de metro zonder kaartje, allemaal dingen die niet mogen, maar wel gebeuren. Verder: de kantonrechter. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht. Over emoties en de verhalen achter de bekeuring.</description>
+    <genre id="3.0.1.6">
+        <term>Amusement</term>
+    </genre>
+    <credits>
+        <person role="PRESENTER">
+            <givenName></givenName>
+            <familyName>Sipke Jan Bousema</familyName>
+        </person>
+    </credits>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AVRO_1353396">
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T20:30:00+01:00</start>
+            <duration>P66Y6M17DT13H20M0.000S</duration>
+            <poProgID>AVRO_1353396</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1353396">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:16.715+01:00</start>
+            <poProgID>AVRO_1353396</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1353396">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:16.716+01:00</start>
+            <poProgID>AVRO_1353396</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>
