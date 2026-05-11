@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1353119" sortDate="2013-02-15T11:39:13.954+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:13.949+01:00">
+    <broadcaster id="AVRO">AVRO</broadcaster>
+    <broadcaster id="TROS">TROS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">EénVandaag</title>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AVRO_1353119">
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T18:15:00+01:00</start>
+            <duration>P47Y6M13DT2H40M0.000S</duration>
+            <poProgID>AVRO_1353119</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1353119">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:13.953+01:00</start>
+            <poProgID>AVRO_1353119</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1353119">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:13.954+01:00</start>
+            <poProgID>AVRO_1353119</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

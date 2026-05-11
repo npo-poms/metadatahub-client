@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="EO_101156662" sortDate="2013-02-06T10:44:03.646+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-06T10:44:03.641+01:00">
+    <broadcaster id="EO">EO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Afslag UMC Utrecht (15)</title>
+    <description owner="AUTHORITY" type="MAIN">In deze aflevering krijgt de zes weken oude Femke een gehooronderzoek. Enkele dagen na haar geboorte werd bij haar ernstig gehoorverlies vastgesteld.</description>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="EO_101156662">
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T19:25:00+01:00</start>
+            <duration>P66Y6M17DT13H20M0.000S</duration>
+            <poProgID>EO_101156662</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="EO_101156662">
+            <guideDay>2013-02-06+01:00</guideDay>
+            <start>2013-02-06T10:44:03.645+01:00</start>
+            <poProgID>EO_101156662</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="EO_101156662">
+            <guideDay>2013-02-06+01:00</guideDay>
+            <start>2013-02-06T10:44:03.646+01:00</start>
+            <poProgID>EO_101156662</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

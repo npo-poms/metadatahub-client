@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00287346" sortDate="2013-02-05T13:28:30.767+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-05T13:28:30.765+01:00">
+    <broadcaster id="MAX">MAX</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">MAX Geheugentrainer</title>
+    <description owner="AUTHORITY" type="MAIN">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Geheugentrainer geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u was gewend.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_00287346">
+            <guideDay>2010-01-25+01:00</guideDay>
+            <start>2010-01-25T09:40:00+01:00</start>
+            <duration>P38Y0M9DT21H20M0.000S</duration>
+            <poProgID>POW_00287346</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_00287346">
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T06:30:00+01:00</start>
+            <duration>P28Y6M8DT16H0M0.000S</duration>
+            <poProgID>POW_00287346</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="POW_00287346">
+            <guideDay>2013-02-05+01:00</guideDay>
+            <start>2013-02-05T13:28:30.767+01:00</start>
+            <poProgID>POW_00287346</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

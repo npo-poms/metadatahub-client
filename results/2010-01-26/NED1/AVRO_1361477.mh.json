@@ -1,0 +1,20 @@
+{ "head": {
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "title": { "type": "literal" , "value": "Opium weet wat er speelt" } ,
+        "description": { "type": "literal" , "value": "Actuele culturele tips van prominente cultuurliefhebbers en deskundigen. In een kort vlammend betoog vertellen zij de kijkers wat ze niet mogen missen: wat speelt er in de theaters en bioscopen, welke boeken en cd's zijn hot en welke tentoonstellingen zijn absolute aanraders?" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T10:39:11.196Z" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T15:50:00.000Z,600000.0|INTERNETVOD,2013-02-15T10:39:11.198Z,|INTERNETVOD,2017-11-02T02:39:18.190Z,|INTERNETVOD,2013-02-15T10:39:11.199Z," } ,
+        "broadcasters": { "type": "literal" , "value": "AVRO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.24" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
+      }
+    ]
+  }
+}

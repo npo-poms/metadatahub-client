@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TVAMain xmlns="urn:tva:metadata:2004" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001"><!--
+        This is experimental since poms 8.12.
+        It is produced from POMS MediaTable XML (see https://poms.omroep.nl/schema/vproMedia.xsd).
+
+        It is mainly used to generate test data for the integration tests.
+      -->
+   <ProgramDescription>
+      <ProgramInformationTable>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576761">
+            <BasicDescription>
+               <Title type="main">MAX Geheugentrainer</Title>
+               <Synopsis length="short">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Met eenvoudige oefeningen en opdrachten leert u weer meer te onthouden dan u was gewend.</Synopsis>
+               <Synopsis length="medium">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Geheugentrainer geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u was gewend.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576785">
+            <BasicDescription>
+               <Title type="main">Nederland in Beweging!</Title>
+               <Synopsis length="medium">Ouderen slapen meestal korter en minder diep. Dit hoort bij de leeftijd. Het is normaal om af en toe even wakker te worden, met name tegen de ochtend als de slaap minder diep is. Van slapeloosheid is pas sprake als je vaker slecht slaapt en overdag door te weinig nachtrust minder goed functioneert. Presentatie: Olga Commandeur, Duco Bauwens.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Sport">
+                  <Name>Sport</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10570088">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10570088">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10570090">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10570090">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576791">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576785">
+            <BasicDescription>
+               <Title type="main">Nederland in Beweging!</Title>
+               <Synopsis length="medium">Ouderen slapen meestal korter en minder diep. Dit hoort bij de leeftijd. Het is normaal om af en toe even wakker te worden, met name tegen de ochtend als de slaap minder diep is. Van slapeloosheid is pas sprake als je vaker slecht slaapt en overdag door te weinig nachtrust minder goed functioneert. Presentatie: Olga Commandeur, Duco Bauwens.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Sport">
+                  <Name>Sport</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576791">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576784">
+            <BasicDescription>
+               <Title type="main">MAX Geheugentrainer</Title>
+               <Synopsis length="short">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Met eenvoudige oefeningen en opdrachten leert u weer meer te onthouden dan u was gewend.</Synopsis>
+               <Synopsis length="medium">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Geheugentrainer geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u was gewend.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576792">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576793">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576794">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576795">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576795">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576795">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576797">
+            <BasicDescription>
+               <Title type="main">NOS Het vragenuurtje</Title>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576798">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Synopsis length="medium">Gevolgd door herhalingen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10567676">
+            <BasicDescription>
+               <Title type="main">ONM</Title>
+               <Synopsis length="short">Esmee probeert haar vader uit te leggen waarom ze draagmoeder wil worden. Sytze denkt dat hij Yousef in de gevangenis kan opvrolijken. Het lijkt Kim beter als Yousef uit haar leven verdwijnt.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Serie">
+                  <Name>Serie</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576769">
+            <BasicDescription>
+               <Title type="main">Pauw &amp; Witteman</Title>
+               <Genre href="urn:tva:metadata:cs:2004:Amusement">
+                  <Name>Amusement</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576800">
+            <BasicDescription>
+               <Title type="main">Opium weet wat er speelt</Title>
+               <Synopsis length="short">Actuele culturele tips van prominente cultuurliefhebbers en deskundigen. In een kort vlammend betoog vertellen zij de kijkers wat ze niet mogen missen.</Synopsis>
+               <Synopsis length="medium">Actuele culturele tips van prominente cultuurliefhebbers en deskundigen. In een kort vlammend betoog vertellen zij de kijkers wat ze niet mogen missen: wat speelt er in de theaters en bioscopen, welke boeken en cd's zijn hot en welke tentoonstellingen zijn absolute aanraders?</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefKunst/cultuur">
+                  <Name>InformatiefKunst/cultuur</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576805">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576806">
+            <BasicDescription>
+               <Title type="main">EénVandaag</Title>
+               <Synopsis length="short">Actualiteiten -Druk op Nederland om Uruzganbesluit. -Boktor bedreigt Boskoop. -Gehandicapten dreigen rust te verliezen.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10570123">
+            <BasicDescription>
+               <Title type="main">Lingo</Title>
+               <Synopsis length="medium">Woord- en taalspel waarbij de kandidaten zes-, zeven- en tienletterwoorden moeten raden. Tevens bekendmaking van de twintig winnende getallen van de Lucky Day trekking.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Amusement">
+                  <Name>Amusement</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576808">
+            <BasicDescription>
+               <Title type="main">Afslag UMC Utrecht</Title>
+               <Title type="episodeTitle">Afslag UMC Utrecht (15)</Title>
+               <Synopsis length="short">In deze aflevering krijgt de zes weken oude Femke een gehooronderzoek. Enkele dagen na haar geboorte werd bij haar ernstig gehoorverlies vastgesteld.</Synopsis>
+               <Synopsis length="medium">In deze aflevering krijgt de zes weken oude Femke een gehooronderzoek. Enkele dagen na haar geboorte werd bij haar ernstig gehoorverlies vastgesteld.</Synopsis>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576809">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576810">
+            <BasicDescription>
+               <Title type="main">Op de bon</Title>
+               <Synopsis length="short">Alles en meer over het meest gehate gele papiertje: de bekeuring. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht.</Synopsis>
+               <Synopsis length="medium">Alles en meer over het meest gehate gele papiertje: de bekeuring. Verkeersboetes, wildplassen, controle op illegaal vuurwerk, alcoholgebruik in het verkeer tijdens de donkere dagen rondom kerst én in de metro zonder kaartje, allemaal dingen die niet mogen, maar wel gebeuren. Verder: de kantonrechter. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht. Over emoties en de verhalen achter de bekeuring.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Amusement">
+                  <Name>Amusement</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576811">
+            <BasicDescription>
+               <Title type="main">TROS Regelrecht</Title>
+               <Synopsis length="short">Programma over sociaal maatschappelijke problematiek, met name overlast en wangedrag in de buurt zijn speerpunten in het programma.</Synopsis>
+               <Synopsis length="medium">Sociaal maatschappelijke problematiek, met name overlast en wangedrag in de buurt zijn speerpunten in het programma. Een team van deskundigen gaat kijkers actief helpen om deze problemen aan te pakken. Elke deskundige heeft een eigen discipline en zet haar/zijn kennis en kunde in om tot een oplossing te komen. Ivo Opstelten vervult de rol van voorzitter die het team van deskundigen aanstuurt. Hij is sinds 4 november 2009 waarnemend burgemeester van Tilburg. Het team bestaat verder uit: -Joost Eerdmans. Joost Eerdmans is sinds 2 maart 2009 wethouder in Capelle aan den IJssel namens Leefbaar Capelle. -Mildred Roethof. Mildred Roethof is deskundige in de jeugdcultuur. Ze is eigengereid, confronterend en gaat taboes niet uit de weg. De cultuur van jongeren staat centraal in verschillende documentaires die zij maakt. -Clarice Stenger. Clarice Stenger is werkzaam als advocaat bij Van Aalst en Daniëls advocaten in Amsterdam. Haar specialiteiten zijn aansprakelijkheidsrecht, erfrecht, personen- en familierecht, onroerend goedrecht en strafrecht. -Bernard Tomlow. Bernard Tomlow is de grondlegger van het kantoor Tomlow advocaten uit Utrecht. Zijn specialiteiten zijn huurrecht, arbeidsrecht, bestuursrecht en het algemeen verbintenissenrecht.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10570120">
+            <BasicDescription>
+               <Title type="main">Opsporing verzocht</Title>
+               <Synopsis length="medium">Opsporingsprogramma i.s.m. politie en justitie voor een veiliger samenleving.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:SerieSpanning">
+                  <Name>SerieSpanning</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576812">
+            <BasicDescription>
+               <Title type="main">De rijdende rechter</Title>
+               <Title type="episodeTitle">Wat een gedonder</Title>
+               <Synopsis length="short">De studenten Frank, Herman en Maarten hebben een bovenwoning in Rotterdam-Zuid. Hun benedenburen: een gezin met drie kinderen. De benedenburen hebben veel last van de studenten.</Synopsis>
+               <Synopsis length="medium">Mr. Frank Visser beslecht burenruzies, familievetes en andere conflicten. De uitspraak van mr. Frank Visser is juridisch bindend voor de partijen; zij zijn verplicht zijn beslissing te aanvaarden.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Amusement">
+                  <Name>Amusement</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576799">
+            <BasicDescription>
+               <Title type="main">Pauw &amp; Witteman</Title>
+               <Synopsis length="short">Te gast: -Dr. Frank, van 'de grootste afvalrace' en het boek 'Gezond slank'. -De eigenaresse van het modemerk Supertrash, Olcay Gulsen, over de start van de Amsterdam International Fashion Week.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Amusement">
+                  <Name>Amusement</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576813">
+            <BasicDescription>
+               <Title type="main">NOS Journaal</Title>
+               <Genre href="urn:tva:metadata:cs:2004:InformatiefNieuws/actualiteiten">
+                  <Name>InformatiefNieuws/actualiteiten</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+         <ProgramInformation programId="crid://tmp.program.omroep.nl/10576799">
+            <BasicDescription>
+               <Title type="main">Pauw &amp; Witteman</Title>
+               <Synopsis length="short">Te gast: -Dr. Frank, van 'de grootste afvalrace' en het boek 'Gezond slank'. -De eigenaresse van het modemerk Supertrash, Olcay Gulsen, over de start van de Amsterdam International Fashion Week.</Synopsis>
+               <Genre href="urn:tva:metadata:cs:2004:Amusement">
+                  <Name>Amusement</Name>
+               </Genre>
+               <Genre href="urn:tva:metadata:cs:2004:Informatief">
+                  <Name>Informatief</Name>
+               </Genre>
+               <CreditsList/>
+            </BasicDescription>
+         </ProgramInformation>
+      </ProgramInformationTable>
+      <GroupInformationTable/>
+      <ProgramLocationTable>
+         <Schedule>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576761"/>
+               <PublishedStartTime>2010-01-26T06:30:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H15M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00287346</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_00287338</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03108298</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576785 crid://tmp.program.omroep.nl/10576785"/>
+               <PublishedStartTime>2010-01-26T06:45:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H14M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00288337</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_00287451</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03108318</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10570088 crid://tmp.program.omroep.nl/10570088"/>
+               <PublishedStartTime>2010-01-26T07:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H10M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00259353</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl07n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10570090 crid://tmp.program.omroep.nl/10570090"/>
+               <PublishedStartTime>2010-01-26T08:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H10M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00259477</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl08n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576791 crid://tmp.program.omroep.nl/10576791"/>
+               <PublishedStartTime>2010-01-26T09:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H15M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00259601</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl09n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576784"/>
+               <PublishedStartTime>2010-01-26T09:40:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H20M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00287347</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_00287338</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POW_03108298</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576792"/>
+               <PublishedStartTime>2010-01-26T10:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00259725</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl10n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576793"/>
+               <PublishedStartTime>2010-01-26T11:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00260274</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl11n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576794"/>
+               <PublishedStartTime>2010-01-26T12:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00260337</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl12n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576795 crid://tmp.program.omroep.nl/10576795 crid://tmp.program.omroep.nl/10576795"/>
+               <PublishedStartTime>2010-01-26T13:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H10M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00260452</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl13n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576797"/>
+               <PublishedStartTime>2010-01-26T14:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT1H0M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00263267</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10JnlVragenuurtje</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSjnlVragen</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576798"/>
+               <PublishedStartTime>2010-01-26T15:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H35M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00260578</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl15n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10567676"/>
+               <PublishedStartTime>2010-01-26T15:35:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H25M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00288055</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">POW_00288039</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_BNN_097259</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576769"/>
+               <PublishedStartTime>2010-01-26T16:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H50M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VARA_101220750</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VARA_101220593</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_VARA_059932</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576800"/>
+               <PublishedStartTime>2010-01-26T16:50:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H10M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">AVRO_1361477</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">AVRO_1361454</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576805"/>
+               <PublishedStartTime>2010-01-26T18:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H15M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00260673</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl18n1</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576806"/>
+               <PublishedStartTime>2010-01-26T18:15:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H25M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">AVRO_1353119</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">AVRO_1353098</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">AT_2046031</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10570123"/>
+               <PublishedStartTime>2010-01-26T19:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H25M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">TROS_1221417</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">TROS_1222612</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_TROS_098784</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576808"/>
+               <PublishedStartTime>2010-01-26T19:25:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H35M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">EO_101156662</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">EO_1354</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_EO_097629</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576809"/>
+               <PublishedStartTime>2010-01-26T20:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H30M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00261085</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10Jnl20n1mavr</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">NOSjnl2000</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576810"/>
+               <PublishedStartTime>2010-01-26T20:30:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H35M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">AVRO_1353396</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">AVRO_1344189</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_AVRO_096840</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576811"/>
+               <PublishedStartTime>2010-01-26T21:05:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H45M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">TROS_1222306</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">TROS_1222200</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_TROS_123293</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10570120"/>
+               <PublishedStartTime>2010-01-26T21:50:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H40M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">AVRO_1353315</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">AVRO_1353308</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">AT_2046088</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576812"/>
+               <PublishedStartTime>2010-01-26T22:30:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H35M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">NCRV_1354599</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">NCRV_1354471</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">KN_1679108</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576799 crid://tmp.program.omroep.nl/10576799"/>
+               <PublishedStartTime>2010-01-26T23:05:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H55M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">VARA_101220748</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">VARA_101220593</OtherIdentifier>
+               <OtherIdentifier type="ParentSeriesID">POMS_S_VARA_059932</OtherIdentifier>
+            </ScheduleEvent>
+            <ScheduleEvent>
+               <Program crid="crid://tmp.program.omroep.nl/10576813"/>
+               <PublishedStartTime>2010-01-27T00:00:00+01:00</PublishedStartTime>
+               <PublishedDuration>P0DT0H15M0.000S</PublishedDuration>
+               <OtherIdentifier type="ProductID">POW_00258839</OtherIdentifier>
+               <OtherIdentifier type="SeriesID">10JnlLaatn1mavr</OtherIdentifier>
+            </ScheduleEvent>
+         </Schedule>
+      </ProgramLocationTable>
+      <CreditsInformationTable/>
+   </ProgramDescription>
+</TVAMain>

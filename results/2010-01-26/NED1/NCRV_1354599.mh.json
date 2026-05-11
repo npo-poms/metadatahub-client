@@ -1,0 +1,20 @@
+{ "head": {
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "title": { "type": "literal" , "value": "Wat een gedonder" } ,
+        "description": { "type": "literal" , "value": "Mr. Frank Visser beslecht burenruzies, familievetes en andere conflicten. De uitspraak van mr. Frank Visser is juridisch bindend voor de partijen; zij zijn verplicht zijn beslissing te aanvaarden." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-06T14:11:09.285Z" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T21:30:00.000Z,2100000.0|INTERNETVOD,2013-02-06T14:11:09.287Z,|INTERNETVOD,2013-02-06T14:11:09.288Z,|INTERNETVOD,2017-08-09T12:56:13.715Z," } ,
+        "broadcasters": { "type": "literal" , "value": "NCRV" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.6" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
+      }
+    ]
+  }
+}

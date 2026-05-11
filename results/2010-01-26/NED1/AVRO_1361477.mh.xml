@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1361477" sortDate="2017-11-02T03:39:18.190+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:11.196+01:00">
+    <broadcaster id="AVRO">AVRO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Opium weet wat er speelt</title>
+    <description owner="AUTHORITY" type="MAIN">Actuele culturele tips van prominente cultuurliefhebbers en deskundigen. In een kort vlammend betoog vertellen zij de kijkers wat ze niet mogen missen: wat speelt er in de theaters en bioscopen, welke boeken en cd's zijn hot en welke tentoonstellingen zijn absolute aanraders?</description>
+    <genre id="3.0.1.7.24">
+        <term>Informatief</term>
+        <term>Kunst/cultuur</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AVRO_1361477">
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T16:50:00+01:00</start>
+            <duration>P19Y0M4DT10H40M0.000S</duration>
+            <poProgID>AVRO_1361477</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1361477">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:11.198+01:00</start>
+            <poProgID>AVRO_1361477</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1361477">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:11.199+01:00</start>
+            <poProgID>AVRO_1361477</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1361477">
+            <guideDay>2017-11-01+01:00</guideDay>
+            <start>2017-11-02T03:39:18.190+01:00</start>
+            <poProgID>AVRO_1361477</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

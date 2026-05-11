@@ -1,0 +1,20 @@
+{ "head": {
+    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "title": { "type": "literal" , "value": "Afslag UMC Utrecht (15)" } ,
+        "description": { "type": "literal" , "value": "In deze aflevering krijgt de zes weken oude Femke een gehooronderzoek. Enkele dagen na haar geboorte werd bij haar ernstig gehoorverlies vastgesteld." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-06T09:44:03.641Z" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T18:25:00.000Z,2100000.0|INTERNETVOD,2013-02-06T09:44:03.645Z,|INTERNETVOD,2013-02-06T09:44:03.646Z," } ,
+        "broadcasters": { "type": "literal" , "value": "EO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
+      }
+    ]
+  }
+}
