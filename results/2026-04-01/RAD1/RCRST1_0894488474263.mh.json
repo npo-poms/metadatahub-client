@@ -1,12 +1,14 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "Bureau Buitenland" } ,
         "description": { "type": "literal" , "value": "In Bureau Buitenland hoor je internationaal nieuws, reportages en geopolitiek. Met achtergronden en opmerkelijke verhalen, van maandag tot en met vrijdag van 13.30 tot 14.00 uur." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T00:05:15.916Z" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/rcrs/DEV/685a9612780458463f05f5f0" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO Radio 1,2026-04-01T11:30:00.000Z,1800000.0" } ,
         "broadcasters": { "type": "literal" , "value": "VPRO" } ,
         "countries": { "type": "literal" , "value": "" } ,

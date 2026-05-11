@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06000944" sortDate="2026-03-02T02:35:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:04.451+01:00">
+    <crid>crid://npo/programmagegevens/2555016069668</crid>
+    <crid>crid://npo/programmagegevens/2555016206668</crid>
     <broadcaster id="WNL">WNL</broadcaster>
     <title owner="AUTHORITY" type="MAIN">WNL Op Zondag</title>
     <description owner="AUTHORITY" type="MAIN">Een speciale uitzending over de Amerikaanse aanval op Iran. Te gast zijn oud-minister van buitenlandse zaken Uri Rosenthal, schrijver Leon de Winter, directeur Atlantische commissie Anna van Zoest, Vlaams parlementariër Darya Safai, rechtsgeleerde Afshin Elian en generaal Han Bouwmeester.</description>
@@ -8,7 +10,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

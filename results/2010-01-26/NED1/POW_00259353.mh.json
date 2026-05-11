@@ -1,13 +1,15 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "NOS Journaal" } ,
         "description": { "type": "literal" , "value": "Gevolgd door herhalingen." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T20:50:15.677Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T20:50:15.679Z,|INTERNETVOD,2013-02-15T20:50:15.680Z,|NPO 2,2010-01-26T06:10:00.000Z,3000000.0|NPO 1,2010-01-26T06:00:00.000Z,600000.0|NPO 1,2010-01-26T06:30:00.000Z,600000.0" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10570088" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T06:30:00.000Z,600000.0|NPO 1,2010-01-26T06:00:00.000Z,600000.0|NPO 2,2010-01-26T06:10:00.000Z,3000000.0|INTERNETVOD,2013-02-15T20:50:15.680Z,|INTERNETVOD,2013-02-15T20:50:15.679Z," } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05972266" sortDate="2026-04-01T07:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:40:54.911+01:00">
+    <crid>crid://npo/programmagegevens/2562758084668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal met gebarentaal</title>
     <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
@@ -8,7 +9,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

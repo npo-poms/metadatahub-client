@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0792584764151" sortDate="2026-04-01T22:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:03:56.111+01:00">
-    <broadcaster id="NOS">NOS</broadcaster>
+    <crid>crid://npo/rcrs/DEV/685a970695fcf61529e5e3a8</crid>
     <broadcaster id="EO">EO</broadcaster>
+    <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Langs de Lijn EO</title>
     <description owner="AUTHORITY" type="MAIN">Langs de Lijn En Omstreken is een gevarieerd magazine van de NOS en de EO waarin live sport, persoonlijke gesprekken bij het nieuws en het nieuws van de avond elkaar op een vanzelfsprekende manier afwisselen.</description>
     <genre id="3.0.1.7.21">
@@ -9,7 +10,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

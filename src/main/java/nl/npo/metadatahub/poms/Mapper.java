@@ -1,5 +1,6 @@
 package nl.npo.metadatahub.poms;
 
+import java.lang.reflect.Array;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.*;
@@ -8,11 +9,12 @@ import java.util.function.Function;
 import lombok.extern.java.Log;
 import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
-import nl.vpro.domain.media.support.OwnerType;
+import nl.vpro.domain.media.support.*;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Literal;
+import org.meeuw.functional.Functions;
 
 /**
  * Contains the logic to map jena {@link ResultSet 's } to objects from the poms domain.
@@ -35,40 +37,24 @@ public class Mapper {
         }
     }
 
-    public <B extends MediaBuilder<B, M>, M extends MediaObject> void toMediaObject(QuerySolution first, MediaBuilder<B, M> builder) {
+    public <B extends MediaBuilder<B, M>, M extends MediaObject> void toMediaObject(QuerySolution row, MediaBuilder<B, M> builder) {
 
 
-        setString("title", first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
-        setString("description", first, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
-        setString("prid", first, builder::mid, true);
-        setInstant("dateCreated", first, builder::creationInstant);
-        setInstant("dateModified", first, builder::lastModified);
+        setString("title", row, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
+        setString("description", row, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
+        setMultipleValue("alternativeDescriptions", row, Description.class, this::parseDescription, builder::descriptions);
+        setString("prid", row, builder::mid, false);
+        setInstant("dateCreated", row, builder::creationInstant);
+        setInstant("dateModified", row, builder::lastModified);
 
+        set("ageRating", row, s -> parseAgeRating(s.getString()), builder::ageRating, false);
+        setMultipleString("crids", row,  builder::crids);
+        setMultipleString("broadcasters", row, builder::broadcasters);
+        setMultipleString("countries", row, builder::countries);
+        setMultipleValue("genres", row,  Genre.class, s -> Objects.requireNonNull(matchTermId(s).orElse(null)), builder::genres);
 
-        String[] broadcasters = split(first.getLiteral("broadcasters"));
-        builder.broadcasters(broadcasters);
-
-        String[] countries = split(first.getLiteral("countries"));
-        builder.countries(countries);
-
-        String[] genres = split(first.getLiteral("genres"));
-        builder.genres(Arrays.stream(genres).map(this::matchTermId).filter(Optional::isPresent).map(Optional::get).toList());
-
-        String[] contentRatings = split(first.getLiteral("contentRatings"));
-        builder.contentRatings(
-            Arrays.stream(contentRatings)
-                .map(this::parseContentRating)
-                .filter(Optional::isPresent)
-                .map(Optional::get).toArray(ContentRating[]::new)
-        );
-        String[] persons = split(first.getLiteral("persons"));
-        //log.info("{}", persons);
-        builder.persons(
-            Arrays.stream(persons)
-                .map(this::parsePerson)
-                .filter(Optional::isPresent)
-                .map(Optional::get).toArray(Person[]::new)
-        );
+        setMultipleValue("contentRatings", row,  ContentRating.class, s -> Objects.requireNonNull(parseContentRating(s).orElse(null)), builder::contentRatings);
+        setMultipleValue("persons", row,  Person.class, s -> Objects.requireNonNull(parsePerson(s).orElse(null)), builder::persons);
 
     }
 
@@ -86,6 +72,9 @@ public class Mapper {
 
 
     private AgeRating parseAgeRating(String value) {
+        if ("".equals(value)) {
+            return null;
+        }
         if ("AL".equals(value.trim())) {
             return AgeRating.ALL;
         }
@@ -117,6 +106,20 @@ public class Mapper {
             .gtaaUri(fields.length > 2 ? fields[2] : null)
             .build();
         return Optional.of(person);
+    }
+    private Description parseDescription(String value) {
+        String[] fields = value.split(":",2);
+        return new Description(fields[1], OwnerType.AUTHORITY, parseTextualType(fields[0]));
+    }
+
+    private TextualType parseTextualType(String value) {
+        return switch (value.toLowerCase()) {
+            case "medium description" -> TextualType.MEDIUM;
+            case "short description" -> TextualType.SHORT;
+            case "kicker description" -> TextualType.KICKER;
+            //case "styled description" -> TextualType.MARKDOWN;
+            default ->  throw new RuntimeException();
+        };
     }
 
 
@@ -193,23 +196,40 @@ public class Mapper {
         return Optional.empty();
     }
 
-    protected void setString(String field, QuerySolution item, Consumer<String> consumer, boolean optional) {
-        set(field, item, consumer, Literal::getString, optional);
+    protected void setString(String field, QuerySolution item, Consumer<String> consumer, boolean setToNull) {
+        set(field, item, Literal::getString, consumer,  setToNull);
     }
 
     protected void setString(String field, QuerySolution item, Consumer<String> consumer) {
-        setString(field, item, consumer, false);
+        setString(field, item, consumer, true);
     }
 
     protected void setInstant(String field, QuerySolution item, Consumer<Instant> consumer) {
-        set(field, item, consumer, lit -> ((XSDDateTime) lit.getValue()).asCalendar().toInstant(), false);
+        set(field, item, lit -> ((XSDDateTime) lit.getValue()).asCalendar().toInstant(), consumer, true);
     }
 
+    protected <S> void setMultipleString(String field, QuerySolution item,  Consumer<String[]> consumer) {
+        setMultipleValue(field, item, String.class, Functions.identity(), consumer);
+    }
+    @SuppressWarnings("unchecked")
+    protected <S> void setMultipleValue(String field, QuerySolution item, Class<S> clazz, Function<String, S> converter, Consumer<S[]> consumer) {
+        String[] values = split(item.getLiteral(field));
+        S[] array =  Arrays.stream(values)
+            .map(converter)
+            .toArray(size -> (S[]) Array.newInstance(clazz, size));
+        consumer.accept(array);
+    }
 
-    protected <T> void set(String field, QuerySolution item, Consumer<T> consumer, Function<Literal, T> converter, boolean optional) {
+    /**
+     *
+     *
+     * @param setToNull mainly for fields that are not always queried, like mid.
+     * @param <T>
+     */
+    protected <T> void set(String field, QuerySolution item,  Function<Literal, T> converter, Consumer<T> consumer, boolean setToNull) {
         var lit = item.getLiteral(field);
         if (lit == null) {
-            if (!optional) {
+            if (setToNull) {
                 consumer.accept(null);
             }
         } else {
@@ -229,6 +249,15 @@ public class Mapper {
             return s.split("\\|");
 
         }
+    }
+    @SuppressWarnings("unchecked")
+    public static <T> T[] createArray(int size, T defaultValue)
+    {
+        // Creating a generic array using reflection
+        T[] array = (T[]) Array.newInstance(defaultValue.getClass(), size);
+
+        Arrays.fill(array, defaultValue);
+        return array;
     }
 }
 

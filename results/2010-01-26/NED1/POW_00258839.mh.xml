@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00258839" sortDate="2013-02-15T21:50:46.871+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T21:50:46.868+01:00">
+    <crid>crid://tmp.program.omroep.nl/10576813</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal</title>
     <genre id="3.0.1.7.21">
@@ -7,7 +8,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

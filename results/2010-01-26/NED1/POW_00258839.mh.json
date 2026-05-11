@@ -1,12 +1,14 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T20:50:46.868Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T20:50:46.870Z,|INTERNETVOD,2013-02-15T20:50:46.871Z,|NPO 1,2010-01-26T23:00:00.000Z,900000.0" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576813" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T23:00:00.000Z,900000.0|INTERNETVOD,2013-02-15T20:50:46.871Z,|INTERNETVOD,2013-02-15T20:50:46.870Z," } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,

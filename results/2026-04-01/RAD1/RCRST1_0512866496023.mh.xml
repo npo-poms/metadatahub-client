@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0512866496023" sortDate="2026-04-02T00:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:06:39.927+01:00">
+    <crid>crid://npo/rcrs/DEV/685a955f95fcf61529e5df95</crid>
     <broadcaster id="VPRO">VPRO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nooit Meer Slapenn</title>
     <description owner="AUTHORITY" type="MAIN">Interviewprogramma van de VPRO</description>
@@ -8,7 +9,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

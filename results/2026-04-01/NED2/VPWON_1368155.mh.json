@@ -1,14 +1,16 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "Nieuwsuur" } ,
         "description": { "type": "literal" , "value": "Kidane H. staat in Nederland terecht voor een omvangrijke mensensmokkelzaak. Verslaggever Mark Schrader volgt de zaak en is in de studio. * Een derde van de Nederlandse gemeenten maakt gebruik van een noodknop. Dat blijkt uit onderzoek van Nieuwsuur. Met zo'n noodknop staat iemand meteen in contact met de meldkamer van de politie. * Het Israëlische parlement, de Knesset, is akkoord gegaan met een zeer omstreden wetsvoorstel om de doodstraf in te voeren voor moord met terroristisch motief. We praten erover met Peter Malcontent, universiteit hoofddocent internationale betrekkingen aan de Universiteit Utrecht." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:40:59.019Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-03-31T20:00:00.000Z,2129000.0|NPO 2,2026-04-01T01:50:00.000Z,2171000.0|NPO 2,2026-04-01T00:35:00.000Z,2182000.0|BVN,2026-04-01T08:20:00.000Z,2132000.0|BVN,2026-03-31T20:20:00.000Z,2132000.0|NPO 2,2026-03-31T23:15:00.000Z,2171000.0|NPO 2,2026-03-31T21:55:00.000Z,2180000.0|NPO 2,2026-04-01T07:50:00.000Z,2179000.0" } ,
-        "broadcasters": { "type": "literal" , "value": "NTR|NOS" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2574329826668|crid://npo/programmagegevens/2574329758668|crid://npo/programmagegevens/2562757935668|crid://npo/programmagegevens/2562757758668|crid://npo/programmagegevens/2562758343668|crid://npo/programmagegevens/2562757718668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T07:50:00.000Z,2179000.0|NPO 2,2026-03-31T21:55:00.000Z,2180000.0|NPO 2,2026-03-31T23:15:00.000Z,2171000.0|BVN,2026-03-31T20:20:00.000Z,2132000.0|BVN,2026-04-01T08:20:00.000Z,2132000.0|NPO 2,2026-04-01T00:35:00.000Z,2182000.0|NPO 2,2026-04-01T01:50:00.000Z,2171000.0|NPO 2,2026-03-31T20:00:00.000Z,2129000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NOS|NTR" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,

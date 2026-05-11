@@ -1,13 +1,15 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "Uitdager: Freddy Tratlehner" } ,
         "description": { "type": "literal" , "value": "Uitdager: Freddy Tratlehner." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-09T13:23:24.594Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "PLUSVOD,2026-03-31T20:19:51.000Z,|INTERNETVOD,2026-03-31T00:48:29.331Z,|NPO 3 & Zapp,2026-03-31T22:20:00.000Z,2558000.0|NPO 1,2026-03-31T19:40:00.000Z,2618000.0|NPO 2,2026-04-01T15:10:00.000Z,2549000.0|BVN,2026-03-31T19:40:00.000Z,2559000.0|BVN,2026-04-01T07:40:00.000Z,2559000.0" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758146668|crid://npo/programmagegevens/2562985558668|crid://npo/programmagegevens/2559284857668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-04-01T07:40:00.000Z,2559000.0|BVN,2026-03-31T19:40:00.000Z,2559000.0|NPO 2,2026-04-01T15:10:00.000Z,2549000.0|NPO 1,2026-03-31T19:40:00.000Z,2618000.0|NPO 3 & Zapp,2026-03-31T22:20:00.000Z,2558000.0|INTERNETVOD,2026-03-31T00:48:29.331Z,|PLUSVOD,2026-03-31T20:19:51.000Z," } ,
         "broadcasters": { "type": "literal" , "value": "KRNC" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.19" } ,

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05832231" sortDate="2026-04-14T16:51:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-09T13:53:33.971+01:00">
+    <crid>crid://npo/programmagegevens/2566237565668</crid>
+    <crid>crid://npo/programmagegevens/2567405505668</crid>
+    <crid>crid://npo/programmagegevens/2556429646668</crid>
+    <crid>crid://npo/programmagegevens/2567103620668</crid>
+    <crid>crid://npo/programmagegevens/2562758447668</crid>
+    <crid>crid://npo/programmagegevens/2562985432668</crid>
+    <crid>crid://npo/programmagegevens/2558529263668</crid>
+    <crid>crid://npo/programmagegevens/2568908008668</crid>
+    <crid>crid://npo/programmagegevens/2558364452668</crid>
     <broadcaster id="PP">PP</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Politieke Partijen: D66</title>
     <genre id="3.0.1.7.44">
@@ -7,7 +16,6 @@
         <term>Politiek</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

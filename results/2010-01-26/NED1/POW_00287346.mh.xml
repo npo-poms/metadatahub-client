@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00287346" sortDate="2013-02-05T13:28:30.767+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-05T13:28:30.765+01:00">
+    <crid>crid://tmp.program.omroep.nl/10576761</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">MAX Geheugentrainer</title>
     <description owner="AUTHORITY" type="MAIN">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Geheugentrainer geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u was gewend.</description>
@@ -7,7 +8,6 @@
         <term>Informatief</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

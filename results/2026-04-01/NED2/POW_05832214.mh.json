@@ -1,12 +1,14 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "Politieke Partijen: SP" } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-05T13:43:57.838Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-01-20T16:57:00.000Z,|NPO 2,2026-01-21T15:56:00.000Z,|NPO 1,2026-01-08T16:57:00.000Z,|NPO 1,2026-01-30T16:57:00.000Z,|NPO 2,2026-02-02T15:57:00.000Z,|NPO 2,2026-01-09T15:56:00.000Z,|NPO 1,2026-04-13T15:57:00.000Z,|NPO 2,2026-04-24T14:57:00.000Z,|NPO 1,2026-04-23T15:58:00.000Z,|NPO 2,2026-04-14T14:52:00.000Z,|NPO 1,2026-03-09T16:57:00.000Z,|NPO 1,2026-03-31T15:57:00.000Z,|NPO 1,2026-03-19T16:58:00.000Z,|NPO 2,2026-04-01T14:59:00.000Z,|NPO 1,2026-02-25T16:57:00.000Z,|NPO 2,2026-03-10T15:58:00.000Z,|NPO 2,2026-03-20T16:00:00.000Z,|NPO 2,2026-02-26T15:58:00.000Z," } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2549148860668|crid://npo/programmagegevens/2552874003668|crid://npo/programmagegevens/2552878161668|crid://npo/programmagegevens/2544632262668|crid://npo/programmagegevens/2546621166668|crid://npo/programmagegevens/2545268231668|crid://npo/programmagegevens/2562985537668|crid://npo/programmagegevens/2556915088668|crid://npo/programmagegevens/2562758285668|crid://npo/programmagegevens/2569822916668|crid://npo/programmagegevens/2556424540668|crid://npo/programmagegevens/2553811810668|crid://npo/programmagegevens/2553832338668|crid://npo/programmagegevens/2558364436668|crid://npo/programmagegevens/2566237411668|crid://npo/programmagegevens/2556429908668|crid://npo/programmagegevens/2567103689668|crid://npo/programmagegevens/2567405539668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-14T14:52:00.000Z,|NPO 1,2026-04-23T15:58:00.000Z,|NPO 2,2026-04-24T14:57:00.000Z,|NPO 1,2026-04-13T15:57:00.000Z,|NPO 2,2026-01-09T15:56:00.000Z,|NPO 2,2026-02-02T15:57:00.000Z,|NPO 1,2026-01-30T16:57:00.000Z,|NPO 1,2026-01-08T16:57:00.000Z,|NPO 2,2026-01-21T15:56:00.000Z,|NPO 1,2026-01-20T16:57:00.000Z,|NPO 2,2026-02-26T15:58:00.000Z,|NPO 2,2026-03-20T16:00:00.000Z,|NPO 2,2026-03-10T15:58:00.000Z,|NPO 1,2026-02-25T16:57:00.000Z,|NPO 2,2026-04-01T14:59:00.000Z,|NPO 1,2026-03-19T16:58:00.000Z,|NPO 1,2026-03-31T15:57:00.000Z,|NPO 1,2026-03-09T16:57:00.000Z," } ,
         "broadcasters": { "type": "literal" , "value": "PP" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.44" } ,

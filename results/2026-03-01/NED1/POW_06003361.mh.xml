@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003361" sortDate="2026-03-01T16:50:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:07.741+01:00">
+    <crid>crid://npo/programmagegevens/2555016086668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</title>
     <description owner="AUTHORITY" type="MAIN">Met livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag. Ook met interviews en reportages.</description>
@@ -8,7 +9,6 @@
         <term>Sport - informatie</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

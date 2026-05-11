@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738932" sortDate="2026-03-03T08:40:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-02T16:50:25.101+01:00">
+    <crid>crid://npo/programmagegevens/2555016102668</crid>
+    <crid>crid://npo/programmagegevens/2555016216668</crid>
     <broadcaster id="KRNC">KRNC</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Zes boeren starten liefdesavontuur</title>
     <description owner="AUTHORITY" type="MAIN">De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor.</description>
@@ -8,7 +10,6 @@
         <term>Liefde</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

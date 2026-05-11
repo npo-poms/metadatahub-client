@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00259477" sortDate="2013-02-15T21:50:18.528+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T21:50:18.525+01:00">
+    <crid>crid://tmp.program.omroep.nl/10570090</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal</title>
     <description owner="AUTHORITY" type="MAIN">Gevolgd door herhalingen.</description>
@@ -8,7 +9,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

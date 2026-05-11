@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1353396" sortDate="2013-02-15T11:39:16.716+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:16.713+01:00">
+    <crid>crid://tmp.program.omroep.nl/10576810</crid>
     <broadcaster id="AVRO">AVRO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Op de bon</title>
     <description owner="AUTHORITY" type="MAIN">Alles en meer over het meest gehate gele papiertje: de bekeuring. Verkeersboetes, wildplassen, controle op illegaal vuurwerk, alcoholgebruik in het verkeer tijdens de donkere dagen rondom kerst én in de metro zonder kaartje, allemaal dingen die niet mogen, maar wel gebeuren. Verder: de kantonrechter. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht. Over emoties en de verhalen achter de bekeuring.</description>
@@ -12,7 +13,6 @@
             <familyName>Sipke Jan Bousema</familyName>
         </person>
     </credits>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

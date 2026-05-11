@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003924" sortDate="2026-04-08T16:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:02.127+01:00">
+    <crid>crid://npo/programmagegevens/2564405249668</crid>
+    <crid>crid://npo/programmagegevens/2562758252668</crid>
+    <crid>crid://npo/programmagegevens/2542389028668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Romige polenta met paddenstoelen en gepocheerd ei</title>
     <description owner="AUTHORITY" type="MAIN">Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt.</description>
@@ -8,7 +11,6 @@
         <term>Koken/eten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

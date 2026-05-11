@@ -1,13 +1,15 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
         "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2025-07-02T23:10:00.000Z,406000.0|NPO 2,2025-08-06T21:55:00.000Z,411000.0|NPO 2,2026-04-01T22:10:00.000Z,403000.0" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2488442782668|crid://npo/programmagegevens/2562758455668|crid://npo/programmagegevens/2503999195668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T22:10:00.000Z,403000.0|NPO 2,2025-08-06T21:55:00.000Z,411000.0|NPO 2,2025-07-02T23:10:00.000Z,406000.0" } ,
         "broadcasters": { "type": "literal" , "value": "EO" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.40" } ,

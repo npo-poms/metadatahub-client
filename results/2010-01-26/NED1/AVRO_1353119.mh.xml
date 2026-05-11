@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1353119" sortDate="2013-02-15T11:39:13.954+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:13.949+01:00">
-    <broadcaster id="TROS">TROS</broadcaster>
+    <crid>crid://tmp.program.omroep.nl/10576806</crid>
     <broadcaster id="AVRO">AVRO</broadcaster>
+    <broadcaster id="TROS">TROS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">EénVandaag</title>
     <genre id="3.0.1.7.21">
         <term>Informatief</term>
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

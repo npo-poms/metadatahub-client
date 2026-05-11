@@ -1,13 +1,15 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "NOS Journaal Regio" } ,
         "description": { "type": "literal" , "value": "Regionaal nieuws met landelijke uitstraling, gemaakt door de NOS en de regionale omroepen." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:11.339Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T16:15:00.000Z,558000.0|BVN,2026-04-01T16:15:00.000Z,581000.0|BVN,2026-04-02T04:15:00.000Z,581000.0" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758405668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "BVN,2026-04-02T04:15:00.000Z,581000.0|BVN,2026-04-01T16:15:00.000Z,581000.0|NPO 2,2026-04-01T16:15:00.000Z,558000.0" } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,

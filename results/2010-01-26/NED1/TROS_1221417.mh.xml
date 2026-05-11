@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="TROS_1221417" sortDate="2013-02-16T17:14:22.053+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-16T17:14:22.050+01:00">
+    <crid>crid://tmp.program.omroep.nl/10570123</crid>
     <broadcaster id="TROS">TROS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Lingo</title>
     <description owner="AUTHORITY" type="MAIN">Woord- en taalspel waarbij de kandidaten zes-, zeven- en tienletterwoorden moeten raden. Tevens bekendmaking van de twintig winnende getallen van de Lucky Day trekking.</description>
@@ -12,7 +13,6 @@
             <familyName>Lucille Werner</familyName>
         </person>
     </credits>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

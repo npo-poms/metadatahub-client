@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0698647581056" sortDate="2026-04-01T16:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:04:43.288+01:00">
+    <crid>crid://npo/rcrs/DEV/685a968595fcf61529e5e296</crid>
     <broadcaster id="EO">EO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Dit is de Dag</title>
     <description owner="AUTHORITY" type="MAIN">Dit is de Dag is een stevig opiniërend programma van de EO met Tijs van den Brink. Op dinsdag en vrijdag hoor je Margje Fikse of Hans van der Steeg.</description>
@@ -8,7 +9,6 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

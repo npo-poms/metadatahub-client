@@ -1,13 +1,15 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "EénVandaag" } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T10:39:13.949Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T10:39:13.954Z,|INTERNETVOD,2013-02-15T10:39:13.953Z,|NPO 1,2010-01-26T17:15:00.000Z,1500000.0" } ,
-        "broadcasters": { "type": "literal" , "value": "TROS|AVRO" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576806" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T17:15:00.000Z,1500000.0|INTERNETVOD,2013-02-15T10:39:13.953Z,|INTERNETVOD,2013-02-15T10:39:13.954Z," } ,
+        "broadcasters": { "type": "literal" , "value": "AVRO|TROS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,

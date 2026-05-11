@@ -1,12 +1,14 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "NOS Radio 1 Journaal" } ,
         "description": { "type": "literal" , "value": "Elke ochtend tussen 06:00 en 09:30 uur: het NOS Radio 1 Journaal. In de uitzendingen komen het laatste nieuws, achtergronden, reacties, analyses en sport aan bod." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T00:05:46.577Z" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/rcrs/DEV/685a95d9780458463f05f4eb" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO Radio 1,2026-04-01T04:00:00.000Z,1.44E7" } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,

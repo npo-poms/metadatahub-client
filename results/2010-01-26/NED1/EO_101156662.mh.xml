@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="EO_101156662" sortDate="2013-02-06T10:44:03.646+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-06T10:44:03.641+01:00">
+    <crid>crid://tmp.program.omroep.nl/10576808</crid>
     <broadcaster id="EO">EO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Afslag UMC Utrecht (15)</title>
     <description owner="AUTHORITY" type="MAIN">In deze aflevering krijgt de zes weken oude Femke een gehooronderzoek. Enkele dagen na haar geboorte werd bij haar ernstig gehoorverlies vastgesteld.</description>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

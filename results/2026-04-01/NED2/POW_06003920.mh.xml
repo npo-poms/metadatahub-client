@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003920" sortDate="2026-04-01T16:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-03T15:23:51.690+01:00">
+    <crid>crid://npo/programmagegevens/2562758464668</crid>
+    <crid>crid://npo/programmagegevens/2560399952668</crid>
+    <crid>crid://npo/programmagegevens/2560759193668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Toast met tuinbonenspread, ei en citroenyoghurt</title>
     <description owner="AUTHORITY" type="MAIN">Sandra maakt toast met tuinbonenspread en een gepocheerd ei met frisse citroenyoghurt. Een echt lentegerecht.</description>
@@ -8,7 +11,6 @@
         <term>Koken/eten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

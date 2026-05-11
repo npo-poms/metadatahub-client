@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0415225573356" sortDate="2026-04-01T11:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:05:32.016+01:00">
+    <crid>crid://npo/rcrs/DEV/685a95e8780458463f05f525</crid>
     <broadcaster id="WNL">WNL</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Sven op 1</title>
     <description owner="AUTHORITY" type="MAIN">Een dagelijks actueel interviewprogramma rond het nieuws van de dag of de week. Bij voorkeur met de hoofdpersoon uit of bij dat nieuws, het liefst zelfs met de verantwoordelijke. Presentatie: Sven Kockelmann.
@@ -10,7 +11,6 @@ Luister de podcast</description>
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

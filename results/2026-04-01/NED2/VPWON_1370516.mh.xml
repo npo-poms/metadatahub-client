@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1370516" sortDate="2026-04-01T16:23:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:42:44.886+01:00">
+    <crid>crid://npo/programmagegevens/2573343440668</crid>
+    <crid>crid://npo/programmagegevens/2562757016668</crid>
     <broadcaster id="EO">EO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Herstellen van het Rifgebergte in Marokko</title>
     <description owner="AUTHORITY" type="MAIN">Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken.</description>
@@ -7,7 +9,6 @@
         <term>Informatief</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

@@ -1,6 +1,7 @@
 import jakarta.xml.bind.JAXB;
 import static java.lang.ScopedValue.where;
 import static java.nio.file.Files.newOutputStream;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.transform.stream.StreamResult;
 import nl.npo.metadatahub.client.Configuration;
@@ -102,7 +103,7 @@ void main() throws Exception {
                                 () -> log.info("MH: no program found for mid " + mo.getMid())
                             );
                         } catch (Exception e) {
-                            log.info("MH: error fetching program for mid " + mo.getMid() + ": " + e.getMessage());
+                            log.log(Level.SEVERE, "MH: error fetching program for mid " + mo.getMid() + ": " + e.getMessage(), e);
                         }
                     });
                 }

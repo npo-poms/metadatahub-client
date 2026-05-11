@@ -1,13 +1,15 @@
 { "head": {
-    "vars": [ "title" , "description" , "dateCreated" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
   } ,
   "results": {
     "bindings": [
       { 
         "title": { "type": "literal" , "value": "TROS Regelrecht" } ,
         "description": { "type": "literal" , "value": "Sociaal maatschappelijke problematiek, met name overlast en wangedrag in de buurt zijn speerpunten in het programma. Een team van deskundigen gaat kijkers actief helpen om deze problemen aan te pakken. Elke deskundige heeft een eigen discipline en zet haar/zijn kennis en kunde in om tot een oplossing te komen. Ivo Opstelten vervult de rol van voorzitter die het team van deskundigen aanstuurt. Hij is sinds 4 november 2009 waarnemend burgemeester van Tilburg. Het team bestaat verder uit: -Joost Eerdmans. Joost Eerdmans is sinds 2 maart 2009 wethouder in Capelle aan den IJssel namens Leefbaar Capelle. -Mildred Roethof. Mildred Roethof is deskundige in de jeugdcultuur. Ze is eigengereid, confronterend en gaat taboes niet uit de weg. De cultuur van jongeren staat centraal in verschillende documentaires die zij maakt. -Clarice Stenger. Clarice Stenger is werkzaam als advocaat bij Van Aalst en Daniëls advocaten in Amsterdam. Haar specialiteiten zijn aansprakelijkheidsrecht, erfrecht, personen- en familierecht, onroerend goedrecht en strafrecht. -Bernard Tomlow. Bernard Tomlow is de grondlegger van het kantoor Tomlow advocaten uit Utrecht. Zijn specialiteiten zijn huurrecht, arbeidsrecht, bestuursrecht en het algemeen verbintenissenrecht." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-16T16:14:24.928Z" } ,
-        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-16T16:14:24.930Z,|NPO 1,2010-01-26T20:05:00.000Z,2700000.0" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576811" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T20:05:00.000Z,2700000.0|INTERNETVOD,2013-02-16T16:14:24.930Z," } ,
         "broadcasters": { "type": "literal" , "value": "TROS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7" } ,

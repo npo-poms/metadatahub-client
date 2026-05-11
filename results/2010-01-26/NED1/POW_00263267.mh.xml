@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00263267" sortDate="2013-02-15T21:50:35.682+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T21:50:35.680+01:00">
+    <crid>crid://tmp.program.omroep.nl/10576797</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Het vragenuurtje</title>
     <genre id="3.0.1.7">
         <term>Informatief</term>
     </genre>
     <credits/>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

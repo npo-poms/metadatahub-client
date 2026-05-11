@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00288337" sortDate="2013-02-05T13:28:33.458+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-05T13:28:33.456+01:00">
+    <crid>crid://tmp.program.omroep.nl/10576785</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nederland in Beweging!</title>
     <description owner="AUTHORITY" type="MAIN">Ouderen slapen meestal korter en minder diep. Dit hoort bij de leeftijd. Het is normaal om af en toe even wakker te worden, met name tegen de ochtend als de slaap minder diep is. Van slapeloosheid is pas sprake als je vaker slecht slaapt en overdag door te weinig nachtrust minder goed functioneert. Presentatie: Olga Commandeur, Duco Bauwens.</description>
@@ -12,7 +13,6 @@
             <familyName>Olga Commandeur</familyName>
         </person>
     </credits>
-    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
