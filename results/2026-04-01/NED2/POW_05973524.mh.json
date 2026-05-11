@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c9a30539-0ef5-42c0-b3cb-1c390c66d3f8" } ,
         "title": { "type": "literal" , "value": "NOS Journaal met gebarentaal" } ,
         "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -15,7 +16,8 @@
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/40a01d3b-ee5c-4e33-bdf0-a8ce443ffce4,65" }
       }
     ]
   }

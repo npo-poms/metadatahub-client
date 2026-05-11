@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1370999" sortDate="2026-04-01T14:15:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:05.237+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/f280070f-681c-432f-af78-b433d3a6d11e</crid>
     <crid>crid://npo/programmagegevens/2562758288668</crid>
     <broadcaster id="NTR">NTR</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Carolina Dijkhuizen</title>
@@ -9,6 +10,8 @@
         <term>Kunst/cultuur</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/7fdf56a8-1d2a-44e2-9d75-7ce83cf82c60,13"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -19,5 +22,6 @@
             <poProgID>VPWON_1370999</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/7fdf56a8-1d2a-44e2-9d75-7ce83cf82c60,13" index="1"/>
     <segments/>
 </program>

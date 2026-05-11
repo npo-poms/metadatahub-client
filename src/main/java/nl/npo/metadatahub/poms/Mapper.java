@@ -10,10 +10,13 @@ import lombok.extern.java.Log;
 import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
 import nl.vpro.domain.media.support.*;
+import nl.vpro.domain.user.Broadcaster;
+import nl.vpro.domain.user.ServiceLocator;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.RDFNode;
 import org.meeuw.functional.Functions;
 
 /**
@@ -29,33 +32,36 @@ public class Mapper {
     }
 
 
-    public void toProgram(QuerySolution first, MediaBuilder.ProgramBuilder builder) {
-        toMediaObject(first, builder);
-        String[] scheduleEventsSplit = split(first.getLiteral("scheduleEvents"));
+    public void toProgram(QuerySolution row, MediaBuilder.ProgramBuilder builder) {
+        toMediaObject(row, builder);
+        String[] scheduleEventsSplit = split(row.getLiteral("scheduleEvents"));
         for (String scheduleEvent : scheduleEventsSplit) {
             builder.scheduleEvent(parseScheduleEvent(scheduleEvent));
         }
+
+        setMultipleValue("episodeOfSeasons", row,  MemberRef.class, r -> new MemberRef(r, 1),
+            builder::episodeOf);
     }
 
     public <B extends MediaBuilder<B, M>, M extends MediaObject> void toMediaObject(QuerySolution row, MediaBuilder<B, M> builder) {
 
-
         setString("title", row, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
+        // alternative titles?
         setString("description", row, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
         setMultipleValue("alternativeDescriptions", row, Description.class, this::parseDescription, builder::descriptions);
+
         setString("prid", row, builder::mid, false);
         setInstant("dateCreated", row, builder::creationInstant);
         setInstant("dateModified", row, builder::lastModified);
 
-        set("ageRating", row, s -> parseAgeRating(s.getString()), builder::ageRating, false);
+        setStringFromResource("entity", row, c -> builder.crids(c.replaceAll("^http://", "crid://")));
         setMultipleString("crids", row,  builder::crids);
-        setMultipleString("broadcasters", row, builder::broadcasters);
+        setMultipleValue("broadcasters", row, Broadcaster.class, c -> ServiceLocator.getBroadcasterService().findForIds(c).orElseThrow(),  builder::broadcasters);
         setMultipleString("countries", row, builder::countries);
         setMultipleValue("genres", row,  Genre.class, s -> Objects.requireNonNull(matchTermId(s).orElse(null)), builder::genres);
-
+        set("ageRating", row, s -> parseAgeRating(s.getString()), builder::ageRating, false);
         setMultipleValue("contentRatings", row,  ContentRating.class, s -> Objects.requireNonNull(parseContentRating(s).orElse(null)), builder::contentRatings);
         setMultipleValue("persons", row,  Person.class, s -> Objects.requireNonNull(parsePerson(s).orElse(null)), builder::persons);
-
     }
 
 
@@ -107,6 +113,7 @@ public class Mapper {
             .build();
         return Optional.of(person);
     }
+
     private Description parseDescription(String value) {
         String[] fields = value.split(":",2);
         return new Description(fields[1], OwnerType.AUTHORITY, parseTextualType(fields[0]));
@@ -199,6 +206,11 @@ public class Mapper {
     protected void setString(String field, QuerySolution item, Consumer<String> consumer, boolean setToNull) {
         set(field, item, Literal::getString, consumer,  setToNull);
     }
+    protected void setStringFromResource(String field, QuerySolution item, Consumer<String> consumer) {
+        RDFNode value = item.get(field);
+        consumer.accept(String.valueOf(value));
+    }
+
 
     protected void setString(String field, QuerySolution item, Consumer<String> consumer) {
         setString(field, item, consumer, true);

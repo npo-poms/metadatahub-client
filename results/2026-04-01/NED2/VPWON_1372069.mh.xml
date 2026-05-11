@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372069" sortDate="2026-04-01T15:25:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-06T11:20:29.436+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/8e160170-9c42-4f66-9242-39e3104dba23</crid>
     <crid>crid://npo/programmagegevens/2562758437668</crid>
     <broadcaster id="NTR">NTR</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Back to ESNS 2026</title>
@@ -8,6 +9,7 @@
         <term>Muziek</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/16832a46-4715-483a-92da-01c839256c4d,1"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -17,5 +19,6 @@
             <poProgID>VPWON_1372069</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/16832a46-4715-483a-92da-01c839256c4d,1" index="1"/>
     <segments/>
 </program>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1353396" sortDate="2013-02-15T11:39:16.716+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:16.713+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/8ece3825-a426-467f-a70d-0b9ab8e72cee</crid>
     <crid>crid://tmp.program.omroep.nl/10576810</crid>
     <broadcaster id="AVRO">AVRO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Op de bon</title>
@@ -13,6 +14,8 @@
             <familyName>Sipke Jan Bousema</familyName>
         </person>
     </credits>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/3a18ebf1-5ecc-478d-a81f-d4012ae2b90b,4"/>
+    <contentRating>GROF_TAALGEBRUIK</contentRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -33,5 +36,6 @@
             <poProgID>AVRO_1353396</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/3a18ebf1-5ecc-478d-a81f-d4012ae2b90b,4" index="1"/>
     <segments/>
 </program>

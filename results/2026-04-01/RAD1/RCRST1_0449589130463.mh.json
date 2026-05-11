@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/2b72a665-02ea-4fba-8101-a64a074f3f82" } ,
         "title": { "type": "literal" , "value": "Met het Oog Op Morgen" } ,
         "description": { "type": "literal" , "value": "Het Oog brengt aan het eind van de dag een overzicht van het nieuws, de ochtendkranten en journalistieke interviews met mensen in en achter het nieuws, omlijst door mooie muziek.\nElke dag van de week heeft zijn eigen presentator. Door deze vaste dag, de persoonlijke opening van het programma en de manier van interviewen, drukt de presentator een eigen stempel op de uitzending. We noemen NOS Met het Oog op Morgen ook wel een 'journalistieke personality show'.\nDe ijzersterke formule en de persoonlijkheid en kwaliteit van de presentatoren zorgen ervoor dat het programma al sinds 1976 een uniek radioprogramma is dat zeer goed beluisterd en hoog gewaardeerd wordt." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -14,7 +15,7 @@
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
         "contentRatings": { "type": "literal" , "value": "" }
       }
     ]

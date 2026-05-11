@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1736862" sortDate="2026-04-01T09:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2025-04-10T12:31:10.948+02:00">
-    <crid>crid://npo/programmagegevens/2562758340668</crid>
-    <crid>crid://npo/programmagegevens/2483107063668</crid>
-    <crid>crid://npo/programmagegevens/2506932147668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e</crid>
     <crid>crid://npo/programmagegevens/2503999702668</crid>
+    <crid>crid://npo/programmagegevens/2506932147668</crid>
+    <crid>crid://npo/programmagegevens/2483107063668</crid>
+    <crid>crid://npo/programmagegevens/2562758340668</crid>
     <broadcaster id="KRNC">KRNC</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Ademruimte: ochtendyoga voor de longen</title>
     <description owner="AUTHORITY" type="MAIN">Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid.</description>
@@ -12,6 +13,8 @@
         <term>Levensbeschouwing</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/44072562-c948-4eca-adea-19ca7fa47e1d,9"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -40,5 +43,6 @@
             <poProgID>KN_1736862</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/44072562-c948-4eca-adea-19ca7fa47e1d,9" index="1"/>
     <segments/>
 </program>

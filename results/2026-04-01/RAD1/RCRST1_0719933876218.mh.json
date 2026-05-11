@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/ab74110d-3161-42f3-b777-da3be9480494" } ,
         "title": { "type": "literal" , "value": "Villa BVD" } ,
         "description": { "type": "literal" , "value": "Jurgen van den Berg presenteert een programma waarin nadrukkelijk verder wordt gekeken dan de waan van de dag. Met omdenken, doordenken en terugdenken wordt een gelaagdheid aangebracht bij de dagelijkse nieuwsstroom. Het programma beweegt mee met de samenleving: we vieren of tonen medeleven. Een lach en een traan zijn niet verboden. Oud nieuws wordt nieuw leven ingeblazen in de historische rubriek Terug naar Toen. En in het kader van: \u2018Wie luistert, weet meer\u2019 is er de \u2018Nieuwssnipper\u2019, een spel dat als rode draad door de uitzending loopt en waarmee nieuwskenners prijzen kunnen winnen." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -14,7 +15,7 @@
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
         "contentRatings": { "type": "literal" , "value": "" }
       }
     ]

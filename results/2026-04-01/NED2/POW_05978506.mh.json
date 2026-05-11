@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b13749ef-4da0-4fc4-8cce-eafb64bd7dbe" } ,
         "title": { "type": "literal" , "value": "NOS Journaal Regio" } ,
         "description": { "type": "literal" , "value": "Regionaal nieuws met landelijke uitstraling, gemaakt door de NOS en de regionale omroepen." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -15,7 +16,8 @@
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/82bf99a1-4270-416e-a7b3-2f351bdae408,64" }
       }
     ]
   }

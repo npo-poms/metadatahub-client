@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/6557f15b-47dc-4153-9fb5-fad7e5925989" } ,
         "title": { "type": "literal" , "value": "Nooit Meer Slapenn" } ,
         "description": { "type": "literal" , "value": "Interviewprogramma van de VPRO" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -14,7 +15,7 @@
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
         "contentRatings": { "type": "literal" , "value": "" }
       }
     ]

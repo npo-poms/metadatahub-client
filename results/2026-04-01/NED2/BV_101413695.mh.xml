@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101413695" sortDate="2026-04-02T16:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:14.278+01:00">
-    <crid>crid://npo/programmagegevens/2562758232668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/437aef02-45b7-472f-89b3-45ac8a32d66f</crid>
     <crid>crid://npo/programmagegevens/2562758590668</crid>
+    <crid>crid://npo/programmagegevens/2562758232668</crid>
     <broadcaster id="BNVA">BNVA</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Per Seconde Wijzer</title>
     <description owner="AUTHORITY" type="MAIN">Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.</description>
@@ -10,6 +11,8 @@
         <term>Spel/quiz</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/bc45f350-e619-4d80-926c-3e35edfcff41,23"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -38,5 +41,6 @@
             <poProgID>BV_101413695</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/bc45f350-e619-4d80-926c-3e35edfcff41,23" index="1"/>
     <segments/>
 </program>

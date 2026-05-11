@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f" } ,
         "title": { "type": "literal" , "value": "Wat een gedonder" } ,
         "description": { "type": "literal" , "value": "Mr. Frank Visser beslecht burenruzies, familievetes en andere conflicten. De uitspraak van mr. Frank Visser is juridisch bindend voor de partijen; zij zijn verplicht zijn beslissing te aanvaarden." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -16,7 +17,8 @@
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
         "contentRatings": { "type": "literal" , "value": "" } ,
-        "persons": { "type": "literal" , "value": "Jetske van den Elsen\tPresenter\t" }
+        "persons": { "type": "literal" , "value": "Jetske van den Elsen\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/93e32234-bc22-4497-b55d-95183f48267e,2" }
       }
     ]
   }

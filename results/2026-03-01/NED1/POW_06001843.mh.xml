@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001843" sortDate="2026-03-02T09:15:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-08T14:33:32.649+01:00">
-    <crid>crid://npo/programmagegevens/2566762721668</crid>
-    <crid>crid://npo/programmagegevens/2567038018668</crid>
-    <crid>crid://npo/programmagegevens/2566796630668</crid>
-    <crid>crid://npo/programmagegevens/2566796157668</crid>
-    <crid>crid://npo/programmagegevens/2555016667668</crid>
-    <crid>crid://npo/programmagegevens/2553833837668</crid>
-    <crid>crid://npo/programmagegevens/2555544674668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/53017d6c-1997-4145-86f3-c23eaf482742</crid>
     <crid>crid://npo/programmagegevens/2555015890668</crid>
+    <crid>crid://npo/programmagegevens/2555544674668</crid>
+    <crid>crid://npo/programmagegevens/2553833837668</crid>
+    <crid>crid://npo/programmagegevens/2555016667668</crid>
+    <crid>crid://npo/programmagegevens/2566796157668</crid>
+    <crid>crid://npo/programmagegevens/2566796630668</crid>
+    <crid>crid://npo/programmagegevens/2567038018668</crid>
+    <crid>crid://npo/programmagegevens/2566762721668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nederland in Beweging</title>
     <description owner="AUTHORITY" type="MAIN">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</description>
@@ -15,6 +16,8 @@
         <term>Sport</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/d62532bb-e633-4c27-879e-57038deed279,40"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -61,5 +64,6 @@
             <poProgID>POW_06001843</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/d62532bb-e633-4c27-879e-57038deed279,40" index="1"/>
     <segments/>
 </program>

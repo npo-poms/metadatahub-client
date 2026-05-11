@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/02d5c011-0c41-4347-93ea-8267e9aa1204" } ,
         "title": { "type": "literal" , "value": "Lingo" } ,
         "description": { "type": "literal" , "value": "Woord- en taalspel waarbij de kandidaten zes-, zeven- en tienletterwoorden moeten raden. Tevens bekendmaking van de twintig winnende getallen van de Lucky Day trekking." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -16,7 +17,8 @@
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
         "contentRatings": { "type": "literal" , "value": "" } ,
-        "persons": { "type": "literal" , "value": "Lucille Werner\tPresenter\t" }
+        "persons": { "type": "literal" , "value": "Lucille Werner\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/ddcb554c-0b87-4999-a6ad-08df2d9c7348,17" }
       }
     ]
   }

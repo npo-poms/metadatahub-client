@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8a7ad09f-79b5-49ca-97d4-cb5a1e8aaed6" } ,
         "title": { "type": "literal" , "value": "Spraakmakers" } ,
         "description": { "type": "literal" , "value": "Spraakmakers is dé radiotalkshow op NPO Radio 1. Ghislaine Plag, Carl-Johan de Zwart en Roos Abelman ontvangen bevlogen gasten die je nét even anders naar het nieuws laten kijken. Wil je meepraten met Spraakmakers? Meld je rechtsonder in deze pagina aan voor onze community." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -14,7 +15,7 @@
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
         "contentRatings": { "type": "literal" , "value": "" }
       }
     ]

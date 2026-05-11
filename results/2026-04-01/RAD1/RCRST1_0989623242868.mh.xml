@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0989623242868" sortDate="2026-04-01T10:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:06:03.039+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/8a7ad09f-79b5-49ca-97d4-cb5a1e8aaed6</crid>
     <crid>crid://npo/rcrs/DEV/685a95ba780458463f05f482</crid>
     <broadcaster id="KRNC">KRNC</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Spraakmakers</title>
@@ -9,6 +10,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

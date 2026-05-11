@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00288055" sortDate="2013-02-16T20:57:50.214+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-16T20:57:50.211+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/df4a6647-1e87-4673-a69d-d175a4a9bde8</crid>
     <crid>crid://tmp.program.omroep.nl/10567676</crid>
     <broadcaster id="BNN">BNN</broadcaster>
     <title owner="AUTHORITY" type="MAIN">ONM</title>
@@ -7,6 +8,8 @@
         <term>Serie</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/159230cf-5baa-4bef-a6ce-83f9872657fe,16"/>
+    <ageRating>9</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -39,5 +42,6 @@
             <poProgID>POW_00288055</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/159230cf-5baa-4bef-a6ce-83f9872657fe,16" index="1"/>
     <segments/>
 </program>

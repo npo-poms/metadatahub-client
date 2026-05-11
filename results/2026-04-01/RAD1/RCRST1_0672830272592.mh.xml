@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0672830272592" sortDate="2026-04-01T06:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:05:46.577+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/425ed831-e39c-46d7-849b-46e8e5d8b753</crid>
     <crid>crid://npo/rcrs/DEV/685a95d9780458463f05f4eb</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Radio 1 Journaal</title>
@@ -9,6 +10,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

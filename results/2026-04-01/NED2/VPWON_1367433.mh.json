@@ -1,21 +1,23 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088" } ,
         "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
         "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758421668|crid://npo/programmagegevens/2564140225668" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2564140225668|crid://npo/programmagegevens/2562758421668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-04T10:15:00.000Z,1551000.0|NPO 2,2026-04-01T19:25:00.000Z,1582000.0" } ,
         "broadcasters": { "type": "literal" , "value": "EO" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/f582d5be-67e7-4ba0-8202-f1db44a5b5d7,13" }
       }
     ]
   }

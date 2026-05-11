@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/425ed831-e39c-46d7-849b-46e8e5d8b753" } ,
         "title": { "type": "literal" , "value": "NOS Radio 1 Journaal" } ,
         "description": { "type": "literal" , "value": "Elke ochtend tussen 06:00 en 09:30 uur: het NOS Radio 1 Journaal. In de uitzendingen komen het laatste nieuws, achtergronden, reacties, analyses en sport aan bod." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -14,7 +15,7 @@
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
         "contentRatings": { "type": "literal" , "value": "" }
       }
     ]

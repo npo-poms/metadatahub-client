@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VARA_101220748" sortDate="2013-02-17T12:10:44.829+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-17T12:10:44.825+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/dcaf4eeb-11aa-43f8-a7bd-2c05d23b31aa</crid>
     <crid>crid://tmp.program.omroep.nl/10576799</crid>
     <broadcaster id="VARA">VARA</broadcaster>
     <broadcaster id="NPS">NPS</broadcaster>
@@ -13,6 +14,7 @@
             <familyName>Paul Witteman</familyName>
         </person>
     </credits>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/b3afd9fb-c452-40ff-94a8-e0950e4e3502,11"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -39,5 +41,6 @@
             <poProgID>VARA_101220748</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/b3afd9fb-c452-40ff-94a8-e0950e4e3502,11" index="1"/>
     <segments/>
 </program>

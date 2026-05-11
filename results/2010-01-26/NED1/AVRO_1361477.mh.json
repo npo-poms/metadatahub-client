@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/858013ae-f61c-4f2f-98a7-abb26804eaad" } ,
         "title": { "type": "literal" , "value": "Opium weet wat er speelt" } ,
         "description": { "type": "literal" , "value": "Actuele culturele tips van prominente cultuurliefhebbers en deskundigen. In een kort vlammend betoog vertellen zij de kijkers wat ze niet mogen missen: wat speelt er in de theaters en bioscopen, welke boeken en cd's zijn hot en welke tentoonstellingen zijn absolute aanraders?" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -15,7 +16,8 @@
         "genres": { "type": "literal" , "value": "3.0.1.7.24" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/eae64ead-f60c-4124-8f51-688a19f6c2b2,12" }
       }
     ]
   }

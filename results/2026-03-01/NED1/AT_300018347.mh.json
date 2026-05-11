@@ -1,21 +1,23 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/71a5a33e-0e8a-47e2-bd3d-d63c431a1a38" } ,
         "title": { "type": "literal" , "value": "Veenkoloniaal Museum" } ,
         "description": { "type": "literal" , "value": "Expert Willem Rueb herkende het schilderij van Edgar Fernhout meteen. Fernhout komt uit een bijzondere kunstenaarsfamilie: hij is de zoon van Charley Toorop en kleinzoon van Jan Toorop. Het werk van Fernhout hangt in veel grote musea en er is veel over hem geschreven. Wat is dit schilderij waard? In het Veenkoloniaal Museum weet de eigenaar van het Japanse aardewerk precies de weg. Het is namelijk haar oude middelbare school. Ook komt er een 17-eeuws schilderij van een monnik in gebed voorbij en sieraden van Niki de Saint Phalle, een belangrijke vrouwelijke Frans-Amerikaanse beeldhouwer die ook sieraden maakte. Is het kunst, of edelkitsch?" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:13.083Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2555016131668|crid://npo/programmagegevens/2560757963668" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2560757963668|crid://npo/programmagegevens/2555016131668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T20:50:00.000Z,2755000.0|NPO 1,2026-03-21T12:45:00.000Z,2749000.0" } ,
         "broadcasters": { "type": "literal" , "value": "AVTR" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.24" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/c9018678-520f-441e-874a-a268ca32951b,6" }
       }
     ]
   }

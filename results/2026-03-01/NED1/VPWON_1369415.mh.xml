@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1369415" sortDate="2026-03-02T10:35:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T14:40:25.906+01:00">
-    <crid>crid://npo/programmagegevens/2555544565668</crid>
-    <crid>crid://npo/programmagegevens/2555002458668</crid>
-    <crid>crid://npo/programmagegevens/2566291001668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/bfcece26-31bc-4575-8411-8189ac525077</crid>
     <crid>crid://npo/programmagegevens/2566291005668</crid>
-    <crid>crid://npo/programmagegevens/2567030336668</crid>
-    <crid>crid://npo/programmagegevens/2566291009668</crid>
+    <crid>crid://npo/programmagegevens/2566291001668</crid>
+    <crid>crid://npo/programmagegevens/2555002458668</crid>
+    <crid>crid://npo/programmagegevens/2555544565668</crid>
     <crid>crid://npo/programmagegevens/2555002317668</crid>
+    <crid>crid://npo/programmagegevens/2566291009668</crid>
+    <crid>crid://npo/programmagegevens/2567030336668</crid>
     <broadcaster id="VPRO">VPRO</broadcaster>
     <broadcaster id="BNVA">BNVA</broadcaster>
     <broadcaster id="AVTR">AVTR</broadcaster>
@@ -17,6 +18,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/9dcd3eb2-ba5d-4d82-bd46-44faa9279d8b,8"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -57,5 +59,6 @@
             <poProgID>VPWON_1369415</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/9dcd3eb2-ba5d-4d82-bd46-44faa9279d8b,8" index="1"/>
     <segments/>
 </program>

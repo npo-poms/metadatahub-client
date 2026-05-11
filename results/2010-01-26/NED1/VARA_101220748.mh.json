@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/dcaf4eeb-11aa-43f8-a7bd-2c05d23b31aa" } ,
         "title": { "type": "literal" , "value": "Pauw & Witteman" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-17T11:10:44.825Z" } ,
@@ -15,7 +16,8 @@
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
         "contentRatings": { "type": "literal" , "value": "" } ,
-        "persons": { "type": "literal" , "value": "Paul Witteman\tPresenter\t" }
+        "persons": { "type": "literal" , "value": "Paul Witteman\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/b3afd9fb-c452-40ff-94a8-e0950e4e3502,11" }
       }
     ]
   }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00263267" sortDate="2013-02-15T21:50:35.682+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T21:50:35.680+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/0e7f1c6a-e06c-4eaf-880e-40cb2b21a40d</crid>
     <crid>crid://tmp.program.omroep.nl/10576797</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Het vragenuurtje</title>
@@ -7,6 +8,7 @@
         <term>Informatief</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/3a4d5559-38a9-4908-a997-e238863cc41f,3"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -27,5 +29,6 @@
             <poProgID>POW_00263267</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/3a4d5559-38a9-4908-a997-e238863cc41f,3" index="1"/>
     <segments/>
 </program>

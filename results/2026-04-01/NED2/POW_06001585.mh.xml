@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001585" sortDate="2026-04-01T08:35:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-12T16:11:22.874+01:00">
-    <crid>crid://npo/programmagegevens/2566301098668</crid>
-    <crid>crid://npo/programmagegevens/2562985232668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/c0dccd55-449c-49cb-b968-add533926794</crid>
     <crid>crid://npo/programmagegevens/2526820606668</crid>
+    <crid>crid://npo/programmagegevens/2562985232668</crid>
+    <crid>crid://npo/programmagegevens/2566301098668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">MAX Geheugentrainer</title>
     <description owner="AUTHORITY" type="MAIN">Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was.</description>
@@ -11,6 +12,8 @@
         <term>Spel/quiz</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/1ea3bbbd-f257-4ebd-9620-b95d11661e83,59"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -55,5 +58,6 @@
             <poProgID>POW_06001585</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/1ea3bbbd-f257-4ebd-9620-b95d11661e83,59" index="1"/>
     <segments/>
 </program>

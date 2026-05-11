@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="TROS_1222306" sortDate="2013-02-16T17:14:24.930+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-16T17:14:24.928+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/4191e7f6-5d66-434c-8968-3c63791e81d4</crid>
     <crid>crid://tmp.program.omroep.nl/10576811</crid>
     <broadcaster id="TROS">TROS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">TROS Regelrecht</title>
@@ -8,6 +9,7 @@
         <term>Informatief</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/d82cd1d1-15f1-450e-b70e-eba23af42cce,2"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -23,5 +25,6 @@
             <poProgID>TROS_1222306</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/d82cd1d1-15f1-450e-b70e-eba23af42cce,2" index="1"/>
     <segments/>
 </program>

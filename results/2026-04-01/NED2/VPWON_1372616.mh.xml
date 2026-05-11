@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372616" sortDate="2026-04-01T21:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-06T11:20:41.556+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/1de471f9-21a2-41ef-a644-b06de317f308</crid>
     <crid>crid://npo/programmagegevens/2563287760668</crid>
     <broadcaster id="HUMA">HUMA</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NPO Doc: Blauw Licht - Herinneringen van een Ambulancebroeder</title>
@@ -9,6 +10,7 @@
         <term>Human Interest</term>
     </genre>
     <credits/>
+    <ageRating>9</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738413" sortDate="2026-04-01T17:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-09T14:23:24.594+01:00">
-    <crid>crid://npo/programmagegevens/2562758146668</crid>
-    <crid>crid://npo/programmagegevens/2562985558668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/f860db75-926b-423a-b9a8-4e9798d710fd</crid>
     <crid>crid://npo/programmagegevens/2559284857668</crid>
+    <crid>crid://npo/programmagegevens/2562985558668</crid>
+    <crid>crid://npo/programmagegevens/2562758146668</crid>
     <broadcaster id="KRNC">KRNC</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Uitdager: Freddy Tratlehner</title>
     <description owner="AUTHORITY" type="MAIN">Uitdager: Freddy Tratlehner.</description>
@@ -11,6 +12,8 @@
         <term>Spel/quiz</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/fe2c6706-bae0-48ab-a9b7-82d2671fdd82,27"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -55,5 +58,6 @@
             <poProgID>KN_1738413</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/fe2c6706-bae0-48ab-a9b7-82d2671fdd82,27" index="1"/>
     <segments/>
 </program>

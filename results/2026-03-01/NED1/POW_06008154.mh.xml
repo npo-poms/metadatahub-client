@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06008154" sortDate="2026-03-01T10:00:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-28T17:20:23.855+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/b4b1834c-9c39-497a-9f67-685236640a45</crid>
     <crid>crid://npo/programmagegevens/2566820659668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</title>
@@ -9,6 +10,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/cfda0b2f-2614-4a55-8a43-437308b5614e,14"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -19,5 +21,6 @@
             <poProgID>POW_06008154</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/cfda0b2f-2614-4a55-8a43-437308b5614e,14" index="1"/>
     <segments/>
 </program>

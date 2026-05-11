@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1361477" sortDate="2017-11-02T03:39:18.190+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:11.196+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/858013ae-f61c-4f2f-98a7-abb26804eaad</crid>
     <crid>crid://tmp.program.omroep.nl/10576800</crid>
     <broadcaster id="AVRO">AVRO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Opium weet wat er speelt</title>
@@ -9,6 +10,7 @@
         <term>Kunst/cultuur</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/eae64ead-f60c-4124-8f51-688a19f6c2b2,12"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -34,5 +36,6 @@
             <poProgID>AVRO_1361477</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/eae64ead-f60c-4124-8f51-688a19f6c2b2,12" index="1"/>
     <segments/>
 </program>

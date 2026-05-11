@@ -32,7 +32,7 @@ void main() throws Exception {
                 log.info("Sparql response: " + rs);
             }).run(() -> {
 
-            Optional<Program> program = metadataHubMediaService.getProgram("POMS_VPRO_158293");
+            Optional<Program> program = metadataHubMediaService.getProgram("BV_101413509");
             program.ifPresent(p -> {
                 JAXB.marshal(p, System.out);
             });

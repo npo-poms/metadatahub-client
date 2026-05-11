@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f280070f-681c-432f-af78-b433d3a6d11e" } ,
         "title": { "type": "literal" , "value": "Carolina Dijkhuizen" } ,
         "description": { "type": "literal" , "value": "Carolina Dijkhuizen is actrice en zangeres. Ze speelt de iconische rol van Hermelien Griffel in het toneelstuk Harry Potter en het Vervloekte Kind, een voorstelling vol magie, emotie en onverwachte wendingen. Dijkhuizen is een vertrouwd gezicht in de Nederlandse theaterwereld en speelde eerdere hoofdrollen in musicals als Aida, The Lion King en Sister Act. Daarnaast was ze te zien in populaire televisieprogramma's zoals De Beste Zangers van Nederland, Wie is de Mol? en Expeditie Robinson." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -14,8 +15,9 @@
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.24" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/7fdf56a8-1d2a-44e2-9d75-7ce83cf82c60,13" }
       }
     ]
   }

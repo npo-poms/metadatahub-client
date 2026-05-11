@@ -1,21 +1,23 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/0d23ce32-f12e-49e0-9b03-a33d078b5908" } ,
         "title": { "type": "literal" , "value": "Pauw & De Wit" } ,
         "description": { "type": "literal" , "value": "Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-01T09:30:24.826Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566910337668|crid://npo/programmagegevens/2566910530668" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566910530668|crid://npo/programmagegevens/2566910337668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T23:45:00.000Z,2706000.0|NPO 1,2026-03-01T21:45:00.000Z,2692000.0|BVN,2026-03-01T21:35:00.000Z,2879000.0|BVN,2026-03-02T09:35:00.000Z,2879000.0" } ,
         "broadcasters": { "type": "literal" , "value": "BNVA" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/cc5f0425-57ed-4692-8142-0c41edd70b24,82" }
       }
     ]
   }

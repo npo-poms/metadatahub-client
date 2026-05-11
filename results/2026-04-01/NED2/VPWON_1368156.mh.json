@@ -1,21 +1,23 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/46f4aa92-5179-4997-b403-1741686346fc" } ,
         "title": { "type": "literal" , "value": "Nieuwsuur" } ,
         "description": { "type": "literal" , "value": "Nederland wil een voorloper zijn in de ontwikkeling van drones voor het slagveld. Daarvoor zijn forse investeringen en veel nieuwe mensen nodig. Vandaag geeft de landmacht het startschot voor deze drone-impuls. Te gast is Commandant Landstrijdkrachten Jan Swillens. * Drie op de tien raadsleden werd de afgelopen jaren bedreigd of kreeg te maken met agressie. De politieke druk is hoog en je wordt er niet rijk van. Toch worden door het hele land meer dan 8000 raadsleden geïnstalleerd, onder wie veel politieke nieuwkomers." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:16.218Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2574599194668|crid://npo/programmagegevens/2562758360668|crid://npo/programmagegevens/2562758265668|crid://npo/programmagegevens/2562758388668|crid://npo/programmagegevens/2562758781668|crid://npo/programmagegevens/2574599109668|crid://npo/programmagegevens/2574599169668|crid://npo/programmagegevens/2574599244668|crid://npo/programmagegevens/2574599219668|crid://npo/programmagegevens/2574599269668|crid://npo/programmagegevens/2574599144668" } ,
-        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-02T00:25:00.000Z,2349000.0|NPO 2,2026-04-02T02:25:00.000Z,2349000.0|NPO 2,2026-04-02T01:45:00.000Z,2349000.0|NPO 2,2026-04-01T22:25:00.000Z,2309000.0|NPO 2,2026-04-01T23:50:00.000Z,2349000.0|NPO 2,2026-04-02T03:05:00.000Z,2304000.0|NPO 2,2026-04-01T23:10:00.000Z,2304000.0|NPO 2,2026-04-02T01:05:00.000Z,2349000.0|NPO 2,2026-04-01T20:00:00.000Z,2325000.0|NPO 2,2026-04-02T07:50:00.000Z,2305000.0|BVN,2026-04-01T20:20:00.000Z,2103000.0|BVN,2026-04-02T08:20:00.000Z,2103000.0|NPO 2,2026-04-01T23:47:00.000Z,44000.0" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758781668|crid://npo/programmagegevens/2562758388668|crid://npo/programmagegevens/2562758265668|crid://npo/programmagegevens/2562758360668|crid://npo/programmagegevens/2574599144668|crid://npo/programmagegevens/2574599269668|crid://npo/programmagegevens/2574599219668|crid://npo/programmagegevens/2574599194668|crid://npo/programmagegevens/2574599244668|crid://npo/programmagegevens/2574599169668|crid://npo/programmagegevens/2574599109668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-02T07:50:00.000Z,2305000.0|BVN,2026-04-01T20:20:00.000Z,2103000.0|BVN,2026-04-02T08:20:00.000Z,2103000.0|NPO 2,2026-04-01T23:47:00.000Z,44000.0|NPO 2,2026-04-02T00:25:00.000Z,2349000.0|NPO 2,2026-04-02T02:25:00.000Z,2349000.0|NPO 2,2026-04-02T01:45:00.000Z,2349000.0|NPO 2,2026-04-01T22:25:00.000Z,2309000.0|NPO 2,2026-04-01T23:50:00.000Z,2349000.0|NPO 2,2026-04-02T03:05:00.000Z,2304000.0|NPO 2,2026-04-01T23:10:00.000Z,2304000.0|NPO 2,2026-04-02T01:05:00.000Z,2349000.0|NPO 2,2026-04-01T20:00:00.000Z,2325000.0" } ,
         "broadcasters": { "type": "literal" , "value": "NTR|NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/4c8849d1-7493-40e5-aef0-706de8a08ed6,89" }
       }
     ]
   }

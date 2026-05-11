@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05973524" sortDate="2026-04-01T09:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:40:58.075+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/c9a30539-0ef5-42c0-b3cb-1c390c66d3f8</crid>
     <crid>crid://npo/programmagegevens/2562758189668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal met gebarentaal</title>
@@ -9,6 +10,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/40a01d3b-ee5c-4e33-bdf0-a8ce443ffce4,65"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -19,5 +21,6 @@
             <poProgID>POW_05973524</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/40a01d3b-ee5c-4e33-bdf0-a8ce443ffce4,65" index="1"/>
     <segments/>
 </program>

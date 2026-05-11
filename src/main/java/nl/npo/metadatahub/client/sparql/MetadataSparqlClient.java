@@ -101,7 +101,7 @@ public class MetadataSparqlClient implements AutoCloseable{
             throw new TokenManager.TokenException("Unauthorized");
         } else if (response.statusCode() < 200 || response.statusCode() >= 300) {
             byte[] b = response.body().readAllBytes();
-            throw new IllegalStateException("SPARQL endpoint returned status " + response.statusCode() + ": " +  new String(b, StandardCharsets.UTF_8));
+            throw new IllegalStateException("SPARQL endpoint returned status " + response.statusCode() + ": " +  new String(b, StandardCharsets.UTF_8) + " :" + sparqlQuery);
         }
 
 

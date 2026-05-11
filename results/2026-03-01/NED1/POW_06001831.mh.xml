@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06001831" sortDate="2026-03-01T08:50:00+01:00" workflow="FOR PUBLICATION" creationDate="2025-12-21T08:34:59.193+01:00">
-    <crid>crid://npo/programmagegevens/2566824100668</crid>
-    <crid>crid://npo/programmagegevens/2550112733668</crid>
-    <crid>crid://npo/programmagegevens/2551473310668</crid>
-    <crid>crid://npo/programmagegevens/2550112848668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/85fb7a93-1dc5-4a38-a60a-51964504bad7</crid>
     <crid>crid://npo/programmagegevens/2549805525668</crid>
+    <crid>crid://npo/programmagegevens/2550112848668</crid>
+    <crid>crid://npo/programmagegevens/2551473310668</crid>
+    <crid>crid://npo/programmagegevens/2550112733668</crid>
+    <crid>crid://npo/programmagegevens/2566824100668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nederland in Beweging</title>
     <description owner="AUTHORITY" type="MAIN">Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.</description>
@@ -12,6 +13,8 @@
         <term>Sport</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/d62532bb-e633-4c27-879e-57038deed279,28"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -68,5 +71,6 @@
             <poProgID>POW_06001831</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/d62532bb-e633-4c27-879e-57038deed279,28" index="1"/>
     <segments/>
 </program>

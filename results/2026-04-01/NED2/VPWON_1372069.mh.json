@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8e160170-9c42-4f66-9242-39e3104dba23" } ,
         "title": { "type": "literal" , "value": "Back to ESNS 2026" } ,
         "description": { "type": "literal" , "value": "Je ziet Antoon, die dit jaar op Noorderslag stond om zijn nieuwe plaat Tot Het Eind van Mij te presenteren. Ook muziek van de Nederlands-Indonesische supergroep Nusantara Beat. De Nederlandstalige elektronische popmuziek van IDA en we zien hoe Suzan en Freek de popprijs winnen." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -15,7 +16,8 @@
         "genres": { "type": "literal" , "value": "3.0.1.5" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/16832a46-4715-483a-92da-01c839256c4d,1" }
       }
     ]
   }

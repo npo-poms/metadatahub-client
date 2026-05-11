@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00288337" sortDate="2013-02-05T13:28:33.458+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-05T13:28:33.456+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/66c87c74-bfe8-4e79-8e10-89a3d273678a</crid>
     <crid>crid://tmp.program.omroep.nl/10576785</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nederland in Beweging!</title>
@@ -13,6 +14,7 @@
             <familyName>Olga Commandeur</familyName>
         </person>
     </credits>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/d134479e-4ff9-410b-9394-ae8dc107d304,16"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -34,5 +36,6 @@
             <poProgID>POW_00288337</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/d134479e-4ff9-410b-9394-ae8dc107d304,16" index="1"/>
     <segments/>
 </program>

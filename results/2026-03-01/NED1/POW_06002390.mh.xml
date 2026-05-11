@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06002390" sortDate="2026-03-02T02:15:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-12T15:33:54.674+01:00">
-    <crid>crid://npo/programmagegevens/2553216098668</crid>
-    <crid>crid://npo/programmagegevens/2553216360668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/91e2937a-fbe8-409d-99db-8e8c58365a62</crid>
     <crid>crid://npo/programmagegevens/2555016163668</crid>
+    <crid>crid://npo/programmagegevens/2553216360668</crid>
+    <crid>crid://npo/programmagegevens/2553216098668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Studio Sport</title>
     <description owner="AUTHORITY" type="MAIN">Livebeelden en/of samenvattingen van de belangrijkste sportwedstrijden en -evenementen van de dag, met interviews en reportages.</description>
@@ -11,6 +12,7 @@
         <term>Sport - informatie</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/f434ceba-ccc2-4d48-8551-01267cdbcfbd,7"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -27,5 +29,6 @@
             <poProgID>POW_06002390</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/f434ceba-ccc2-4d48-8551-01267cdbcfbd,7" index="1"/>
     <segments/>
 </program>

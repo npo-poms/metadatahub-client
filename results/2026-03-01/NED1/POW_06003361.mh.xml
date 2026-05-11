@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003361" sortDate="2026-03-01T16:50:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:07.741+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/a9f754a6-c614-4979-9a8b-0a6d868f2a77</crid>
     <crid>crid://npo/programmagegevens/2555016086668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Studio Sport Live: Schaatsen Daikin NK Allround &amp; Sprint</title>
@@ -9,6 +10,7 @@
         <term>Sport - informatie</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/8e5ce04b-a090-4bfe-a61e-e8d64a4d895c,16"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -19,5 +21,6 @@
             <poProgID>POW_06003361</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/8e5ce04b-a090-4bfe-a61e-e8d64a4d895c,16" index="1"/>
     <segments/>
 </program>

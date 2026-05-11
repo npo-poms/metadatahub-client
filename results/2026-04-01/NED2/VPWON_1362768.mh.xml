@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1362768" sortDate="2026-04-02T00:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2025-05-28T15:00:50.145+02:00">
-    <crid>crid://npo/programmagegevens/2488442782668</crid>
-    <crid>crid://npo/programmagegevens/2562758455668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/34c60cdd-80a4-4690-be9c-81114f438f20</crid>
     <crid>crid://npo/programmagegevens/2503999195668</crid>
+    <crid>crid://npo/programmagegevens/2562758455668</crid>
+    <crid>crid://npo/programmagegevens/2488442782668</crid>
     <broadcaster id="EO">EO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Kiki (1/2)</title>
     <description owner="AUTHORITY" type="MAIN">Kiki belandde met onstuimig weer in het water maar werd gered.</description>
@@ -10,6 +11,8 @@
         <term>Human Interest</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/fc0c7dba-7bff-439c-91aa-45414505b140,28"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -32,5 +35,6 @@
             <poProgID>VPWON_1362768</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/fc0c7dba-7bff-439c-91aa-45414505b140,28" index="1"/>
     <segments/>
 </program>

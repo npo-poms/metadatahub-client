@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1370516" sortDate="2026-04-01T16:23:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:42:44.886+01:00">
-    <crid>crid://npo/programmagegevens/2573343440668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/f4ee693d-a5f7-4aab-a3b3-88fe871bebd8</crid>
     <crid>crid://npo/programmagegevens/2562757016668</crid>
+    <crid>crid://npo/programmagegevens/2573343440668</crid>
     <broadcaster id="EO">EO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Herstellen van het Rifgebergte in Marokko</title>
     <description owner="AUTHORITY" type="MAIN">Om de aanhoudende droogte tegen te gaan, worden in Marokko nieuwe voedselbossen aangelegd. Boeren leren hoe ze met bomen en slimme technieken het droge Rifgebergte weer vruchtbaar maken.</description>
@@ -9,6 +10,8 @@
         <term>Informatief</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/2b2eb327-92a8-412e-9121-2ba79c1b2f1e,13"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -25,5 +28,6 @@
             <poProgID>VPWON_1370516</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/2b2eb327-92a8-412e-9121-2ba79c1b2f1e,13" index="1"/>
     <segments/>
 </program>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="NCRV_1354599" sortDate="2017-08-09T14:56:13.715+02:00" workflow="FOR PUBLICATION" creationDate="2013-02-06T15:11:09.285+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f</crid>
     <crid>crid://tmp.program.omroep.nl/10576812</crid>
     <broadcaster id="NCRV">NCRV</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Wat een gedonder</title>
@@ -13,6 +14,7 @@
             <familyName>Jetske van den Elsen</familyName>
         </person>
     </credits>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/93e32234-bc22-4497-b55d-95183f48267e,2"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -38,5 +40,6 @@
             <poProgID>NCRV_1354599</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/93e32234-bc22-4497-b55d-95183f48267e,2" index="1"/>
     <segments/>
 </program>

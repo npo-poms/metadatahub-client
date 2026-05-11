@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738142" sortDate="2026-04-01T08:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-03T16:40:21.580+01:00">
-    <crid>crid://npo/programmagegevens/2560400084668</crid>
-    <crid>crid://npo/programmagegevens/2562758244668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/7ac4b2c4-9884-48b2-838c-fea747ce9af3</crid>
     <crid>crid://npo/programmagegevens/2560400401668</crid>
+    <crid>crid://npo/programmagegevens/2562758244668</crid>
+    <crid>crid://npo/programmagegevens/2560400084668</crid>
     <broadcaster id="KRNC">KRNC</broadcaster>
     <title owner="AUTHORITY" type="MAIN">BinnensteBuiten</title>
     <description owner="AUTHORITY" type="MAIN">Architectuurhistoricus Valentijn Carbo gaat op ontdekkingstocht in Kasteel Heeswijk. In 1835 koopt een schatrijke baron dit landgoed. Deze baron maakt een geromantiseerde versie van een middeleeuws kasteel en dat levert leuke verrassingen op. * Elf jaar geleden kwam Christa meel halen bij de molen in het Friese Witmarsum. Ze werd op slag verliefd op het ambacht. Nu is ze molenaar en bakker en samen met compagnon Jippe bakken ze broden van oude lokale graansoorten die ze zelf malen. * In de Rotterdamse dierentuin kom je vele soorten bamboe tegen en dat is niet voor niks; de rode panda's zijn er dol op en ook de olifanten verslinden het.</description>
@@ -11,6 +12,8 @@
         <term>Wonen/Tuin</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/c1825e98-ea9d-47d4-b377-590cf81c02b9,52"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -45,5 +48,6 @@
             <poProgID>KN_1738142</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/c1825e98-ea9d-47d4-b377-590cf81c02b9,52" index="1"/>
     <segments/>
 </program>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1353119" sortDate="2013-02-15T11:39:13.954+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:13.949+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/16ccd943-2b73-4051-a389-377a93e2c9dc</crid>
     <crid>crid://tmp.program.omroep.nl/10576806</crid>
     <broadcaster id="AVRO">AVRO</broadcaster>
     <broadcaster id="TROS">TROS</broadcaster>
@@ -9,6 +10,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/ba428103-1548-4ce3-a7c0-012b897ba7d8,9"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -29,8 +31,10 @@
             <poProgID>AVRO_1353119</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/ba428103-1548-4ce3-a7c0-012b897ba7d8,9" index="1"/>
     <segments>
         <segment midRef="AVRO_1353119" type="SEGMENT" embeddable="true" mid="POMS_AT_10136575" sortDate="2013-02-15T11:39:13.954+01:00" workflow="FOR PUBLICATION" creationDate="2017-08-01T18:07:12.649+02:00">
+            <crid>null</crid>
             <broadcaster id="AVTR">AVTR</broadcaster>
             <title owner="AUTHORITY" type="MAIN">Boktor bedreigt Boskoop</title>
             <description owner="AUTHORITY" type="MAIN">Ze sloot gistermiddag minstens 500 boomkweekbedrijven en bepaalde dat er geen plantje meer vervoerd mag worden in het betreffende gebied.</description>
@@ -38,9 +42,12 @@
             <descendantOf midRef="AVRO_1353119" type="BROADCAST"/>
             <locations/>
             <images/>
-            <segmentOf midRef="AVRO_1353119" type="BROADCAST"/>
+            <segmentOf midRef="AVRO_1353119" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/ba428103-1548-4ce3-a7c0-012b897ba7d8,9" index="1"/>
+            </segmentOf>
         </segment>
         <segment midRef="AVRO_1353119" type="SEGMENT" embeddable="true" mid="POMS_AT_10136616" sortDate="2013-02-15T11:39:13.954+01:00" workflow="FOR PUBLICATION" creationDate="2017-08-01T18:07:13.927+02:00">
+            <crid>null</crid>
             <broadcaster id="AVTR">AVTR</broadcaster>
             <title owner="AUTHORITY" type="MAIN">Druk op Nederland om Uruzganbesluit</title>
             <description owner="AUTHORITY" type="MAIN">In EenVandaag vanavond interviews met onder meer oud-generaal Dick Berlijn en PvdA-coryfee en oud-minister van Defensie Bram Stemerdink. Wat zijn hun ervaringen met internationale druk tijdens belangrijke keuzemomenten, hoe gingen zij ermee om en wat adviseren zij het kabinet?Lees hier weblogs over UruzganStemerdink: PvdA moet missie in Uruzgan verlengen De Partij van de Arbeid moet niet langer de hakken in het zand zetten en de missie in Uruzgan deels verlengen. Dat zegt PvdA oud-minister van Defensie Bram Stemerdink  dinsdagavond in een uitzending van EnVandaag. De PvdA moet weer eens leren om buitenlandse politiek te voeren, aldus Stemerdink. De internationale druk op Nederland om de missie in Uruzgan voort te zetten, neemt met de dag toe.  Stemerdink vindt dat Nederland daarvan gebruik moet maken.  Langer verblijfVorige week belde vice-president Joe Biden met Wouter Bos. De PvdA zou Joe Biden  een goede bekende van Bram Stemerdink - een succesje moeten gunnen om daar als land later weer van te profiteren. "Het is voor de PvdA en Nederland belangrijk om een goede relatie te hebben met de VS en zeker met de nu zittende regering."Volgens Stemerdink kan de PvdA bijvoorbeeld kiezen om iets langer in Uruzgan te blijven en pas in het voorjaar van 2011 te vertrekken.  Hij is van mening dat Nederland zich dan niet bindt aan een langere missie maar kan spreken van een uitgesteld vertrek. Volgens de huidige afspraken eindigt de missie in Uruzgan in augustus 2010. Positie kabinetVolgens Stemerdink redt de PvdA zich daarmee bovendien uit een moeilijke positie in het kabinet door deels vast te houden aan de partijbelangen en een geste te doen aan de Amerikanen en het CDA. De moeizame verhouding tussen de PvdA en het CDA zorgt er volgens Stemerdink voor dat landen juist druk zetten om een besluit te forceren. Subtiele drukOok Dick Berlijn herkent de internationale druk uit de tijd dat hij Commandant der Strijdkrachten was. Die druk is subtiel, nooit bot want het blijven heren en dames. Maar dat maakt de boodschap niet minder duidelijk, aldus Berlijn.</description>
@@ -48,9 +55,12 @@
             <descendantOf midRef="AVRO_1353119" type="BROADCAST"/>
             <locations/>
             <images/>
-            <segmentOf midRef="AVRO_1353119" type="BROADCAST"/>
+            <segmentOf midRef="AVRO_1353119" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/ba428103-1548-4ce3-a7c0-012b897ba7d8,9" index="1"/>
+            </segmentOf>
         </segment>
         <segment midRef="AVRO_1353119" type="SEGMENT" embeddable="true" mid="POMS_AT_10136617" sortDate="2013-02-15T11:39:13.954+01:00" workflow="FOR PUBLICATION" creationDate="2017-08-01T18:07:15.180+02:00">
+            <crid>null</crid>
             <broadcaster id="AVTR">AVTR</broadcaster>
             <title owner="AUTHORITY" type="MAIN">Gehandicapten dreigen rust te verliezen?</title>
             <description owner="AUTHORITY" type="MAIN">De afgelopen jaren zijn er al honderden gehandicapten verhuisd om zo plaats te maken voor de gewone burgers die op dit prachtige perceel een mooi huis kunnen kopen. Directie beweert dat het beter is voor de integratie van de verstandelijke gehandicapten. Als er steeds meer mensen op het instellingsterrein komen wonen, verrijkt dat het leven van de clinten. Maar de familieleden hebben daar twijfels over.Morgen beslist de gemeenteraad over de bouw.</description>
@@ -58,9 +68,12 @@
             <descendantOf midRef="AVRO_1353119" type="BROADCAST"/>
             <locations/>
             <images/>
-            <segmentOf midRef="AVRO_1353119" type="BROADCAST"/>
+            <segmentOf midRef="AVRO_1353119" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/ba428103-1548-4ce3-a7c0-012b897ba7d8,9" index="1"/>
+            </segmentOf>
         </segment>
         <segment midRef="AVRO_1353119" type="SEGMENT" embeddable="true" mid="POMS_AT_10136574" sortDate="2013-02-15T11:39:13.954+01:00" workflow="FOR PUBLICATION" creationDate="2017-08-01T18:07:11.512+02:00">
+            <crid>null</crid>
             <broadcaster id="AVTR">AVTR</broadcaster>
             <title owner="AUTHORITY" type="MAIN">Spyker neemt Saab over</title>
             <description owner="AUTHORITY" type="MAIN">GM meldde dat Spyker van plan is een nieuw bedrijf te creren, Saab Spyker Automobiles. De overeenkomst is nog afhankelijk van de toestemming van de betrokken autoriteiten. GM liet verder weten dat de Zweedse overheid het verzoek van Spyker om een staatsgarantie op een lening van de Europese INvesteringsbank in overweging heeft.</description>
@@ -68,7 +81,9 @@
             <descendantOf midRef="AVRO_1353119" type="BROADCAST"/>
             <locations/>
             <images/>
-            <segmentOf midRef="AVRO_1353119" type="BROADCAST"/>
+            <segmentOf midRef="AVRO_1353119" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/ba428103-1548-4ce3-a7c0-012b897ba7d8,9" index="1"/>
+            </segmentOf>
         </segment>
     </segments>
 </program>

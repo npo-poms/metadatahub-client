@@ -1,21 +1,23 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/9562ebf9-002a-4f19-bdee-ecce64ae5659" } ,
         "title": { "type": "literal" , "value": "NOS Journaal ivm aanval Israël/VS op Iran" } ,
         "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-28T08:20:20.448Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566896386668|crid://npo/programmagegevens/2566821218668|crid://npo/programmagegevens/2566758987668|crid://npo/programmagegevens/2566763558668|crid://npo/programmagegevens/2566763231668|crid://npo/programmagegevens/2566763290668" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566763290668|crid://npo/programmagegevens/2566763231668|crid://npo/programmagegevens/2566763558668|crid://npo/programmagegevens/2566758987668|crid://npo/programmagegevens/2566821218668|crid://npo/programmagegevens/2566896386668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T06:00:00.000Z,1692000.0|NPO 1,2026-03-01T06:30:00.000Z,1791000.0" } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/cfda0b2f-2614-4a55-8a43-437308b5614e,8" }
       }
     ]
   }

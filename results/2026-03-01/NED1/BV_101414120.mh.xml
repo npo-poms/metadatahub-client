@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="BV_101414120" sortDate="2026-03-02T10:35:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-03-01T10:30:24.826+01:00">
-    <crid>crid://npo/programmagegevens/2566910337668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/0d23ce32-f12e-49e0-9b03-a33d078b5908</crid>
     <crid>crid://npo/programmagegevens/2566910530668</crid>
+    <crid>crid://npo/programmagegevens/2566910337668</crid>
     <broadcaster id="BNVA">BNVA</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Pauw &amp; De Wit</title>
     <description owner="AUTHORITY" type="MAIN">Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller.</description>
@@ -10,6 +11,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/cc5f0425-57ed-4692-8142-0c41edd70b24,82"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -38,5 +40,6 @@
             <poProgID>BV_101414120</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/cc5f0425-57ed-4692-8142-0c41edd70b24,82" index="1"/>
     <segments/>
 </program>

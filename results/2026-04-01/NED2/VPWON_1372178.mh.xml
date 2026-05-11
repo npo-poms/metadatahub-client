@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372178" sortDate="2026-04-01T22:45:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:17.283+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/65e0e8c3-03cb-4454-8367-72b15157def3</crid>
     <crid>crid://npo/programmagegevens/2562758091668</crid>
     <broadcaster id="EO">EO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Streaming Hell</title>
@@ -8,6 +9,7 @@
         <term>Human Interest</term>
     </genre>
     <credits/>
+    <ageRating>9</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>

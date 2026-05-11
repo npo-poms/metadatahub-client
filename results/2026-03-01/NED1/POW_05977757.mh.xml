@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977757" sortDate="2026-03-01T07:30:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-28T09:20:20.448+01:00">
-    <crid>crid://npo/programmagegevens/2566896386668</crid>
-    <crid>crid://npo/programmagegevens/2566821218668</crid>
-    <crid>crid://npo/programmagegevens/2566758987668</crid>
-    <crid>crid://npo/programmagegevens/2566763558668</crid>
-    <crid>crid://npo/programmagegevens/2566763231668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/9562ebf9-002a-4f19-bdee-ecce64ae5659</crid>
     <crid>crid://npo/programmagegevens/2566763290668</crid>
+    <crid>crid://npo/programmagegevens/2566763231668</crid>
+    <crid>crid://npo/programmagegevens/2566763558668</crid>
+    <crid>crid://npo/programmagegevens/2566758987668</crid>
+    <crid>crid://npo/programmagegevens/2566821218668</crid>
+    <crid>crid://npo/programmagegevens/2566896386668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</title>
     <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
@@ -14,6 +15,7 @@
         <term>Nieuws/actualiteiten</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/cfda0b2f-2614-4a55-8a43-437308b5614e,8"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -30,5 +32,6 @@
             <poProgID>POW_05977757</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/cfda0b2f-2614-4a55-8a43-437308b5614e,8" index="1"/>
     <segments/>
 </program>

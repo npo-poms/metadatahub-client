@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8ece3825-a426-467f-a70d-0b9ab8e72cee" } ,
         "title": { "type": "literal" , "value": "Op de bon" } ,
         "description": { "type": "literal" , "value": "Alles en meer over het meest gehate gele papiertje: de bekeuring. Verkeersboetes, wildplassen, controle op illegaal vuurwerk, alcoholgebruik in het verkeer tijdens de donkere dagen rondom kerst én in de metro zonder kaartje, allemaal dingen die niet mogen, maar wel gebeuren. Verder: de kantonrechter. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht. Over emoties en de verhalen achter de bekeuring." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -15,8 +16,9 @@
         "genres": { "type": "literal" , "value": "3.0.1.6" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" } ,
-        "persons": { "type": "literal" , "value": "Sipke Jan Bousema\tPresenter\t" }
+        "contentRatings": { "type": "literal" , "value": "Grof taalgebruik" } ,
+        "persons": { "type": "literal" , "value": "Sipke Jan Bousema\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/3a18ebf1-5ecc-478d-a81f-d4012ae2b90b,4" }
       }
     ]
   }

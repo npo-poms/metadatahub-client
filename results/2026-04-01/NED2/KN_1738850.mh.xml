@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738850" sortDate="2026-04-01T20:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-06T11:20:40.675+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e</crid>
     <crid>crid://npo/programmagegevens/2562758175668</crid>
     <broadcaster id="KRNC">KRNC</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Hulp arriveert</title>
@@ -11,13 +12,15 @@
     <credits>
         <person role="DIRECTOR">
             <givenName></givenName>
-            <familyName>Annemieke Ruggenberg</familyName>
+            <familyName>Joey Boink</familyName>
         </person>
         <person role="DIRECTOR">
             <givenName></givenName>
-            <familyName>Joey Boink</familyName>
+            <familyName>Annemieke Ruggenberg</familyName>
         </person>
     </credits>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/08c326eb-3f86-4e76-b245-5bdb220f2dd4,2"/>
+    <ageRating>12</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -28,5 +31,6 @@
             <poProgID>KN_1738850</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/08c326eb-3f86-4e76-b245-5bdb220f2dd4,2" index="1"/>
     <segments/>
 </program>

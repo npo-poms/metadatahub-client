@@ -1,21 +1,23 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5e85caf0-a565-4122-be1c-d66451ce5918" } ,
         "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
         "description": { "type": "literal" , "value": "Interieurspecialist Theo-Bert gaat in Zeist aan de slag in de slaapkamer van Manon en Hagen. Een wand van kurk is een doorn in het oog, maar Theo-Bert heeft daar natuurlijk wat leuks voor bedacht. * Ramon maakt barbari: een Oosters platbrood met sesamzaad en za'atar. Daarbij serveert hij geroosterde groenten. * Camilla gaat vogels spotten in de Oostvaardersplassen met boswachter Frank. Ze zoeken nonnetjes en brilduikers en hopen de zeearend te zien.* In het Friese Westereen heeft Binne een atelier waar hij vol passie traditionele uilenborden maakt voor op de oude boerderijen. Dit eeuwenoude beroep is doorgegeven van vader op zoon." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:00.143Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758199668|crid://npo/programmagegevens/2564402958668|crid://npo/programmagegevens/2562758042668" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758042668|crid://npo/programmagegevens/2564402958668|crid://npo/programmagegevens/2562758199668" } ,
         "scheduleEvents": { "type": "literal" , "value": "BVN,2026-04-02T04:25:00.000Z,2040000.0|BVN,2026-04-01T16:25:00.000Z,2040000.0|NPO 2,2026-04-01T09:20:00.000Z,2042000.0|NPO 2,2026-04-07T05:50:00.000Z,2044000.0|NPO 2,2026-03-31T17:10:00.000Z,2097000.0" } ,
         "broadcasters": { "type": "literal" , "value": "KRNC" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.40.31" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/c1825e98-ea9d-47d4-b377-590cf81c02b9,56" }
       }
     ]
   }

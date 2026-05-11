@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00287347" sortDate="2013-02-05T13:28:36.136+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-05T13:28:36.134+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/64a0cc8b-69c6-42a3-a9b7-f688292387f8</crid>
     <crid>crid://tmp.program.omroep.nl/10576784</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">MAX Geheugentrainer</title>
@@ -8,6 +9,7 @@
         <term>Informatief</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/cb777a68-8e76-464d-93aa-c2ade53daa9b,7"/>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -29,5 +31,6 @@
             <poProgID>POW_00287347</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/cb777a68-8e76-464d-93aa-c2ade53daa9b,7" index="1"/>
     <segments/>
 </program>

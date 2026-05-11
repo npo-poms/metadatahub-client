@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738146" sortDate="2026-04-07T07:50:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:00.143+01:00">
-    <crid>crid://npo/programmagegevens/2562758199668</crid>
-    <crid>crid://npo/programmagegevens/2564402958668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/5e85caf0-a565-4122-be1c-d66451ce5918</crid>
     <crid>crid://npo/programmagegevens/2562758042668</crid>
+    <crid>crid://npo/programmagegevens/2564402958668</crid>
+    <crid>crid://npo/programmagegevens/2562758199668</crid>
     <broadcaster id="KRNC">KRNC</broadcaster>
     <title owner="AUTHORITY" type="MAIN">BinnensteBuiten</title>
     <description owner="AUTHORITY" type="MAIN">Interieurspecialist Theo-Bert gaat in Zeist aan de slag in de slaapkamer van Manon en Hagen. Een wand van kurk is een doorn in het oog, maar Theo-Bert heeft daar natuurlijk wat leuks voor bedacht. * Ramon maakt barbari: een Oosters platbrood met sesamzaad en za'atar. Daarbij serveert hij geroosterde groenten. * Camilla gaat vogels spotten in de Oostvaardersplassen met boswachter Frank. Ze zoeken nonnetjes en brilduikers en hopen de zeearend te zien.* In het Friese Westereen heeft Binne een atelier waar hij vol passie traditionele uilenborden maakt voor op de oude boerderijen. Dit eeuwenoude beroep is doorgegeven van vader op zoon.</description>
@@ -11,6 +12,8 @@
         <term>Wonen/Tuin</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/c1825e98-ea9d-47d4-b377-590cf81c02b9,56"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -45,5 +48,6 @@
             <poProgID>KN_1738146</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/c1825e98-ea9d-47d4-b377-590cf81c02b9,56" index="1"/>
     <segments/>
 </program>

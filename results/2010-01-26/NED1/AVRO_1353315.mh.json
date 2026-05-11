@@ -1,9 +1,10 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/805a720e-e24a-4d7b-a488-7beae96519af" } ,
         "title": { "type": "literal" , "value": "Opsporing verzocht" } ,
         "description": { "type": "literal" , "value": "Opsporingsprogramma i.s.m. politie en justitie voor een veiliger samenleving." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
@@ -15,8 +16,9 @@
         "genres": { "type": "literal" , "value": "3.0.1.3.10" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
         "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" } ,
-        "persons": { "type": "literal" , "value": "Sipke Jan Bousema\tPresenter\t" }
+        "contentRatings": { "type": "literal" , "value": "Grof taalgebruik|Angst" } ,
+        "persons": { "type": "literal" , "value": "Sipke Jan Bousema\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/d7ebe17d-4a5e-4ee4-acf9-28b4964c8f6f,3" }
       }
     ]
   }

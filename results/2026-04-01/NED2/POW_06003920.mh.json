@@ -1,21 +1,23 @@
 { "head": {
-    "vars": [ "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
       { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/fa77fc39-01bf-496f-ba72-cc3dedf8f2a8" } ,
         "title": { "type": "literal" , "value": "Toast met tuinbonenspread, ei en citroenyoghurt" } ,
         "description": { "type": "literal" , "value": "Sandra maakt toast met tuinbonenspread en een gepocheerd ei met frisse citroenyoghurt. Een echt lentegerecht." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-03T14:23:51.690Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758464668|crid://npo/programmagegevens/2560399952668|crid://npo/programmagegevens/2560759193668" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2560759193668|crid://npo/programmagegevens/2560399952668|crid://npo/programmagegevens/2562758464668" } ,
         "scheduleEvents": { "type": "literal" , "value": "BVN,2026-03-25T13:35:00.000Z,764000.0|BVN,2026-03-26T01:35:00.000Z,764000.0|NPO 2,2026-03-25T11:15:00.000Z,777000.0|NPO 2,2026-04-01T14:10:00.000Z,776000.0|NPO 1,2026-03-25T12:20:00.000Z,847000.0|INTERNETVOD,2026-03-25T11:38:32.566Z,|PLUSVOD,2026-03-25T11:42:24.402Z," } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,
         "countries": { "type": "literal" , "value": "" } ,
         "genres": { "type": "literal" , "value": "3.0.1.7.23" } ,
         "targetGroups": { "type": "literal" , "value": "" } ,
-        "ageRating": { "type": "literal" , "value": "" } ,
-        "contentRatings": { "type": "literal" , "value": "" }
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "http://metadatahub.bijnpo.nl/f1e2d489-9201-48e8-bad7-3e61731bd577,47" }
       }
     ]
   }

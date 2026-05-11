@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06003920" sortDate="2026-04-01T16:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-03T15:23:51.690+01:00">
-    <crid>crid://npo/programmagegevens/2562758464668</crid>
-    <crid>crid://npo/programmagegevens/2560399952668</crid>
+    <crid>crid://metadatahub.bijnpo.nl/fa77fc39-01bf-496f-ba72-cc3dedf8f2a8</crid>
     <crid>crid://npo/programmagegevens/2560759193668</crid>
+    <crid>crid://npo/programmagegevens/2560399952668</crid>
+    <crid>crid://npo/programmagegevens/2562758464668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Toast met tuinbonenspread, ei en citroenyoghurt</title>
     <description owner="AUTHORITY" type="MAIN">Sandra maakt toast met tuinbonenspread en een gepocheerd ei met frisse citroenyoghurt. Een echt lentegerecht.</description>
@@ -11,6 +12,8 @@
         <term>Koken/eten</term>
     </genre>
     <credits/>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/f1e2d489-9201-48e8-bad7-3e61731bd577,47"/>
+    <ageRating>ALL</ageRating>
     <locations/>
     <images/>
     <scheduleEvents>
@@ -55,5 +58,6 @@
             <poProgID>POW_06003920</poProgID>
         </scheduleEvent>
     </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/f1e2d489-9201-48e8-bad7-3e61731bd577,47" index="1"/>
     <segments/>
 </program>
