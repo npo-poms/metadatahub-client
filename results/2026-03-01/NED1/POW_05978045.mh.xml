@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05978045" sortDate="2026-03-01T12:30:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:00:37.765+01:00">
     <crid>crid://metadatahub.bijnpo.nl/310042b4-c387-4ad4-8412-87d3505c10ab</crid>
-    <crid>crid://npo/programmagegevens/2555015774668</crid>
-    <crid>crid://npo/programmagegevens/2555016003668</crid>
-    <crid>crid://npo/programmagegevens/2555015908668</crid>
-    <crid>crid://npo/programmagegevens/2567071370668</crid>
     <crid>crid://npo/programmagegevens/2567071321668</crid>
+    <crid>crid://npo/programmagegevens/2567071370668</crid>
+    <crid>crid://npo/programmagegevens/2555015908668</crid>
+    <crid>crid://npo/programmagegevens/2555016003668</crid>
+    <crid>crid://npo/programmagegevens/2555015774668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal</title>
     <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.</description>

@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,7 +9,8 @@
         "description": { "type": "literal" , "value": "Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-04-10T10:31:10.948Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2503999702668|crid://npo/programmagegevens/2506932147668|crid://npo/programmagegevens/2483107063668|crid://npo/programmagegevens/2562758340668" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758340668|crid://npo/programmagegevens/2483107063668|crid://npo/programmagegevens/2506932147668|crid://npo/programmagegevens/2503999702668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T07:30:00.000Z,993000.0|NPO 2,2025-08-07T07:30:00.000Z,1010000.0|NPO 2,2025-04-24T07:35:00.000Z,986000.0|NPO 2,2025-09-02T07:30:00.000Z,1013000.0" } ,
         "broadcasters": { "type": "literal" , "value": "KRNC" } ,
         "countries": { "type": "literal" , "value": "" } ,

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1368155" sortDate="2026-04-01T10:20:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:40:59.019+01:00">
     <crid>crid://metadatahub.bijnpo.nl/babe8b21-2d6a-4fd2-8256-f3c9110c730f</crid>
-    <crid>crid://npo/programmagegevens/2562757718668</crid>
-    <crid>crid://npo/programmagegevens/2562758343668</crid>
-    <crid>crid://npo/programmagegevens/2562757758668</crid>
-    <crid>crid://npo/programmagegevens/2562757935668</crid>
-    <crid>crid://npo/programmagegevens/2574329758668</crid>
     <crid>crid://npo/programmagegevens/2574329826668</crid>
+    <crid>crid://npo/programmagegevens/2574329758668</crid>
+    <crid>crid://npo/programmagegevens/2562757935668</crid>
+    <crid>crid://npo/programmagegevens/2562757758668</crid>
+    <crid>crid://npo/programmagegevens/2562758343668</crid>
+    <crid>crid://npo/programmagegevens/2562757718668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <broadcaster id="NTR">NTR</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nieuwsuur</title>

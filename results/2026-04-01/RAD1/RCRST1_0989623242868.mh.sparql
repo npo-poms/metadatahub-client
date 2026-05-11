@@ -12,10 +12,14 @@ SELECT
     ?entity
     (SAMPLE(?title) as ?title) # sample just to avoid to have to group by
     (SAMPLE(?description) as ?description)
+
     # not getting this working yet.
     (GROUP_CONCAT(DISTINCT ?alternativeDescriptionValue; SEPARATOR="|") AS ?alternativeDescriptions)
     #(GROUP_CONCAT(DISTINCT CONCAT(?alternativeDescriptionLabel, ":", ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
     (SAMPLE(?dateCreated) as ?dateCreated)
+
+    (SAMPLE(?ebuFormat) as ?ebuFormat)
+
     (GROUP_CONCAT(DISTINCT ?crid;  SEPARATOR="|") AS ?crids)
     (GROUP_CONCAT(DISTINCT CONCAT(STR(?channelName), ",", STR(?start), ",", COALESCE(STR(?duration), "")); SEPARATOR="|") AS ?scheduleEvents)
     (GROUP_CONCAT(DISTINCT ?broadcaster; SEPARATOR="|") AS ?broadcasters)
@@ -52,6 +56,10 @@ WHERE {
     #    ?alternativeDescription skos:prefLabel ?alternativeDescriptionLabel .
     #    ?alternativeDescription ec:contentDescription ?alternativeDescriptionValue .
     #}
+
+    OPTIONAL {
+        ?entity ec:isInstantiatedBy/ec:hasRelatedEssence/ec:hasFormat/rdf:type ?ebuFormat .
+    }
 
     # scheduleevents
     OPTIONAL {

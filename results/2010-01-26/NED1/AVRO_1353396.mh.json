@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,6 +9,7 @@
         "description": { "type": "literal" , "value": "Alles en meer over het meest gehate gele papiertje: de bekeuring. Verkeersboetes, wildplassen, controle op illegaal vuurwerk, alcoholgebruik in het verkeer tijdens de donkere dagen rondom kerst én in de metro zonder kaartje, allemaal dingen die niet mogen, maar wel gebeuren. Verder: de kantonrechter. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht. Over emoties en de verhalen achter de bekeuring." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T10:39:16.713Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
         "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576810" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T19:30:00.000Z,2100000.0|INTERNETVOD,2013-02-15T10:39:16.715Z,|INTERNETVOD,2013-02-15T10:39:16.716Z," } ,
         "broadcasters": { "type": "literal" , "value": "AVRO" } ,

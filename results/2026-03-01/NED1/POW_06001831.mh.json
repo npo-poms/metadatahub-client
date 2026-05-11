@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,7 +9,8 @@
         "description": { "type": "literal" , "value": "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-12-21T07:34:59.193Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2549805525668|crid://npo/programmagegevens/2550112848668|crid://npo/programmagegevens/2551473310668|crid://npo/programmagegevens/2550112733668|crid://npo/programmagegevens/2566824100668" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566824100668|crid://npo/programmagegevens/2550112733668|crid://npo/programmagegevens/2551473310668|crid://npo/programmagegevens/2550112848668|crid://npo/programmagegevens/2549805525668" } ,
         "scheduleEvents": { "type": "literal" , "value": "BVN,2026-02-12T00:20:00.000Z,936000.0|NPO 2,2026-02-12T08:20:00.000Z,925000.0|NPO 1,2026-02-15T05:55:00.000Z,920000.0|BVN,2026-02-11T12:20:00.000Z,936000.0|NPO 1,2026-02-12T04:55:00.000Z,954000.0|NPO 1,2026-02-11T09:15:00.000Z,905000.0|NPO 1,2026-03-01T07:50:00.000Z,875000.0|INTERNETVOD,2026-02-11T09:38:34.108Z,|PLUSVOD,2026-02-11T09:43:59.691Z," } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,
         "countries": { "type": "literal" , "value": "" } ,

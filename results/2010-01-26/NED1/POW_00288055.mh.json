@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -8,6 +8,7 @@
         "title": { "type": "literal" , "value": "ONM" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-16T19:57:50.211Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
         "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10567676" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T14:35:00.000Z,1500000.0|NPO 3 & Zapp,2010-01-31T00:25:00.000Z,1200000.0|NPO 3 & Zapp,2010-01-25T18:00:00.000Z,1320000.0|INTERNETVOD,2013-02-16T19:57:50.213Z,|INTERNETVOD,2013-02-16T19:57:50.214Z," } ,
         "broadcasters": { "type": "literal" , "value": "BNN" } ,

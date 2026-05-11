@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1368156" sortDate="2026-04-02T10:20:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:41:16.218+01:00">
     <crid>crid://metadatahub.bijnpo.nl/46f4aa92-5179-4997-b403-1741686346fc</crid>
-    <crid>crid://npo/programmagegevens/2562758360668</crid>
-    <crid>crid://npo/programmagegevens/2574599144668</crid>
-    <crid>crid://npo/programmagegevens/2574599269668</crid>
-    <crid>crid://npo/programmagegevens/2574599219668</crid>
-    <crid>crid://npo/programmagegevens/2574599194668</crid>
-    <crid>crid://npo/programmagegevens/2562758781668</crid>
-    <crid>crid://npo/programmagegevens/2562758388668</crid>
-    <crid>crid://npo/programmagegevens/2562758265668</crid>
-    <crid>crid://npo/programmagegevens/2574599244668</crid>
-    <crid>crid://npo/programmagegevens/2574599169668</crid>
     <crid>crid://npo/programmagegevens/2574599109668</crid>
+    <crid>crid://npo/programmagegevens/2574599169668</crid>
+    <crid>crid://npo/programmagegevens/2574599244668</crid>
+    <crid>crid://npo/programmagegevens/2574599194668</crid>
+    <crid>crid://npo/programmagegevens/2562758360668</crid>
+    <crid>crid://npo/programmagegevens/2562758265668</crid>
+    <crid>crid://npo/programmagegevens/2562758388668</crid>
+    <crid>crid://npo/programmagegevens/2562758781668</crid>
+    <crid>crid://npo/programmagegevens/2574599219668</crid>
+    <crid>crid://npo/programmagegevens/2574599269668</crid>
+    <crid>crid://npo/programmagegevens/2574599144668</crid>
     <broadcaster id="NTR">NTR</broadcaster>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Nieuwsuur</title>

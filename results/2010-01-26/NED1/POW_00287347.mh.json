@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,6 +9,7 @@
         "description": { "type": "literal" , "value": "Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Geheugentrainer geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u was gewend." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-05T12:28:36.134Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
         "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576784" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T08:40:00.000Z,1200000.0|NPO 1,2010-01-27T05:30:00.000Z,900000.0|INTERNETVOD,2013-02-05T12:28:36.136Z," } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,

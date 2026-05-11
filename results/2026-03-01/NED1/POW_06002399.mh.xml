@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06002399" sortDate="2026-03-02T07:05:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-12T15:33:53.518+01:00">
     <crid>crid://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655</crid>
-    <crid>crid://npo/programmagegevens/2553216488668</crid>
-    <crid>crid://npo/programmagegevens/2553216308668</crid>
     <crid>crid://npo/programmagegevens/2555016257668</crid>
+    <crid>crid://npo/programmagegevens/2553216308668</crid>
+    <crid>crid://npo/programmagegevens/2553216488668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Studio Sport Voetbal</title>
     <description owner="AUTHORITY" type="MAIN">Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses.</description>

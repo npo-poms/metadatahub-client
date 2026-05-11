@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,6 +9,7 @@
         "description": { "type": "literal" , "value": "Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:17.283Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
         "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758091668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T20:45:00.000Z,2144000.0" } ,
         "broadcasters": { "type": "literal" , "value": "EO" } ,

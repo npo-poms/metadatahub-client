@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_06008153" sortDate="2026-03-01T09:25:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-28T17:20:21.869+01:00">
     <crid>crid://metadatahub.bijnpo.nl/d9b42527-01c2-4c3d-9e92-45fde592ee18</crid>
-    <crid>crid://npo/programmagegevens/2566896892668</crid>
     <crid>crid://npo/programmagegevens/2566821581668</crid>
+    <crid>crid://npo/programmagegevens/2566896892668</crid>
     <broadcaster id="NOS">NOS</broadcaster>
     <title owner="AUTHORITY" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</title>
     <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>

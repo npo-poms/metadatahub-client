@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0449589130463" sortDate="2026-04-01T23:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:03:40.779+01:00">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0449589130463" sortDate="2026-04-01T23:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:03:40.779+01:00">
     <crid>crid://metadatahub.bijnpo.nl/2b72a665-02ea-4fba-8101-a64a074f3f82</crid>
     <crid>crid://npo/rcrs/DEV/685a971495fcf61529e5e3d9</crid>
     <broadcaster id="OZW">Omroep Zwart</broadcaster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="RCRST1_0719933876218" sortDate="2026-04-01T14:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:04:59.452+01:00">
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0719933876218" sortDate="2026-04-01T14:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:04:59.452+01:00">
     <crid>crid://metadatahub.bijnpo.nl/ab74110d-3161-42f3-b777-da3be9480494</crid>
     <crid>crid://npo/rcrs/DEV/685a962595fcf61529e5e233</crid>
     <broadcaster id="WNL">WNL</broadcaster>

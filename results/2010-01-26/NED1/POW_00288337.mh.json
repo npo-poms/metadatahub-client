@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,6 +9,7 @@
         "description": { "type": "literal" , "value": "Ouderen slapen meestal korter en minder diep. Dit hoort bij de leeftijd. Het is normaal om af en toe even wakker te worden, met name tegen de ochtend als de slaap minder diep is. Van slapeloosheid is pas sprake als je vaker slecht slaapt en overdag door te weinig nachtrust minder goed functioneert. Presentatie: Olga Commandeur, Duco Bauwens." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-05T12:28:33.456Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
         "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576785" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T08:15:00.000Z,900000.0|NPO 1,2010-01-26T05:45:00.000Z,840000.0|INTERNETVOD,2013-02-05T12:28:33.458Z," } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,

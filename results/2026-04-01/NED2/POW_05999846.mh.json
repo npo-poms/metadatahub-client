@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,7 +9,8 @@
         "description": { "type": "literal" , "value": "Eva Posthuma de Boer heeft een nieuwe roman geschreven die gaat over verlies, vriendschap en liefde. * Bas Ragas en Stijn Fransen zijn te zien in The Passion en blikken vooruit op de komende editie. * Mark Ponté en Michael Varekamp over het onstaan van de jazzscène in de jaren 30 in Amsterdam, waar nu een tentoonstelling over is gemaakt. Michael treedt ook op. Roy Khemradj praat ons bij over het onverwachte overlijden van de Surinaamse oud-president Chan Santokhi." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:40:55.921Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758450668|crid://npo/programmagegevens/2562985427668|crid://npo/programmagegevens/2538325292668" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2538325292668|crid://npo/programmagegevens/2562985427668|crid://npo/programmagegevens/2562758450668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-04-01T09:15:00.000Z,2508000.0|BVN,2026-03-31T15:20:00.000Z,2422000.0|NPO 1,2026-03-31T15:10:00.000Z,2409000.0|NPO 2,2026-04-01T05:15:00.000Z,2476000.0|BVN,2026-04-01T03:20:00.000Z,2422000.0" } ,
         "broadcasters": { "type": "literal" , "value": "MAX" } ,
         "countries": { "type": "literal" , "value": "" } ,

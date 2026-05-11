@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -8,6 +8,7 @@
         "title": { "type": "literal" , "value": "Pauw & Witteman" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-17T11:10:44.825Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
         "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576799" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T22:05:00.000Z,3300000.0|NPO 1,2010-01-26T23:15:00.000Z,3300000.0|INTERNETVOD,2013-02-17T11:10:44.828Z,|INTERNETVOD,2013-02-17T11:10:44.829Z," } ,
         "broadcasters": { "type": "literal" , "value": "VARA|NPS" } ,

@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,7 +9,8 @@
         "description": { "type": "literal" , "value": "Met het laatste nieuws en de weersverwachting." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-28T08:20:21.598Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566820627668|crid://npo/programmagegevens/2566896823668|crid://npo/programmagegevens/2566763753668|crid://npo/programmagegevens/2566763885668|crid://npo/programmagegevens/2566763934668" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566763934668|crid://npo/programmagegevens/2566763885668|crid://npo/programmagegevens/2566763753668|crid://npo/programmagegevens/2566896823668|crid://npo/programmagegevens/2566820627668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-01T07:00:00.000Z,1792000.0|NPO 1,2026-03-01T07:30:00.000Z,1802000.0" } ,
         "broadcasters": { "type": "literal" , "value": "NOS" } ,
         "countries": { "type": "literal" , "value": "" } ,

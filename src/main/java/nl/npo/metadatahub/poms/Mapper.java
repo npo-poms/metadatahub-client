@@ -54,6 +54,15 @@ public class Mapper {
         setInstant("dateCreated", row, builder::creationInstant);
         setInstant("dateModified", row, builder::lastModified);
 
+        if (row.get("ebuFormat") != null) {
+            AVType avType = switch (row.get("ebuFormat").asResource().getURI()) {
+                case "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" -> AVType.VIDEO;
+                case "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudioFormat" -> AVType.AUDIO;
+                default -> throw new IllegalArgumentException(row.get("ebuformat").toString());
+            };
+            builder.avType(avType);
+        }
+
         setStringFromResource("entity", row, c -> builder.crids(c.replaceAll("^http://", "crid://")));
         setMultipleString("crids", row,  builder::crids);
         setMultipleValue("broadcasters", row, Broadcaster.class, c -> ServiceLocator.getBroadcasterService().findForIds(c).orElseThrow(),  builder::broadcasters);

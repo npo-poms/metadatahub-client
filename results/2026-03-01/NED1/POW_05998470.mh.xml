@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05998470" sortDate="2026-03-01T23:45:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-08T14:32:52.081+01:00">
     <crid>crid://metadatahub.bijnpo.nl/dc24d8a1-6400-4985-ac68-dce0685a1238</crid>
-    <crid>crid://npo/programmagegevens/2553832193668</crid>
-    <crid>crid://npo/programmagegevens/2555016138668</crid>
     <crid>crid://npo/programmagegevens/2566016278668</crid>
+    <crid>crid://npo/programmagegevens/2555016138668</crid>
+    <crid>crid://npo/programmagegevens/2553832193668</crid>
     <broadcaster id="MAX">MAX</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Twee keer Noord-Holland, een keer Zuid-Holland</title>
     <description owner="AUTHORITY" type="MAIN">In de hoofdstad runt Isabel haar B&amp;B met twee kamers die over zijn in haar huis. Daarna is iedereen te gast bij Simon en Corien; ook zij hebben een woning met een bed and breakfast in de stad van Vermeer. We sluiten af bij Priscilla en Paul; zij hebben een B&amp;B waar ze vier gasten kunnen ontvangen. Ze nemen hun gasten mee naar de top van de Bavotoren.</description>

@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -8,7 +8,8 @@
         "title": { "type": "literal" , "value": "Politieke Partijen: D66" } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-09T12:53:33.971Z" } ,
-        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2558364452668|crid://npo/programmagegevens/2568908008668|crid://npo/programmagegevens/2558529263668|crid://npo/programmagegevens/2562985432668|crid://npo/programmagegevens/2562758447668|crid://npo/programmagegevens/2567103620668|crid://npo/programmagegevens/2556429646668|crid://npo/programmagegevens/2567405505668|crid://npo/programmagegevens/2566237565668" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2566237565668|crid://npo/programmagegevens/2567405505668|crid://npo/programmagegevens/2556429646668|crid://npo/programmagegevens/2567103620668|crid://npo/programmagegevens/2562758447668|crid://npo/programmagegevens/2562985432668|crid://npo/programmagegevens/2558529263668|crid://npo/programmagegevens/2568908008668|crid://npo/programmagegevens/2558364452668" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-03-10T15:57:00.000Z,24000.0|NPO 2,2026-04-01T14:58:00.000Z,24000.0|NPO 1,2026-03-19T16:57:00.000Z,24000.0|NPO 2,2026-03-20T15:59:00.000Z,25000.0|NPO 1,2026-03-31T15:56:00.000Z,24000.0|NPO 1,2026-04-13T15:56:00.000Z,24000.0|NPO 2,2026-04-14T14:51:00.000Z,24000.0" } ,
         "broadcasters": { "type": "literal" , "value": "PP" } ,
         "countries": { "type": "literal" , "value": "" } ,

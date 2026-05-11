@@ -1,5 +1,5 @@
 { "head": {
-    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
   } ,
   "results": {
     "bindings": [
@@ -9,6 +9,7 @@
         "description": { "type": "literal" , "value": "Woord- en taalspel waarbij de kandidaten zes-, zeven- en tienletterwoorden moeten raden. Tevens bekendmaking van de twintig winnende getallen van de Lucky Day trekking." } ,
         "alternativeDescriptions": { "type": "literal" , "value": "" } ,
         "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-16T16:14:22.050Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
         "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10570123" } ,
         "scheduleEvents": { "type": "literal" , "value": "NPO 1,2010-01-26T18:00:00.000Z,1500000.0|NPO 2,2010-01-27T11:10:00.000Z,1500000.0|INTERNETVOD,2013-02-16T16:14:22.052Z,|INTERNETVOD,2013-02-16T16:14:22.053Z," } ,
         "broadcasters": { "type": "literal" , "value": "TROS" } ,

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1369348" sortDate="2026-04-01T23:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-04T11:32:40.905+01:00">
     <crid>crid://metadatahub.bijnpo.nl/6187cdbf-ce07-4b66-9bdd-d82308f58768</crid>
-    <crid>crid://npo/programmagegevens/2560400459668</crid>
     <crid>crid://npo/programmagegevens/2562758229668</crid>
+    <crid>crid://npo/programmagegevens/2560400459668</crid>
     <broadcaster id="VPRO">VPRO</broadcaster>
     <title owner="AUTHORITY" type="MAIN">Ticket naar Antarctica (1/2)</title>
     <description owner="AUTHORITY" type="MAIN">Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns.</description>
