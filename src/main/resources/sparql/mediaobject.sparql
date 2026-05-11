@@ -24,6 +24,7 @@ SELECT
     (GROUP_CONCAT(DISTINCT CONCAT(STR(?channelName), ",", STR(?start), ",", COALESCE(STR(?duration), "")); SEPARATOR="|") AS ?scheduleEvents)
     (GROUP_CONCAT(DISTINCT ?broadcaster; SEPARATOR="|") AS ?broadcasters)
     (GROUP_CONCAT(DISTINCT ?country; SEPARATOR="|") AS ?countries)
+    (GROUP_CONCAT(DISTINCT ?languageCode; SEPARATOR="|") AS ?languages)
     (GROUP_CONCAT(DISTINCT ?genreId; SEPARATOR="|") AS ?genres)
     (GROUP_CONCAT(DISTINCT ?ta; SEPARATOR="|") AS ?targetGroups)
     (GROUP_CONCAT(DISTINCT ?ageRatingValue) as ?ageRating)
@@ -72,12 +73,18 @@ WHERE {
     OPTIONAL {
         ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
     }
+
+    # not sure this is ok yet
     OPTIONAL {
         ?entity ec:hasProductionCountry ?productionCountry .
           ?productionCountry a ec:CountryCode .
           ?productionCountry ec:altLabel ?country .
-        }
-
+    }
+    # nor this
+    OPTIONAL {
+        ?entity ec:hasLanguage ?hasLanguage .
+          ?haslanguage skos:notation ?languageCode
+    }
     OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
     OPTIONAL {
         ?entity ec:hasGenre ?hasGenre .
@@ -112,7 +119,7 @@ WHERE {
         }
     }
     OPTIONAL {
-    # an object could be member of more than one season?, How would that look like?
+     # an object cannot be memboer of more then one season in MH
       ?entity ec:isEpisodeOfSeason ?episodeOfSeason .
       ?entity ec:episodeNumberInSeason ?episodeOfSeasonNumber .
     }

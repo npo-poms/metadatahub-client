@@ -39,7 +39,10 @@ public class Mapper {
             builder.scheduleEvent(parseScheduleEvent(scheduleEvent));
         }
 
-        setMultipleValue("episodeOfSeasons", row,  MemberRef.class, r -> new MemberRef(r, 1),
+        setMultipleValue("episodeOfSeasons", row,  MemberRef.class, r -> {
+                var split = r.split(",", 2);
+                return new MemberRef(split[0], Integer.valueOf(split[1]));
+            },
             builder::episodeOf);
     }
 
@@ -133,7 +136,7 @@ public class Mapper {
             case "medium description" -> TextualType.MEDIUM;
             case "short description" -> TextualType.SHORT;
             case "kicker description" -> TextualType.KICKER;
-            //case "styled description" -> TextualType.MARKDOWN;
+            case "styled description" -> TextualType.STYLED;
             default ->  throw new RuntimeException();
         };
     }
