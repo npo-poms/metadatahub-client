@@ -18,3 +18,12 @@
     ]
   }
 }
+{ "head": {
+    "vars": [ "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

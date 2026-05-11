@@ -9,8 +9,7 @@ https://docs.metadatahub.bijnpo.nl/handleiding/developers/sparql-service/
 - sparql results are full of 'display values', which is rather cumbersome
   * broadcasters mapped on name
   * channels mapped on name
-  * contentrating matched on name
-  * genres matched on name
+
 
 
 
@@ -42,7 +41,7 @@ TODO
 |
 
 |  targetgroups
-|  ?
+|  is er
 |
 
 | country/language
@@ -50,12 +49,12 @@ TODO
 |
 
 | release year
-| ?
+| is er
 |
 
 |  duration
 | end - start?
-|
+| voor schedule events in elk geval
 
 |  images
 | imageservices gebruiken
@@ -74,7 +73,7 @@ TODO
 |
 
 | segments
-| ?
+| gaat via partOf
 |
 
 |===

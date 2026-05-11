@@ -9,9 +9,6 @@ import lombok.extern.java.Log;
 import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
 import nl.vpro.domain.media.support.OwnerType;
-import nl.vpro.domain.user.Broadcaster;
-import nl.vpro.domain.user.ServiceLocator;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.datatypes.xsd.XSDDateTime;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
@@ -37,19 +34,24 @@ public class Mapper {
         this.classificationService = MetadataHubService.classificationService;
     }
 
-    /** Maps scalar fields from the first row; collects ScheduleEvents, genres and ratings from all rows. */
-    public boolean  toProgram(ResultSet resultSet, MediaBuilder.ProgramBuilder builder) {
-        if (!resultSet.hasNext()) {
-            return false;
-        }
-        List<String> fields = resultSet.getResultVars();
-        QuerySolution first = resultSet.next();
 
-        setString("title", fields, first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
-        setString("description", fields, first, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
-        setString("prid", fields , first, builder::mid);
-        setInstant("dateCreated", fields, first, builder::creationInstant);
-        setInstant("dateModified", fields, first, builder::lastModified);
+
+    public  void toProgram(QuerySolution first, MediaBuilder.ProgramBuilder builder) {
+        toMediaObject(first, builder);
+        String[]  scheduleEventsSplit = split(first.getLiteral("scheduleEvents"));
+        for (String scheduleEvent : scheduleEventsSplit) {
+            builder.scheduleEvent(parseScheduleEvent(scheduleEvent));
+
+        }
+    }
+    public  <B extends MediaBuilder<B, M>, M extends MediaObject> void toMediaObject(QuerySolution first, MediaBuilder<B, M> builder) {
+
+
+        setString("title", first, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
+        setString("description", first, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
+        setString("prid", first, builder::mid, true);
+        setInstant("dateCreated", first, builder::creationInstant);
+        setInstant("dateModified", first, builder::lastModified);
 
 
         String[] broadcasters = split(first.getLiteral("broadcasters"));
@@ -69,15 +71,6 @@ public class Mapper {
                 .map(Optional::get).toArray(i -> new ContentRating[i])
         );
 
-
-
-        String[]  scheduleEventsSplit = split(first.getLiteral("scheduleEvents"));
-        for (String scheduleEvent : scheduleEventsSplit) {
-            builder.scheduleEvent(parseScheduleEvent(scheduleEvent));
-
-        }
-
-        return true;
     }
 
 
@@ -194,23 +187,26 @@ public class Mapper {
         return Optional.empty();
     }
 
-    protected void setString(String field, List<String> fields, QuerySolution item, Consumer<String> consumer) {
-        set(field, fields, item, consumer, Literal::getString);
+    protected void setString(String field,  QuerySolution item, Consumer<String> consumer, boolean optional) {
+        set(field, item, consumer, Literal::getString, optional);
+    }
+    protected void setString(String field,  QuerySolution item, Consumer<String> consumer) {
+        setString(field, item, consumer, false);
     }
 
-    protected void setInstant(String field, List<String> fields, QuerySolution item, Consumer<Instant> consumer) {
-        set(field, fields, item, consumer, lit -> ((XSDDateTime) lit.getValue()).asCalendar().toInstant());
+    protected void setInstant(String field, QuerySolution item, Consumer<Instant> consumer) {
+        set(field, item, consumer, lit -> ((XSDDateTime) lit.getValue()).asCalendar().toInstant(), false);
     }
 
 
-    protected <T> void set(String field, List<String> fields, QuerySolution item, Consumer<T> consumer, Function<Literal, T> converter) {
-        if (fields.contains(field)) {
-            var lit = item.getLiteral(field);
-            if (lit == null) {
+    protected <T> void set(String field, QuerySolution item, Consumer<T> consumer, Function<Literal, T> converter, boolean optional) {
+        var lit = item.getLiteral(field);
+        if (lit == null) {
+            if (!optional) {
                 consumer.accept(null);
-            } else {
-                consumer.accept(converter.apply(lit));
             }
+        } else {
+            consumer.accept(converter.apply(lit));
         }
     }
 

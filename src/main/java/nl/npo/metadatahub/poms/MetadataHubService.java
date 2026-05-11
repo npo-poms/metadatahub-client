@@ -12,6 +12,7 @@ import nl.vpro.domain.media.*;
 import nl.vpro.domain.user.BroadcasterService;
 import nl.vpro.domain.user.ServiceLocator;
 import nl.vpro.media.broadcaster.URLBroadcasterServiceImpl;
+import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 
 /**
@@ -51,9 +52,11 @@ public class MetadataHubService implements MediaProvider, AutoCloseable {
         String template = readQueryTemplate("mediaobject.sparql");
         String query = template.formatted(mid);
         ResultSet resultSet = client.selectQuery(query);
-        var builder = MediaBuilder.broadcast().mid(mid);
-        if (mapper.toProgram(resultSet, builder)) {
-            //getSegments(mid).forEach(builder::segments);
+        if (resultSet.hasNext()) {
+            QuerySolution next = resultSet.next();
+            var builder = MediaBuilder.broadcast().mid(mid);
+            mapper.toProgram(next, builder);
+            getSegments(mid).forEach(builder::segments);
 
             return Optional.of(builder.build());
         } else {
@@ -86,14 +89,16 @@ public class MetadataHubService implements MediaProvider, AutoCloseable {
         String template = readQueryTemplate("segments_of.sparql");
         String segmentsQuery = template.formatted(mid);
         ResultSet segmentsResult  = client.selectQuery(segmentsQuery);
-        List<ScheduleEvent> events = new ArrayList<>();
 
         List<Segment> segments = new ArrayList<>();
-        MediaBuilder.ProgramBuilder builder = MediaBuilder.program().mid(mid);
         while (segmentsResult.hasNext()) {
-            mapper.toProgram(segmentsResult, builder);
-        }
+            QuerySolution next = segmentsResult.next();
+            String segment = next.getLiteral("prid").getString();
+            MediaBuilder.SegmentBuilder builder = MediaBuilder.segment().mid(segment);
+            mapper.toMediaObject(next, builder);
+            segments.add(builder.build());
 
+        }
         return segments;
     }
     @Override

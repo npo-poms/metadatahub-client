@@ -1,6 +1,7 @@
 package nl.npo.metadatahub.client.sparql;
 
 import java.io.*;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import lombok.extern.java.Log;
 import org.apache.jena.query.*;
@@ -12,6 +13,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
+import tools.jackson.databind.JsonNode;
 
 /**
  * HTTP client for executing authenticated SPARQL queries against the MetadataHub endpoint.
@@ -21,7 +23,8 @@ import java.nio.charset.StandardCharsets;
 @Log
 public class MetadataSparqlClient implements AutoCloseable{
 
-    public static final ScopedValue<Consumer<ResultSet>> onQueryExecuted = ScopedValue.newInstance();
+    public static final ScopedValue<BiConsumer<String, ResultSet>> onQueryExecuted = ScopedValue.newInstance();
+
 
 
     private static final String AUTHORIZATION_HEADER = "Authorization";
@@ -111,7 +114,7 @@ public class MetadataSparqlClient implements AutoCloseable{
             // copy to return
             results = ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray()));
             // copy to consume
-            onQueryExecuted.get().accept(ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray())));
+            onQueryExecuted.get().accept(sparqlQuery, ResultSetFactory.fromJSON(new ByteArrayInputStream(out.toByteArray())));
         }
 
         return results;

@@ -60,7 +60,9 @@ void main() throws Exception {
 
                 var mid = mo.getMid();
 
+                var mhSparqFile = results.resolve(mid + ".mh.sparql");
                 var mhJsonFile = results.resolve(mid + ".mh.json");
+
                 var mhFile = results.resolve(mid + ".mh.xml");
                 var pomsFile = results.resolve(mid + ".poms.xml");
 
@@ -70,6 +72,7 @@ void main() throws Exception {
                         OutputStreamSimpleLogger.builder().output(logfile).build()
                     );
                     var jsout = newOutputStream(mhJsonFile);
+                    var sparql = newOutputStream(mhSparqFile);
                     var pomsout = newOutputStream(pomsFile);
                     var out = newOutputStream(mhFile)) {
 
@@ -79,8 +82,12 @@ void main() throws Exception {
 
 
                     where(onQueryExecuted,
-                        (rs) -> {
+                        (query, rs) -> {
+                            try {
+                                sparql.write(query.getBytes(StandardCharsets.UTF_8));
+                            } catch (IOException e) {
 
+                            }
                             outputAsJSON(jsout, rs);
                             log.info("Sparql response: " + mhJsonFile);
                         }

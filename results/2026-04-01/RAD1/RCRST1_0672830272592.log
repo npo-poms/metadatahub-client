@@ -1,3 +1,2 @@
 INFO POMS: results/2026-04-01/RAD1/RCRST1_0672830272592.poms.xml
-INFO Sparql response: results/2026-04-01/RAD1/RCRST1_0672830272592.mh.json
-INFO MH: results/2026-04-01/RAD1/RCRST1_0672830272592.mh.xml
+INFO MH: error fetching program for mid RCRST1_0672830272592: SPARQL endpoint returned status 502: {"statusCode":502,"message":"The graph database returned an error"}
