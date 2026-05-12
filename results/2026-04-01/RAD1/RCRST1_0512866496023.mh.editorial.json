@@ -1,0 +1,298 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/6557f15b-47dc-4153-9fb5-fad7e5925989",
+    "@type" : "Programme",
+    "contentDescription" : "Interviewprogramma van de VPRO",
+    "episodeNumberInSeries" : {
+      "@type" : "integer",
+      "@value" : "429"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/8ae08dd7-7d33-4fb5-982a-7c002600c982",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a53cccea-4b21-4842-945b-392664753f9c",
+        "@type" : "Person",
+        "familyName" : "van der Laan",
+        "givenName" : "Femke"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-11T00:06:39.927Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-04-01T14:05:35.050Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.21",
+      "prefLabel" : "Informatief-Nieuws/actualiteiten"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/9f784ebf-89c3-476c-869c-d02873b2f319",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "RCRST1_0512866496023",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/fa1cbdcf-cd14-44a2-99c5-27999ed40caf",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/rcrs/DEV/685a955f95fcf61529e5df95",
+      "name" : "CRID"
+    } ],
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/127b315f-54c0-4f75-bb89-728ea0111ed8",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a7f4a884-095f-42a1-974c-122a634d8c03",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1.08E7"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/dd473773-7c27-4b6d-9522-2d58fbc38773",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO Radio 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T22:00:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a3950fd7-c936-4333-849b-58db6e265c0e",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/1fe2d9cf-b1ca-4138-bd10-c8f056151f34"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/6557f15b-47dc-4153-9fb5-fad7e5925989"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/8d98b12b-d9fb-45de-b2e8-9735f2dfdfe2",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5928d50a-05f2-4e40-ba23-9d19addf9e74",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/bf8d1cef-316c-476a-8124-5f664e2fcfb9" ],
+        "name" : "VPRO"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        }, {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "hasRelatedPicture" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/6131c454-3aa2-4df8-9ed1-1cb0062a34eb",
+      "@type" : "Picture",
+      "highlighted" : {
+        "@type" : "boolean",
+        "@value" : "false"
+      },
+      "imageType" : "PICTURE",
+      "frameHeight" : {
+        "@type" : "integer",
+        "@value" : "420"
+      },
+      "frameWidth" : {
+        "@type" : "integer",
+        "@value" : "420"
+      },
+      "hasCopyright" : {
+        "@id" : "http://metadatahub.bijnpo.nl/58104913-4543-4b6e-a1cc-af9794004b74",
+        "@type" : "Copyright",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/7772331f-2af1-48c4-a210-8bc36889cf49",
+        "hasRightsHolder" : "http://metadatahub.bijnpo.nl/4d5efa76-384d-4259-b84f-62045f585db6"
+      },
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T12:54:09.201Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T14:05:49.950Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/d55f7a95-547b-42bf-b45f-e0233bcee828",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:media:image:132749895",
+        "name" : "Image URN"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/7ba35e3e-8f2e-4177-918f-03ab51b0c96e",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:image:2235118",
+        "name" : "Image URI"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/a0d3f5b1-3672-4ac5-afc7-15de50d1858e",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/245b2767-b250-471b-a704-4a2e7ded44d2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "pubStatus" : "PUBLISHED",
+      "title" : "Nooit Meer Slapen"
+    } ],
+    "isEpisodeOfSeries" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b183169b-1653-4ca8-9d99-92575478261a",
+      "@type" : "Series",
+      "contentDescription" : "Interviewprogramma van de VPRO",
+      "hasContributor" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/56a53b41-d0de-4a3f-8e8e-8b71a9e983e7",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/58cf389e-fcf5-4d6c-9138-6742cd8163b2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+      } ],
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2023-11-17T09:39:15.479Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-01T07:48:39.105Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/9dddd0a7-55c8-49ec-b133-d655b8451176",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "RCRSA1_1003110881439",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/6bb1ade5-878b-46a3-a14c-1d8ae6abb81b",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "identifierValue" : "crid://npo/rcrs/6491668321401a5871b34181",
+        "name" : "CRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9",
+        "@type" : "Identifier",
+        "identifierValue" : "SERIES",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/3115ba39-60c1-4405-aecc-989bbe07b473",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/5928d50a-05f2-4e40-ba23-9d19addf9e74",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRating" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/039f3b95-ecad-4b7a-a052-fa2d1c33f16f",
+        "@type" : "AudienceRating",
+        "description" : "Suitable for all ages",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/99dd0e0a-2ff5-414c-ae79-d168ed8d76f8",
+        "ratingProvider" : {
+          "@id" : "http://metadatahub.bijnpo.nl/724702e8-ee7a-4b08-a43f-e0b9e94593c1"
+        },
+        "ratingSystemName" : "NL-NICAM",
+        "ratingValue" : "AL"
+      } ],
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "title" : "Nooit Meer Slapen"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/772a4bec-a9bd-4f7f-8288-140d7f52aeab",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/a3950fd7-c936-4333-849b-58db6e265c0e"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Nooit Meer Slapenn"
+  },
+  "error" : ""
+}
