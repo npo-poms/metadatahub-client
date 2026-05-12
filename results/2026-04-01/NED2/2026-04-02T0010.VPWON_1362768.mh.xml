@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1362768" sortDate="2026-04-02T00:10:00+02:00" workflow="FOR PUBLICATION" creationDate="2025-05-28T15:00:50.145+02:00">
+    <crid>crid://metadatahub.bijnpo.nl/34c60cdd-80a4-4690-be9c-81114f438f20</crid>
+    <crid>crid://npo/programmagegevens/2503999195668</crid>
+    <crid>crid://npo/programmagegevens/2562758455668</crid>
+    <crid>crid://npo/programmagegevens/2488442782668</crid>
+    <broadcaster id="EO">EO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Kiki (1/2)</title>
+    <description owner="AUTHORITY" type="MAIN">Kiki belandde met onstuimig weer in het water maar werd gered.</description>
+    <description owner="AUTHORITY" type="SHORT">Kiki belandde met onstuimig weer in het water maar werd gered.</description>
+    <genre id="3.0.1.40">
+        <term>Human Interest</term>
+    </genre>
+    <credits>
+        <person gtaaUri="" role="PRESENTER">
+            <givenName>Marleen</givenName>
+            <familyName>Stelling</familyName>
+        </person>
+    </credits>
+    <descendantOf midRef="VPWON_1362740"/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="VPWON_1362768">
+            <guideDay>2025-07-02+02:00</guideDay>
+            <start>2025-07-03T01:10:00+02:00</start>
+            <duration>P12Y10M12DT1H46M40.000S</duration>
+            <poProgID>VPWON_1362768</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1362768">
+            <guideDay>2025-08-06+02:00</guideDay>
+            <start>2025-08-06T23:55:00+02:00</start>
+            <duration>P13Y0M8DT22H40M0.000S</duration>
+            <poProgID>VPWON_1362768</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1362768">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-02T00:10:00+02:00</start>
+            <duration>P12Y9M8DT8H26M40.000S</duration>
+            <poProgID>VPWON_1362768</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="VPWON_1362740" index="28"/>
+    <segments/>
+</program>

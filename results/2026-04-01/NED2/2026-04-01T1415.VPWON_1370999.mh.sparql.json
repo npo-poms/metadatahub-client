@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/f280070f-681c-432f-af78-b433d3a6d11e" } ,
+        "title": { "type": "literal" , "value": "Carolina Dijkhuizen" } ,
+        "description": { "type": "literal" , "value": "Carolina Dijkhuizen is actrice en zangeres. Ze speelt de iconische rol van Hermelien Griffel in het toneelstuk Harry Potter en het Vervloekte Kind, een voorstelling vol magie, emotie en onverwachte wendingen. Dijkhuizen is een vertrouwd gezicht in de Nederlandse theaterwereld en speelde eerdere hoofdrollen in musicals als Aida, The Lion King en Sister Act. Daarnaast was ze te zien in populaire televisieprogramma's zoals De Beste Zangers van Nederland, Wie is de Mol? en Expeditie Robinson." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Carolina Dijkhuizen is actrice en zangeres. Ze speelt Hermelien Griffel in Harry Potter en het Vervloekte Kind en was te zien in musicals en televisieprogramma's." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:05.237Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758288668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T12:15:00.000Z,3054000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NTR" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.24" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\tSanten\tCarine van\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "13,VPWON_1370985" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

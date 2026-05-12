@@ -117,11 +117,13 @@ public class Mapper {
     }
 
     private Optional<Person> parsePerson(String value) {
-        String[] fields = value.split("\t");
+        String[] fields = value.split("\t", -1);
         Person person = Person.builder()
             .name(fields[0])
-            .role(RoleType.valueOf(fields[1].toUpperCase()))
-            .gtaaUri(fields.length > 2 ? fields[2] : null)
+            .familyName(fields[1])
+            .givenName(fields[2])
+            .role(RoleType.valueOf(fields[3].toUpperCase()))
+            .gtaaUri(fields.length > 4 ? fields[4] : null)
             .build();
         return Optional.of(person);
     }

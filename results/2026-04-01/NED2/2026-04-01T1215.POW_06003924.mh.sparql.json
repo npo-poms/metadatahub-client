@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/34e65567-b517-447e-a421-a8841a3df4f9" } ,
+        "title": { "type": "literal" , "value": "Romige polenta met paddenstoelen en gepocheerd ei" } ,
+        "description": { "type": "literal" , "value": "Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": ":Mounir bereidt romige polenta met paddenstoelen en een gepocheerd ei, een top combinatie als je het ons zegt." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:02.127Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2542389028668|crid://npo/programmagegevens/2562758252668|crid://npo/programmagegevens/2564405249668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T10:15:00.000Z,|NPO 1,2026-04-01T11:20:00.000Z,|BVN,2026-04-02T00:40:00.000Z,|BVN,2026-04-01T12:40:00.000Z,|INTERNETVOD,2026-04-01T14:21:18.955Z,|PLUSVOD,2026-04-01T14:21:18.955Z,|NPO 2,2026-04-08T14:10:00.000Z," } ,
+        "broadcasters": { "type": "literal" , "value": "MAX" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.23" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\tToub\tMounir\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "51,POW_06003873" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

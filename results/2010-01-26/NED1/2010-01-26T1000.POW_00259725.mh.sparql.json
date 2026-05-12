@@ -1,0 +1,26 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/62ca4e07-3183-469f-a56a-8e16c57c4df7" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal" } ,
+        "description": { "type": "literal" , "value": "Gevolgd door herhalingen." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T20:50:24.353Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576792" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T20:50:24.355Z,|NPO 1,2010-01-26T09:00:00.000Z,3600000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NOS" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\t\t\t\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "16,10Jnl10n1" }
+      }
+    ]
+  }
+}

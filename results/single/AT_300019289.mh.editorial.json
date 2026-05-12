@@ -61,7 +61,7 @@
       "prefLabel" : "Informatief-Kunst/cultuur"
     } ],
     "hasIdentifier" : [ {
-      "@id" : "http://metadatahub.bijnpo.nl/5f551db2-8d3a-4b43-aeef-61d43ea0a702",
+      "@id" : "http://metadatahub.bijnpo.nl/0a5e03d1-30e7-4eb9-9752-1e8a5b2a9bff",
       "@type" : "Identifier",
       "hasObjectType" : {
         "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
@@ -74,12 +74,6 @@
         "notation" : "3.1",
         "prefLabel" : "Crid"
       },
-      "identifierValue" : "crid://npo/programmagegevens/2574699821668",
-      "name" : "CRID"
-    }, {
-      "@id" : "http://metadatahub.bijnpo.nl/0a5e03d1-30e7-4eb9-9752-1e8a5b2a9bff",
-      "@type" : "Identifier",
-      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
       "identifierValue" : "crid://npo/programmagegevens/2562758181668",
       "name" : "CRID"
     }, {
@@ -105,6 +99,12 @@
       "@type" : "Identifier",
       "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
       "identifierValue" : "crid://npo/programmagegevens/2523829738668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/5f551db2-8d3a-4b43-aeef-61d43ea0a702",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2574699821668",
       "name" : "CRID"
     }, {
       "@id" : "http://metadatahub.bijnpo.nl/9ba8698f-0fab-4c04-b4a8-3cb3a3b6ca6b",
@@ -386,78 +386,6 @@
       "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
       "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
     }, {
-      "@id" : "http://metadatahub.bijnpo.nl/a7e55394-94fe-413e-8c90-089f42bee514",
-      "@type" : "PublicationEvent",
-      "hasDuration" : {
-        "@id" : "http://metadatahub.bijnpo.nl/40510070-c7dd-40b7-ad21-a352f7d827d8",
-        "@type" : "TimelinePoint",
-        "equivalentTime" : {
-          "@type" : "float",
-          "@value" : "828000.0"
-        }
-      },
-      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
-      "hasStartDateTime" : {
-        "@type" : "dateTime",
-        "@value" : "2025-09-27T16:15:00.000Z"
-      },
-      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
-      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
-    }, {
-      "@id" : "http://metadatahub.bijnpo.nl/9b060f07-b863-4f6f-a202-19dc71982855",
-      "@type" : "PublicationEvent",
-      "hasDuration" : {
-        "@id" : "http://metadatahub.bijnpo.nl/fea317c8-b723-4444-8a8d-071680b498bc",
-        "@type" : "TimelinePoint",
-        "equivalentTime" : {
-          "@type" : "float",
-          "@value" : "872000.0"
-        }
-      },
-      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
-      "hasStartDateTime" : {
-        "@type" : "dateTime",
-        "@value" : "2025-02-18T11:40:00.000Z"
-      },
-      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
-      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
-    }, {
-      "@id" : "http://metadatahub.bijnpo.nl/95036902-5c98-493e-95d3-c0702346fe3c",
-      "@type" : "PublicationEvent",
-      "hasDuration" : {
-        "@id" : "http://metadatahub.bijnpo.nl/431ebbae-acb5-471f-a683-0ef4df0d7ddb",
-        "@type" : "TimelinePoint",
-        "equivalentTime" : {
-          "@type" : "float",
-          "@value" : "812000.0"
-        }
-      },
-      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
-      "hasStartDateTime" : {
-        "@type" : "dateTime",
-        "@value" : "2024-07-24T12:05:00.000Z"
-      },
-      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
-      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
-    }, {
-      "@id" : "http://metadatahub.bijnpo.nl/8d6cd4f6-4d1f-4b07-ad17-0919c8f21d9d",
-      "@type" : "PublicationEvent",
-      "hasDuration" : {
-        "@id" : "http://metadatahub.bijnpo.nl/b0bb3012-d774-4f45-8ead-adae155912ca",
-        "@type" : "TimelinePoint",
-        "equivalentTime" : {
-          "@type" : "float",
-          "@value" : "868000.0"
-        }
-      },
-      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
-      "hasStartDateTime" : {
-        "@type" : "dateTime",
-        "@value" : "2024-08-13T11:45:00.000Z"
-      },
-      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
-      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
-    }, {
       "@id" : "http://metadatahub.bijnpo.nl/60766418-9ef4-4411-8eda-24ac15391387",
       "@type" : "PublicationEvent",
       "hasDuration" : {
@@ -616,6 +544,78 @@
       "hasStartDateTime" : {
         "@type" : "dateTime",
         "@value" : "2025-04-08T10:35:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/a7e55394-94fe-413e-8c90-089f42bee514",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/40510070-c7dd-40b7-ad21-a352f7d827d8",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "828000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-09-27T16:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9b060f07-b863-4f6f-a202-19dc71982855",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fea317c8-b723-4444-8a8d-071680b498bc",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "872000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-02-18T11:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/95036902-5c98-493e-95d3-c0702346fe3c",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/431ebbae-acb5-471f-a683-0ef4df0d7ddb",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "812000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-07-24T12:05:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8d6cd4f6-4d1f-4b07-ad17-0919c8f21d9d",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b0bb3012-d774-4f45-8ead-adae155912ca",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "868000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-08-13T11:45:00.000Z"
       },
       "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
       "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"

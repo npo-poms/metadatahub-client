@@ -1,0 +1,25 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/16ccd943-2b73-4051-a389-377a93e2c9dc" } ,
+        "title": { "type": "literal" , "value": "EénVandaag" } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Actualiteiten -Druk op Nederland om Uruzganbesluit. -Boktor bedreigt Boskoop. -Gehandicapten dreigen rust te verliezen." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T10:39:13.949Z" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576806" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T10:39:13.954Z,|INTERNETVOD,2013-02-15T10:39:13.953Z,|NPO 1,2010-01-26T17:15:00.000Z,1500000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "TROS|AVRO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\t\t\t\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "9,AVRO_1353098" }
+      }
+    ]
+  }
+}

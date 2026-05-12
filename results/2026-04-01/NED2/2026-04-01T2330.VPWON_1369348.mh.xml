@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1369348" sortDate="2026-04-01T23:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-04T11:32:40.905+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/6187cdbf-ce07-4b66-9bdd-d82308f58768</crid>
+    <crid>crid://npo/programmagegevens/2560400459668</crid>
+    <crid>crid://npo/programmagegevens/2562758229668</crid>
+    <broadcaster id="VPRO">VPRO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Ticket naar Antarctica (1/2)</title>
+    <description owner="AUTHORITY" type="MAIN">Ondanks alarmerende berichten over klimaatverandering verdrievoudigde het aantal bezoekers aan Antarctica in tien jaar tijd. Journalist Bram Vermeulen en fotograaf en filmmaker Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties. Ook gaan ze naar Antarctica's belangrijkste attractie: een met uitsterven bedreigde kolonie pinguïns.</description>
+    <description owner="AUTHORITY" type="SHORT">Bram Vermeulen en Kadir van Lohuizen onderzoeken de impact van luxetoerisme en klimaatverandering op Antarctica. Ze bezoeken het duurste hotel ter wereld en ontdekken er absurde situaties.</description>
+    <genre id="3.0.1.8.29">
+        <term>Documentaire</term>
+        <term>Reizen</term>
+    </genre>
+    <credits>
+        <person gtaaUri="" role="PRESENTER">
+            <givenName>Bram</givenName>
+            <familyName>Vermeulen</familyName>
+        </person>
+    </credits>
+    <descendantOf midRef="VPWON_1369347"/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="VPWON_1369348">
+            <guideDay>2026-03-26+01:00</guideDay>
+            <start>2026-03-26T20:30:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>VPWON_1369348</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="VPWON_1369348">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T23:30:00+02:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>VPWON_1369348</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="VPWON_1369347" index="1"/>
+    <segments/>
+</program>

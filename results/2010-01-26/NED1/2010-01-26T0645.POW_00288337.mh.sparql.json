@@ -1,0 +1,35 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/66c87c74-bfe8-4e79-8e10-89a3d273678a" } ,
+        "title": { "type": "literal" , "value": "Nederland in Beweging!" } ,
+        "description": { "type": "literal" , "value": "Ouderen slapen meestal korter en minder diep. Dit hoort bij de leeftijd. Het is normaal om af en toe even wakker te worden, met name tegen de ochtend als de slaap minder diep is. Van slapeloosheid is pas sprake als je vaker slecht slaapt en overdag door te weinig nachtrust minder goed functioneert. Presentatie: Olga Commandeur, Duco Bauwens." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-05T12:28:33.456Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576785" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-05T12:28:33.458Z,|NPO 1,2010-01-26T05:45:00.000Z,840000.0|NPO 1,2010-01-26T08:15:00.000Z,900000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "MAX" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.4" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "Olga Commandeur\t\t\tPresenter\t|\tBauwens\tDuco\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "16,POW_00287451" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

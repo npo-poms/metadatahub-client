@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1736862" sortDate="2026-04-01T09:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2025-04-10T12:31:10.948+02:00">
+    <crid>crid://metadatahub.bijnpo.nl/804e043e-23b9-4ac2-b0df-c6a37211832e</crid>
+    <crid>crid://npo/programmagegevens/2503999702668</crid>
+    <crid>crid://npo/programmagegevens/2506932147668</crid>
+    <crid>crid://npo/programmagegevens/2483107063668</crid>
+    <crid>crid://npo/programmagegevens/2562758340668</crid>
+    <broadcaster id="KRNC">KRO-NCRV</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Ademruimte: ochtendyoga voor de longen</title>
+    <description owner="AUTHORITY" type="MAIN">Lekker voor de ochtend! Dit is een les met aandacht voor de adem en zijstretches om meer ruimte te creëren in je longen, in je bovenlijf, in je borst. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid.</description>
+    <description owner="AUTHORITY" type="SHORT">In deze yogales van Rohima besteed je extra aandacht aan de adem. De oefeningen kunnen je helpen als je last hebt van allergieën, benauwdheid of als je worstelt met longcovid.</description>
+    <genre id="3.0.1.40.60">
+        <term>Human Interest</term>
+        <term>Levensbeschouwing</term>
+    </genre>
+    <credits>
+        <person gtaaUri="" role="PRESENTER">
+            <givenName>Rohima</givenName>
+            <familyName>Hossain</familyName>
+        </person>
+    </credits>
+    <descendantOf midRef="KN_1736329"/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="KN_1736862">
+            <guideDay>2025-04-24+02:00</guideDay>
+            <start>2025-04-24T09:35:00+02:00</start>
+            <duration>P31Y2M30DT0H53M20.000S</duration>
+            <poProgID>KN_1736862</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="KN_1736862">
+            <guideDay>2025-08-07+02:00</guideDay>
+            <start>2025-08-07T09:30:00+02:00</start>
+            <duration>P32Y0M1DT19H33M20.000S</duration>
+            <poProgID>KN_1736862</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="KN_1736862">
+            <guideDay>2025-09-02+02:00</guideDay>
+            <start>2025-09-02T09:30:00+02:00</start>
+            <duration>P32Y1M5DT12H53M20.000S</duration>
+            <poProgID>KN_1736862</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="KN_1736862">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T09:30:00+02:00</start>
+            <duration>P31Y5M19DT1H20M0.000S</duration>
+            <poProgID>KN_1736862</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="KN_1736329" index="9"/>
+    <segments/>
+</program>

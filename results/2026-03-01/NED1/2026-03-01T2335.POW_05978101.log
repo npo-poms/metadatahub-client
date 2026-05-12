@@ -1,0 +1,24 @@
+INFO POMS: results/2026-03-01/NED1/2026-03-01T2335.POW_05978101.poms.xml
+INFO Sparql response: results/2026-03-01/NED1/2026-03-01T2335.POW_05978101.mh.sparql.json
+ERROR MH: error fetching program for mid POW_05978101: No enum constant nl.vpro.domain.media.RoleType.
+java.lang.IllegalArgumentException: No enum constant nl.vpro.domain.media.RoleType.
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at nl.vpro.domain.media.RoleType.valueOf(RoleType.java:14)
+	at nl.npo.metadatahub.poms.Mapper.parsePerson(Mapper.java:125)
+	at nl.npo.metadatahub.poms.Mapper.lambda$toMediaObject$8(Mapper.java:76)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:635)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:652)
+	at nl.npo.metadatahub.poms.Mapper.setMultipleValue(Mapper.java:251)
+	at nl.npo.metadatahub.poms.Mapper.toMediaObject(Mapper.java:76)
+	at nl.npo.metadatahub.poms.Mapper.toProgram(Mapper.java:36)
+	at nl.npo.metadatahub.poms.PomsService.getProgram(PomsService.java:63)
+	at QueryDays.lambda$main$1(QueryDays.java:111)
+	at java.base/jdk.internal.vm.ScopedValueContainer.runWithoutScope(ScopedValueContainer.java:112)
+	at java.base/jdk.internal.vm.ScopedValueContainer.run(ScopedValueContainer.java:98)
+	at java.base/java.lang.ScopedValue$Carrier.run(ScopedValue.java:466)
+	at QueryDays.main(QueryDays.java:107)

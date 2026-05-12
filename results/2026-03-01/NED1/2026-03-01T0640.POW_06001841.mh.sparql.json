@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b" } ,
+        "title": { "type": "literal" , "value": "Nederland in Beweging" } ,
+        "description": { "type": "literal" , "value": "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Kicker description:Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.|Short description:Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-08T13:01:09.823Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2563841776668|crid://npo/programmagegevens/2553811710668|crid://npo/programmagegevens/2553832396668|crid://npo/programmagegevens/2563846808668|crid://npo/programmagegevens/2553833264668|crid://npo/programmagegevens/2555016239668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-02-26T08:15:00.000Z,948000.0|NPO 1,2026-02-26T04:55:00.000Z,921000.0|NPO 1,2026-03-01T05:40:00.000Z,927000.0|BVN,2026-02-26T12:15:00.000Z,965000.0|BVN,2026-02-27T00:15:00.000Z,965000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "MAX" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.4" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\tBauwens\tDuco\tPresenter\t|\tde Loor\tBarbara\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "38,POW_06001803" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

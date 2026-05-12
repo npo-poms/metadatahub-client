@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/31d840e3-d418-4f26-b4e7-577886d7ea91" } ,
+        "title": { "type": "literal" , "value": "BinnensteBuiten" } ,
+        "description": { "type": "literal" , "value": "Op Scheveningen wonen Kim en Diederik op de bovenste etages van een statig herenhuis. Op het dak bouwen ze een extra etage waar ze in de zomer verblijven; zo vier je vakantie in eigen huis. * In een monumentale korenmolen in IJsselstein malen William Dolman en zijn ouders graan, per dag wel 1.000 kilo. Culinair expert Alain gaat hier terug in de tijd en hij maakt van het restproduct griesmeel een heerlijk gerecht. * Speciaal voor de paasdagen maakt natuurliefhebber Chantana in Putten een bloemenkrans van wilgentakken, droogbloemen en lentegroen. Haar natuurlijke kransen zijn geïnspireerd op de minimalistische blomsterkransen uit Scandinavië." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Heerlijk wonen op Scheveningen met een prachtig dakterras, Alain maakt in de molen van het restproduct griesmeel een heerlijk gerecht, een bloemenkrans van wilgentakken, droogbloemen en lentegroen." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:13.309Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2564405318668|crid://npo/programmagegevens/2562758820668|crid://npo/programmagegevens/2562758184668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T17:10:00.000Z,2027000.0|NPO 2,2026-04-08T06:05:00.000Z,2007000.0|BVN,2026-04-02T16:25:00.000Z,2001000.0|BVN,2026-04-03T04:25:00.000Z,2001000.0|NPO 2,2026-04-02T09:10:00.000Z,2004000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "KRNC" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.40.31" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\tStasse\tStefan\tCommentator\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "57,KN_1737656" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

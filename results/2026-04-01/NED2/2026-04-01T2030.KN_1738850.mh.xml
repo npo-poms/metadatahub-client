@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738850" sortDate="2026-04-01T20:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-03-06T11:20:40.675+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e</crid>
+    <crid>crid://npo/programmagegevens/2562758175668</crid>
+    <broadcaster id="KRNC">KRO-NCRV</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Hulp arriveert</title>
+    <description owner="AUTHORITY" type="MAIN">Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu.</description>
+    <description owner="AUTHORITY" type="SHORT">Nederlander Janno stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag toekijkt, wordt deze passant de laatste hoop voor tientallen Afghanen. Zijn cruciale rol bleef lang geheim.</description>
+    <genre id="3.0.1.8.44">
+        <term>Documentaire</term>
+        <term>Politiek</term>
+    </genre>
+    <credits>
+        <person gtaaUri="" role="DIRECTOR">
+            <givenName></givenName>
+            <familyName></familyName>
+        </person>
+    </credits>
+    <descendantOf midRef="KN_1736443"/>
+    <ageRating>12</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="KN_1738850">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T20:30:00+02:00</start>
+            <duration>P58Y6M22DT21H20M0.000S</duration>
+            <poProgID>KN_1738850</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="KN_1736443" index="2"/>
+    <segments/>
+</program>

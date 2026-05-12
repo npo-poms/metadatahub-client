@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0415225573356" sortDate="2026-04-01T11:30:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:05:32.016+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/67503b8d-6d42-4c8a-8a65-e7d3c24ee56a</crid>
+    <crid>crid://npo/rcrs/DEV/685a95e8780458463f05f525</crid>
+    <broadcaster id="WNL">WNL</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Sven op 1</title>
+    <description owner="AUTHORITY" type="MAIN">Een dagelijks actueel interviewprogramma rond het nieuws van de dag of de week. Bij voorkeur met de hoofdpersoon uit of bij dat nieuws, het liefst zelfs met de verantwoordelijke. Presentatie: Sven Kockelmann.
+Volg Sven op 1 op Twitter
+Luister de podcast</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits>
+        <person gtaaUri="" role="PRESENTER">
+            <givenName>Sven</givenName>
+            <familyName>Kockelman</familyName>
+        </person>
+    </credits>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0415225573356">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T11:30:00+02:00</start>
+            <duration>P57Y0M14DT8H0M0.000S</duration>
+            <poProgID>RCRST1_0415225573356</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

@@ -29,7 +29,7 @@ SELECT
     (GROUP_CONCAT(DISTINCT ?ta; SEPARATOR="|") AS ?targetGroups)
     (GROUP_CONCAT(DISTINCT ?ageRatingValue) as ?ageRating)
     (GROUP_CONCAT(DISTINCT ?contentRatingValue; SEPARATOR="|") AS ?contentRatings)
-    (GROUP_CONCAT(DISTINCT CONCAT(STR(?personName), "\t", COALESCE(STR(?role), ""), "\t", COALESCE(STR(?gtaaUri), "")); SEPARATOR="|") AS ?persons)
+    (GROUP_CONCAT(DISTINCT CONCAT(COALESCE(STR(?personName), ""), "\t", COALESCE(STR(?personFamilyName), ""), "\t", COALESCE(STR(?personGivenName), ""), "\t", COALESCE(STR(?role), ""), "\t", COALESCE(STR(?gtaaUri), "")); SEPARATOR="|") AS ?persons)
     (GROUP_CONCAT(DISTINCT CONCAT(COALESCE(STR(?episodeOfSeasonNumber), ""), ",", COALESCE(STR(?episodeOfSeasonPrid), ?episodeOfSeason)); SEPARATOR="|") AS ?episodeOfSeasons)
 
 WHERE {
@@ -107,7 +107,15 @@ WHERE {
     OPTIONAL {
         ?entity ec:hasContributor ?contributor .
         ?contributor ec:hasAgent ?agent .
-        ?agent ec:name ?personName .
+        OPTIONAL {
+            ?agent ec:name ?personName .
+        }
+        OPTIONAL {
+            ?agent ec:familyName ?personFamilyName .
+        }
+        OPTIONAL {
+            ?agent ec:givenName ?personGivenName .
+        }
         OPTIONAL {
             ?agent ec:hasIdentifier ?agentIdentifier .
             ?agentIdentifier ec:identifierValue ?gtaaUri .

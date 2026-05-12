@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c0dccd55-449c-49cb-b968-add533926794" } ,
+        "title": { "type": "literal" , "value": "MAX Geheugentrainer" } ,
+        "description": { "type": "literal" , "value": "Train uw brein. Naarmate iemand ouder wordt, wil het geheugen nog wel eens iets minder scherp worden. Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Dit programma geeft u de kans om het geheugen te trainen. Met eenvoudige oefeningen en opdrachten leert u binnen de kortste keren weer meer te onthouden dan u gewend was." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-12T15:11:22.874Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2526820606668|crid://npo/programmagegevens/2562985232668|crid://npo/programmagegevens/2566301098668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2026-03-30T20:56:29.970Z,|PLUSVOD,2026-03-30T08:45:57.501Z,|NPO 1,2026-03-31T08:30:00.000Z,1030000.0|NPO 1,2026-04-01T04:10:00.000Z,981000.0|NPO 2,2026-04-01T06:35:00.000Z,977000.0|BVN,2026-03-31T23:35:00.000Z,964000.0|BVN,2026-03-31T11:35:00.000Z,964000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "MAX" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.19" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\tde Rooij\tMascha\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "59,POW_06001523" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

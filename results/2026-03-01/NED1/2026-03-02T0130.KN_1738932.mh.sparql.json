@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/c6f0fc43-cadd-4de5-9193-76c0bbd3eebf" } ,
+        "title": { "type": "literal" , "value": "Zes boeren starten liefdesavontuur" } ,
+        "description": { "type": "literal" , "value": "De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-02T15:50:25.101Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2555016216668|crid://npo/programmagegevens/2555016102668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-02T00:30:00.000Z,3649000.0|BVN,2026-03-02T19:40:00.000Z,3660000.0|BVN,2026-03-03T07:40:00.000Z,3660000.0|NPO 1,2026-03-01T19:35:00.000Z,3607000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "KRNC" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.40.62" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\tJaspers\tYvon\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "1,KN_1737495" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

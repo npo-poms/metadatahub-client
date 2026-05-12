@@ -1,0 +1,27 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b0e0180f-502f-443d-bb4b-fc170f878048" } ,
+        "title": { "type": "literal" , "value": "NOS Journaal met gebarentaal" } ,
+        "description": { "type": "literal" , "value": "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-01-13T14:03:17.805Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2555016050668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 1,2026-03-02T02:40:00.000Z,1711000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NOS" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "\t\t\t\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "9,26Jnl2000ZonGeb" }
+      }
+    ]
+  }
+}
