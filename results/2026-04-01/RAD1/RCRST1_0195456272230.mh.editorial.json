@@ -1,0 +1,371 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/6bf2cc97-5d35-4c4c-976a-8d3805c4da81",
+    "@type" : "Programme",
+    "contentDescription" : "Voor de graveyard shift van NPO Radio 1 slaan vijf omroepen de handen ineen. De NTR, EO, KRO-NCRV, BNNVARA en Omroep ZWART nemen elk één nacht voor hun rekening. Jonge makers creëren nachtradio waar je wakker van ligt, met onderwerpen waar je wakker voor wilt blijven. Zowel onvoorspelbaar als kwetsbaar, met een intimiteit die alleen de nacht kan bieden.",
+    "episodeNumberInSeries" : {
+      "@type" : "integer",
+      "@value" : "357"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/e42dce6d-8772-4141-b127-1fb4b4bea167",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fb7c0b61-94dd-4668-9214-191be96a2d2b",
+        "@type" : "Person",
+        "familyName" : "Wielaert",
+        "givenName" : "Merel"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-12T00:06:26.238Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-12T00:06:31.643Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.21",
+      "prefLabel" : "Informatief-Nieuws/actualiteiten"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/d6042486-0110-490b-8398-bf09068e6518",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "RCRST1_0195456272230",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/34e92c1a-79e1-416d-90d2-4de4f7b605e9",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/rcrs/DEV/685a959295fcf61529e5e021",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/473f9fb9-5ff4-426e-9eaa-97c28b0f7881",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/68a92cfe-38d0-42ca-8243-16294a132e07",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1.08E7"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/dd473773-7c27-4b6d-9522-2d58fbc38773",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO Radio 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-02T01:00:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b0dd3c38-31da-41fa-a09e-c53f5b2952bf",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/1fe2d9cf-b1ca-4138-bd10-c8f056151f34"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/6bf2cc97-5d35-4c4c-976a-8d3805c4da81"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/63389bc9-8bf9-4bce-9e31-62cc8047f7dc",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/e18f91f1-8e13-4919-a756-518031ea9043",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/378d65a7-bd77-402e-99e2-1e76bef10dcc" ],
+        "name" : "NTR"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/c337d0af-a4ad-4f15-90b8-56242410033a",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/028bc9a0-4d98-410a-bc0c-c9a1bbeea8fb",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/dbda54ae-9d17-4c66-98f2-3b0edf6de97d" ],
+        "name" : "KRO-NCRV"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d155b068-9d04-4d00-8d21-d3c20f08b021",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/a3ecc5a9-9945-4103-b8c2-8602ce13696e" ],
+        "name" : "EO"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/3c74a4f4-50ae-4084-a49f-170cb7033915",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7bc0d531-8af2-40d9-a861-6283bb588b7b",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/1730c4db-9cc3-494b-b6fd-a9a27595a5ca" ],
+        "name" : "Omroep Zwart"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/31e8c2d1-c87e-4278-b46f-d5bf15e7091b",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5572b050-74d7-49b7-bf03-03a82733fef8",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/4e80023e-36eb-4bed-8641-7634eb5a1c73" ],
+        "name" : "BNNVARA"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        }, {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "hasRelatedPicture" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/0f41fae0-03fd-453d-9bc1-8cac2dac0f26",
+      "@type" : "Picture",
+      "highlighted" : {
+        "@type" : "boolean",
+        "@value" : "false"
+      },
+      "imageType" : "PICTURE",
+      "description" : "Testbeeld voor televisie",
+      "frameHeight" : {
+        "@type" : "integer",
+        "@value" : "600"
+      },
+      "frameWidth" : {
+        "@type" : "integer",
+        "@value" : "773"
+      },
+      "hasCopyright" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2917de66-7e77-4b48-b4bb-7e1b637901e3",
+        "@type" : "Copyright",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/7772331f-2af1-48c4-a210-8bc36889cf49",
+        "hasRightsHolder" : "http://metadatahub.bijnpo.nl/400d5e5a-7d1a-4db7-8550-b5b64189b0c9"
+      },
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-12T00:06:26.309Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-12T00:06:43.651Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/eda6fea7-03ae-420c-9b3c-e04e25010b71",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:media:image:131871034",
+        "name" : "Image URN"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/4cac3afd-f95b-43f1-8f4a-d2dee53ec490",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:image:2220517",
+        "name" : "Image URI"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/a377c957-e3f8-41ad-accf-8c646b5ebc88",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/245b2767-b250-471b-a704-4a2e7ded44d2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "pubStatus" : "PUBLISHED",
+      "title" : "Testbeeld"
+    } ],
+    "isEpisodeOfSeries" : {
+      "@id" : "http://metadatahub.bijnpo.nl/db4bf483-6a23-4e63-bfe0-becc6ccb52bc",
+      "@type" : "Series",
+      "contentDescription" : "Voor de graveyard shift van NPO Radio 1 slaan vijf omroepen de handen ineen. De NTR, EO, KRO-NCRV, BNNVARA en Omroep ZWART nemen elk één nacht voor hun rekening. Jonge makers creëren nachtradio waar je wakker van ligt, met onderwerpen waar je wakker voor wilt blijven. Zowel onvoorspelbaar als kwetsbaar, met een intimiteit die alleen de nacht kan bieden.",
+      "hasContributor" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/2e94a7e1-85be-4677-9e91-a35e8728335a",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/58cf389e-fcf5-4d6c-9138-6742cd8163b2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+      } ],
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2023-12-19T08:57:20.709Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2025-12-08T00:46:06.459Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/e294a25a-3aab-4e67-976c-a0a236c8edb6",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "identifierValue" : "crid://npo/rcrs/649168ec21401a5871b3445e",
+        "name" : "CRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/49593c51-19c4-44ac-8777-e044eec57f97",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "RCRSA1_1051381707705",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9",
+        "@type" : "Identifier",
+        "identifierValue" : "SERIES",
+        "name" : "Original POMS type"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/7557e370-b6b8-45b8-9a47-dd1c84d926e3",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/e18f91f1-8e13-4919-a756-518031ea9043",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/2db5255d-df68-4a07-ad18-247bfc8d97a1",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/7bc0d531-8af2-40d9-a861-6283bb588b7b",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/d9ab0ce0-e72a-443f-b2f1-c8d3757c60c7",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/5572b050-74d7-49b7-bf03-03a82733fef8",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/80032f8e-3a3f-4243-82c3-8b98c59b70d8",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/028bc9a0-4d98-410a-bc0c-c9a1bbeea8fb",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/76e0e907-7679-4ebb-91a9-ba06d705ec0e",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRating" : [ "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c" ],
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "title" : "De Nacht van"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/58cb2433-8462-4945-86ef-88fc33c1a45d",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/b0dd3c38-31da-41fa-a09e-c53f5b2952bf"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "De Nacht van"
+  },
+  "error" : ""
+}
