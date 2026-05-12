@@ -1,6 +1,8 @@
 PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX npo: <http://ontology.metadatahub.bijnpo.nl/ontology#>
+
 
 # I went for a solution with group by for all multi valued properties
 # Otherwise, for every single object the cartesion product of everyhing must be transferred, containing a lot of duplication
@@ -12,11 +14,8 @@ SELECT
     ?entity
     (SAMPLE(?title) as ?title) # sample just to avoid to have to group by
     (SAMPLE(?description) as ?description)
-
-    # not getting this working yet.
-    (GROUP_CONCAT(DISTINCT ?alternativeDescriptionValue; SEPARATOR="|") AS ?alternativeDescriptions)
-    #(GROUP_CONCAT(DISTINCT CONCAT(?alternativeDescriptionLabel, ":", ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
-    (SAMPLE(?dateCreated) as ?dateCreated)
+    (GROUP_CONCAT(DISTINCT COALESCE(CONCAT(?alternativeDescriptionLabel, ":", ?alternativeDescriptionValue), ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
+    #(SAMPLE(?dateCreated) as ?dateCreated)
 
     (SAMPLE(?ebuFormat) as ?ebuFormat)
 
@@ -24,6 +23,7 @@ SELECT
     (GROUP_CONCAT(DISTINCT CONCAT(STR(?channelName), ",", STR(?start), ",", COALESCE(STR(?duration), "")); SEPARATOR="|") AS ?scheduleEvents)
     (GROUP_CONCAT(DISTINCT ?broadcaster; SEPARATOR="|") AS ?broadcasters)
     (GROUP_CONCAT(DISTINCT ?country; SEPARATOR="|") AS ?countries)
+    (GROUP_CONCAT(DISTINCT ?languageCode; SEPARATOR="|") AS ?languages)
     (GROUP_CONCAT(DISTINCT ?genreId; SEPARATOR="|") AS ?genres)
     (GROUP_CONCAT(DISTINCT ?ta; SEPARATOR="|") AS ?targetGroups)
     (GROUP_CONCAT(DISTINCT ?ageRatingValue) as ?ageRating)
@@ -34,7 +34,7 @@ SELECT
 WHERE {
     ?entity ec:hasIdentifier ?id .
     ?id ec:name "PRID" .
-    ?id ec:identifierValue "BV_101413509" .
+    ?id ec:identifierValue "AVRO_1353119" .
 
 
     OPTIONAL {
@@ -46,16 +46,14 @@ WHERE {
     OPTIONAL { ?entity ec:title ?title . }
     OPTIONAL { ?entity ec:contentDescription ?description . }
 
-    # doesn't work yet
     OPTIONAL {
-        ?entity ec:hasAlternativeContentDescription ?alternativeDescription .
+        ?entity npo:hasAlternativeContentDescription ?alternativeDescription .
         ?alternativeDescription ec:contentDescription ?alternativeDescriptionValue .
+        OPTIONAL {
+            ?alternativeDescription ec:hasObjectType ?alternativeDescriptionType .
+            ?alternativeDescriptionType skos:prefLabel ?alternativeDescriptionLabel .
+        }
     }
-    #OPTIONAL {
-    #    ?entity ec:alternativeDescription ?alternativeDescription .
-    #    ?alternativeDescription skos:prefLabel ?alternativeDescriptionLabel .
-    #    ?alternativeDescription ec:contentDescription ?alternativeDescriptionValue .
-    #}
 
     OPTIONAL {
         ?entity ec:isInstantiatedBy/ec:hasRelatedEssence/ec:hasFormat/rdf:type ?ebuFormat .
@@ -72,12 +70,18 @@ WHERE {
     OPTIONAL {
         ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
     }
+
+    # not sure this is ok yet
     OPTIONAL {
         ?entity ec:hasProductionCountry ?productionCountry .
         ?productionCountry a ec:CountryCode .
         ?productionCountry ec:altLabel ?country .
     }
-
+    # nor this
+    OPTIONAL {
+        ?entity ec:hasLanguage ?hasLanguage .
+        ?haslanguage skos:notation ?languageCode
+    }
     OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
     OPTIONAL {
         ?entity ec:hasGenre ?hasGenre .
@@ -112,7 +116,7 @@ WHERE {
         }
     }
     OPTIONAL {
-        # an object could be member of more than one season?, How would that look like?
+        # an object cannot be memboer of more then one season in MH
         ?entity ec:isEpisodeOfSeason ?episodeOfSeason .
         ?entity ec:episodeNumberInSeason ?episodeOfSeasonNumber .
     }

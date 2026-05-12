@@ -32,7 +32,7 @@ void main() throws Exception {
     Logger log = Logger.getLogger("main");
     ObjectMapper mapper = JsonMapper.builder().enable(INDENT_OUTPUT).build();
 
-    String mid = "PREPR_NOS_16583295";
+    String mid = "AT_300019289";
     var results = Paths.get("results").resolve("single");
     var mhEditorialFile = results.resolve(mid + ".mh.editorial.json");
     var mhFile = results.resolve(mid + ".mh.xml");

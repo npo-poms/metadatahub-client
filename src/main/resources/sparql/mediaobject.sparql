@@ -1,6 +1,8 @@
 PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX npo: <http://ontology.metadatahub.bijnpo.nl/ontology#>
+
 
 # I went for a solution with group by for all multi valued properties
 # Otherwise, for every single object the cartesion product of everyhing must be transferred, containing a lot of duplication
@@ -13,9 +15,7 @@ SELECT
     (SAMPLE(?title) as ?title) # sample just to avoid to have to group by
     (SAMPLE(?description) as ?description)
 
-    # not getting this working yet.
-    (GROUP_CONCAT(DISTINCT ?alternativeDescriptionValue; SEPARATOR="|") AS ?alternativeDescriptions)
-    #(GROUP_CONCAT(DISTINCT CONCAT(?alternativeDescriptionLabel, ":", ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
+    (GROUP_CONCAT(DISTINCT COALESCE(CONCAT(?alternativeDescriptionLabel, ":", ?alternativeDescriptionValue), ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
     (SAMPLE(?dateCreated) as ?dateCreated)
 
     (SAMPLE(?ebuFormat) as ?ebuFormat)
@@ -47,16 +47,14 @@ WHERE {
     OPTIONAL { ?entity ec:title ?title . }
     OPTIONAL { ?entity ec:contentDescription ?description . }
 
-    # doesn't work yet
     OPTIONAL {
-        ?entity ec:hasAlternativeContentDescription ?alternativeDescription .
+        ?entity npo:hasAlternativeContentDescription ?alternativeDescription .
         ?alternativeDescription ec:contentDescription ?alternativeDescriptionValue .
+        OPTIONAL {
+            ?alternativeDescription ec:hasObjectType ?alternativeDescriptionType .
+            ?alternativeDescriptionType skos:prefLabel ?alternativeDescriptionLabel .
+        }
     }
-    #OPTIONAL {
-    #    ?entity ec:alternativeDescription ?alternativeDescription .
-    #    ?alternativeDescription skos:prefLabel ?alternativeDescriptionLabel .
-    #    ?alternativeDescription ec:contentDescription ?alternativeDescriptionValue .
-    #}
 
     OPTIONAL {
         ?entity ec:isInstantiatedBy/ec:hasRelatedEssence/ec:hasFormat/rdf:type ?ebuFormat .
@@ -125,7 +123,3 @@ WHERE {
     }
 }
 group by ?entity
-
-
-
-

@@ -16,9 +16,12 @@ import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
 import org.apache.commons.io.FileUtils;
 import static org.apache.jena.query.ResultSetFormatter.*;
+import static tools.jackson.databind.SerializationFeature.INDENT_OUTPUT;
+
 import org.apache.logging.log4j.jul.Log4jBridgeHandler;
 import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.json.JsonMapper;
 
 /**
  * - Gets the programs from 1 day
@@ -36,7 +39,7 @@ void main() throws Exception {
     System.setProperty("log4j2.root.level","INFO");
     Logger log = Logger.getLogger("main");
 
-    var mapper = new ObjectMapper();
+    ObjectMapper mapper = JsonMapper.builder().enable(INDENT_OUTPUT).build();
     var resultsPrent = Paths.get("results");
     try(
         var pomsServices = NpoApiClients.configured(Env.ACC).build();
