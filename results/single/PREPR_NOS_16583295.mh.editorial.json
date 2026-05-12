@@ -1,0 +1,385 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/97d47616-5f75-4ed2-9006-8c954a136854",
+    "@type" : "Programme",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "11419"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/02faca54-e09b-458d-91ac-dce9be7a00d2",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/88a1e79e-1460-42e1-b2a4-43a835365fa2",
+        "@type" : "Person",
+        "name" : "Mieke van der Weij"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2021-07-17T02:09:09.371Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2025-08-27T06:09:56.790Z"
+    },
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/04c95107-9f06-45d3-8af0-b28c78738122",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://prepr.io/timeline/first/f3766d24-59cd-4daf-bb6d-1e5fcf73e907",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8d053198-ebe0-4cc6-912a-357891c73562",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "PREPR_NOS_16583295",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d0db8ba5-b22b-4974-94d1-b328a54a1233",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://prepr.io/timeline/f3766d24-59cd-4daf-bb6d-1e5fcf73e907",
+      "name" : "CRID"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/670cdd63-a650-4fe8-b62b-bef3d7be1046",
+      "@type" : "PublicationEvent",
+      "hasEndDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-11-26T23:00:00.000Z"
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2021-09-06T00:14:21.002Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/d6696418-b638-4f55-8a73-e116a2043d8b",
+        "@type" : "Essence"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/97d47616-5f75-4ed2-9006-8c954a136854"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/761cce20-be92-4e1d-abcd-568f858c252e",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7838d703-3807-41ce-bff7-523034640627",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "3540000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/dd473773-7c27-4b6d-9522-2d58fbc38773",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO Radio 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2021-09-05T21:00:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/d6696418-b638-4f55-8a73-e116a2043d8b",
+      "publishes" : "http://metadatahub.bijnpo.nl/97d47616-5f75-4ed2-9006-8c954a136854"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/91e08c38-189b-4d9f-a6a8-ab307aefef9e",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2023-03-21T00:44:53.850Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/d6696418-b638-4f55-8a73-e116a2043d8b",
+      "publishes" : "http://metadatahub.bijnpo.nl/97d47616-5f75-4ed2-9006-8c954a136854"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a58e1872-1730-4e5c-9dd3-a286d26bb336",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/e2af2a72-07bf-4feb-99b4-a244afce9273" ],
+        "name" : "NOS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRelatedPicture" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/ef870c27-5d2e-4755-9326-4ef5a87f2e3d",
+      "@type" : "Picture",
+      "highlighted" : {
+        "@type" : "boolean",
+        "@value" : "false"
+      },
+      "imageType" : "LOGO",
+      "description" : "Afbeelding bij NOS Met het Oog op Morgen",
+      "frameHeight" : {
+        "@type" : "integer",
+        "@value" : "1920"
+      },
+      "frameWidth" : {
+        "@type" : "integer",
+        "@value" : "3414"
+      },
+      "hasCopyright" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fc0415f4-a65d-4f94-9441-9af67d68c58c",
+        "@type" : "Copyright",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/7772331f-2af1-48c4-a210-8bc36889cf49"
+      },
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2023-03-21T00:44:53.904Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2023-03-21T00:44:59.768Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/0c52f43e-2974-474b-938c-5a01f263a344",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:media:image:125969146",
+        "name" : "Image URN"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/cab2ae47-41de-49d1-abb0-e72d415c5da1",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:image:1767405",
+        "name" : "Image URI"
+      } ],
+      "pubStatus" : "PUBLISHED",
+      "title" : "NOS Met het Oog op Morgen"
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093",
+      "@type" : "Season",
+      "contentDescription" : "Het Oog brengt aan het eind van de dag een overzicht van het nieuws, de ochtendkranten en journalistieke interviews met mensen in en achter het nieuws, omlijst door mooie muziek.\n\nElke dag van de week heeft zijn eigen presentator. Door deze vaste dag, de persoonlijke opening van het programma en de manier van interviewen, drukt de presentator een eigen stempel op de uitzending. We noemen NOS Met het Oog op Morgen ook wel een 'journalistieke personality show'.\n\nDe ijzersterke formule en de persoonlijkheid en kwaliteit van de presentatoren zorgen ervoor dat het programma al sinds 1976 een uniek radioprogramma is dat zeer goed beluisterd en hoog gewaardeerd wordt.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2012-03-29T18:03:45.193Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2024-07-10T09:15:07.893Z"
+      },
+      "hasGenre" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d",
+        "@type" : "Genre",
+        "broader" : {
+          "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6"
+        },
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7.21",
+        "prefLabel" : "Informatief-Nieuws/actualiteiten"
+      } ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/76fa28d3-29f1-46d3-9784-85b084e9213e",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "identifierValue" : "crid://prepr.io/show/dfe37a64-ce1f-4065-bed0-aaf602f01157",
+        "name" : "CRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/c93daca0-23b4-4e11-9caa-27222c34e5a2",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "identifierValue" : "crid://programme.radiobox2/16",
+        "name" : "CRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/b1ca8d80-737b-4395-90d1-0af7ee253f6c",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "AUTO_NOSMETHETOOGOPMORGEN",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/f4f96d37-a858-4ed9-8acd-d13c1a4f0272",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "identifierValue" : "crid://tmp.serie.omroep.nl/1625",
+        "name" : "CRID"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/4dc43086-c19d-4753-90d8-b60bc77fc2f2",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRelatedPicture" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/6572bb75-29f1-48e3-a22a-01438b8cd47e",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PICTURE",
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/eebb47ab-835f-4cbd-a0a0-19234e191236",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2012-03-29T18:03:44.636Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2012-03-29T18:03:45.435Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/91807865-30dd-4c45-a9ea-35ada8ab3a09", "http://metadatahub.bijnpo.nl/e50446ad-4aa9-47bd-9cda-415c900a4dea" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "NOS-Met Het Oog Op Morgen"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/13ac94bc-41f8-40d1-82f3-15269790220b",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PICTURE",
+        "frameHeight" : {
+          "@type" : "integer",
+          "@value" : "1438"
+        },
+        "frameWidth" : {
+          "@type" : "integer",
+          "@value" : "2564"
+        },
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/e4613204-a286-46e2-8370-818565049b98",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2020-04-17T08:49:47.126Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2020-04-17T08:49:47.126Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/15c1d663-ea2b-46fd-a90b-e042c1c91d1a", "http://metadatahub.bijnpo.nl/b7d547bf-3fc8-48ad-84da-619194c8f76b" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "npo banners_oog.jpg"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/baf70e5f-89af-4a59-8588-26d82e55d957",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "LOGO",
+        "description" : "Afbeelding bij NOS Met het Oog op Morgen",
+        "frameHeight" : {
+          "@type" : "integer",
+          "@value" : "1080"
+        },
+        "frameWidth" : {
+          "@type" : "integer",
+          "@value" : "1920"
+        },
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/b2e4e1cb-7be7-4916-8a34-e66294b6698a",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2023-09-27T19:45:50.170Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2024-04-05T11:41:56.298Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/3fdda4e5-c303-4125-9024-8d68ffb95a33", "http://metadatahub.bijnpo.nl/5dfbc02c-d73c-4ec5-a5df-58fd4c40ebb0" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "NOS Met het Oog op Morgen"
+      } ],
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "title" : "NOS Met Het Oog Op Morgen"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/6b463d7f-650a-45ab-9509-866871a8e864",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/d6696418-b638-4f55-8a73-e116a2043d8b"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "NOS Met het Oog op Morgen"
+  },
+  "error" : ""
+}

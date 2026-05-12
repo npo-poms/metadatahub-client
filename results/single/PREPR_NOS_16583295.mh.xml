@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="PREPR_NOS_16583295" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-07-17T04:09:09.371+02:00">
+    <crid>crid://metadatahub.bijnpo.nl/97d47616-5f75-4ed2-9006-8c954a136854</crid>
+    <crid>crid://prepr.io/timeline/first/f3766d24-59cd-4daf-bb6d-1e5fcf73e907</crid>
+    <crid>crid://prepr.io/timeline/f3766d24-59cd-4daf-bb6d-1e5fcf73e907</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">NOS Met het Oog op Morgen</title>
+    <credits>
+        <person role="PRESENTER">
+            <givenName></givenName>
+            <familyName>Mieke van der Weij</familyName>
+        </person>
+    </credits>
+    <descendantOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093"/>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="PREPR_NOS_16583295">
+            <guideDay>2021-09-05+02:00</guideDay>
+            <start>2021-09-05T23:00:00+02:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>PREPR_NOS_16583295</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="PREPR_NOS_16583295">
+            <guideDay>2021-09-05+02:00</guideDay>
+            <start>2021-09-06T02:14:21.002+02:00</start>
+            <poProgID>PREPR_NOS_16583295</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="PREPR_NOS_16583295">
+            <guideDay>2023-03-20+01:00</guideDay>
+            <start>2023-03-21T01:44:53.850+01:00</start>
+            <poProgID>PREPR_NOS_16583295</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+    <segments>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624735" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-06T11:00:41.547+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/93c4f490-3eb8-4f12-9ae8-c30547404824</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">MH17-nabestaanden gebruiken spreekrecht: hoe belangrijk is dat voor hen?</title>
+            <description owner="AUTHORITY" type="MAIN">91 nabestaanden van slachtoffers van de ramp met vlucht MH-17 zullen vanaf morgen gebruik maken van hun spreekrecht. Hoe belangrijk is dit spreekrecht voor de nabestaanden en wat voor juridische impact heeft het?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624736" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-07T03:44:19.301+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/cd9c9c3b-c53a-430c-8790-5f77d96a604a</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">MH17-nabestaanden gebruiken spreekrecht: hoe belangrijk is dat voor hen?</title>
+            <description owner="AUTHORITY" type="MAIN">91 nabestaanden van slachtoffers van de ramp met vlucht MH-17 zullen vanaf morgen gebruik maken van hun spreekrecht. Hoe belangrijk is dit spreekrecht voor de nabestaanden en wat voor juridische impact heeft het?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624667" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-06T10:36:57.937+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/6bae5ac1-8bad-472b-ba6e-8432a25f61c0</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Poëzierubriek Met het Oog op Morgen: Afghanistan en poëzie</title>
+            <description owner="AUTHORITY" type="MAIN">Dichter Ingmar Heytze heeft de poëzierubriek van John Jansen van Galen overgenomen. Heytze gaat dit keer in op poëzie in Afghanistan. Is er een rijke poëtische cultuur in Afghanistan?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624671" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-06T10:36:57.912+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/ec1556c1-ddd2-4619-9e39-6fb9354bf2bb</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Poëzierubriek Met het Oog op Morgen: Afghanistan en poëzie</title>
+            <description owner="AUTHORITY" type="MAIN">Dichter Ingmar Heytze heeft de poëzierubriek van John Jansen van Galen overgenomen. Heytze gaat dit keer in op poëzie in Afghanistan. Is er een rijke poëtische cultuur in Afghanistan?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624690" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-06T10:56:16.867+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/3eb5d6df-f83d-483e-bcdb-24bc339c2da6</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Waarom de nieuwe religieuze leider van Servische-orthodoxe niet populair is bij de bevolking</title>
+            <description owner="AUTHORITY" type="MAIN">Vandaag waren er opnieuw rellen in de stad Cetinje in Montenegro. Bij de inauguratie van de nieuwe religieuze leider van de Servisch-orthodoxe kerk gooiden demonstranten met stenen en flessen om de ceremonie te verstoren. Waarom zijn de demonstranten tegen deze religieuze leider?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624697" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-06T10:56:16.858+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/b214ed06-8ed0-4737-b7af-ef1270a2a0d7</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Waarom de nieuwe religieuze leider van Servische-orthodoxe niet populair is bij de bevolking</title>
+            <description owner="AUTHORITY" type="MAIN">Vandaag waren er opnieuw rellen in de stad Cetinje in Montenegro. Bij de inauguratie van de nieuwe religieuze leider van de Servisch-orthodoxe kerk gooiden demonstranten met stenen en flessen om de ceremonie te verstoren. Waarom zijn de demonstranten tegen deze religieuze leider?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624706" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-06T10:58:14.514+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/e6b312f0-6934-40a5-b8ad-d81647801593</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Wat voor indruk heeft Zandvoort achtergelaten?</title>
+            <description owner="AUTHORITY" type="MAIN">Na 36 jaar was er weer een Formule 1 race op Zandvoort. Max Verstappen won. Wat is de conclusie na een raceweekend in Zandvoort?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+        <segment midRef="PREPR_NOS_16583295" type="SEGMENT" embeddable="true" mid="PREPR_RA1_16624707" sortDate="2023-03-21T01:44:53.850+01:00" workflow="FOR PUBLICATION" creationDate="2021-09-06T11:00:41.427+02:00">
+            <crid>crid://metadatahub.bijnpo.nl/3aeaeb95-48da-4bfc-b61d-5535727bd06c</crid>
+            <broadcaster id="NOS">NOS</broadcaster>
+            <title owner="AUTHORITY" type="MAIN">Wat voor indruk heeft Zandvoort achtergelaten?</title>
+            <description owner="AUTHORITY" type="MAIN">Na 36 jaar was er weer een Formule 1 race op Zandvoort. Max Verstappen won. Wat is de conclusie na een raceweekend in Zandvoort?</description>
+            <credits/>
+            <descendantOf midRef="PREPR_NOS_16583295" type="BROADCAST"/>
+            <locations/>
+            <images/>
+            <segmentOf midRef="PREPR_NOS_16583295" type="BROADCAST">
+                <episodeOf midRef="http://metadatahub.bijnpo.nl/d275b0f5-6ff2-4e37-b855-d46bdd284093" index="11419"/>
+            </segmentOf>
+        </segment>
+    </segments>
+</program>
