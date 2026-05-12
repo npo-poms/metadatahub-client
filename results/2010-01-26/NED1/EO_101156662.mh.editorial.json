@@ -1,0 +1,340 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/a8563323-e5a0-4fa0-95a7-58ee140e4b4d",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/05f151ef-bdf2-407f-9829-f51e5d680765",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "In deze aflevering krijgt de zes weken oude Femke een gehooronderzoek. Enkele dagen na haar geboorte werd bij haar ernstig gehoorverlies vastgesteld.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "contentDescription" : "In deze aflevering krijgt de zes weken oude Femke een gehooronderzoek. Enkele dagen na haar geboorte werd bij haar ernstig gehoorverlies vastgesteld.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "35"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/66f4a64a-aa43-4973-addb-3d1deab85ea2",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a6434303-bdf4-4f57-ad96-310384afa9e9",
+        "@type" : "Person",
+        "familyName" : "Bouwman",
+        "givenName" : "Mirjam"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2013-02-06T09:44:03.641Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2014-01-17T12:31:01.814Z"
+    },
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b422fa76-7479-4fc5-b8e2-7248f09c39c2",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "EO_101156662",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/5b34912c-7123-4972-8cf3-5721cda08ff3",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://tmp.program.omroep.nl/10576808",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/69573785-dbb6-4ddb-9c99-bd5d6caa44ed",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-06T09:44:03.645Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/53d5811d-01a0-4532-bd99-5264f0c1c2c5",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/a8563323-e5a0-4fa0-95a7-58ee140e4b4d"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b847686a-63c3-4c32-b2b2-0d3caa2451d0",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-06T09:44:03.646Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/53d5811d-01a0-4532-bd99-5264f0c1c2c5",
+      "publishes" : "http://metadatahub.bijnpo.nl/a8563323-e5a0-4fa0-95a7-58ee140e4b4d"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/cc52941b-3b2f-4674-94d3-1b34fbf5fa1e",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/89bd223b-42c1-4635-a48d-701a383b2d3c",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2100000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-26T18:25:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/53d5811d-01a0-4532-bd99-5264f0c1c2c5",
+      "publishes" : "http://metadatahub.bijnpo.nl/a8563323-e5a0-4fa0-95a7-58ee140e4b4d"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b6b825c9-ca8b-4534-b280-d36c77877b33",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/a3ecc5a9-9945-4103-b8c2-8602ce13696e" ],
+        "name" : "EO"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRelatedPicture" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a34afd89-d760-4290-9275-3283e58f44a3",
+      "@type" : "Picture",
+      "highlighted" : {
+        "@type" : "boolean",
+        "@value" : "false"
+      },
+      "imageType" : "PICTURE",
+      "description" : "Still",
+      "hasCopyright" : {
+        "@id" : "http://metadatahub.bijnpo.nl/d3207b65-265a-4ae6-b748-4f5749ef304d",
+        "@type" : "Copyright",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/7772331f-2af1-48c4-a210-8bc36889cf49"
+      },
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2013-12-11T07:11:18.485Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2013-12-11T07:11:18.642Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/838b2c86-81ec-4e03-8a3c-3e2a281e4fc0",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:image:304521",
+        "name" : "Image URI"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/0b3d27fa-06c8-4452-a8c5-1ed283f95cca",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:media:image:33886240",
+        "name" : "Image URN"
+      } ],
+      "pubStatus" : "PUBLISHED",
+      "title" : "patmos 11284762 01"
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/165dda91-c0de-471a-88df-2143b3f3f8d1",
+      "@type" : "Season",
+      "contentDescription" : "Presentator Manuel Venderbos doet verslag vanuit het Universitair Medisch Centrum in Utrecht. Hij ontmoet patiënten en medewerkers van dit grote academische ziekenhuis.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2013-01-29T00:05:33.864Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2013-03-12T01:46:59.761Z"
+      },
+      "hasGenre" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/5b185778-e7a8-44fa-8e10-d85d9cb6cd87",
+        "@type" : "Genre",
+        "broader" : {
+          "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6"
+        },
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7.22",
+        "prefLabel" : "Informatief-Gezondheid/opvoeding"
+      } ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/d5174f09-0036-4989-b88b-ae6aba700bbd",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "EO_1354",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/64ae1c7d-7c9c-42d3-bbf3-85006c20fe05",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRelatedPicture" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/34614d27-f34d-48a6-9815-7d455d29ee2f",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PICTURE",
+        "description" : "Afslag UMC Utrecht",
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/c330a2e1-d119-4cf9-92ae-fdd821f15fe7",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2013-01-29T00:05:36.201Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2013-01-29T00:05:36.259Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/5f1b37bd-4cf7-439b-97db-b67e54ca3828", "http://metadatahub.bijnpo.nl/6ddf423c-3abc-4132-8d70-9db343df5fc1" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "Afslag UMC Utrecht"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c76ad2da-835f-46e2-afbf-930c11e6ab58",
+        "@type" : "Series",
+        "contentDescription" : "Presentator Manuel Venderbos doet verslag vanuit het Universitair Medisch Centrum in Utrecht. Hij ontmoet patiënten en medewerkers van dit grote academische ziekenhuis.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2010-09-07T21:30:44.297Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2017-04-07T13:01:46.477Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/5b185778-e7a8-44fa-8e10-d85d9cb6cd87" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/71cf2ce5-f17c-4f86-9ade-21451aede533", "http://metadatahub.bijnpo.nl/7b99fc68-0a71-4bc6-af64-479075cc306e", "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9" ],
+        "hasProvenance" : {
+          "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+        },
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/9c0de048-54b0-4eaa-b76a-cdecccca4635" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/79bc7ca6-d8f6-44d7-8bf1-dde844d2e81d" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Afslag UMC Utrecht"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "2"
+      },
+      "title" : "Afslag UMC Utrecht"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/59cb1d9c-c8e9-4d82-b877-88a0e04854b9",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/53d5811d-01a0-4532-bd99-5264f0c1c2c5"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Afslag UMC Utrecht (15)"
+  },
+  "error" : ""
+}
