@@ -43,7 +43,7 @@ void main() throws Exception {
     var resultsPrent = Paths.get("results");
     try(
         var pomsServices = NpoApiClients.configured(Env.ACC).build();
-        var metadataHubMediaService = new MetadataHubService(new Configuration().createClient());
+        var metadataHubMediaService = new PomsService(new Configuration().createClient());
         ) {
         for (Day day : List.of(
             new Day(Channel.NED2, LocalDate.of(2026, 4, 1)),
@@ -70,14 +70,16 @@ void main() throws Exception {
 
                 var mid = mo.getMid();
 
-                var mhSparqFile = results.resolve(mid + ".mh.sparql");
-                var mhJsonFile = results.resolve(mid + ".mh.sparql.json");
-                var mhEditorialFile = results.resolve(mid + ".mh.editorial.json");
-                var mhFile = results.resolve(mid + ".mh.xml");
-                var pomsFile = results.resolve(mid + ".poms.xml");
+                String time = event.getStartInstant().atZone(Schedule.ZONE_ID).toLocalDateTime().toString();
+
+                var mhSparqFile = results.resolve(time + "." + mid + ".mh.sparql");
+                var mhJsonFile = results.resolve(time + "." + mid + ".mh.sparql.json");
+                var mhEditorialFile = results.resolve(time + "." + mid + ".mh.editorial.json");
+                var mhFile = results.resolve(time + "." + mid + ".mh.xml");
+                var pomsFile = results.resolve(time + "." + mid + ".poms.xml");
 
                 try (
-                    var logfile = newOutputStream(results.resolve(mid + ".log"));
+                    var logfile = newOutputStream(results.resolve( time + "." + mid + ".log"));
                     var capture = CaptureToSimpleLogger.of(
                         OutputStreamSimpleLogger.builder().output(logfile).build()
                     );
@@ -106,14 +108,14 @@ void main() throws Exception {
                         try {
                             JsonNode node = metadataHubMediaService.getClient().getByPrid(mo.getMid());
                             mapper.writeValue(editorialOut, node);
-                          /*  metadataHubMediaService.getProgram(mo.getMid()).ifPresentOrElse(
+                            metadataHubMediaService.getProgram(mo.getMid()).ifPresentOrElse(
                                 program -> {
                                     JAXB.marshal(program, out);
                                     mhMediaTable.add(program);
                                     log.info("MH: " + mhFile);
                                 },
                                 () -> log.info("MH: no program found for mid " + mo.getMid())
-                            );*/
+                            );
                         } catch (Exception e) {
                             log.log(Level.SEVERE, "MH: error fetching program for mid " + mo.getMid() + ": " + e.getMessage(), e);
                         }

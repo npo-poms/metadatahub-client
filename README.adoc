@@ -3,41 +3,38 @@
 
 https://docs.metadatahub.bijnpo.nl/handleiding/developers/sparql-service/
 
-- push service, doesnt work since account not associated with broadcaster
-- sparql works, but is a bit complicated.
-
-- sparql results are full of 'display values', which is rather cumbersome
-  * broadcasters mapped on name
-  * channels mapped on name
+== Description
 
 
 
+link:src/main/java/nl/npo/metadatahub/client/MetadatahubClient.java[MetadatahubClient]:: A client to wrap some sparql and editorial endpoints of the metadatahub.
+- methods to execute sparql queries
+- method to retrieve as JSON objects from editorial api
 
 
-I'm adding some 'poms' mapping code to proof the concept.
-See
-link:src/main/java/nl/npo/metadatahub/poms/MetadataHubMediaService.java[service],
-link:src/test/java/QueryDays.java[Example.java]
 
+link:src/main/java/nl/npo/metadatahub/poms/PomsService.java[PomsService]:: A service wrapping MetadatahubClient to retrieve date from metadatahub and map it to POMS objects. link:src/main/resources/sparql/[Used sparql queries]
 
-Results of Example can be found in link:results[results]
+link:src/test/java/QuerySingleProgram.java[QuerySingleProgram.java]:: this is an example of how to use the PomsService to retrieve specific objects from the metadatahub and map it to POMS objects. It writes some resulting files to link:results/single[results].
 
-TODO
+link:src/test/java/QueryDays.java[QueryDay.java]:: This finds all programs for number of days/channel combination. It writes some resulting files to link:results[results] too, which can be used as a example data of how it looked in poms, and how it looks after migration to the new metadata hub, and mapping back to poms (to make it easier comparable)
+
+== Remarks about mapping
 
 |===
 | veld(en) | verwachting | opmerking
 
 
 |  sub title
-|  nergens gezien nog
+|  ik geloof dat er ook 'alternativeTitles' zijn
 |
 
 |  short description
-| nergens gezien nog
+| 'alternativeDescription'.
 |
 
 |  credits
-| dit is er wel denk ik
+|
 | voor/achternaam?
 
 |  targetgroups
@@ -77,3 +74,11 @@ TODO
 |
 
 |===
+
+== How to use
+
+The two 'compact source' files are in `src/test/java` which makes it easy to just run them from your IDE.
+
+A jar containing the classes from `src/main/java` is available via maven central (for now a snapshot)
+
+For now, this is just a demo for reference. It simply uses the java LTS 25, and jackson3 and so on. . If someone wants to actually use it, and is stuck with a lower version (for some reason) of java or jackson or so, I'll gladly make it compatible with your version (if, at least, java 11). Just let me know.

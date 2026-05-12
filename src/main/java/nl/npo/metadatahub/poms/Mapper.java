@@ -28,7 +28,7 @@ public class Mapper {
     private final ClassificationService classificationService;
 
     protected Mapper() {
-        this.classificationService = MetadataHubService.classificationService;
+        this.classificationService = PomsService.classificationService;
     }
 
 
@@ -41,7 +41,7 @@ public class Mapper {
 
         setMultipleValue("episodeOfSeasons", row,  MemberRef.class, r -> {
                 var split = r.split(",", 2);
-                return new MemberRef(split[0], Integer.valueOf(split[1]));
+                return new MemberRef(split[1], Integer.valueOf(split[0]));
             },
             builder::episodeOf);
     }
@@ -51,7 +51,7 @@ public class Mapper {
         setString("title", row, t -> builder.mainTitle(t, OwnerType.AUTHORITY));
         // alternative titles?
         setString("description", row, d -> builder.mainDescription(d, OwnerType.AUTHORITY));
-        setMultipleValue("alternativeDescriptions", row, Description.class, this::parseDescription, builder::descriptions);
+        setMultipleValue("alternativeDescriptions", row, Description.class, d -> parseDescription(d).orElse(null), builder::descriptions);
 
         setString("prid", row, builder::mid, false);
         setInstant("dateCreated", row, builder::creationInstant);
@@ -126,9 +126,14 @@ public class Mapper {
         return Optional.of(person);
     }
 
-    private Description parseDescription(String value) {
-        String[] fields = value.split(":",2);
-        return new Description(fields[1], OwnerType.AUTHORITY, parseTextualType(fields[0]));
+    private Optional<Description> parseDescription(String value) {
+        try {
+            String[] fields = value.split(":", 2);
+            return Optional.of(new Description(fields[1], OwnerType.AUTHORITY, parseTextualType(fields[0])));
+        } catch (Exception e) {
+            log.severe("Unknown description '%s', ignoring".formatted(value));
+            return Optional.empty();
+        }
     }
 
     private TextualType parseTextualType(String value) {
@@ -136,8 +141,8 @@ public class Mapper {
             case "medium description" -> TextualType.MEDIUM;
             case "short description" -> TextualType.SHORT;
             case "kicker description" -> TextualType.KICKER;
-            //case "styled description" -> TextualType.STYLED;
-            default ->  throw new RuntimeException();
+            case "styled description" -> TextualType.STYLED;
+            default ->  throw new RuntimeException(value);
         };
     }
 
@@ -240,6 +245,7 @@ public class Mapper {
         String[] values = split(item.getLiteral(field));
         S[] array =  Arrays.stream(values)
             .map(converter)
+            .filter(Objects::nonNull)
             .toArray(size -> (S[]) Array.newInstance(clazz, size));
         consumer.accept(array);
     }

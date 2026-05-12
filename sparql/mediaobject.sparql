@@ -14,8 +14,9 @@ SELECT
     ?entity
     (SAMPLE(?title) as ?title) # sample just to avoid to have to group by
     (SAMPLE(?description) as ?description)
-    (GROUP_CONCAT(DISTINCT COALESCE(CONCAT(?alternativeDescriptionLabel, ":", ?alternativeDescriptionValue), ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
-    #(SAMPLE(?dateCreated) as ?dateCreated)
+
+    (GROUP_CONCAT(DISTINCT CONCAT(COALESCE(?alternativeDescriptionLabel, ''),  ":", ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
+    (SAMPLE(?dateCreated) as ?dateCreated)
 
     (SAMPLE(?ebuFormat) as ?ebuFormat)
 
@@ -34,12 +35,12 @@ SELECT
 WHERE {
     ?entity ec:hasIdentifier ?id .
     ?id ec:name "PRID" .
-    ?id ec:identifierValue "AVRO_1353119" .
+    ?id ec:identifierValue "AT_300019289" .
 
 
     OPTIONAL {
         ?entity ec:hasIdentifier ?cridId .
-        ?cridId ec:name  "CRID" .
+        ?cridId ec:name "CRID" .
         ?cridId ec:identifierValue ?crid .
     }
 
@@ -56,7 +57,7 @@ WHERE {
     }
 
     OPTIONAL {
-        ?entity ec:isInstantiatedBy/ec:hasRelatedEssence/ec:hasFormat/rdf:type ?ebuFormat .
+        ?entity ec:isInstantiatedBy / ec:hasRelatedEssence / ec:hasFormat / rdf:type ?ebuFormat .
     }
 
     # scheduleevents
@@ -65,10 +66,10 @@ WHERE {
         ?publication ec:hasPublicationChannel ?channel .
         ?channel ec:name ?channelName .
         ?publication ec:hasStartDateTime ?start .
-        OPTIONAL { ?publication ec:hasDuration/ec:equivalentTime ?duration . }
+        OPTIONAL { ?publication ec:hasDuration / ec:equivalentTime ?duration . }
     }
     OPTIONAL {
-        ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
+        ?entity ec:hasPublisher / ec:hasAgent / ec:hasIdentifier / ec:identifierValue ?broadcaster .
     }
 
     # not sure this is ok yet
@@ -80,7 +81,7 @@ WHERE {
     # nor this
     OPTIONAL {
         ?entity ec:hasLanguage ?hasLanguage .
-        ?haslanguage skos:notation ?languageCode
+        ?hasLanguage skos:notation ?languageCode
     }
     OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
     OPTIONAL {
@@ -88,18 +89,18 @@ WHERE {
         ?hasGenre skos:notation ?genreId .
     }
     OPTIONAL {
-        ?entity ec:hasTargetAudience/ec:hasObjectType ?taNode .
+        ?entity ec:hasTargetAudience / ec:hasObjectType ?taNode .
         ?taNode skos:notation ?ta .
     }
     OPTIONAL {
         ?entity ec:hasRating ?rating .
-        ?rating  ec:ratingSystemName 'NL-NICAM' .
+        ?rating ec:ratingSystemName 'NL-NICAM' .
         ?rating rdf:type ec:AudienceRating .
         ?rating ec:ratingValue ?ageRatingValue .
     }
     OPTIONAL {
         ?entity ec:hasRating ?rating .
-        ?rating  ec:ratingSystemName 'NL-NICAM' .
+        ?rating ec:ratingSystemName 'NL-NICAM' .
         ?rating rdf:type ec:Rating .
         ?rating ec:ratingValue ?contentRatingValue .
     }
@@ -112,13 +113,22 @@ WHERE {
             ?agentIdentifier ec:identifierValue ?gtaaUri .
         }
         OPTIONAL {
-            ?contributor ec:hasObjectType/skos:prefLabel ?role .
+            ?contributor ec:hasObjectType / skos:prefLabel ?role .
         }
     }
     OPTIONAL {
-        # an object cannot be memboer of more then one season in MH
         ?entity ec:isEpisodeOfSeason ?episodeOfSeason .
-        ?entity ec:episodeNumberInSeason ?episodeOfSeasonNumber .
+        OPTIONAL { ?entity ec:episodeNumberInSeason ?episodeOfSeasonNumber . }
+        OPTIONAL {
+            SELECT ?episodeOfSeason (SAMPLE(?seasonPrid) AS ?episodeOfSeasonPrid)
+            WHERE {
+                ?episodeOfSeason ec:hasIdentifier ?sid .
+                ?sid ec:name "PRID" .
+                ?sid ec:identifierValue ?seasonPrid .
+            }
+            GROUP BY ?episodeOfSeason
+        }
     }
 }
+
 group by ?entity

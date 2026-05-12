@@ -1,0 +1,7 @@
+These are sparql queries used in the code.
+
+They are actually templates.
+
+`%s` this represent placeholders filled by `String#format` in java.
+
+The queries don't contain limits or offsets. The code will implicitly append those if needed.

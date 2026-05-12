@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300019289" sortDate="2026-04-07T12:40:00+02:00" workflow="FOR PUBLICATION" creationDate="2024-07-23T09:50:29.100+02:00">
     <crid>crid://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc</crid>
-    <crid>crid://npo/programmagegevens/2416210364668</crid>
-    <crid>crid://npo/programmagegevens/2518652685668</crid>
-    <crid>crid://npo/programmagegevens/2421132978668</crid>
     <crid>crid://npo/programmagegevens/2523283485668</crid>
     <crid>crid://npo/programmagegevens/2500781270668</crid>
     <crid>crid://npo/programmagegevens/2417789124668</crid>
@@ -14,6 +11,9 @@
     <crid>crid://npo/programmagegevens/2518662314668</crid>
     <crid>crid://npo/programmagegevens/2484727567668</crid>
     <crid>crid://npo/programmagegevens/2470033820668</crid>
+    <crid>crid://npo/programmagegevens/2416210364668</crid>
+    <crid>crid://npo/programmagegevens/2518652685668</crid>
+    <crid>crid://npo/programmagegevens/2421132978668</crid>
     <crid>crid://npo/programmagegevens/2562758181668</crid>
     <crid>crid://npo/programmagegevens/2574699821668</crid>
     <broadcaster id="AVTR">AVROTROS</broadcaster>
@@ -25,7 +25,7 @@
         <term>Kunst/cultuur</term>
     </genre>
     <credits/>
-    <descendantOf midRef="http://metadatahub.bijnpo.nl/f2e00f3c-492f-4655-a9bc-5e23fedd75a9"/>
+    <descendantOf midRef="AT_300019288"/>
     <ageRating>ALL</ageRating>
     <locations/>
     <images/>
@@ -168,6 +168,6 @@
             <poProgID>AT_300019289</poProgID>
         </scheduleEvent>
     </scheduleEvents>
-    <episodeOf highlighted="false" midRef="http://metadatahub.bijnpo.nl/f2e00f3c-492f-4655-a9bc-5e23fedd75a9" index="1"/>
+    <episodeOf highlighted="false" midRef="AT_300019288" index="1"/>
     <segments/>
 </program>

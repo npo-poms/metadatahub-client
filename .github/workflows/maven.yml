@@ -49,13 +49,14 @@ jobs:
              echo "target=" >> $GITHUB_OUTPUT
              echo "profile=" >> $GITHUB_OUTPUT
           fi
+          cat $GITHUB_OUTPUT
       - name: Build  with Maven
         shell: bash
         run:  |
           if [[ "${{ github.event.inputs.skip_tests }}" == "true" ]]; then
-            mvn -B -P"${{ steps.set_target.outputs.profile}}central,npm" -U -DskipTests ${{ steps.set_target.outputs.target}}
+            mvn -B -P"${{ steps.set_target.outputs.profile}}" -U -DskipTests ${{ steps.set_target.outputs.target}}
           else
-            mvn -B -P"${{ steps.set_target.outputs.profile}}central,npm" -U -D"maven.test.failure.ignore=true"  ${{ steps.set_target.outputs.target}}
+            mvn -B -P"${{ steps.set_target.outputs.profile}}" -U -D"maven.test.failure.ignore=true"  ${{ steps.set_target.outputs.target}}
           fi
         env:
           CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}

@@ -9,18 +9,13 @@ import static nl.npo.metadatahub.client.MetadatahubClient.onQueryExecuted;
 
 import nl.npo.metadatahub.client.auth.TokenManager;
 import nl.npo.metadatahub.poms.*;
-import nl.vpro.api.client.frontend.NpoApiClients;
 import nl.vpro.domain.media.*;
-import nl.vpro.jackson2.Jackson2Mapper;
-import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
-import static org.apache.jena.query.ResultSetFormatter.outputAsJSON;
 import static tools.jackson.databind.SerializationFeature.INDENT_OUTPUT;
 
 import org.apache.logging.log4j.jul.Log4jBridgeHandler;
 import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
-import tools.jackson.databind.SerializationFeature;
 import tools.jackson.databind.json.JsonMapper;
 
 /**
@@ -37,9 +32,9 @@ void main() throws Exception {
     var mhEditorialFile = results.resolve(mid + ".mh.editorial.json");
     var mhFile = results.resolve(mid + ".mh.xml");
     try(
-            var metadataHubMediaService = new MetadataHubService(new Configuration().createClient());
-            var editorialOut = newOutputStream(mhEditorialFile);
-            var out = newOutputStream(mhFile)
+        var metadataHubMediaService = new PomsService(new Configuration().createClient());
+        var editorialOut = newOutputStream(mhEditorialFile);
+        var out = newOutputStream(mhFile)
         ) {
 
         where(onQueryExecuted,
