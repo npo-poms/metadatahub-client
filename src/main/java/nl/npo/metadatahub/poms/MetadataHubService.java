@@ -1,12 +1,13 @@
 package nl.npo.metadatahub.poms;
 
-import com.google.common.cache.*;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.*;
+
+import lombok.Getter;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
-import nl.npo.metadatahub.client.sparql.MetadataSparqlClient;
+import nl.npo.metadatahub.client.MetadatahubClient;
 import nl.vpro.domain.classification.*;
 import nl.vpro.domain.media.*;
 import nl.vpro.domain.user.BroadcasterService;
@@ -30,12 +31,13 @@ public class MetadataHubService implements MediaProvider, AutoCloseable {
         ServiceLocator.setBroadcasterService(broadcasterService);
     }
 
-    private final MetadataSparqlClient client;
+    @Getter
+    private final MetadatahubClient client;
     private final Mapper mapper;
 
 
 
-    public MetadataHubService(MetadataSparqlClient client) {
+    public MetadataHubService(MetadatahubClient client) {
         this.client = client;
         this.mapper = new Mapper();
     }
@@ -45,6 +47,9 @@ public class MetadataHubService implements MediaProvider, AutoCloseable {
     public <T extends MediaObject> T findByMid(boolean loadDeleted, String mid) {
         return (T) getProgram(mid).orElse(null);
     }
+
+
+
 
 
     @SneakyThrows

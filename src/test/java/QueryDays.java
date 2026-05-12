@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.transform.stream.StreamResult;
 import nl.npo.metadatahub.client.Configuration;
-import static nl.npo.metadatahub.client.sparql.MetadataSparqlClient.onQueryExecuted;
+import static nl.npo.metadatahub.client.MetadatahubClient.onQueryExecuted;
 import nl.npo.metadatahub.poms.*;
 import nl.vpro.api.client.frontend.NpoApiClients;
 import nl.vpro.domain.media.*;
@@ -16,7 +16,12 @@ import nl.vpro.util.Env;
 import nl.vpro.util.ThreadPools;
 import org.apache.commons.io.FileUtils;
 import static org.apache.jena.query.ResultSetFormatter.*;
+import static tools.jackson.databind.SerializationFeature.INDENT_OUTPUT;
+
 import org.apache.logging.log4j.jul.Log4jBridgeHandler;
+import tools.jackson.databind.JsonNode;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.json.JsonMapper;
 
 /**
  * - Gets the programs from 1 day
@@ -34,6 +39,7 @@ void main() throws Exception {
     System.setProperty("log4j2.root.level","INFO");
     Logger log = Logger.getLogger("main");
 
+    ObjectMapper mapper = JsonMapper.builder().enable(INDENT_OUTPUT).build();
     var resultsPrent = Paths.get("results");
     try(
         var pomsServices = NpoApiClients.configured(Env.ACC).build();
@@ -65,8 +71,8 @@ void main() throws Exception {
                 var mid = mo.getMid();
 
                 var mhSparqFile = results.resolve(mid + ".mh.sparql");
-                var mhJsonFile = results.resolve(mid + ".mh.json");
-
+                var mhJsonFile = results.resolve(mid + ".mh.sparql.json");
+                var mhEditorialFile = results.resolve(mid + ".mh.editorial.json");
                 var mhFile = results.resolve(mid + ".mh.xml");
                 var pomsFile = results.resolve(mid + ".poms.xml");
 
@@ -76,6 +82,7 @@ void main() throws Exception {
                         OutputStreamSimpleLogger.builder().output(logfile).build()
                     );
                     var jsout = newOutputStream(mhJsonFile);
+                    var editorialOut = newOutputStream(mhEditorialFile);
                     var sparql = newOutputStream(mhSparqFile);
                     var pomsout = newOutputStream(pomsFile);
                     var out = newOutputStream(mhFile)) {
@@ -97,14 +104,16 @@ void main() throws Exception {
                         }
                     ).run(() -> {
                         try {
-                            metadataHubMediaService.getProgram(mo.getMid()).ifPresentOrElse(
+                            JsonNode node = metadataHubMediaService.getClient().getByPrid(mo.getMid());
+                            mapper.writeValue(editorialOut, node);
+                          /*  metadataHubMediaService.getProgram(mo.getMid()).ifPresentOrElse(
                                 program -> {
                                     JAXB.marshal(program, out);
                                     mhMediaTable.add(program);
                                     log.info("MH: " + mhFile);
                                 },
                                 () -> log.info("MH: no program found for mid " + mo.getMid())
-                            );
+                            );*/
                         } catch (Exception e) {
                             log.log(Level.SEVERE, "MH: error fetching program for mid " + mo.getMid() + ": " + e.getMessage(), e);
                         }

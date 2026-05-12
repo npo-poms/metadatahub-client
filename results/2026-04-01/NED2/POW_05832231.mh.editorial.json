@@ -1,0 +1,443 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1",
+    "@type" : "Programme",
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "690"
+    },
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-03-09T12:53:33.971Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-04-20T14:43:33.831Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2016"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/572a6a97-5a5e-42a5-946f-010b8532add7",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.44",
+      "prefLabel" : "Informatief-Politiek"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/353be9f7-9872-4937-ab09-36acfcfdd645",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2566237565668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/e03e54db-8976-4be1-8e7a-6074f9017084",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2567405505668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b21e6a35-128a-4391-9479-9efef5964af7",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2556429646668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/fcafe3af-069d-4e67-946d-8a0d1e811661",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2567103620668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/a03b2408-e998-4be4-ab02-87e453721792",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2562758447668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/29543e9e-a0e3-45e1-a601-c80fb5412dba",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2562985432668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/0d55ee49-7375-4284-bda6-24dc5e5466b2",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2558529263668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6f87b847-472b-4727-aa2f-401c13136ba1",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2568908008668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/37c4ddc8-a0dd-4b18-a72d-22cbdd1c6ebf",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "POW_05832231",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/722651e4-113c-4afa-985f-26b0b6ae4641",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2558364452668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/4193ddf1-ba12-4c58-b9a9-679ef9bba378",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b8d3d62b-13ba-4748-8cac-df4a1712850f",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "24000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-31T15:56:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/e5f40d79-001c-464e-9abb-94f06b8a9b7a",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/e715e755-ac2f-4703-870a-6dfeda76eda2",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "25000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 2"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-20T15:59:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371",
+      "publishes" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/7f14e148-0fe7-430c-a9b2-7828e9be6525",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/cd25f3e9-1408-4127-b32b-a6b5bd06d8fb",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "24000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-19T16:57:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371",
+      "publishes" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/c65e5823-028a-4470-a459-646f96180ff5",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/67384e4c-cf8d-42af-afb4-d36a0db1ac5c",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "24000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T14:58:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371",
+      "publishes" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4ff2509-10ac-409f-8303-2f1f1e100058",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/ccf3395b-eb34-4d8b-a9fc-131faacad03a",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "24000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-10T15:57:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371",
+      "publishes" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/e12d7143-ad12-4a6a-821b-e1e08126c6d6",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5cb1f321-17c3-4b34-8b57-e67e8d308ca7",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "24000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-14T14:51:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371",
+      "publishes" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6b2d3c01-9af2-41f4-9bfc-16c1965e2bb8",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7f2e4370-bac3-4581-9c2a-0fe9becb73be",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "24000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-13T15:56:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371",
+      "publishes" : "http://metadatahub.bijnpo.nl/e1ede3ce-1d66-421a-b935-22e8c704adf1"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/2b105486-47f2-4ffa-9c59-61a259320807",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fb3a845b-0ab9-417c-a0bc-22dbdc3f2c31",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/6b25331d-5bd3-4d30-9312-f64881ae795c" ],
+        "name" : "Politieke partijen"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRights" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/16110876-9899-45b6-8102-27aa72343610",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "PLUSVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b6f2eaad-1633-4a83-95b6-86b8d7bda5c9",
+        "@type" : "Concept",
+        "definition" : "Europese Unie (incl. BES gemeenten, Curacao, St. Maarten en Aruba).",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "EU"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/1fb7ddb8-0bd2-481a-8b00-d4697b364484",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c5069a78-40fc-4b9f-91f2-b02a8a9eb509",
+        "@type" : "Concept",
+        "definition" : "Expliciet geen geo-restricties.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "Wereld"
+      }
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/69de5b20-80d5-462a-a97f-96462c0420e2",
+      "@type" : "Season",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2016-11-04T16:03:53.553Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-06T13:27:56.258Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/572a6a97-5a5e-42a5-946f-010b8532add7" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/f3cb220a-de56-4d0a-bd65-6b548742a983",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "POW_03384208",
+        "name" : "PRID"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/46c89a2b-a93b-442e-adac-498aa1485d49",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/fb3a845b-0ab9-417c-a0bc-22dbdc3f2c31",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/1eea10a6-7532-4079-9b23-745724820072",
+        "@type" : "Series",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2017-09-11T13:47:18.567Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-05-04T07:20:39.544Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/599e13ed-240b-4c30-95f9-1644f51cb595" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/2412dd75-0ecd-4993-9bab-31c3012340e9" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Politieke Partijen"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "1"
+      },
+      "title" : "Politieke Partijen: PVV"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/62c80a96-f2d2-4189-a4f6-dcbc1d7d489a",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/fda7ff40-31e9-4ea3-b0a6-9c14cea71371"
+    },
+    "pubStatus" : "PUBLISHED",
+    "represents" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/13904a8a-e62a-48b3-8a88-668709eb8c49",
+      "@type" : "Asset",
+      "hasAccessConditions" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/e4568e1d-bc92-48ed-829e-f388371df2d5",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "NLBES"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/8b86184e-2573-4927-ad4b-1f025aaa0a7a",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "PLUSVOD:EU"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/daa2e895-1843-4ca0-bda2-d1f9329322f0",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "TVVOD:NL"
+      } ]
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/61875370-732f-4162-ba49-2c10e334a7ea",
+      "@type" : "Asset",
+      "hasAccessConditions" : {
+        "@id" : "http://metadatahub.bijnpo.nl/150c7dc0-0b7e-4f5d-a5ff-b703a01e6097",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "WR"
+      }
+    } ],
+    "title" : "Politieke Partijen: D66"
+  },
+  "error" : ""
+}

@@ -1,0 +1,303 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/66c87c74-bfe8-4e79-8e10-89a3d273678a",
+    "@type" : "Programme",
+    "contentDescription" : "Ouderen slapen meestal korter en minder diep. Dit hoort bij de leeftijd. Het is normaal om af en toe even wakker te worden, met name tegen de ochtend als de slaap minder diep is. Van slapeloosheid is pas sprake als je vaker slecht slaapt en overdag door te weinig nachtrust minder goed functioneert. Presentatie: Olga Commandeur, Duco Bauwens.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "16"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/43b0b95d-06f2-44ef-a229-e1661a4f1fdd",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/001e8c79-3752-469e-b37c-e75f9848a3ae",
+        "@type" : "Person",
+        "familyName" : "Bauwens",
+        "givenName" : "Duco"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/553aad90-3e6e-4b6b-b08d-a451a7969ef6",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/deefa114-e52e-4713-9abb-e2b7124691bb",
+        "@type" : "Person",
+        "name" : "Olga Commandeur"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2013-02-05T12:28:33.456Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2013-12-05T23:24:12.151Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d",
+      "@type" : "Genre",
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.4",
+      "prefLabel" : "Sport"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b5321311-cea8-42a5-b1af-631c639bb107",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "POW_00288337",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9892f53c-1192-47fc-9af4-1a47c165ac61",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://tmp.program.omroep.nl/10576785",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/57e1a116-a412-49b1-bec2-bb9b1f307bdc",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/865abc36-7f1d-4da5-84df-d96ca9fb900c",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "900000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-26T08:15:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c35bda84-a063-4406-91f5-cfa6a1a0061b",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/66c87c74-bfe8-4e79-8e10-89a3d273678a"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9d94b358-5ab5-402b-b73f-7f5130cb1156",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b0b67083-863d-41fe-b2a7-a3452f4a6d35",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "840000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-26T05:45:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/c35bda84-a063-4406-91f5-cfa6a1a0061b",
+      "publishes" : "http://metadatahub.bijnpo.nl/66c87c74-bfe8-4e79-8e10-89a3d273678a"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/dcdfebeb-b86c-4d27-a8de-7112948cf71c",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-05T12:28:33.458Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/c35bda84-a063-4406-91f5-cfa6a1a0061b",
+      "publishes" : "http://metadatahub.bijnpo.nl/66c87c74-bfe8-4e79-8e10-89a3d273678a"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/cb0be2f5-1591-47dd-92ee-b37a78c5c95d",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/60df11e9-2164-4370-bae6-dd26f3c3a705",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/1a88c28f-82e1-4134-9cfb-745b69b81047" ],
+        "name" : "MAX"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/d134479e-4ff9-410b-9394-ae8dc107d304",
+      "@type" : "Season",
+      "contentDescription" : "Met niet aflatend enthousiasme stimuleren Olga Commandeur en Duco Bauwens elke Nederlander om mee te bewegen! Presentatie: Olga Commandeur en Duco Bauwens.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-05T12:26:48.499Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2013-03-12T02:27:23.443Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/80002810-1f8a-4eeb-840b-59ca8bc6c1bb",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "POW_00287451",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/e429f8f6-566d-4c54-89ac-6a4baf359a04",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/60df11e9-2164-4370-bae6-dd26f3c3a705",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRelatedPicture" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/f3bb1895-f0bf-4fdf-b1fc-95364517ecf2",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PICTURE",
+        "description" : "Nederland in Beweging!",
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/0f52d13c-4812-4ef6-a2f8-ea757f5cfea7",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-05T12:26:50.914Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-05T12:26:50.956Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/c7a8430c-2ca4-40bb-acdc-e42819786c2e", "http://metadatahub.bijnpo.nl/adf04de2-8693-458e-93e4-20ae3fd76f79" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "Nederland in Beweging!"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/1b5b1ef1-3252-4c3e-9551-fdeb47e6d37f",
+        "@type" : "Series",
+        "hasAlternativeContentDescription" : [ "http://metadatahub.bijnpo.nl/49a6ab67-74bc-4ceb-8fcf-1a3ccdacbe96" ],
+        "contentDescription" : "Wilt u investeren in uw gezondheid? Beweeg dagelijks mee met Nederland in Beweging! Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2016-02-10T09:28:11.679Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-05-06T08:16:08.464Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/38c2ebc5-e553-4bff-a604-453544a3819b", "http://metadatahub.bijnpo.nl/bcfe61af-12a3-4e06-bf59-3d55933d7d46" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/e8d4136b-4623-47f0-b680-1966ff31753e" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/c4364e47-ecbb-428c-a508-c94da41f1a2a" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/16e6d0d9-cfdc-4f68-be1c-a0be508ec5d9" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Nederland in Beweging"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "2"
+      },
+      "title" : "Nederland in Beweging!"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/10aba8ed-18d5-4a4b-8ec3-65a1961a36ee",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/c35bda84-a063-4406-91f5-cfa6a1a0061b"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Nederland in Beweging!"
+  },
+  "error" : ""
+}

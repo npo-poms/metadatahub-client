@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.Properties;
 import nl.npo.metadatahub.client.auth.OAuth2Config;
 import nl.npo.metadatahub.client.auth.TokenManager;
-import nl.npo.metadatahub.client.sparql.*;
+import nl.vpro.domain.user.Editor;
 
 public class Configuration {
 
@@ -36,11 +36,18 @@ public class Configuration {
         return new SparqlConfig(properties.getProperty("sparql_endpoint"));
     }
 
-    public MetadataSparqlClient createClient() {
+    public EditorialConfig getEditorialConfig() {
+        return new EditorialConfig(properties.getProperty("editorial_endpoint"));
+    }
+
+
+    public MetadatahubClient createClient() {
         TokenManager tokenManager = getTokenManager();
         SparqlConfig sparqlConfig = getSparqlConfig();
-        MetadataSparqlClient httpClient = new MetadataSparqlClient(tokenManager, sparqlConfig);
-        return httpClient;
+        EditorialConfig editorialConfig = getEditorialConfig();
+
+        MetadatahubClient client = new MetadatahubClient(tokenManager, sparqlConfig, editorialConfig);
+        return client;
     }
 
 

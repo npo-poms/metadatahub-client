@@ -1,0 +1,313 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/02d5c011-0c41-4347-93ea-8267e9aa1204",
+    "@type" : "Programme",
+    "contentDescription" : "Woord- en taalspel waarbij de kandidaten zes-, zeven- en tienletterwoorden moeten raden. Tevens bekendmaking van de twintig winnende getallen van de Lucky Day trekking.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "17"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/9d8df7ab-da34-4e18-97d8-b9d593d53b0b",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/0212eeb4-49d8-4194-9d3d-11f31337eaed",
+        "@type" : "Person",
+        "name" : "Lucille Werner"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2013-02-16T16:14:22.050Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2013-12-05T17:27:15.197Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/9b848c75-022b-4bae-9385-0a03edcf8542",
+      "@type" : "Genre",
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.6",
+      "prefLabel" : "Amusement"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/44a8bc51-8e72-4938-ae5c-6c7dcdcb7f5c",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://tmp.program.omroep.nl/10570123",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/ec37392c-771b-44c8-a764-a4ff75a4834e",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "TROS_1221417",
+      "name" : "PRID"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/7f7745b8-d935-4ab5-8b45-c84cf46786b6",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-16T16:14:22.052Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4438a180-593a-4008-bf8d-8938c08fbc62",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/02d5c011-0c41-4347-93ea-8267e9aa1204"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8a6870ac-61aa-445a-a8e2-2bdde849ece2",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-16T16:14:22.053Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/4438a180-593a-4008-bf8d-8938c08fbc62",
+      "publishes" : "http://metadatahub.bijnpo.nl/02d5c011-0c41-4347-93ea-8267e9aa1204"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9bb627aa-3be7-4ddb-a4ad-fc7fbc4a6335",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9bdd4124-f3c9-4f41-b958-a6b80c07f823",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1500000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-26T18:00:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/4438a180-593a-4008-bf8d-8938c08fbc62",
+      "publishes" : "http://metadatahub.bijnpo.nl/02d5c011-0c41-4347-93ea-8267e9aa1204"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d2ca554c-143d-40fd-9f07-f88546e51872",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/82252dad-b29b-4564-b52e-f086dc4bf748",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1500000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 2"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-27T11:10:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/4438a180-593a-4008-bf8d-8938c08fbc62",
+      "publishes" : "http://metadatahub.bijnpo.nl/02d5c011-0c41-4347-93ea-8267e9aa1204"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/609a1204-e7e3-4f32-9bd6-c14fde4a8fd4",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9fb6d6fb-eb51-428d-8cb8-168a5b1e5bb8",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2f122c64-958a-4c8d-b884-a3805c59fb60" ],
+        "name" : "TROS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/ddcb554c-0b87-4999-a6ad-08df2d9c7348",
+      "@type" : "Season",
+      "contentDescription" : "Woord- en taalspel, waarbij de kandidaten zes-, zeven- en tienletterwoorden moeten maken. Presentatie: Lucille Werner.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-16T16:11:43.260Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2013-03-12T07:46:53.644Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/9b848c75-022b-4bae-9385-0a03edcf8542" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/0c8af16b-095d-4f3d-bdeb-0d3cfeede821",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "TROS_1222612",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/6c67afc1-ba0f-41f5-87de-13e1a0d933cb",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/9fb6d6fb-eb51-428d-8cb8-168a5b1e5bb8",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRelatedPicture" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/0cf9c2d6-2df3-46f9-9133-73850bb5e0f9",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PICTURE",
+        "description" : "Lingo",
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/511b60fe-8cbf-4742-aa64-0db67df3ae96",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-16T16:11:45.714Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-16T16:11:45.758Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/4e56b1cd-b2ff-433b-b731-c9f98119f88f", "http://metadatahub.bijnpo.nl/0f55c649-26a8-40f2-a3c9-8b71f7c2590f" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "Lingo"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/6aea7ddc-d4ef-4d0a-a722-eb587bd64118",
+        "@type" : "Series",
+        "contentDescription" : "Woord- en taalspel, waarbij de kandidaten zes-, zeven- en tienletterwoorden moeten maken. Presentatie: Lucille Werner.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2010-08-16T21:30:27.310Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2018-08-07T15:04:08.455Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/9b848c75-022b-4bae-9385-0a03edcf8542" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/58f15f15-267c-4599-98e6-a0092aa6d25e", "http://metadatahub.bijnpo.nl/9da17fa8-6929-43e9-abb6-dae7072db343" ],
+        "hasProvenance" : {
+          "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+        },
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/6662a322-bfa6-4150-89ee-5ecbaf7e9900" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/d7f346f5-ef90-49e0-a86e-a85d55005924" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/96564824-6d22-40d3-a100-628005445e4b", "http://metadatahub.bijnpo.nl/62ed210f-1c6a-4a0a-b95d-7ea93dc603df", "http://metadatahub.bijnpo.nl/46057b2b-94e9-4688-9351-d4d3d5ce2cbb", "http://metadatahub.bijnpo.nl/3bcdfae3-62fc-42b4-9d7a-67f735254a2b" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Lingo"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "9"
+      },
+      "title" : "Lingo"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/332b9992-7524-4d32-9e67-340730fa721c",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/4438a180-593a-4008-bf8d-8938c08fbc62"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Lingo"
+  },
+  "error" : ""
+}
