@@ -1,0 +1,317 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/ab74110d-3161-42f3-b777-da3be9480494",
+    "@type" : "Programme",
+    "contentDescription" : "Jurgen van den Berg presenteert een programma waarin nadrukkelijk verder wordt gekeken dan de waan van de dag. Met omdenken, doordenken en terugdenken wordt een gelaagdheid aangebracht bij de dagelijkse nieuwsstroom. Het programma beweegt mee met de samenleving: we vieren of tonen medeleven. Een lach en een traan zijn niet verboden. Oud nieuws wordt nieuw leven ingeblazen in de historische rubriek Terug naar Toen. En in het kader van: ‘Wie luistert, weet meer’ is er de ‘Nieuwssnipper’, een spel dat als rode draad door de uitzending loopt en waarmee nieuwskenners prijzen kunnen winnen.",
+    "episodeNumberInSeries" : {
+      "@type" : "integer",
+      "@value" : "190"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/4f484bae-5494-4742-9f37-3b340db076e0",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5ced4aa9-47e1-415c-a3a2-6e3e36249a81",
+        "@type" : "Person",
+        "familyName" : "van den Berg",
+        "givenName" : "Jurgen"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-11T00:04:59.452Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-11T00:05:03.982Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.21",
+      "prefLabel" : "Informatief-Nieuws/actualiteiten"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/bf29e339-f0c0-4277-ae71-13bf10d19fdf",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/rcrs/DEV/685a962595fcf61529e5e233",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/3e21ae83-24fc-4f39-a166-73c1ad1df593",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "RCRST1_0719933876218",
+      "name" : "PRID"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/8d422d50-3d60-40c6-8249-b0833835e6c7",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5676af0c-14ae-43e7-992d-1f662848d4a4",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "7200000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/dd473773-7c27-4b6d-9522-2d58fbc38773",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO Radio 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T12:00:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/156c4640-8ac3-4ff0-9f64-9d28933264c2",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/1fe2d9cf-b1ca-4138-bd10-c8f056151f34"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/ab74110d-3161-42f3-b777-da3be9480494"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a0a99b4d-c0d7-4f89-aa33-9e247b7e5f77",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4feaf0e2-acec-4196-b196-d6123841e9bf",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2b281dc7-45e5-4706-b68d-c008823d2303" ],
+        "name" : "WNL"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        }, {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "hasRelatedPicture" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/6de07923-3fd9-4c66-a118-6ce64b30b8f7",
+      "@type" : "Picture",
+      "highlighted" : {
+        "@type" : "boolean",
+        "@value" : "false"
+      },
+      "imageType" : "PICTURE",
+      "description" : "[[ gemigreerd 2024-03-05 (14:50)\n]]",
+      "frameHeight" : {
+        "@type" : "integer",
+        "@value" : "1080"
+      },
+      "frameWidth" : {
+        "@type" : "integer",
+        "@value" : "1080"
+      },
+      "hasCopyright" : {
+        "@id" : "http://metadatahub.bijnpo.nl/e57d037d-0344-438e-8fe6-b4985822cd5a",
+        "@type" : "Copyright",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/7772331f-2af1-48c4-a210-8bc36889cf49"
+      },
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-11T00:04:59.524Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-11T00:05:14.892Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/2ed50af5-8ecc-4c89-a1b3-a179567e62ce",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:media:image:131865694",
+        "name" : "Image URN"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/345dfe3d-48e7-4857-86c4-301900bbf0b5",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:image:2222871",
+        "name" : "Image URI"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/89419e2f-6120-48c0-880a-99389b47d316",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/245b2767-b250-471b-a704-4a2e7ded44d2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "pubStatus" : "PUBLISHED",
+      "title" : "Villa-VdB-tegel"
+    } ],
+    "isEpisodeOfSeries" : {
+      "@id" : "http://metadatahub.bijnpo.nl/ebda6f20-c35f-4432-aa9f-e8be8787553d",
+      "@type" : "Series",
+      "contentDescription" : "Jurgen van den Berg presenteert een programma waarin nadrukkelijk verder wordt gekeken dan de waan van de dag. Met omdenken, doordenken en terugdenken wordt een gelaagdheid aangebracht bij de dagelijkse nieuwsstroom. Het programma beweegt mee met de samenleving: we vieren of tonen medeleven. Een lach en een traan zijn niet verboden. Oud nieuws wordt nieuw leven ingeblazen in de historische rubriek Terug naar Toen. En in het kader van: ‘Wie luistert, weet meer’ is er de ‘Nieuwssnipper’, een spel dat als rode draad door de uitzending loopt en waarmee nieuwskenners prijzen kunnen winnen.",
+      "hasContributor" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/56a53b41-d0de-4a3f-8e8e-8b71a9e983e7",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/58cf389e-fcf5-4d6c-9138-6742cd8163b2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+      } ],
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2023-12-19T08:55:39.397Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-01T08:02:37.249Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/c54c561a-59bd-4e3b-ae63-5399e27973dc",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "identifierValue" : "crid://npo/rcrs/647ef4e2ca6083c879d6ca6a",
+        "name" : "CRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/031e9ab4-a39d-419b-9ba6-df1d6e41adb1",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "RCRSA1_0467900916207",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9",
+        "@type" : "Identifier",
+        "identifierValue" : "SERIES",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/78ee735e-f2f4-40ba-bdde-33cddb949cb1",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/4feaf0e2-acec-4196-b196-d6123841e9bf",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRating" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/039f3b95-ecad-4b7a-a052-fa2d1c33f16f",
+        "@type" : "AudienceRating",
+        "description" : "Suitable for all ages",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/99dd0e0a-2ff5-414c-ae79-d168ed8d76f8",
+        "ratingProvider" : {
+          "@id" : "http://metadatahub.bijnpo.nl/724702e8-ee7a-4b08-a43f-e0b9e94593c1"
+        },
+        "ratingSystemName" : "NL-NICAM",
+        "ratingValue" : "AL"
+      } ],
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "title" : "Villa BVD"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/10dd1738-055a-4a44-a824-2568c8525ec7",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/156c4640-8ac3-4ff0-9f64-9d28933264c2"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Villa BVD"
+  },
+  "error" : ""
+}
