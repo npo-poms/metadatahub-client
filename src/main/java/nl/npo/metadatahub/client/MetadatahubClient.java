@@ -1,11 +1,14 @@
-package nl.npo.metadatahub.client.sparql;
+package nl.npo.metadatahub.client;
 
 import java.io.*;
 import java.util.function.BiConsumer;
-import java.util.function.Consumer;
+
 import lombok.extern.java.Log;
+import nl.vpro.domain.user.Editor;
 import org.apache.jena.query.*;
 import nl.npo.metadatahub.client.auth.TokenManager;
+import tools.jackson.databind.JsonNode;
+import tools.jackson.databind.ObjectMapper;
 
 import java.net.URI;
 import java.net.URLEncoder;
@@ -13,7 +16,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
-import tools.jackson.databind.JsonNode;
 
 /**
  * HTTP client for executing authenticated SPARQL queries against the MetadataHub endpoint.
@@ -21,11 +23,9 @@ import tools.jackson.databind.JsonNode;
  */
 
 @Log
-public class MetadataSparqlClient implements AutoCloseable{
+public class MetadatahubClient implements AutoCloseable {
 
     public static final ScopedValue<BiConsumer<String, ResultSet>> onQueryExecuted = ScopedValue.newInstance();
-
-
 
     private static final String AUTHORIZATION_HEADER = "Authorization";
     private static final String BEARER_PREFIX = "Bearer ";
@@ -33,6 +33,7 @@ public class MetadataSparqlClient implements AutoCloseable{
     private final HttpClient httpClient;
     private final TokenManager tokenManager;
     private final SparqlConfig config;
+    private final EditorialConfig editorialConfig;
 
     /**
      * Create a SPARQL HTTP client.
@@ -40,10 +41,10 @@ public class MetadataSparqlClient implements AutoCloseable{
      * @param tokenManager OAuth2 token manager
      * @param config SPARQL endpoint configuration
      */
-    public MetadataSparqlClient(TokenManager tokenManager, SparqlConfig config) {
+    public MetadatahubClient(TokenManager tokenManager, SparqlConfig config, EditorialConfig editorialConfig) {
         this(HttpClient.newBuilder()
             .connectTimeout(config.connectTimeout())
-            .build(), tokenManager, config);
+            .build(), tokenManager, config, editorialConfig);
     }
 
     /**
@@ -53,10 +54,11 @@ public class MetadataSparqlClient implements AutoCloseable{
      * @param tokenManager OAuth2 token manager
      * @param config SPARQL endpoint configuration
      */
-    public MetadataSparqlClient(HttpClient httpClient, TokenManager tokenManager, SparqlConfig config) {
+    public MetadatahubClient(HttpClient httpClient, TokenManager tokenManager, SparqlConfig config, EditorialConfig editorialConfig) {
         this.httpClient = httpClient;
         this.tokenManager = tokenManager;
         this.config = config;
+        this.editorialConfig = editorialConfig;
     }
     /**
      * Execute a SPARQL SELECT query.
@@ -69,6 +71,25 @@ public class MetadataSparqlClient implements AutoCloseable{
 
         return sendQuery(sparqlQuery, "application/sparql-results+json");
     }
+    ObjectMapper mapper = new ObjectMapper();
+
+    public JsonNode getByPrid(String prid) throws TokenManager.TokenException, IOException, InterruptedException {
+        String token = tokenManager.getAccessToken();
+
+        URI uri = URI.create(editorialConfig.endpoint() + "?prid=" + URLEncoder.encode(prid, StandardCharsets.UTF_8));
+        HttpRequest request = HttpRequest.newBuilder()
+                .GET()
+                .uri(uri)
+                .header(AUTHORIZATION_HEADER, BEARER_PREFIX + token)
+                .header("Accept", "application/json")
+                .timeout(editorialConfig.readTimeout())
+                .build();
+        HttpResponse<InputStream> response = httpClient.send(request, HttpResponse.BodyHandlers.ofInputStream());
+
+        return mapper.readTree(response.body());
+
+    }
+
 
     @Override
     public void close() {

@@ -136,7 +136,7 @@ public class Mapper {
             case "medium description" -> TextualType.MEDIUM;
             case "short description" -> TextualType.SHORT;
             case "kicker description" -> TextualType.KICKER;
-            case "styled description" -> TextualType.STYLED;
+            //case "styled description" -> TextualType.STYLED;
             default ->  throw new RuntimeException();
         };
     }

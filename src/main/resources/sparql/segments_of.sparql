@@ -1,5 +1,7 @@
 PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
-SELECT ?prid
+SELECT
+    ?entity
+    ?prid
     (SAMPLE(?title) as ?title)
     (SAMPLE(?description) as ?description)
     (SAMPLE(?dateCreated) as ?dateCreated)
@@ -21,7 +23,7 @@ WHERE {
         ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
     }
 }
-group by ?prid
+group by ?entity ?prid
 
 
 
