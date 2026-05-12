@@ -187,6 +187,9 @@
 
   <profiles>
     <profile>
+      <id>default</id>
+    </profile>
+    <profile>
       <id>deploy</id>
       <build>
         <plugins>

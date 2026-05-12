@@ -46,8 +46,8 @@ jobs:
              echo "profile=deploy," >> $GITHUB_OUTPUT
              echo "mainbuild=true" >> $GITHUB_OUTPUT
           else
-             echo "target=" >> $GITHUB_OUTPUT
-             echo "profile=" >> $GITHUB_OUTPUT
+             echo "target=package" >> $GITHUB_OUTPUT
+             echo "profile=default" >> $GITHUB_OUTPUT
           fi
           cat $GITHUB_OUTPUT
       - name: Build  with Maven

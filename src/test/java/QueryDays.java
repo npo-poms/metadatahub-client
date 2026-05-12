@@ -70,7 +70,7 @@ void main() throws Exception {
 
                 var mid = mo.getMid();
 
-                String time = event.getStartInstant().atZone(Schedule.ZONE_ID).toLocalDateTime().toString();
+                String time = event.getStartInstant().atZone(Schedule.ZONE_ID).toLocalDateTime().toString().replace(":", "");
 
                 var mhSparqFile = results.resolve(time + "." + mid + ".mh.sparql");
                 var mhJsonFile = results.resolve(time + "." + mid + ".mh.sparql.json");
