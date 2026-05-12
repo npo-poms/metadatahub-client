@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300018347" sortDate="2026-03-21T13:45:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-01-13T15:03:13.083+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/71a5a33e-0e8a-47e2-bd3d-d63c431a1a38</crid>
+    <crid>crid://npo/programmagegevens/2560757963668</crid>
+    <crid>crid://npo/programmagegevens/2555016131668</crid>
+    <broadcaster id="AVTR">AVROTROS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Veenkoloniaal Museum</title>
+    <description owner="AUTHORITY" type="MAIN">Expert Willem Rueb herkende het schilderij van Edgar Fernhout meteen. Fernhout komt uit een bijzondere kunstenaarsfamilie: hij is de zoon van Charley Toorop en kleinzoon van Jan Toorop. Het werk van Fernhout hangt in veel grote musea en er is veel over hem geschreven. Wat is dit schilderij waard? In het Veenkoloniaal Museum weet de eigenaar van het Japanse aardewerk precies de weg. Het is namelijk haar oude middelbare school. Ook komt er een 17-eeuws schilderij van een monnik in gebed voorbij en sieraden van Niki de Saint Phalle, een belangrijke vrouwelijke Frans-Amerikaanse beeldhouwer die ook sieraden maakte. Is het kunst, of edelkitsch?</description>
+    <description owner="AUTHORITY" type="SHORT">Een schilderij van Edgar Fernhout, zoon van Charley Toorop en kleinzoon van Jan Toorop, Japans aardewerk, een 17-eeuws schilderij van een monnik in gebed en sieraden van Niki de Saint Phalle.</description>
+    <genre id="3.0.1.7.24">
+        <term>Informatief</term>
+        <term>Kunst/cultuur</term>
+    </genre>
+    <credits/>
+    <descendantOf midRef="AT_300018341"/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AT_300018347">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T21:50:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>AT_300018347</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="AT_300018347">
+            <guideDay>2026-03-21+01:00</guideDay>
+            <start>2026-03-21T13:45:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>AT_300018347</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="AT_300018341" index="6"/>
+    <segments/>
+</program>

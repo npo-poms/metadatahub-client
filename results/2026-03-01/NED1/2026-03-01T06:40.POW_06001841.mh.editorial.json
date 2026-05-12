@@ -1,0 +1,414 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/4fddf132-aa3d-4958-803a-cc3d43ba38b5",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/de37662e-5b9d-478f-9810-5ca6fba38059",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/81fcb222-45ef-4c21-8414-dd61df6b591e",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The kicker (one-liner) description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Kicker description"
+      }
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "38"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/43b0b95d-06f2-44ef-a229-e1661a4f1fdd",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/001e8c79-3752-469e-b37c-e75f9848a3ae",
+        "@type" : "Person",
+        "familyName" : "Bauwens",
+        "givenName" : "Duco"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9e4788bd-b816-4513-9dd4-9ef96abdca8d",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7aceb790-5b7a-4cb6-b084-6541c3a43ebb",
+        "@type" : "Person",
+        "familyName" : "de Loor",
+        "givenName" : "Barbara"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-01-08T13:01:09.823Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-03-02T15:35:51.435Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2026"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d",
+      "@type" : "Genre",
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.4",
+      "prefLabel" : "Sport"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/db3b5a06-33c0-46ef-946c-75345a31571f",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2563841776668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/da5a85f0-7023-4e47-85db-82fd17b70ea5",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2555016239668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/c77ce8e3-9a1a-41d8-aff6-6937e6260e66",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2553833264668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/a7bdb07c-21c3-4025-a2dc-7d45219f9b6d",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2563846808668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9cef372d-3049-498f-8288-927b90bd8f68",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2553832396668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/7f17bd42-f18d-4b04-8ce5-9e327ac89700",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2553811710668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/7021cf3c-69f6-4f39-b79e-5b99e4795b1a",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "POW_06001841",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a1d8f203-5a52-41c3-9344-0be56ca731df",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a0cf5319-e7f0-4e5d-a09a-d719f217014d",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "921000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-26T04:55:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/1f802c2d-ce1a-4408-b7d1-0bad19651f6e",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6d48df50-8fbd-4caf-8f75-ab06910c5ed2",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/e66a2408-2565-49d6-a945-3a81308848dc",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "927000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T05:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/1f802c2d-ce1a-4408-b7d1-0bad19651f6e",
+      "publishes" : "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/a922cf29-5101-45b4-9407-356e031103f0",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a6b5a8b3-c510-4f84-aee6-d59762b43822",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "965000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "BVN"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-26T12:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/1f802c2d-ce1a-4408-b7d1-0bad19651f6e",
+      "publishes" : "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8077928c-4dff-416d-86f9-854194afbb8e",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/6a2b24e9-2855-4bbd-95f8-0c86ce810c4f",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "965000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-27T00:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/1f802c2d-ce1a-4408-b7d1-0bad19651f6e",
+      "publishes" : "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b73c151c-78a9-4783-8596-4550405687c9",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86f92d2b-2721-4b0f-bbf9-55114a98e8c6",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "948000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 2"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-26T08:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/1f802c2d-ce1a-4408-b7d1-0bad19651f6e",
+      "publishes" : "http://metadatahub.bijnpo.nl/73092d40-f4c3-4043-b66e-35498482275b"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a8198186-8ee3-4ddb-a551-186d0b7ba89f",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/60df11e9-2164-4370-bae6-dd26f3c3a705",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/1a88c28f-82e1-4134-9cfb-745b69b81047" ],
+        "name" : "MAX"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        }, {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/d62532bb-e633-4c27-879e-57038deed279",
+      "@type" : "Season",
+      "contentDescription" : "Wilt u investeren in uw gezondheid? Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2025-11-27T14:40:17.093Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-06T08:16:08.511Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/d6a7516f-87a2-4d35-b876-e97756c38440",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "POW_06001803",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/72c8baaf-9df8-488c-96ed-dbbf275bee8a",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/60df11e9-2164-4370-bae6-dd26f3c3a705",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/1b5b1ef1-3252-4c3e-9551-fdeb47e6d37f",
+        "@type" : "Series",
+        "hasAlternativeContentDescription" : [ "http://metadatahub.bijnpo.nl/49a6ab67-74bc-4ceb-8fcf-1a3ccdacbe96" ],
+        "contentDescription" : "Wilt u investeren in uw gezondheid? Beweeg dagelijks mee met Nederland in Beweging! Meedoen betekent dat u al een kwartier beweegt van het aanbevolen dagelijkse half uur.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2016-02-10T09:28:11.679Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-05-06T08:16:08.464Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/38c2ebc5-e553-4bff-a604-453544a3819b", "http://metadatahub.bijnpo.nl/bcfe61af-12a3-4e06-bf59-3d55933d7d46" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/e8d4136b-4623-47f0-b680-1966ff31753e" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/c4364e47-ecbb-428c-a508-c94da41f1a2a" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/16e6d0d9-cfdc-4f68-be1c-a0be508ec5d9" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Nederland in Beweging"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "22"
+      },
+      "title" : "Nederland in Beweging"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/35badad2-53bd-4cbe-95d1-41cc4ce7b891",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/1f802c2d-ce1a-4408-b7d1-0bad19651f6e"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Nederland in Beweging"
+  },
+  "error" : ""
+}

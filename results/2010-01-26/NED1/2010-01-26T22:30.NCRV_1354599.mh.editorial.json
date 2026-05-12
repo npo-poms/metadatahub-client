@@ -1,0 +1,364 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/910582b5-9fc0-413c-be6e-4bc954a67341",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "De studenten Frank, Herman en Maarten hebben een bovenwoning in Rotterdam-Zuid. Hun benedenburen: een gezin met drie kinderen. De benedenburen hebben veel last van de studenten.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "contentDescription" : "Mr. Frank Visser beslecht burenruzies, familievetes en andere conflicten. De uitspraak van mr. Frank Visser is juridisch bindend voor de partijen; zij zijn verplicht zijn beslissing te aanvaarden.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "2"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/1b6efa9a-0c6e-4101-a801-01f4531f8e21",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/08318103-efa7-4823-990a-f8923befec44",
+        "@type" : "Person",
+        "name" : "Jetske van den Elsen"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2013-02-06T14:11:09.285Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2017-08-09T12:56:13.764Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/9b848c75-022b-4bae-9385-0a03edcf8542",
+      "@type" : "Genre",
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.6",
+      "prefLabel" : "Amusement"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/749a1493-9f5e-4bcf-92d6-c531099e69e5",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "NCRV_1354599",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8164a2df-80df-4eee-a377-8ce15da1e516",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://tmp.program.omroep.nl/10576812",
+      "name" : "CRID"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/57abaecb-587f-4238-b526-8d9ae0a1936a",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-06T14:11:09.287Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/34f5f2da-1f49-4d7c-8a38-de9915875746",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/20750dee-7e45-471a-9dad-3bfa1fefd3ec",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/dd3cb7aa-c119-4fc2-a1e7-e7820caa8f03",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2100000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-26T21:30:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/34f5f2da-1f49-4d7c-8a38-de9915875746",
+      "publishes" : "http://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/5c60c002-4a1f-42fb-a5be-0043bc9bca14",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-06T14:11:09.288Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/34f5f2da-1f49-4d7c-8a38-de9915875746",
+      "publishes" : "http://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/73be5893-ab21-4a8c-b6fa-e594839e74bc",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2017-08-09T12:56:13.715Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/34f5f2da-1f49-4d7c-8a38-de9915875746",
+      "publishes" : "http://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/f4fd5090-a043-4ff0-8f1c-452de074ec2f",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a1bc87f7-04b5-4ebe-90fa-4fdb4306f378",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/746c7340-d279-4079-9a43-6590620c5623" ],
+        "name" : "NCRV"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRelatedPicture" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/36449a39-ce3e-41e2-b4bc-b4d234d6aeb7",
+      "@type" : "Picture",
+      "highlighted" : {
+        "@type" : "boolean",
+        "@value" : "false"
+      },
+      "imageType" : "PICTURE",
+      "description" : "RR",
+      "hasCopyright" : {
+        "@id" : "http://metadatahub.bijnpo.nl/628867f2-b533-4fd8-8d51-7137adeeeaa8",
+        "@type" : "Copyright",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/7772331f-2af1-48c4-a210-8bc36889cf49"
+      },
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2016-06-29T09:39:17.853Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2016-06-29T09:39:17.984Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/42118b4c-e67f-4542-884a-72b26dfc386d",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:image:767201",
+        "name" : "Image URI"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/615d3f61-dbe3-4ba2-80a4-8d2882665a31",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:media:image:78765452",
+        "name" : "Image URN"
+      } ],
+      "pubStatus" : "PUBLISHED",
+      "title" : "RR"
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/93e32234-bc22-4497-b55d-95183f48267e",
+      "@type" : "Season",
+      "contentDescription" : "In De Rijdende Rechter worden conflicten van mensen voorgelegd aan een echte rechter, die een bindende uitspraak doet.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-06T14:10:58.507Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2018-05-02T13:09:37.037Z"
+      },
+      "hasGenre" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      } ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/4c0516f1-04d5-4ac9-b1bd-4c13c9a9ad5f",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "NCRV_1354471",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/b640cd88-56b7-4bf1-96f8-2f4179000c4f",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/a1bc87f7-04b5-4ebe-90fa-4fdb4306f378",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRelatedPicture" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/c1957cd1-88c0-43be-9d80-9ced232ff7e6",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PORTRAIT",
+        "description" : "rijdende rechter",
+        "frameHeight" : {
+          "@type" : "integer",
+          "@value" : "267"
+        },
+        "frameWidth" : {
+          "@type" : "integer",
+          "@value" : "400"
+        },
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/a8cdbba2-98d4-4998-a459-04718f80c2b8",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2014-05-22T08:13:58.220Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2014-05-22T08:13:58.297Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/a6c8dadb-ac29-49cc-a55f-f01bbd0433f3", "http://metadatahub.bijnpo.nl/aecbd118-89d7-4970-9c4b-761708d4f6b1" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "De Rijdende Rechter"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a7fee42c-f950-4174-a9d9-c33333e51e78",
+        "@type" : "Series",
+        "contentDescription" : "In Nederland is het wettelijk mogelijk dat een rechter ook buiten de officiële kanalen om bindende beslissingen geeft. Dit kan echter alleen als beide partijen hiermee akkoord gaan. Van deze regeling wordt door mr. John Reid in De rijdende rechter gebruikgemaakt. Kijkers kunnen conflicten aanmelden.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2016-02-10T10:01:33.534Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2025-01-07T13:42:34.751Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/61c63f38-071b-4720-9386-e2b579ce7085" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/1bf02dc2-1721-47da-be6c-8300ac2b93ea", "http://metadatahub.bijnpo.nl/3b40ac61-025b-4c7c-aa00-7cd4e4371f71" ],
+        "hasProvenance" : {
+          "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+        },
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/3c965b28-6130-43f9-916a-d35d42896e4c" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/49aac054-fc46-4f48-85b4-24d6947088bc" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/0aafe3a9-e1e9-458a-ab14-fa8845fd6b23", "http://metadatahub.bijnpo.nl/1c65c5e2-8a9f-483f-90f8-26c9a11ae7a4" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "De rijdende rechter"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "2010"
+      },
+      "title" : "Seizoen 2010 deel I"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/13fcdc52-89dd-42cb-b65b-6fe020216562",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/34f5f2da-1f49-4d7c-8a38-de9915875746"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Wat een gedonder"
+  },
+  "error" : ""
+}

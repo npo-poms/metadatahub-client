@@ -1,0 +1,338 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/8ece3825-a426-467f-a70d-0b9ab8e72cee",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/db3ef093-c3fe-49a2-81a4-e48816998370",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Alles en meer over het meest gehate gele papiertje: de bekeuring. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "contentDescription" : "Alles en meer over het meest gehate gele papiertje: de bekeuring. Verkeersboetes, wildplassen, controle op illegaal vuurwerk, alcoholgebruik in het verkeer tijdens de donkere dagen rondom kerst én in de metro zonder kaartje, allemaal dingen die niet mogen, maar wel gebeuren. Verder: de kantonrechter. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht. Over emoties en de verhalen achter de bekeuring.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "4"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/3d62344c-f1f2-4514-b8e6-4db60496ec1d",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f6f43474-6c12-4e4b-8a4c-8ec14a370085",
+        "@type" : "Person",
+        "name" : "Sipke Jan Bousema"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2013-02-15T10:39:16.713Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2013-12-05T05:00:50.301Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/9b848c75-022b-4bae-9385-0a03edcf8542",
+      "@type" : "Genre",
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.6",
+      "prefLabel" : "Amusement"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/13f754fa-1ee0-495d-86af-870fcaf46dd2",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "AVRO_1353396",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9258eb73-1e05-4da0-ab28-d154735a1f4b",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://tmp.program.omroep.nl/10576810",
+      "name" : "CRID"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/3b7e95a0-1457-4099-9198-fa93c090ca37",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/59b5123a-876e-463e-bc6c-e3495591e00f",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2100000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-26T19:30:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe4106f4-d723-4cc0-b14f-a691a06d0c23",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/8ece3825-a426-467f-a70d-0b9ab8e72cee"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/98e96f7e-e839-452f-b89e-69678c7a0134",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-15T10:39:16.715Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fe4106f4-d723-4cc0-b14f-a691a06d0c23",
+      "publishes" : "http://metadatahub.bijnpo.nl/8ece3825-a426-467f-a70d-0b9ab8e72cee"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/a79cbb77-9be9-48a4-aec7-70e1eab2c555",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-15T10:39:16.716Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/fe4106f4-d723-4cc0-b14f-a691a06d0c23",
+      "publishes" : "http://metadatahub.bijnpo.nl/8ece3825-a426-467f-a70d-0b9ab8e72cee"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a531a46d-e058-4e19-9fa5-7408999b763e",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8bdd5cbe-7f17-4397-b68e-dde83515f525",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/16491618-655a-4a31-8b9d-63eb49404fa9" ],
+        "name" : "AVRO"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/6f83abbb-92e7-42ce-b8d9-0ca275977661",
+      "@type" : "Rating",
+      "description" : "Bad language",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7b65aa4b-c30e-46fd-96a1-dc7d83bf4c8d",
+        "@type" : "Concept",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.2.6",
+        "prefLabel" : [ {
+          "@language" : "en",
+          "@value" : "Bad language"
+        }, {
+          "@language" : "nl",
+          "@value" : "Grof taalgebruik"
+        } ]
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/724702e8-ee7a-4b08-a43f-e0b9e94593c1",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "Grof taalgebruik"
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/3a18ebf1-5ecc-478d-a81f-d4012ae2b90b",
+      "@type" : "Season",
+      "contentDescription" : "Opgave volgt. Afl.1.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-15T10:36:18.596Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2013-03-12T01:44:51.223Z"
+      },
+      "hasGenre" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      } ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/d7a6ba10-a746-4076-85ca-ce040091cd04",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "AVRO_1344189",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/4bf62983-c6a1-4cdf-9b0f-7f5fec15123b",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/8bdd5cbe-7f17-4397-b68e-dde83515f525",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRelatedPicture" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/3f4020a8-73ca-48f1-95bd-94753a3fce0a",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PICTURE",
+        "description" : "Op de bon",
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/5fbb847a-e7a4-44fd-9c51-a213a9c1e8ab",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-15T10:36:21.022Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-15T10:36:21.063Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/f9a23807-abc9-417c-a495-1e1c11f4242a", "http://metadatahub.bijnpo.nl/4ef261cf-d450-4e48-b662-b1873ad4dfd4" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "Op de bon"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/dec2fd52-b2fe-4c02-9265-682e52e60478",
+        "@type" : "Series",
+        "contentDescription" : "Opgave volgt. Afl.1.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2013-01-28T17:25:14.107Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2013-03-12T01:44:25.821Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/0eae0caa-289a-4e97-b1ff-2a7a16b78bc7", "http://metadatahub.bijnpo.nl/56decba1-5189-4356-8e6a-be82b555c31d" ],
+        "hasProvenance" : {
+          "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+        },
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/cb9e86ee-ecd0-40d8-aaca-666d2708211a" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/da0866a6-f969-47ac-834c-a3289040f5e9" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Op de bon"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "9"
+      },
+      "title" : "Op de bon"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/ae7e908a-b5ed-4ef4-abf6-ef932188e311",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/fe4106f4-d723-4cc0-b14f-a691a06d0c23"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Op de bon"
+  },
+  "error" : ""
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VPWON_1372178" sortDate="2026-04-01T22:45:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T15:41:17.283+01:00" lastModified="2026-04-01T23:13:05.852+02:00" publishDate="2026-04-01T23:13:06.193+02:00" urn="urn:vpro:media:program:131868870">
+    <crid>crid://npo/programmagegevens/2562758091668</crid>
+    <broadcaster id="EO">EO</broadcaster>
+    <region regionId="NLALL" platform="INTERNETVOD"/>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">Streaming Hell</title>
+    <description owner="MIS" type="MAIN">Filipijnse kinderen worden via livestreams op grote schaal misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt het werk van officier van justitie Linda van den Oever, advocaat Maranatha Praise Ladringan en de Filipijnse politie in hun strijd tegen deze groeiende vorm van misdaad.</description>
+    <description owner="MIS" type="SHORT">Filipijnse kinderen worden via livestreams misbruikt op verzoek van Nederlandse mannen. Rachel Rosier volgt justitie, advocaten en politie in hun strijd tegen deze groeiende misdaad.</description>
+    <genre id="3.0.1.40">
+        <term>Human Interest</term>
+    </genre>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H35M35.000S</duration>
+    <credits>
+        <person externalId="whatson:1080375301517" role="PRESENTER">
+            <givenName>Rachel</givenName>
+            <familyName>Rosier</familyName>
+        </person>
+    </credits>
+    <ageRating>9</ageRating>
+    <contentRating>ANGST</contentRating>
+    <contentRating>GROF_TAALGEBRUIK</contentRating>
+    <prediction state="ANNOUNCED" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2026-04-01T22:45:00+02:00" publishStop="2027-03-31T00:00:00+02:00">PLUSVOD</prediction>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="VPWON_1372178" urnRef="urn:vpro:media:program:131868870">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T22:45:00+02:00</start>
+            <duration>P0DT0H35M44.000S</duration>
+            <poProgID>VPWON_1372178</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

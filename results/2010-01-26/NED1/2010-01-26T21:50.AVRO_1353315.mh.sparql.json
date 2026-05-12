@@ -1,0 +1,35 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/805a720e-e24a-4d7b-a488-7beae96519af" } ,
+        "title": { "type": "literal" , "value": "Opsporing verzocht" } ,
+        "description": { "type": "literal" , "value": "Opsporingsprogramma i.s.m. politie en justitie voor een veiliger samenleving." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T10:39:19.654Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10570120" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T10:39:19.658Z,|INTERNETVOD,2013-02-15T10:39:19.657Z,|NPO 1,2010-01-26T20:50:00.000Z,2400000.0|NPO 2,2010-01-27T09:05:00.000Z,2100000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "AVRO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.3.10" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "Grof taalgebruik|Angst" } ,
+        "persons": { "type": "literal" , "value": "Sipke Jan Bousema\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "3,AVRO_1353308" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

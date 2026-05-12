@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05977757" sortDate="2026-03-01T07:30:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-28T09:20:20.448+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/9562ebf9-002a-4f19-bdee-ecce64ae5659</crid>
+    <crid>crid://npo/programmagegevens/2566763290668</crid>
+    <crid>crid://npo/programmagegevens/2566763231668</crid>
+    <crid>crid://npo/programmagegevens/2566763558668</crid>
+    <crid>crid://npo/programmagegevens/2566758987668</crid>
+    <crid>crid://npo/programmagegevens/2566821218668</crid>
+    <crid>crid://npo/programmagegevens/2566896386668</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">NOS Journaal ivm aanval Israël/VS op Iran</title>
+    <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
+    <description owner="AUTHORITY" type="SHORT">Met het laatste nieuws en de weersverwachting.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <descendantOf midRef="26JnlExtra"/>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="POW_05977757">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T07:00:00+01:00</start>
+            <duration>P53Y7M13DT8H0M0.000S</duration>
+            <poProgID>POW_05977757</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_05977757">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T07:30:00+01:00</start>
+            <duration>P56Y9M2DT4H1M4.000S</duration>
+            <poProgID>POW_05977757</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="26JnlExtra" index="8"/>
+    <segments/>
+</program>

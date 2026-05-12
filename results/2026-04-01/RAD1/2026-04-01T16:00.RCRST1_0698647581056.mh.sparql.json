@@ -1,0 +1,33 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/b572f209-ae98-4675-9c67-69e569270189" } ,
+        "title": { "type": "literal" , "value": "Dit is de Dag" } ,
+        "description": { "type": "literal" , "value": "Dit is de Dag is een stevig opiniërend programma van de EO met Tijs van den Brink. Op dinsdag en vrijdag hoor je Margje Fikse of Hans van der Steeg." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T00:04:43.288Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#AudioFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/rcrs/DEV/685a968595fcf61529e5e296" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO Radio 1,2026-04-01T14:00:00.000Z,7200000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "EO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.21" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

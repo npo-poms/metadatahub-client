@@ -1,0 +1,331 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/6ff56f46-9c08-4b10-880f-b1a2b5a15bd0",
+    "@type" : "Programme",
+    "contentDescription" : "Langs de Lijn En Omstreken is een gevarieerd magazine van de NOS en de EO waarin live sport, persoonlijke gesprekken bij het nieuws en het nieuws van de avond elkaar op een vanzelfsprekende manier afwisselen.",
+    "episodeNumberInSeries" : {
+      "@type" : "integer",
+      "@value" : "400"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/4dec0253-b063-4a31-91a4-788922a49a23",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/809a8ef1-be93-419b-9bf4-0f0edb98935e",
+        "@type" : "Person",
+        "familyName" : "van der Zandt",
+        "givenName" : "Herman"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-11T00:03:56.111Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-11T00:04:00.190Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.21",
+      "prefLabel" : "Informatief-Nieuws/actualiteiten"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/270e6b75-3b88-4238-9eb2-0a161a1497e0",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/rcrs/DEV/685a970695fcf61529e5e3a8",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6a478c48-1c0c-4f48-8211-855e8d61abc6",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "RCRST1_0792584764151",
+      "name" : "PRID"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/973df47d-18a5-4e14-a4c6-2f9e4c2c6865",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/3b821682-429d-4ba9-a1e4-dd9dd8ff50a5",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "3600000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/dd473773-7c27-4b6d-9522-2d58fbc38773",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO Radio 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T20:00:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/71940b6a-057b-4978-8c43-1c7c7493cdf2",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/1fe2d9cf-b1ca-4138-bd10-c8f056151f34"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/6ff56f46-9c08-4b10-880f-b1a2b5a15bd0"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/7374c46e-66b3-4a11-9947-7ffc226ce56a",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/e2af2a72-07bf-4feb-99b4-a244afce9273" ],
+        "name" : "NOS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/77791713-faa7-423f-b102-688178ed5639",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/a3ecc5a9-9945-4103-b8c2-8602ce13696e" ],
+        "name" : "EO"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        }, {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "hasRelatedPicture" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/abf2d92a-7232-411c-aba6-0b4b8cdded8b",
+      "@type" : "Picture",
+      "highlighted" : {
+        "@type" : "boolean",
+        "@value" : "false"
+      },
+      "imageType" : "PICTURE",
+      "frameHeight" : {
+        "@type" : "integer",
+        "@value" : "900"
+      },
+      "frameWidth" : {
+        "@type" : "integer",
+        "@value" : "1600"
+      },
+      "hasCopyright" : {
+        "@id" : "http://metadatahub.bijnpo.nl/6ce32611-2a58-4a58-a550-b504fc1c157a",
+        "@type" : "Copyright",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/7772331f-2af1-48c4-a210-8bc36889cf49"
+      },
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-11T00:03:56.248Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-02-11T00:04:10.257Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/5271f33b-0fd0-4133-8ac9-1f98534d78f0",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:media:image:131865658",
+        "name" : "Image URN"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/8d9a09c9-0795-4af2-a70f-377216aee0bf",
+        "@type" : "Identifier",
+        "identifierValue" : "urn:vpro:image:2222972",
+        "name" : "Image URI"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/f8f6688f-3877-456d-ab9a-6271e4d8cbc8",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/245b2767-b250-471b-a704-4a2e7ded44d2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "pubStatus" : "PUBLISHED",
+      "title" : "ldl-eo-16-9"
+    } ],
+    "isEpisodeOfSeries" : {
+      "@id" : "http://metadatahub.bijnpo.nl/19f904b1-180c-4762-b697-3dfd796ada21",
+      "@type" : "Series",
+      "contentDescription" : "Langs de Lijn En Omstreken is een gevarieerd magazine van de NOS en de EO waarin live sport, persoonlijke gesprekken bij het nieuws en het nieuws van de avond elkaar op een vanzelfsprekende manier afwisselen.",
+      "hasContributor" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/56a53b41-d0de-4a3f-8e8e-8b71a9e983e7",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/58cf389e-fcf5-4d6c-9138-6742cd8163b2",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+      } ],
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2023-12-19T08:56:48.542Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-01T08:02:39.036Z"
+      },
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/5ac4f9ec-34a9-4718-9648-deda28fbaec6",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "identifierValue" : "crid://npo/rcrs/6491618a21401a5871b33ea4",
+        "name" : "CRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9",
+        "@type" : "Identifier",
+        "identifierValue" : "SERIES",
+        "name" : "Original POMS type"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/a253bcc0-9894-4598-bfae-88562eff05d1",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "RCRSA1_0173598305748",
+        "name" : "PRID"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/5a6841eb-f976-4ed9-9096-29d197e5cafe",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/59781d36-2ea2-4bbb-8f34-768f86ab6e30",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRating" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/039f3b95-ecad-4b7a-a052-fa2d1c33f16f",
+        "@type" : "AudienceRating",
+        "description" : "Suitable for all ages",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/99dd0e0a-2ff5-414c-ae79-d168ed8d76f8",
+        "ratingProvider" : {
+          "@id" : "http://metadatahub.bijnpo.nl/724702e8-ee7a-4b08-a43f-e0b9e94593c1"
+        },
+        "ratingSystemName" : "NL-NICAM",
+        "ratingValue" : "AL"
+      } ],
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "title" : "Langs de Lijn EO"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2994e98-8f09-410f-8d8e-eed782b31d71",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/71940b6a-057b-4978-8c43-1c7c7493cdf2"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Langs de Lijn EO"
+  },
+  "error" : ""
+}

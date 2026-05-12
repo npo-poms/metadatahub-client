@@ -1,0 +1,795 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/1d5f9e68-3f62-4601-b8de-94315f843881",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Robert Aronson en Joseph Estié bespreken in Kasteel Ruurlo, in de tentoonstelling 40 jaar Tussen Kunst en Kitsch, hun jarenlange ervaringen als experts van dit programma.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "1"
+    },
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2024-07-23T07:50:29.100Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-04-08T09:12:48.306Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2024"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.24",
+      "prefLabel" : "Informatief-Kunst/cultuur"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/5f551db2-8d3a-4b43-aeef-61d43ea0a702",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2574699821668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/0a5e03d1-30e7-4eb9-9752-1e8a5b2a9bff",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2562758181668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/da19c95a-e78b-4ae2-830a-d709f88ddc30",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2470033820668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d83a1484-936f-40a6-bf71-a05856a9915c",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2484727567668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b41c9c82-e809-4a87-a411-c9afb9ea7f5b",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2518662314668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/a8f9c0bf-596b-4a00-a8b5-813ec9a4c77e",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2523829738668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9ba8698f-0fab-4c04-b4a8-3cb3a3b6ca6b",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2450373325668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/914a5565-8c61-4ecd-95e2-83aed5316f82",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2453099588668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6b0c0f52-abbc-47ec-807f-d244ff5ad592",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2417789351668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/50a1cc3f-b98a-404d-bab8-780c0bd990ea",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2417789124668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/4adb04b8-2c5c-4094-8480-ad6ad76c81aa",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2500781270668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/4486b234-f24e-411b-a072-d493ff2eb079",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2523283485668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/3dc888dc-be9c-44c6-9a60-dc1bf3a4487d",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2421132978668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/195b7fcf-9aa7-4458-9e42-adb0a04a499b",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2518652685668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/0c26b6fb-7d76-4ec7-bd63-76ff9027b8c1",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "AT_300019289",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/0427c7e1-8701-4bb0-95bf-2458ef259ee3",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2416210364668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/841230d5-4cc8-46eb-8dce-45eccae5c7a1",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b36f5a96-9328-46db-a9bc-a3dc421e26cf",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "874000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 2"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-07T10:40:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/74d5b2f4-e664-4e22-8254-ecb185973bff",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c04961c7-a510-409d-860f-d72a9f33b310",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1142000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T10:35:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/ee85b25a-5800-4e5f-9842-9aac46972c8e",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a9792ba6-332f-4e1d-9f60-77207ae3c007",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "868000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "BVN"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-08-13T23:45:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/ee23682d-398b-421b-990e-f199de860f7f",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/787fb21e-df5d-436b-bc5a-98185e6a8945",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1149000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-09-25T06:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/e627f6db-b603-4b6a-8d4c-86f07e8e59d7",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "PLUSVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-07-24T12:28:04.218Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/e1cb227f-aab7-4b50-a30c-094e18c3cc23",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a2c05afd-4c79-4b7e-938f-88d8894f0bef",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "831000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-09-24T10:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/dd1db893-9261-4c0a-8c23-ef77b6363f29",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9c98db01-bf89-49b6-afa7-5fd4445c50f1",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "866000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-07-09T12:50:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d938ca76-76a0-40ee-a9b0-d5a361c85c7d",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bb7fc6e-3d48-41cd-ba04-da722ac1c7d1",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "820000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-07-27T22:00:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/c67e78f9-6605-4fb7-bddd-7d873eec6bf4",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/66787093-b520-4c99-bf3f-004b1bf12998",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "858000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-10-10T07:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b0c947dc-3f5b-4095-8503-7728c50c646a",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/0164efd8-0c04-44ab-9227-2ac5ba3013cf",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "828000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-09-28T04:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/a7e55394-94fe-413e-8c90-089f42bee514",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/40510070-c7dd-40b7-ad21-a352f7d827d8",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "828000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-09-27T16:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9b060f07-b863-4f6f-a202-19dc71982855",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fea317c8-b723-4444-8a8d-071680b498bc",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "872000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-02-18T11:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/95036902-5c98-493e-95d3-c0702346fe3c",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/431ebbae-acb5-471f-a683-0ef4df0d7ddb",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "812000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-07-24T12:05:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8d6cd4f6-4d1f-4b07-ad17-0919c8f21d9d",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b0bb3012-d774-4f45-8ead-adae155912ca",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "868000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-08-13T11:45:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/60766418-9ef4-4411-8eda-24ac15391387",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/ad4bb314-57e1-45da-8f44-b812d446bbed",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "781000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-10-06T05:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/5123bff9-c322-4ca3-ab99-6a10c5d161ff",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/aff0c3f2-51a1-4591-95a8-761886491752",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "866000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-07-10T00:50:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/4de048bf-60bb-4ce3-a9a3-19058a8919c3",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b01dba66-0183-4d17-b2c5-1e05b47bf3df",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "858000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-10-09T19:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/40ec92ec-129d-4afa-a337-edde7a40c792",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2c4cd165-c467-4699-82d9-d311d633a10c",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "871000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-10-01T08:45:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/36c63eac-b2ec-4ac1-ae63-68d973d96b41",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/be6546ad-59cc-4958-938f-0bb4f0a82777",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1062000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-07-24T10:35:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/109deef0-17d8-4da3-a537-383b8c20efdb",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/3985d182-e6cb-4537-9a43-7fba0d66321c",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "819000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-07-26T12:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/095bc5d5-4e3c-4b94-a7d8-b0a503691da6",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/df8c83f7-1b2d-47c6-99ef-7bf809193bb6",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "861000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2024-12-31T11:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/0739ef57-7aa8-45fd-9213-aa8a20988194",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2d3a27b7-134f-4a21-8d11-e217c267b84d",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "820000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-07-28T10:00:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/069cdacc-ca27-46e9-9d1c-7ae0c475dd11",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/e40972e8-a839-493f-926f-4f0084c94632",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "953000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2025-04-08T10:35:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "publishes" : "http://metadatahub.bijnpo.nl/0bb3efc0-f907-4427-8056-32ebb8e300dc"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/e6fed038-013e-4612-83f5-17b45afe3bfd",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b8c8907f-2099-4c4c-a4b3-cadcd78d4485",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/b44cc71b-f5f9-4a1f-a965-094f9606a817" ],
+        "name" : "AVROTROS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        }, {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "hasRights" : {
+      "@id" : "http://metadatahub.bijnpo.nl/8e02d48d-bc61-4ec1-98a9-dc4ca1012719",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/97746efe-30be-4271-a730-a0719cd2e67d",
+        "@type" : "Concept",
+        "definition" : "Expliciet geen geo-restricties.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "Wereld"
+      }
+    },
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2e00f3c-492f-4655-a9bc-5e23fedd75a9",
+      "@type" : "Season",
+      "contentDescription" : "Een bijzonder voorwerp, een aansprekend verhaal of een opvallende ontwerper of kunstenaar; het kunnen allemaal aanleidingen zijn voor een Tussen Kunst en Kitsch Extra.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2024-07-23T07:50:39.468Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2025-05-28T19:26:33.992Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/4f53491e-3435-4ee8-88ef-9b658bee4593",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "AT_300019288",
+        "name" : "PRID"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+        "@type" : "Provenance",
+        "hasSystem" : {
+          "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529"
+        },
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/610549a6-65cc-413f-87ea-22e267ce8093",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/b8c8907f-2099-4c4c-a4b3-cadcd78d4485",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/eacb263d-7f5d-47b6-b07a-d959e850c7bb",
+        "@type" : "Series",
+        "hasAlternativeContentDescription" : [ "http://metadatahub.bijnpo.nl/587c42e1-0525-41b8-976a-1b56f3a7a8cb" ],
+        "contentDescription" : "Vanuit diverse musea in Nederland bespreken Frits Sissing en de experts weer verrassende kitsch en veelzijdige kunst.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2016-02-10T08:40:46.469Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-03-09T20:47:30.037Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/dc310ce6-8860-42a6-a997-c974af4a712d" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/9d20fb19-87ac-42f5-9f18-e0451a3070a2", "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/fb4ebc4e-2e2d-4cfb-94f5-f74f847b1cb4" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/0c057a72-b4cb-4a81-8083-df70f48c058c" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/fd6459a5-9d6d-49bc-aaac-dc14578647f9", "http://metadatahub.bijnpo.nl/d9a4abcd-bd83-44ca-8b6b-1fde70a41357" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Tussen Kunst en Kitsch"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "2025"
+      },
+      "title" : "Tussen Kunst en Kitsch Extra"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b63cc44d-7b7f-4635-a59a-339a36dfc3ca",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/0f876a32-f709-4463-bbe8-63e1ec8b5a5a",
+      "hasTrack" : {
+        "@id" : "http://metadatahub.bijnpo.nl/17c79298-a914-4342-8d27-548c76badccc",
+        "@type" : "Captioning",
+        "hasSubtitlingLanguage" : {
+          "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922"
+        }
+      }
+    },
+    "pubStatus" : "PUBLISHED",
+    "represents" : {
+      "@id" : "http://metadatahub.bijnpo.nl/61875370-732f-4162-ba49-2c10e334a7ea",
+      "@type" : "Asset",
+      "hasAccessConditions" : {
+        "@id" : "http://metadatahub.bijnpo.nl/150c7dc0-0b7e-4f5d-a5ff-b703a01e6097",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "WR"
+      }
+    },
+    "title" : "40 jaar Tussen Kunst en Kitsch"
+  },
+  "error" : ""
+}

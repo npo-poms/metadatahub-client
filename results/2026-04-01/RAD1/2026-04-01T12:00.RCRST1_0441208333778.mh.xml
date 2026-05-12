@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0441208333778" sortDate="2026-04-01T12:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:03:08.574+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/eedbf718-358a-4c09-ad82-290e0963b6f5</crid>
+    <crid>crid://npo/rcrs/DEV/68d1266e0cd0302612b25571</crid>
+    <broadcaster id="NTR">NTR</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Tony in de middag</title>
+    <description owner="AUTHORITY" type="MAIN">We zijn eindelijk het zuur voorbij: Tony houdt het volledig zoet in de middag!</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0441208333778">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T12:00:00+02:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>RCRST1_0441208333778</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

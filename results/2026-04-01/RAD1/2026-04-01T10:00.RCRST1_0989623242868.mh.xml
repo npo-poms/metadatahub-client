@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0989623242868" sortDate="2026-04-01T10:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:06:03.039+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/8a7ad09f-79b5-49ca-97d4-cb5a1e8aaed6</crid>
+    <crid>crid://npo/rcrs/DEV/685a95ba780458463f05f482</crid>
+    <broadcaster id="KRNC">KRO-NCRV</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Spraakmakers</title>
+    <description owner="AUTHORITY" type="MAIN">Spraakmakers is dé radiotalkshow op NPO Radio 1. Ghislaine Plag, Carl-Johan de Zwart en Roos Abelman ontvangen bevlogen gasten die je nét even anders naar het nieuws laten kijken. Wil je meepraten met Spraakmakers? Meld je rechtsonder in deze pagina aan voor onze community.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0989623242868">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T10:00:00+02:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>RCRST1_0989623242868</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

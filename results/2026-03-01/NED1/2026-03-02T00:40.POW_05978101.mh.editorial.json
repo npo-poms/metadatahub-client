@@ -1,0 +1,416 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/cd8dd612-c8ea-4d91-a8dd-8bb69d4cc308",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "9"
+    },
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-01-13T14:03:15.466Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-03-02T11:03:11.844Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2026"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.21",
+      "prefLabel" : "Informatief-Nieuws/actualiteiten"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/0af3a355-2a32-47bd-9baa-4de69864d6a4",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2555016232668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/1264c427-6d22-4bac-bce6-3dc206302eae",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "POW_05978101",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/2a166d6f-ac27-4aa1-b872-a73bfe63b5a3",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2555016222668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/bff11837-c1a4-43d9-80b2-e6766f25fe95",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2555016105668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/5d963746-2425-4b8d-99f6-b3f5633f9542",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2567101205668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d111e46c-ed20-48f9-951e-8d1331b71907",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2567101159668",
+      "name" : "CRID"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/6f69b312-b753-4e9f-8c29-c98c5e38104f",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/3401cf6d-a355-4fa2-9fc7-91d2646cdf80",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "384000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-02T03:05:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/7c4d07cb-e952-480a-ba1d-5bef07d0b424",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/41f7177b-abea-43f4-9c81-aa850f094675",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "337000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T23:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e",
+      "publishes" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/835f78a7-5ec1-4fdb-b904-b9e91fa712eb",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c306f0da-b0fe-41af-92f4-b53d775eee4c",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "389000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T22:35:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e",
+      "publishes" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/890ad1b8-c2ba-4ca4-a911-f433933007d2",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5110c39f-aa65-4b38-ab05-f43897be9fd5",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "362000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "BVN"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T23:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e",
+      "publishes" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6d456ec2-f911-4555-98f9-9036473498ee",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8663d9e6-3a4d-4dc1-88ca-03cfc3b10bb9",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "362000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-02T11:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e",
+      "publishes" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/97dd5770-3f83-4865-b1ea-8a7797feba84",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c7fd1db5-72f6-4b6b-b852-5dde6e2ff967",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "365000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-02T03:40:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e",
+      "publishes" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8370996d-e3c4-4659-89ee-5af71ccd147a",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/82451f02-ec7d-4244-835d-378fd78e521c",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "358000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-02T04:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e",
+      "publishes" : "http://metadatahub.bijnpo.nl/8c831050-f70b-40b0-aeee-8d2dbbf60dfb"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/c0baafdf-e2b4-41f7-a943-6cc85ce40c7c",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/e2af2a72-07bf-4feb-99b4-a244afce9273" ],
+        "name" : "NOS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRights" : {
+      "@id" : "http://metadatahub.bijnpo.nl/d3ac7e58-2c40-498b-bcc0-e64a7ee0735d",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "PLUSVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7ddbf7d8-fa1b-4f04-8f42-1ab8efa5ca64",
+        "@type" : "Concept",
+        "definition" : "Europese Unie (incl. BES gemeenten, Curacao, St. Maarten en Aruba).",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "EU"
+      }
+    },
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/88867a9b-4fbc-4dc9-bd9c-6e33a886432a",
+      "@type" : "Season",
+      "contentDescription" : "Met het laatste nieuws, gebeurtenissen van nationaal en internationaal belang en de weersverwachting.",
+      "hasAlternativeTitle" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/384ce271-cf4b-4d2a-a7e5-0634977cd2ad",
+        "@type" : "AlternativeTitle",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/ac5a51f5-c94d-41b9-b9b5-d3d144778043",
+        "title" : "NOS Journaal"
+      } ],
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2025-11-20T15:05:39.638Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-04T04:50:37.533Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/6f1f44e2-e0d6-4614-8b35-27e05f2ec634",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "26JnlLaatZon",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/e98ba017-3bc9-4c23-9f31-457704c2c272",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2228b170-e610-4054-b989-65938f20ef04",
+        "@type" : "Series",
+        "contentDescription" : "Alle Journaal uitzendingen van de NOS.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2016-11-17T11:07:12.182Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-05-06T13:01:42.430Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/57285550-caae-4260-bbf0-4cde7aec81e1", "http://metadatahub.bijnpo.nl/65d40624-0ef1-4690-a89e-6e2277049496" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/03abbb1f-b320-4bc3-849a-06a9a86f450d" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/325506f0-0889-4bfd-b6c6-74dd61ea9080" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/8d00c7c8-19ac-45d5-b691-de6d8cce0115" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "NOS Journaal"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "26"
+      },
+      "title" : "NOS Journaal"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/8cff49a3-e11f-4cc4-becc-e280eb51552a",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/35b82917-365c-4138-a143-6285eee5480e"
+    },
+    "pubStatus" : "PUBLISHED",
+    "represents" : {
+      "@id" : "http://metadatahub.bijnpo.nl/13904a8a-e62a-48b3-8a88-668709eb8c49",
+      "@type" : "Asset",
+      "hasAccessConditions" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/e4568e1d-bc92-48ed-829e-f388371df2d5",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "NLBES"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/8b86184e-2573-4927-ad4b-1f025aaa0a7a",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "PLUSVOD:EU"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/daa2e895-1843-4ca0-bda2-d1f9329322f0",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "TVVOD:NL"
+      } ]
+    },
+    "title" : "NOS Journaal"
+  },
+  "error" : ""
+}

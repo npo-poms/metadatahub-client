@@ -1,0 +1,35 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088" } ,
+        "title": { "type": "literal" , "value": "Discriminatie woonwagenbewoners?" } ,
+        "description": { "type": "literal" , "value": "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?" } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:15.267Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2564140225668|crid://npo/programmagegevens/2562758421668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T19:25:00.000Z,1582000.0|NPO 2,2026-04-04T10:15:00.000Z,1551000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "EO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "13,VPWON_1367420" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

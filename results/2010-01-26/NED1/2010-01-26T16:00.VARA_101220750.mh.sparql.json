@@ -1,0 +1,34 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/794e8d82-0e26-4a1c-9847-76a47ec28982" } ,
+        "title": { "type": "literal" , "value": "Pauw & Witteman" } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-17T15:03:50.688Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576769" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-17T15:03:50.691Z,|NPO 1,2010-01-25T22:00:00.000Z,3300000.0|NPO 1,2010-01-26T15:00:00.000Z,3000000.0|NPO 1,2010-01-25T23:10:00.000Z,3300000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "VARA|NPS" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.6" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "Paul Witteman\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "47,VARA_101220593" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

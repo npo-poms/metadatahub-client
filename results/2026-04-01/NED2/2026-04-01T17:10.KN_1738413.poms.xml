@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738413" sortDate="2026-03-31T21:40:00+02:00" workflow="PUBLISHED" creationDate="2026-02-09T14:23:24.594+01:00" lastModified="2026-04-01T11:25:17.964+02:00" publishDate="2026-04-01T11:26:22.079+02:00" urn="urn:vpro:media:program:131857195">
+    <crid>crid://npo/programmagegevens/2559284857668</crid>
+    <crid>crid://npo/programmagegevens/2562758146668</crid>
+    <crid>crid://npo/programmagegevens/2562985558668</crid>
+    <broadcaster id="KRNC">KRO-NCRV</broadcaster>
+    <region regionId="WR" platform="INTERNETVOD"/>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">De slimste mens</title>
+    <title owner="MIS" type="SUB">Uitdager: Freddy Tratlehner</title>
+    <description owner="MIS" type="MAIN">Uitdager: Freddy Tratlehner.</description>
+    <description owner="MIS" type="SHORT">Uitdager: Freddy Tratlehner.</description>
+    <genre id="3.0.1.7.19">
+        <term>Informatief</term>
+        <term>Spel/quiz</term>
+    </genre>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2025</releaseYear>
+    <duration>P0DT0H41M38.890S</duration>
+    <credits>
+        <person externalId="whatson:2544342471517" role="PRESENTER">
+            <givenName>Herman van der</givenName>
+            <familyName>Zandt</familyName>
+        </person>
+        <person externalId="whatson:1329097256517" role="PRESENTER">
+            <givenName>Paulien</givenName>
+            <familyName>Cornelisse</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:100918705" midRef="POMS_S_NPO_12072491" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:104532489" midRef="POMS_S_NPO_13012191" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:105645074" midRef="POMS_S_NPO_13047966" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:118430687" midRef="POMS_S_NPO_16297549" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:131699594" midRef="KN_1735078" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:71764172" midRef="POMS_S_NPO_3371426" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:78091875" midRef="KN_1676719" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:95895388" midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:97022679" midRef="POMS_S_NPO_10444886" type="PLAYLIST"/>
+    <ageRating>ALL</ageRating>
+    <contentRating>GROF_TAALGEBRUIK</contentRating>
+    <prediction state="REALIZED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="REALIZED" publishStart="2026-03-31T22:19:51+02:00" publishStop="2027-03-31T22:19:51+02:00">PLUSVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2026-03-31T02:48:29.331+02:00" lastModified="2026-03-31T02:48:30.119+02:00" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00" urn="urn:vpro:media:location:132706054">
+            <programUrl>npo+drm://internetvod.omroep.nl/KN_1738413</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+        <location owner="AUTHORITY" platform="PLUSVOD" workflow="PUBLISHED" creationDate="2026-03-30T10:56:41.633+02:00" lastModified="2026-03-30T10:56:42.060+02:00" publishStart="2026-03-31T22:19:51+02:00" publishStop="2027-03-31T22:19:51+02:00" urn="urn:vpro:media:location:132580468">
+            <programUrl>npo+drm://plusvod.omroep.nl/KN_1738413</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-30T08:41:19.545+02:00" lastModified="2026-03-30T08:41:19.545+02:00" urn="urn:vpro:media:image:132562989">
+            <shared:title>De slimste mens</shared:title>
+            <shared:description>Uitdager: Freddy Tratlehner.</shared:description>
+            <shared:imageUri>urn:vpro:image:2235810</shared:imageUri>
+            <shared:offset>P0DT0H1M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still De slimste mens / Uitdager: Freddy Tratlehner</shared:credits>
+            <shared:sourceName>KRO-NCRV</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-30T08:41:24.294+02:00" lastModified="2026-03-30T08:41:24.294+02:00" urn="urn:vpro:media:image:132562998">
+            <shared:title>De slimste mens</shared:title>
+            <shared:description>Uitdager: Freddy Tratlehner.</shared:description>
+            <shared:imageUri>urn:vpro:image:2235811</shared:imageUri>
+            <shared:offset>P0DT0H3M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still De slimste mens / Uitdager: Freddy Tratlehner</shared:credits>
+            <shared:sourceName>KRO-NCRV</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+        <shared:image owner="AUTHORITY" type="STILL" highlighted="false" workflow="PUBLISHED" creationDate="2026-03-30T08:41:25.444+02:00" lastModified="2026-03-30T08:41:25.444+02:00" urn="urn:vpro:media:image:132563003">
+            <shared:title>De slimste mens</shared:title>
+            <shared:description>Uitdager: Freddy Tratlehner.</shared:description>
+            <shared:imageUri>urn:vpro:image:2235812</shared:imageUri>
+            <shared:offset>P0DT0H2M0.000S</shared:offset>
+            <shared:height>1080</shared:height>
+            <shared:width>1920</shared:width>
+            <shared:credits>Still De slimste mens / Uitdager: Freddy Tratlehner</shared:credits>
+            <shared:sourceName>KRO-NCRV</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+            <shared:date>2026</shared:date>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="KN_1738413" urnRef="urn:vpro:media:program:131857195">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-03-31T21:40:00+02:00</start>
+            <duration>P0DT0H43M38.000S</duration>
+            <poProgID>KN_1738413</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="KN_1738413" urnRef="urn:vpro:media:program:131857195">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-03-31T21:40:00+02:00</start>
+            <duration>P0DT0H42M39.000S</duration>
+            <poProgID>KN_1738413</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED3" midRef="KN_1738413" urnRef="urn:vpro:media:program:131857195">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-04-01T00:20:00+02:00</start>
+            <duration>P0DT0H42M38.000S</duration>
+            <poProgID>KN_1738413</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="KN_1738413" urnRef="urn:vpro:media:program:131857195">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-31+02:00</guideDay>
+            <start>2026-04-01T09:40:00+02:00</start>
+            <duration>P0DT0H42M39.000S</duration>
+            <poProgID>KN_1738413</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="KN_1738413" urnRef="urn:vpro:media:program:131857195">
+            <repeat isRerun="true"/>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T17:10:00+02:00</start>
+            <duration>P0DT0H42M29.000S</duration>
+            <poProgID>KN_1738413</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-09T14:23:25.614+01:00" highlighted="false" midRef="KN_1735078" index="27" type="SEASON" urnRef="urn:vpro:media:group:131699594">
+        <memberOf midRef="KN_1676719" type="SERIES" index="27">
+            <memberOf midRef="POMS_S_NPO_10444886" type="PLAYLIST" index="4">
+                <memberOf midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
+            </memberOf>
+            <memberOf midRef="POMS_S_NPO_13047966" type="PLAYLIST" index="10"/>
+            <memberOf midRef="POMS_S_NPO_3371426" type="PLAYLIST" index="10"/>
+            <memberOf midRef="POMS_S_NPO_12072491" type="PLAYLIST" index="20"/>
+            <memberOf midRef="POMS_S_NPO_13012191" type="PLAYLIST" index="24"/>
+            <memberOf midRef="POMS_S_NPO_16297549" type="PLAYLIST" index="708"/>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>

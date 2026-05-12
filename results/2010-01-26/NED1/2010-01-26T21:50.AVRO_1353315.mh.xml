@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AVRO_1353315" sortDate="2013-02-15T11:39:19.658+01:00" workflow="FOR PUBLICATION" creationDate="2013-02-15T11:39:19.654+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/805a720e-e24a-4d7b-a488-7beae96519af</crid>
+    <crid>crid://tmp.program.omroep.nl/10570120</crid>
+    <broadcaster id="AVRO">AVRO</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Opsporing verzocht</title>
+    <description owner="AUTHORITY" type="MAIN">Opsporingsprogramma i.s.m. politie en justitie voor een veiliger samenleving.</description>
+    <genre id="3.0.1.3.10">
+        <term>Serie</term>
+        <term>Spanning</term>
+    </genre>
+    <credits>
+        <person role="PRESENTER">
+            <givenName></givenName>
+            <familyName>Sipke Jan Bousema</familyName>
+        </person>
+    </credits>
+    <descendantOf midRef="AVRO_1353308"/>
+    <contentRating>GROF_TAALGEBRUIK</contentRating>
+    <contentRating>ANGST</contentRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AVRO_1353315">
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T21:50:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>AVRO_1353315</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED2" midRef="AVRO_1353315">
+            <guideDay>2010-01-27+01:00</guideDay>
+            <start>2010-01-27T10:05:00+01:00</start>
+            <duration>P66Y6M17DT13H20M0.000S</duration>
+            <poProgID>AVRO_1353315</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1353315">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:19.657+01:00</start>
+            <poProgID>AVRO_1353315</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NVOD" midRef="AVRO_1353315">
+            <guideDay>2013-02-15+01:00</guideDay>
+            <start>2013-02-15T11:39:19.658+01:00</start>
+            <poProgID>AVRO_1353315</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="AVRO_1353308" index="3"/>
+    <segments/>
+</program>

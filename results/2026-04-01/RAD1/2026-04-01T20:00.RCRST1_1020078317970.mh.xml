@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_1020078317970" sortDate="2026-04-01T20:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:04:11.553+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/40f792b0-91b6-44cc-9a0e-3ac8b99b8caf</crid>
+    <crid>crid://npo/rcrs/DEV/685a96f995fcf61529e5e363</crid>
+    <broadcaster id="NTR">NTR</broadcaster>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Nieuws en Co</title>
+    <description owner="AUTHORITY" type="MAIN">Nieuws en Co maakt het nieuws persoonlijk. Wetenschap, cultuur en diversiteit staan centraal. Fleur Wallenburg brengt de luisteraars van maandag tot en met donderdag op de hoogte van het nieuws van de dag. Op vrijdag hoor je Dieuwke Teertstra Nieuws en Co is een coproductie van NOS en NTR en hoor je iedere werkdag van 17.00 - 18.30 uur op NPO Radio 1.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_1020078317970">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T20:00:00+02:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>RCRST1_1020078317970</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

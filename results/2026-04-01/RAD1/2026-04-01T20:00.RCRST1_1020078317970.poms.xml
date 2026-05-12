@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_1020078317970" sortDate="2026-04-01T20:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:04:11.553+01:00" lastModified="2026-02-11T01:04:16.777+01:00" publishDate="2026-03-26T05:30:29.944+01:00" urn="urn:vpro:media:program:131865663">
+    <crid>crid://npo/rcrs/DEV/685a96f995fcf61529e5e363</crid>
+    <broadcaster id="NTR">NTR</broadcaster>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Nieuws en Co</title>
+    <description owner="AUTHORITY" type="MAIN">Nieuws en Co maakt het nieuws persoonlijk. Wetenschap, cultuur en diversiteit staan centraal. Fleur Wallenburg brengt de luisteraars van maandag tot en met donderdag op de hoogte van het nieuws van de dag. Op vrijdag hoor je Dieuwke Teertstra Nieuws en Co is een coproductie van NOS en NTR en hoor je iedere werkdag van 17.00 - 18.30 uur op NPO Radio 1.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT2H0M0.000S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Fleur</givenName>
+            <familyName>Wallenburg</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:128209952" midRef="RCRSA1_0689877254489" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="ANNOUNCED">INTERNETVOD</prediction>
+    <locations/>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-02-11T01:04:11.621+01:00" lastModified="2026-02-11T01:04:27.141+01:00" urn="urn:vpro:media:image:131865667">
+            <shared:title>Fleur Wallenburg</shared:title>
+            <shared:imageUri>urn:vpro:image:2220363</shared:imageUri>
+            <shared:height>1200</shared:height>
+            <shared:width>1200</shared:width>
+            <shared:source>https://npotest.b-cdn.net/s3-nporadio1/1o13is879t8v-fleur-wallenburg.jpg</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_1020078317970" urnRef="urn:vpro:media:program:131865663">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T20:00:00+02:00</start>
+            <duration>P0DT2H0M0.000S</duration>
+            <poProgID>RCRST1_1020078317970</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:04:11.934+01:00" highlighted="false" midRef="RCRSA1_0689877254489" index="333" type="SERIES" urnRef="urn:vpro:media:group:128209952"/>
+    <segments/>
+</program>

@@ -1,0 +1,271 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/4191e7f6-5d66-434c-8968-3c63791e81d4",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/78cd1dbd-2e3a-4dea-881c-f794ec5166cf",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Programma over sociaal maatschappelijke problematiek, met name overlast en wangedrag in de buurt zijn speerpunten in het programma.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "contentDescription" : "Sociaal maatschappelijke problematiek, met name overlast en wangedrag in de buurt zijn speerpunten in het programma. Een team van deskundigen gaat kijkers actief helpen om deze problemen aan te pakken. Elke deskundige heeft een eigen discipline en zet haar/zijn kennis en kunde in om tot een oplossing te komen. Ivo Opstelten vervult de rol van voorzitter die het team van deskundigen aanstuurt. Hij is sinds 4 november 2009 waarnemend burgemeester van Tilburg. Het team bestaat verder uit: -Joost Eerdmans. Joost Eerdmans is sinds 2 maart 2009 wethouder in Capelle aan den IJssel namens Leefbaar Capelle. -Mildred Roethof. Mildred Roethof is deskundige in de jeugdcultuur. Ze is eigengereid, confronterend en gaat taboes niet uit de weg. De cultuur van jongeren staat centraal in verschillende documentaires die zij maakt. -Clarice Stenger. Clarice Stenger is werkzaam als advocaat bij Van Aalst en Daniëls advocaten in Amsterdam. Haar specialiteiten zijn aansprakelijkheidsrecht, erfrecht, personen- en familierecht, onroerend goedrecht en strafrecht. -Bernard Tomlow. Bernard Tomlow is de grondlegger van het kantoor Tomlow advocaten uit Utrecht. Zijn specialiteiten zijn huurrecht, arbeidsrecht, bestuursrecht en het algemeen verbintenissenrecht.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "2"
+    },
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2013-02-16T16:14:24.928Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2013-12-05T17:31:20.802Z"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+      "@type" : "Genre",
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7",
+      "prefLabel" : "Informatief"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/2c6e364d-7280-49b6-8558-7d422131ea02",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://tmp.program.omroep.nl/10576811",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d2ad4fad-d6fb-4a0e-93aa-3173e5143a37",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "TROS_1222306",
+      "name" : "PRID"
+    } ],
+    "hasProvenance" : {
+      "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead",
+      "@type" : "Provenance",
+      "hasSystem" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e34f562-9c5b-4d30-bfc8-a93b0b1d2529",
+        "@type" : "System",
+        "name" : "POMS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/2bd72691-a547-40ad-8244-f96b2a2a9a6d",
+        "@type" : "Concept",
+        "definition" : "Indicates that metadata was imported from a connected external system.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:ProvenanceActionCS"
+        },
+        "notation" : "20.1.1",
+        "prefLabel" : "Imported from external system"
+      }
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/7e7ebe52-9c0c-4436-be11-6e858599846c",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4fbf1ca6-98a3-419c-a540-20f1f0ada898",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2700000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2010-01-26T20:05:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/169b3b4a-4fca-4dfb-b206-cf8ea585057e",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/4191e7f6-5d66-434c-8968-3c63791e81d4"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/d96662ae-c2b3-45f8-b9cf-cbec498dc538",
+      "@type" : "PublicationEvent",
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-16T16:14:24.930Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/169b3b4a-4fca-4dfb-b206-cf8ea585057e",
+      "publishes" : "http://metadatahub.bijnpo.nl/4191e7f6-5d66-434c-8968-3c63791e81d4"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/142f9c0f-44e8-47a5-a50d-48c9d10fc1f9",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9fb6d6fb-eb51-428d-8cb8-168a5b1e5bb8",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2f122c64-958a-4c8d-b884-a3805c59fb60" ],
+        "name" : "TROS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/d82cd1d1-15f1-450e-b70e-eba23af42cce",
+      "@type" : "Season",
+      "contentDescription" : "Programma over sociaal maatschappelijke problematiek, met name overlast en wangedrag in de buurt zijn speerpunten in het programma. Een team van deskundigen gaat kijkers actief helpen om deze problemen aan te pakken. Elke deskundige heeft een eigen discipline en zet haar/zijn kennis en kunde in om tot een oplossing te komen. Ivo Opstelten vervult de rol van voorzitter die het team van deskundigen aanstuurt. Hij is sinds 4 november 2009 waarnemend burgemeester van Tilburg. Het team bestaat verder uit: -Joost Eerdmans. Joost Eerdmans is sinds 2 maart 2009 wethouder in Capelle aan den IJssel namens Leefbaar Capelle. -Mildred Roethof. Mildred Roethof is deskundige in de jeugdcultuur. Ze is eigengereid, confronterend en gaat taboes niet uit de weg. De cultuur van jongeren staat centraal in verschillende documentaires die zij maakt. -Clarice Stenger. Clarice Stenger is werkzaam als advocaat bij Van Aalst en Daniëls advocaten in Amsterdam. Haar specialiteiten zijn aansprakelijkheidsrecht, erfrecht, personen- en familierecht, onroerend goedrecht en strafrecht. -Bernard Tomlow. Bernard Tomlow is de grondlegger van het kantoor Tomlow advocaten uit Utrecht. Zijn specialiteiten zijn huurrecht, arbeidsrecht, bestuursrecht en het algemeen verbintenissenrecht.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2013-02-16T16:12:40.835Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2013-03-12T04:43:10.036Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/92060549-158c-4570-a989-9862db2cc0e6",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "TROS_1222200",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasProvenance" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+      },
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/169bd910-87c5-470c-8161-80eabd7273b9",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/9fb6d6fb-eb51-428d-8cb8-168a5b1e5bb8",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "hasRelatedPicture" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/464f4ed9-7370-4169-99f3-df8df97ffb93",
+        "@type" : "Picture",
+        "highlighted" : {
+          "@type" : "boolean",
+          "@value" : "false"
+        },
+        "imageType" : "PICTURE",
+        "description" : "TROS Regelrecht",
+        "hasCopyright" : "http://metadatahub.bijnpo.nl/8438b6e8-a97a-4f12-9a5d-f503cea728bd",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-16T16:12:43.301Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-16T16:12:43.343Z"
+        },
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/cf6ead5f-96bd-4c70-80b2-a538fd281fa8", "http://metadatahub.bijnpo.nl/73d7a88f-064a-414a-96f6-f6df2451d4a8" ],
+        "pubStatus" : "PUBLISHED",
+        "title" : "TROS Regelrecht"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a52908fb-f104-4736-84e5-d996785e49e4",
+        "@type" : "Series",
+        "contentDescription" : "Programma over sociaal maatschappelijke problematiek, met name overlast en wangedrag in de buurt zijn speerpunten in het programma. Een team van deskundigen gaat kijkers actief helpen om deze problemen aan te pakken. Elke deskundige heeft een eigen discipline en zet haar/zijn kennis en kunde in om tot een oplossing te komen. Ivo Opstelten vervult de rol van voorzitter die het team van deskundigen aanstuurt. Hij is sinds 4 november 2009 waarnemend burgemeester van Tilburg. Het team bestaat verder uit: -Joost Eerdmans. Joost Eerdmans is sinds 2 maart 2009 wethouder in Capelle aan den IJssel namens Leefbaar Capelle. -Mildred Roethof. Mildred Roethof is deskundige in de jeugdcultuur. Ze is eigengereid, confronterend en gaat taboes niet uit de weg. De cultuur van jongeren staat centraal in verschillende documentaires die zij maakt. -Clarice Stenger. Clarice Stenger is werkzaam als advocaat bij Van Aalst en Daniëls advocaten in Amsterdam. Haar specialiteiten zijn aansprakelijkheidsrecht, erfrecht, personen- en familierecht, onroerend goedrecht en strafrecht. -Bernard Tomlow. Bernard Tomlow is de grondlegger van het kantoor Tomlow advocaten uit Utrecht. Zijn specialiteiten zijn huurrecht, arbeidsrecht, bestuursrecht en het algemeen verbintenissenrecht.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2013-02-16T16:12:46.023Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2014-09-02T08:13:54.029Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/512115f9-1944-45bb-849d-afd8126a450f", "http://metadatahub.bijnpo.nl/d3751833-565f-4ffa-a585-9971deb69c36" ],
+        "hasProvenance" : {
+          "@id" : "http://metadatahub.bijnpo.nl/b197c033-fb3a-4c17-ae91-b34afc9fdead"
+        },
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/e1155aae-5127-4e63-9d1a-2904a638293b" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/71f22b76-1f69-4c49-aa8a-9aeb05ac7738" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Regelrecht"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "1"
+      },
+      "title" : "TROS Regelrecht"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/8612e82c-b27b-448c-b80a-73e4ed4c0e64",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/169b3b4a-4fca-4dfb-b206-cf8ea585057e"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "TROS Regelrecht"
+  },
+  "error" : ""
+}

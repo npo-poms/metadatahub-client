@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0672830272592" sortDate="2026-04-01T06:00:00+02:00" workflow="PUBLISHED" creationDate="2026-02-11T01:05:46.577+01:00" lastModified="2026-02-11T01:05:51.764+01:00" publishDate="2026-03-26T05:30:05.777+01:00" urn="urn:vpro:media:program:131865733">
+    <crid>crid://npo/rcrs/DEV/685a95d9780458463f05f4eb</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">NOS Radio 1 Journaal</title>
+    <description owner="AUTHORITY" type="MAIN">Elke ochtend tussen 06:00 en 09:30 uur: het NOS Radio 1 Journaal. In de uitzendingen komen het laatste nieuws, achtergronden, reacties, analyses en sport aan bod.</description>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <geoLocations owner="AUTHORITY"/>
+    <topics owner="AUTHORITY"/>
+    <duration>P0DT4H0M0.000S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Astrid</givenName>
+            <familyName>Kersseboom</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:128209902" midRef="RCRSA1_0957872904243" type="SERIES"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="ANNOUNCED">INTERNETVOD</prediction>
+    <locations/>
+    <images>
+        <shared:image owner="AUTHORITY" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2026-02-11T01:05:46.648+01:00" lastModified="2026-02-11T01:06:01.826+01:00" urn="urn:vpro:media:image:131865737">
+            <shared:title>Astrid Kersseboom</shared:title>
+            <shared:imageUri>urn:vpro:image:2220452</shared:imageUri>
+            <shared:height>280</shared:height>
+            <shared:width>280</shared:width>
+            <shared:credits>NOS</shared:credits>
+            <shared:source>https://npotest.b-cdn.net/RAD1/image/f9ba8726-2ca0-4fa7-aa16-894ecdcf3f92/Astrid%20Kersseboom.jpg</shared:source>
+            <shared:sourceName>NPO RCRS</shared:sourceName>
+            <shared:license>COPYRIGHTED</shared:license>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0672830272592" urnRef="urn:vpro:media:program:131865733">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T06:00:00+02:00</start>
+            <duration>P0DT4H0M0.000S</duration>
+            <poProgID>RCRST1_0672830272592</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-02-11T01:05:47.002+01:00" highlighted="false" midRef="RCRSA1_0957872904243" index="403" type="SERIES" urnRef="urn:vpro:media:group:128209902"/>
+    <segments/>
+</program>

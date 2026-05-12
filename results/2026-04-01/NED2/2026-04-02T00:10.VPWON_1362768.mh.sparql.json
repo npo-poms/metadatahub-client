@@ -1,0 +1,35 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/34c60cdd-80a4-4690-be9c-81114f438f20" } ,
+        "title": { "type": "literal" , "value": "Kiki (1/2)" } ,
+        "description": { "type": "literal" , "value": "Kiki belandde met onstuimig weer in het water maar werd gered." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Kiki belandde met onstuimig weer in het water maar werd gered." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2025-05-28T13:00:50.145Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2503999195668|crid://npo/programmagegevens/2562758455668|crid://npo/programmagegevens/2488442782668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2025-07-02T23:10:00.000Z,406000.0|NPO 2,2025-08-06T21:55:00.000Z,411000.0|NPO 2,2026-04-01T22:10:00.000Z,403000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "EO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.40" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "28,VPWON_1362740" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

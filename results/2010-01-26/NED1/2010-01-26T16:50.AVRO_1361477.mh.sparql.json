@@ -1,0 +1,35 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/858013ae-f61c-4f2f-98a7-abb26804eaad" } ,
+        "title": { "type": "literal" , "value": "Opium weet wat er speelt" } ,
+        "description": { "type": "literal" , "value": "Actuele culturele tips van prominente cultuurliefhebbers en deskundigen. In een kort vlammend betoog vertellen zij de kijkers wat ze niet mogen missen: wat speelt er in de theaters en bioscopen, welke boeken en cd's zijn hot en welke tentoonstellingen zijn absolute aanraders?" } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Actuele culturele tips van prominente cultuurliefhebbers en deskundigen. In een kort vlammend betoog vertellen zij de kijkers wat ze niet mogen missen." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T10:39:11.196Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576800" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T10:39:11.199Z,|INTERNETVOD,2017-11-02T02:39:18.190Z,|INTERNETVOD,2013-02-15T10:39:11.198Z,|NPO 1,2010-01-26T15:50:00.000Z,600000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "AVRO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7.24" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "12,AVRO_1361454" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

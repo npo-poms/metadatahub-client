@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="AUDIO" embeddable="true" mid="RCRST1_0449589130463" sortDate="2026-04-01T23:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T01:03:40.779+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/2b72a665-02ea-4fba-8101-a64a074f3f82</crid>
+    <crid>crid://npo/rcrs/DEV/685a971495fcf61529e5e3d9</crid>
+    <broadcaster id="OZW">Omroep Zwart</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Met het Oog Op Morgen</title>
+    <description owner="AUTHORITY" type="MAIN">Het Oog brengt aan het eind van de dag een overzicht van het nieuws, de ochtendkranten en journalistieke interviews met mensen in en achter het nieuws, omlijst door mooie muziek.
+Elke dag van de week heeft zijn eigen presentator. Door deze vaste dag, de persoonlijke opening van het programma en de manier van interviewen, drukt de presentator een eigen stempel op de uitzending. We noemen NOS Met het Oog op Morgen ook wel een 'journalistieke personality show'.
+De ijzersterke formule en de persoonlijkheid en kwaliteit van de presentatoren zorgen ervoor dat het programma al sinds 1976 een uniek radioprogramma is dat zeer goed beluisterd en hoog gewaardeerd wordt.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="RAD1" midRef="RCRST1_0449589130463">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T23:00:00+02:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>RCRST1_0449589130463</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <segments/>
+</program>

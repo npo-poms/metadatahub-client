@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738932" sortDate="2026-03-03T08:40:00+01:00" workflow="FOR PUBLICATION" creationDate="2026-02-02T16:50:25.101+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/c6f0fc43-cadd-4de5-9193-76c0bbd3eebf</crid>
+    <crid>crid://npo/programmagegevens/2555016216668</crid>
+    <crid>crid://npo/programmagegevens/2555016102668</crid>
+    <broadcaster id="KRNC">KRO-NCRV</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">Zes boeren starten liefdesavontuur</title>
+    <description owner="AUTHORITY" type="MAIN">De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware. Yvon Jaspers stelt de zes vrijgezelle boeren aan je voor.</description>
+    <description owner="AUTHORITY" type="SHORT">De zoektocht naar échte liefde is terug. Met boeren op zoek naar een vrouw, een boer die droomt van een man en een boerin die hoopt op de ware.</description>
+    <genre id="3.0.1.40.62">
+        <term>Human Interest</term>
+        <term>Liefde</term>
+    </genre>
+    <credits/>
+    <descendantOf midRef="KN_1737495"/>
+    <ageRating>ALL</ageRating>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="KN_1738932">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T20:35:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>KN_1738932</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="KN_1738932">
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-02T01:30:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>KN_1738932</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="KN_1738932">
+            <guideDay>2026-03-02+01:00</guideDay>
+            <start>2026-03-02T20:40:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>KN_1738932</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="BVNT" midRef="KN_1738932">
+            <guideDay>2026-03-03+01:00</guideDay>
+            <start>2026-03-03T08:40:00+01:00</start>
+            <duration>P68Y0M18DT3H14M7.000S</duration>
+            <poProgID>KN_1738932</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="KN_1737495" index="1"/>
+    <segments/>
+</program>

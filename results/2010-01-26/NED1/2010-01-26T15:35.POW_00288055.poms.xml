@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_00288055" sortDate="2010-01-31T01:25:00+01:00" workflow="PUBLISHED" creationDate="2013-02-16T20:57:50.211+01:00" lastModified="2013-12-06T00:21:02.956+01:00" publishDate="2022-06-08T10:59:52.066+02:00" urn="urn:vpro:media:program:21216188">
+    <crid>crid://tmp.program.omroep.nl/10567676</crid>
+    <broadcaster id="BNN">BNN</broadcaster>
+    <title owner="NEBO" type="MAIN">ONM</title>
+    <description owner="NEBO" type="SHORT">Esmee probeert haar vader uit te leggen waarom ze draagmoeder wil worden. Sytze denkt dat hij Yousef in de gevangenis kan opvrolijken. Het lijkt Kim beter als Yousef uit haar leven verdwijnt.</description>
+    <description owner="NEBO" type="SUB">Esmee probeert haar vader uit te leggen waarom ze draagmoeder wil worden. Sytze denkt dat hij Yousef in de gevangenis kan opvrolijken. Het lijkt Kim beter als Yousef uit haar leven verdwijnt. Jacqueline en Junior krijgen ruzie met vervelende studenten. Ilyas doet Junior een belofte die hij niet na kan komen. Junior flipt en maakt ruzie met iedereen.</description>
+    <genre id="3.0.1.3">
+        <term>Serie</term>
+    </genre>
+    <avAttributes>
+        <bitrate>0</bitrate>
+        <avFileFormat>WM</avFileFormat>
+        <videoAttributes>
+            <videoCoding>WM</videoCoding>
+            <aspectRatio>16:9</aspectRatio>
+        </videoAttributes>
+    </avAttributes>
+    <duration>P0DT0H25M0.000S</duration>
+    <credits/>
+    <descendantOf urnRef="urn:vpro:media:group:18538983" midRef="POMS_S_BNN_097259" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:21215788" midRef="POW_00288039" type="SEASON"/>
+    <ageRating>9</ageRating>
+    <contentRating>ANGST</contentRating>
+    <contentRating>GROF_TAALGEBRUIK</contentRating>
+    <prediction state="REALIZED" publishStart="2010-01-25T19:26:02+01:00">INTERNETVOD</prediction>
+    <locations>
+        <location owner="NEBO" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2013-02-16T20:57:50.213+01:00" lastModified="2013-02-16T20:57:50.224+01:00" publishStart="2010-01-25T19:26:02+01:00" urn="urn:vpro:media:location:21216196">
+            <programUrl>odi+http://odi.omroep.nl/video/h264_bb/POW_00288055</programUrl>
+            <avAttributes>
+                <bitrate>512000</bitrate>
+                <avFileFormat>MP4</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>WM</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+        </location>
+    </locations>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED3" midRef="POW_00288055" urnRef="urn:vpro:media:program:21216188">
+            <avAttributes>
+                <bitrate>0</bitrate>
+                <avFileFormat>WM</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>WM</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2010-01-25+01:00</guideDay>
+            <start>2010-01-25T19:00:00+01:00</start>
+            <duration>P0DT0H22M0.000S</duration>
+            <poProgID>POW_00288055</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="POW_00288055" urnRef="urn:vpro:media:program:21216188">
+            <avAttributes>
+                <bitrate>0</bitrate>
+                <avFileFormat>WM</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>WM</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T15:35:00+01:00</start>
+            <duration>P0DT0H25M0.000S</duration>
+            <poProgID>POW_00288055</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED3" midRef="POW_00288055" urnRef="urn:vpro:media:program:21216188">
+            <avAttributes>
+                <bitrate>0</bitrate>
+                <avFileFormat>WM</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>WM</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2010-01-30+01:00</guideDay>
+            <start>2010-01-31T01:25:00+01:00</start>
+            <duration>P0DT0H20M0.000S</duration>
+            <poProgID>POW_00288055</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2013-02-16T20:57:50.253+01:00" highlighted="false" midRef="POW_00288039" index="16" type="SEASON" urnRef="urn:vpro:media:group:21215788">
+        <memberOf midRef="POMS_S_BNN_097259" type="SERIES" index="11"/>
+    </episodeOf>
+    <segments/>
+</program>

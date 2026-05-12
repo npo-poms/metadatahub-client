@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/44cd29ab-c883-441b-8ea0-0e9bd729e88f" } ,
+        "title": { "type": "literal" , "value": "Wat een gedonder" } ,
+        "description": { "type": "literal" , "value": "Mr. Frank Visser beslecht burenruzies, familievetes en andere conflicten. De uitspraak van mr. Frank Visser is juridisch bindend voor de partijen; zij zijn verplicht zijn beslissing te aanvaarden." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:De studenten Frank, Herman en Maarten hebben een bovenwoning in Rotterdam-Zuid. Hun benedenburen: een gezin met drie kinderen. De benedenburen hebben veel last van de studenten." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-06T14:11:09.285Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576812" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2017-08-09T12:56:13.715Z,|INTERNETVOD,2013-02-06T14:11:09.288Z,|INTERNETVOD,2013-02-06T14:11:09.287Z,|NPO 1,2010-01-26T21:30:00.000Z,2100000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "NCRV" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.6" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "Jetske van den Elsen\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "2,NCRV_1354471" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/63f285d8-3aea-4cbe-bdb0-9c302a60c12e" } ,
+        "title": { "type": "literal" , "value": "Hulp arriveert" } ,
+        "description": { "type": "literal" , "value": "Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Nederlander Janno stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag toekijkt, wordt deze passant de laatste hoop voor tientallen Afghanen. Zijn cruciale rol bleef lang geheim." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-03-06T10:20:40.675Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758175668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T18:30:00.000Z,1848000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "KRNC" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.8.44" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "12" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "persons": { "type": "literal" , "value": "Joey Boink\tDirector\t|Annemieke Ruggenberg\tDirector\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "2,KN_1736443" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

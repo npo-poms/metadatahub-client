@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="AT_300018347" sortDate="2026-03-01T21:50:00+01:00" workflow="PUBLISHED" creationDate="2026-01-13T15:03:13.083+01:00" lastModified="2026-03-21T15:12:40.579+01:00" publishDate="2026-03-21T15:12:40.852+01:00" urn="urn:vpro:media:program:131736383">
+    <crid>crid://npo/programmagegevens/2555016131668</crid>
+    <crid>crid://npo/programmagegevens/2560757963668</crid>
+    <broadcaster id="AVTR">AVROTROS</broadcaster>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">Tussen Kunst en Kitsch</title>
+    <title owner="MIS" type="SUB">Veenkoloniaal Museum</title>
+    <description owner="MIS" type="MAIN">Expert Willem Rueb herkende het schilderij van Edgar Fernhout meteen. Fernhout komt uit een bijzondere kunstenaarsfamilie: hij is de zoon van Charley Toorop en kleinzoon van Jan Toorop. Het werk van Fernhout hangt in veel grote musea en er is veel over hem geschreven. Wat is dit schilderij waard? In het Veenkoloniaal Museum weet de eigenaar van het Japanse aardewerk precies de weg. Het is namelijk haar oude middelbare school. Ook komt er een 17-eeuws schilderij van een monnik in gebed voorbij en sieraden van Niki de Saint Phalle, een belangrijke vrouwelijke Frans-Amerikaanse beeldhouwer die ook sieraden maakte. Is het kunst, of edelkitsch?</description>
+    <description owner="MIS" type="SHORT">Een schilderij van Edgar Fernhout, zoon van Charley Toorop en kleinzoon van Jan Toorop, Japans aardewerk, een 17-eeuws schilderij van een monnik in gebed en sieraden van Niki de Saint Phalle.</description>
+    <genre id="3.0.1.7.24">
+        <term>Informatief</term>
+        <term>Kunst/cultuur</term>
+    </genre>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H45M35.000S</duration>
+    <credits>
+        <person externalId="whatson:572107871517" role="PRESENTER">
+            <givenName>Frits</givenName>
+            <familyName>Sissing</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:131526608" midRef="AT_300018341" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:38230019" midRef="POMS_S_AVRO_501459" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:70884932" midRef="AT_2036145" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:74453774" midRef="POMS_S_NPO_3712257" type="PLAYLIST"/>
+    <ageRating>ALL</ageRating>
+    <prediction state="ANNOUNCED" publishStart="2000-01-01T01:00:00+01:00" publishStop="2101-01-01T00:59:00+01:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2026-03-21T14:30:12+01:00" publishStop="2027-03-21T14:30:12+01:00">PLUSVOD</prediction>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="AT_300018347" urnRef="urn:vpro:media:program:131736383">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-01+01:00</guideDay>
+            <start>2026-03-01T21:50:00+01:00</start>
+            <duration>P0DT0H45M55.000S</duration>
+            <poProgID>AT_300018347</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="AT_300018347" urnRef="urn:vpro:media:program:131736383">
+            <repeat isRerun="true">01-03-2026</repeat>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-03-21+01:00</guideDay>
+            <start>2026-03-21T13:45:00+01:00</start>
+            <duration>P0DT0H45M49.000S</duration>
+            <poProgID>AT_300018347</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-01-13T15:03:13.933+01:00" highlighted="false" midRef="AT_300018341" index="6" type="SEASON" urnRef="urn:vpro:media:group:131526608">
+        <memberOf midRef="AT_2036145" type="SERIES" index="17">
+            <memberOf midRef="POMS_S_AVRO_501459" type="COLLECTION" index="3"/>
+            <memberOf midRef="POMS_S_NPO_3712257" type="PLAYLIST" index="133"/>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>

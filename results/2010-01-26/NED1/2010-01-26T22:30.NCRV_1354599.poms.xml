@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="NCRV_1354599" sortDate="2010-01-26T22:30:00+01:00" workflow="PUBLISHED" creationDate="2013-02-06T15:11:09.285+01:00" lastModified="2017-08-09T14:56:13.764+02:00" publishDate="2022-06-06T21:54:52.689+02:00" urn="urn:vpro:media:program:20239931">
+    <crid>crid://tmp.program.omroep.nl/10576812</crid>
+    <broadcaster id="NCRV">NCRV</broadcaster>
+    <title owner="NEBO" type="MAIN">De rijdende rechter</title>
+    <title owner="NEBO" type="SUB">Wat een gedonder</title>
+    <description owner="NEBO" type="MAIN">Mr. Frank Visser beslecht burenruzies, familievetes en andere conflicten. De uitspraak van mr. Frank Visser is juridisch bindend voor de partijen; zij zijn verplicht zijn beslissing te aanvaarden.</description>
+    <description owner="NEBO" type="SHORT">De studenten Frank, Herman en Maarten hebben een bovenwoning in Rotterdam-Zuid. Hun benedenburen: een gezin met drie kinderen. De benedenburen hebben veel last van de studenten.</description>
+    <description owner="NEBO" type="SUB">De studenten Frank, Herman en Maarten zijn de trotse bewoners van een bovenwoning in Rotterdam-Zuid. Hun benedenburen: een gezin met drie kinderen. De studenten vinden dat ze hun heftige tijd achter de rug hebben; ze zijn serieuze, hardwerkende jongens geworden. Maar de benedenburen liggen elke nacht wakker van gestamp, muziek en keukengeluiden. Het drietal ergert zich op zijn beurt aan de buurman die zijn klachten dagelijks via de intercom over hen uitstort. Tijd voor het luisterend oor van De rijdende rechter.</description>
+    <description owner="NEBO" type="EPISODE">Mr. Frank Visser beslecht burenruzies, familievetes en andere conflicten. De uitspraak van mr. Frank Visser is juridisch bindend voor de partijen; zij zijn verplicht zijn beslissing te aanvaarden. Afl.: Wat een gedonder. De studenten Frank, Herman en Maarten zijn de trotse bewoners van een bovenwoning in Rotterdam-Zuid. Hun benedenburen: een gezin met drie kinderen. De studenten vinden dat ze hun heftige tijd achter de rug hebben; ze zijn serieuze, hardwerkende jongens geworden. Maar de benedenburen liggen elke nacht wakker van gestamp, muziek en keukengeluiden. Het drietal ergert zich op zijn beurt aan de buurman die zijn klachten dagelijks via de intercom over hen uitstort. Tijd voor het luisterend oor van De rijdende rechter. Presentatie: Jetske van den Elsen.</description>
+    <genre id="3.0.1.6">
+        <term>Amusement</term>
+    </genre>
+    <avAttributes>
+        <bitrate>0</bitrate>
+        <avFileFormat>MP4</avFileFormat>
+        <videoAttributes>
+            <videoCoding>MP4</videoCoding>
+            <aspectRatio>16:9</aspectRatio>
+        </videoAttributes>
+    </avAttributes>
+    <duration>P0DT0H35M0.000S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Jetske</givenName>
+            <familyName>van den Elsen</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:108346454" midRef="POMS_S_NPO_13133300" type="PLAYLIST"/>
+    <descendantOf urnRef="urn:vpro:media:group:20239914" midRef="NCRV_1354471" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:70890387" midRef="KN_1679108" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:95895388" midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
+    <descendantOf urnRef="urn:vpro:media:group:98786306" midRef="POMS_S_NPO_11394957" type="PLAYLIST"/>
+    <prediction state="REALIZED" publishStart="2010-01-26T23:06:02+01:00">INTERNETVOD</prediction>
+    <locations>
+        <location owner="AUTHORITY" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2017-08-09T14:56:13.715+02:00" lastModified="2017-08-09T14:56:13.758+02:00" publishStart="2010-01-26T23:06:02+01:00" urn="urn:vpro:media:location:96651143">
+            <programUrl>npo://internetvod.omroep.nl/NCRV_1354599</programUrl>
+            <avAttributes>
+                <bitrate>3500000</bitrate>
+                <avFileFormat>HASP</avFileFormat>
+            </avAttributes>
+        </location>
+    </locations>
+    <images>
+        <shared:image owner="BROADCASTER" type="PICTURE" highlighted="false" workflow="PUBLISHED" creationDate="2016-06-29T11:39:17.853+02:00" lastModified="2016-06-29T11:39:17.984+02:00" urn="urn:vpro:media:image:78765452">
+            <shared:title>RR</shared:title>
+            <shared:description>RR</shared:description>
+            <shared:imageUri>urn:vpro:image:767201</shared:imageUri>
+        </shared:image>
+    </images>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="NCRV_1354599" urnRef="urn:vpro:media:program:20239931">
+            <avAttributes>
+                <bitrate>0</bitrate>
+                <avFileFormat>MP4</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>MP4</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T22:30:00+01:00</start>
+            <duration>P0DT0H35M0.000S</duration>
+            <poProgID>NCRV_1354599</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2013-02-06T15:11:09.390+01:00" highlighted="false" midRef="NCRV_1354471" index="2" type="SEASON" urnRef="urn:vpro:media:group:20239914">
+        <memberOf midRef="KN_1679108" type="SERIES" index="2010">
+            <memberOf midRef="POMS_S_NPO_13133300" type="PLAYLIST" index="6"/>
+            <memberOf midRef="POMS_S_NPO_11394957" type="PLAYLIST" index="13">
+                <memberOf midRef="POMS_S_NPO_9798311" type="COLLECTION"/>
+            </memberOf>
+        </memberOf>
+    </episodeOf>
+    <segments/>
+</program>

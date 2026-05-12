@@ -1,0 +1,383 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/60da81b3-8c8b-45fe-b3f6-582c657ad8b2",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Worden woonwagenwagenbewoners gediscrimineerd in Nederland? Melanie wil graag een eigen woonwagen, maar woont nu noodgedwongen bij haar ouders, omdat er geen plek is op het kamp: de gemeente wil geen nieuwe plekken toewijzen en dus stapt ze naar de rechter. Is dit discriminatie?",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "13"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/6cdccca2-ed83-40a3-84a3-fd031b312f56",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/d5b178db-bf37-4919-a023-70a19b57e505",
+        "@type" : "Person",
+        "familyName" : "Rosier",
+        "givenName" : "Rachel"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6e002e29-fc46-49dd-9af4-f640d30ea1e1",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5cdc5af8-c3da-43be-83cc-199247caa25e",
+        "@type" : "Person",
+        "familyName" : "Kaat",
+        "givenName" : "Joram"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/821a7f1a-690f-4a4a-ba79-7df22bce0403",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bfc1cd82-9e27-4748-8e7a-78c1bff8f6aa",
+        "@type" : "Person",
+        "familyName" : "van der Steeg",
+        "givenName" : "Hans"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14"
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-11T14:41:15.267Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-04-02T12:23:49.964Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2026"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+      "@type" : "Genre",
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7",
+      "prefLabel" : "Informatief"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/2238fbe0-b971-4d07-b23e-84ceebb0438d",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "VPWON_1367433",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/5e00d37f-0176-4914-b411-c5fa05c9f927",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2564140225668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/e6bac969-896d-4330-ade3-64edfbf559b7",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2562758421668",
+      "name" : "CRID"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/43122136-9895-4ee7-bab6-70aa6cc008c9",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a337ef29-26f7-42d2-a625-04861b3c0b92",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1551000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 2"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-04T10:15:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/a8850325-e9d5-4793-b93d-e653f75be6ee",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/45318637-b678-4403-a282-d1362779d320",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/16853678-ec26-4fcf-b025-c4599b5c8592",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1582000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T19:25:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/a8850325-e9d5-4793-b93d-e653f75be6ee",
+      "publishes" : "http://metadatahub.bijnpo.nl/5232c839-cc4e-4f63-87c0-16b3ae9fc088"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/0fadfe51-57e4-4eaf-bf8f-40220d29aa4a",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/a3ecc5a9-9945-4103-b8c2-8602ce13696e" ],
+        "name" : "EO"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        }, {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "hasRights" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a9dd584c-1078-47ce-a69a-95e874960fb2",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/97746efe-30be-4271-a730-a0719cd2e67d",
+        "@type" : "Concept",
+        "definition" : "Expliciet geen geo-restricties.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "Wereld"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/e8324812-8c45-4dca-9265-3cda0cc8575f",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "PLUSVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7ddbf7d8-fa1b-4f04-8f42-1ab8efa5ca64",
+        "@type" : "Concept",
+        "definition" : "Europese Unie (incl. BES gemeenten, Curacao, St. Maarten en Aruba).",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "EU"
+      }
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f582d5be-67e7-4ba0-8202-f1db44a5b5d7",
+      "@type" : "Season",
+      "contentDescription" : "Joram Kaat, Hans van der Steeg en Rachel Rosier onderzoeken de actualiteit vanuit prikkelende morele dilemma's en ethische kwesties.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2025-11-20T13:10:59.452Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-09T08:55:02.684Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/5024e86f-6b1b-4cc6-a9e6-59b63e05830c",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "VPWON_1367420",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/d3bec557-96b7-4259-b1c8-7829b0933ecb",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/4ef8a17e-271b-4e0e-85b1-c8fb1cbbd34b",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/1c8ad9d8-63a9-40c9-bed2-320e8408b2dc",
+        "@type" : "Series",
+        "contentDescription" : "Joram Kaat, Hans van der Steeg en Rachel Rosier onderzoeken de actualiteit vanuit prikkelende morele dilemma's en ethische kwesties.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2022-04-21T07:28:20.545Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-04-16T07:52:11.600Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/bc2747f2-8229-43a7-8095-43c518f6d1fd" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/8571962e-1670-4b6e-8097-dcc2429b86a6" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Dit is de kwestie"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "5"
+      },
+      "title" : "Dit is de kwestie"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2d09525-1e72-4e84-8f5f-6659f92440f9",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/a8850325-e9d5-4793-b93d-e653f75be6ee"
+    },
+    "pubStatus" : "PUBLISHED",
+    "represents" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/13904a8a-e62a-48b3-8a88-668709eb8c49",
+      "@type" : "Asset",
+      "hasAccessConditions" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/daa2e895-1843-4ca0-bda2-d1f9329322f0",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "TVVOD:NL"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/8b86184e-2573-4927-ad4b-1f025aaa0a7a",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "PLUSVOD:EU"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/e4568e1d-bc92-48ed-829e-f388371df2d5",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "NLBES"
+      } ]
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/61875370-732f-4162-ba49-2c10e334a7ea",
+      "@type" : "Asset",
+      "hasAccessConditions" : {
+        "@id" : "http://metadatahub.bijnpo.nl/150c7dc0-0b7e-4f5d-a5ff-b703a01e6097",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "WR"
+      }
+    } ],
+    "title" : "Discriminatie woonwagenbewoners?"
+  },
+  "error" : ""
+}

@@ -1,0 +1,160 @@
+PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX npo: <http://ontology.metadatahub.bijnpo.nl/ontology#>
+
+
+# I went for a solution with group by for all multi valued properties
+# Otherwise, for every single object the cartesion product of everyhing must be transferred, containing a lot of duplication
+# which does not seem ideal
+# But perhaps now it is going a bit too far, because all this stuff with coelesce and reparsing and what not is not ideal either
+# May be the more complex things like schedulevents should just be fetched with a new query,
+# For simple things like countries, and genre this is probably fine.
+SELECT
+    ?entity
+    (SAMPLE(?title) as ?title) # sample just to avoid to have to group by
+    (SAMPLE(?description) as ?description)
+
+    (GROUP_CONCAT(DISTINCT CONCAT(COALESCE(?alternativeDescriptionLabel, ''),  ":", ?alternativeDescriptionValue); SEPARATOR="|") AS ?alternativeDescriptions)
+    (SAMPLE(?dateCreated) as ?dateCreated)
+
+    (SAMPLE(?ebuFormat) as ?ebuFormat)
+
+    (GROUP_CONCAT(DISTINCT ?crid;  SEPARATOR="|") AS ?crids)
+    (GROUP_CONCAT(DISTINCT CONCAT(STR(?channelName), ",", STR(?start), ",", COALESCE(STR(?duration), "")); SEPARATOR="|") AS ?scheduleEvents)
+    (GROUP_CONCAT(DISTINCT ?broadcaster; SEPARATOR="|") AS ?broadcasters)
+    (GROUP_CONCAT(DISTINCT ?country; SEPARATOR="|") AS ?countries)
+    (GROUP_CONCAT(DISTINCT ?languageCode; SEPARATOR="|") AS ?languages)
+    (GROUP_CONCAT(DISTINCT ?genreId; SEPARATOR="|") AS ?genres)
+    (GROUP_CONCAT(DISTINCT ?ta; SEPARATOR="|") AS ?targetGroups)
+    (GROUP_CONCAT(DISTINCT ?ageRatingValue) as ?ageRating)
+    (GROUP_CONCAT(DISTINCT ?contentRatingValue; SEPARATOR="|") AS ?contentRatings)
+    (GROUP_CONCAT(DISTINCT CONCAT(STR(?personName), "\t", COALESCE(STR(?role), ""), "\t", COALESCE(STR(?gtaaUri), "")); SEPARATOR="|") AS ?persons)
+    (GROUP_CONCAT(DISTINCT CONCAT(COALESCE(STR(?episodeOfSeasonNumber), ""), ",", COALESCE(STR(?episodeOfSeasonPrid), ?episodeOfSeason)); SEPARATOR="|") AS ?episodeOfSeasons)
+
+WHERE {
+    ?entity ec:hasIdentifier ?id .
+    ?id ec:name "PRID" .
+    ?id ec:identifierValue "POW_00288055" .
+
+
+    OPTIONAL {
+        ?entity ec:hasIdentifier ?cridId .
+        ?cridId ec:name "CRID" .
+        ?cridId ec:identifierValue ?crid .
+    }
+
+    OPTIONAL { ?entity ec:title ?title . }
+    OPTIONAL { ?entity ec:contentDescription ?description . }
+
+    OPTIONAL {
+        ?entity npo:hasAlternativeContentDescription ?alternativeDescription .
+        ?alternativeDescription ec:contentDescription ?alternativeDescriptionValue .
+        OPTIONAL {
+            ?alternativeDescription ec:hasObjectType ?alternativeDescriptionType .
+            ?alternativeDescriptionType skos:prefLabel ?alternativeDescriptionLabel .
+        }
+    }
+
+    OPTIONAL {
+        ?entity ec:isInstantiatedBy / ec:hasRelatedEssence / ec:hasFormat / rdf:type ?ebuFormat .
+    }
+
+    # scheduleevents
+    OPTIONAL {
+        ?entity ec:hasPublication ?publication .
+        ?publication ec:hasPublicationChannel ?channel .
+        ?channel ec:name ?channelName .
+        ?publication ec:hasStartDateTime ?start .
+        OPTIONAL { ?publication ec:hasDuration / ec:equivalentTime ?duration . }
+    }
+    OPTIONAL {
+        ?entity ec:hasPublisher / ec:hasAgent / ec:hasIdentifier / ec:identifierValue ?broadcaster .
+    }
+
+    # not sure this is ok yet
+    OPTIONAL {
+        ?entity ec:hasProductionCountry ?productionCountry .
+        ?productionCountry a ec:CountryCode .
+        ?productionCountry ec:altLabel ?country .
+    }
+    # nor this
+    OPTIONAL {
+        ?entity ec:hasLanguage ?hasLanguage .
+        ?hasLanguage skos:notation ?languageCode .
+    }
+    OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
+    OPTIONAL {
+        ?entity ec:hasGenre ?hasGenre .
+        ?hasGenre skos:notation ?genreId .
+    }
+    OPTIONAL {
+        ?entity ec:hasTargetAudience / ec:hasObjectType ?taNode .
+        ?taNode skos:notation ?ta .
+    }
+    OPTIONAL {
+        ?entity ec:hasRating ?rating .
+        ?rating ec:ratingSystemName 'NL-NICAM' .
+        ?rating rdf:type ec:AudienceRating .
+        ?rating ec:ratingValue ?ageRatingValue .
+    }
+    OPTIONAL {
+        ?entity ec:hasRating ?rating .
+        ?rating ec:ratingSystemName 'NL-NICAM' .
+        ?rating rdf:type ec:Rating .
+        ?rating ec:ratingValue ?contentRatingValue .
+    }
+    OPTIONAL {
+        ?entity ec:hasContributor ?contributor .
+        ?contributor ec:hasAgent ?agent .
+        ?agent ec:name ?personName .
+        OPTIONAL {
+            ?agent ec:hasIdentifier ?agentIdentifier .
+            ?agentIdentifier ec:identifierValue ?gtaaUri .
+        }
+        OPTIONAL {
+            ?contributor ec:hasObjectType / skos:prefLabel ?role .
+        }
+    }
+    OPTIONAL {
+        ?entity ec:isEpisodeOfSeason ?episodeOfSeason .
+        OPTIONAL { ?entity ec:episodeNumberInSeason ?episodeOfSeasonNumber . }
+        OPTIONAL {
+            ?episodeOfSeason ec:hasIdentifier ?sid .
+            ?sid ec:name "PRID" .
+            ?sid ec:identifierValue ?episodeOfSeasonPrid .
+        }
+    }
+}
+
+group by ?entity
+PREFIX ec: <http://www.ebu.ch/metadata/ontologies/ebucoreplus#>
+SELECT
+    ?entity
+    ?prid
+    (SAMPLE(?title) as ?title)
+    (SAMPLE(?description) as ?description)
+    (SAMPLE(?dateCreated) as ?dateCreated)
+    (GROUP_CONCAT(DISTINCT ?broadcaster; SEPARATOR="|") AS ?broadcasters)
+
+WHERE {
+    ?entity ec:hasIdentifier ?id .
+       ?id ec:name "PRID" .
+      ?id ec:identifierValue ?prid .
+    ?entity ec:isPartOf ?part .
+      ?part ec:hasIdentifier ?partId .
+      ?partId ec:name "PRID" .
+      ?partId ec:identifierValue "POW_00288055" .
+
+    OPTIONAL { ?entity ec:title ?title . }
+    OPTIONAL { ?entity ec:contentDescription ?description . }
+    OPTIONAL { ?entity ec:hasDateCreated ?dateCreated . }
+    OPTIONAL {
+        ?entity ec:hasPublisher/ec:hasAgent/ec:hasIdentifier/ec:identifierValue ?broadcaster .
+    }
+}
+group by ?entity ?prid
+
+
+
+

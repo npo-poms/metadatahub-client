@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="KN_1738850" sortDate="2026-04-01T20:30:00+02:00" workflow="PUBLISHED" creationDate="2026-03-06T11:20:40.675+01:00" lastModified="2026-04-02T14:23:41.129+02:00" publishDate="2026-04-02T14:24:31.948+02:00" urn="urn:vpro:media:program:131980864">
+    <crid>crid://npo/programmagegevens/2562758175668</crid>
+    <broadcaster id="KRNC">KRO-NCRV</broadcaster>
+    <region regionId="NL" platform="INTERNETVOD"/>
+    <region regionId="EU" platform="PLUSVOD"/>
+    <title owner="MIS" type="MAIN">Holland Gate</title>
+    <title owner="MIS" type="SUB">Hulp arriveert</title>
+    <description owner="MIS" type="MAIN">Officieel is er geen Nederlandse vertegenwoordiging meer, maar achter de schermen voltrekt zich een ongelooflijk verhaal. Op het moment dat hij naar Nederland kan vluchten, maakt Nederlander Janno een dapper besluit: hij stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag van een afstand toekijkt, wordt deze toevallige passant de officieuze laatste hoop voor tientallen gestrande Afghanen. In de eerste 48 uur van de crisis doet hij wat de overheid niet lukte, maar zijn cruciale rol bleef jarenlang verborgen. Tot nu.</description>
+    <description owner="MIS" type="SHORT">Nederlander Janno stapt uit de rij voor zijn evacuatievlucht. Terwijl Den Haag toekijkt, wordt deze passant de laatste hoop voor tientallen Afghanen. Zijn cruciale rol bleef lang geheim.</description>
+    <genre id="3.0.1.8.44">
+        <term>Documentaire</term>
+        <term>Politiek</term>
+    </genre>
+    <country code="NL">Nederland</country>
+    <language code="nl">Nederlands</language>
+    <isDubbed>false</isDubbed>
+    <releaseYear>2026</releaseYear>
+    <duration>P0DT0H31M40.000S</duration>
+    <credits>
+        <person externalId="whatson:792543048517" role="DIRECTOR">
+            <givenName>Joey</givenName>
+            <familyName>Boink</familyName>
+        </person>
+        <person externalId="whatson:2571247670517" role="DIRECTOR">
+            <givenName>Annemieke</givenName>
+            <familyName>Ruggenberg</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:131907457" midRef="KN_1736442" type="SERIES"/>
+    <descendantOf urnRef="urn:vpro:media:group:131907459" midRef="KN_1736443" type="SEASON"/>
+    <ageRating>12</ageRating>
+    <contentRating>ANGST</contentRating>
+    <contentRating>GROF_TAALGEBRUIK</contentRating>
+    <prediction state="ANNOUNCED" publishStart="2026-03-25T02:00:00+01:00" publishStop="2038-01-01T01:00:00+01:00">INTERNETVOD</prediction>
+    <prediction state="ANNOUNCED" publishStart="2026-03-25T02:00:00+01:00" publishStop="2027-04-01T02:00:00+02:00">PLUSVOD</prediction>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="KN_1738850" urnRef="urn:vpro:media:program:131980864">
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T20:30:00+02:00</start>
+            <duration>P0DT0H30M48.000S</duration>
+            <poProgID>KN_1738850</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2026-03-06T11:20:41.382+01:00" highlighted="false" midRef="KN_1736443" index="2" type="SEASON" urnRef="urn:vpro:media:group:131907459">
+        <memberOf midRef="KN_1736442" type="SERIES" index="1"/>
+    </episodeOf>
+    <segments/>
+</program>

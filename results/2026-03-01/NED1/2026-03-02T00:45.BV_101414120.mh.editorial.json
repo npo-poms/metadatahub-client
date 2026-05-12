@@ -1,0 +1,319 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/0d23ce32-f12e-49e0-9b03-a33d078b5908",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/e28d70b3-ca84-4668-8665-e1bbd2921183",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Te gast: Keyvan Shahbazi, Negin Nafissi, Mart de Kruif, Simone Tukker, Hanneke van der Werf en Ron Keller.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Een dag na de bombardementen op Iran door de Verenigde Staten en Israël heeft het regime bevestigd dat ayatollah Khamenei is gedood bij de aanvallen. Wat betekent dit voor Iraniërs in binnen- en buitenland? Aan tafel schrijver Keyvan Shahbazi en Negin Nafissi. Met oud-commandant der Landstrijdkrachten Mart de Kruif en Amerikaverslaggever Simone Tukker bespreken we de meest recente ontwikkelingen. En morgen overleggen de Europese ministers van Buitenlandse Zaken over de situatie in het Midden-Oosten. Welke rol moet de EU innemen? Daarover buitenlandwoordvoerder van D66 Hanneke van der Werf en voormalig diplomaat Ron Keller.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "82"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/26ee6837-4fad-443a-9068-410284c541a8",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b1bcb01b-0503-4770-a582-26286a1204f8",
+        "@type" : "Person",
+        "familyName" : "Wit",
+        "givenName" : "Tim De"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-03-01T09:30:24.826Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-03-02T11:03:10.024Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2026"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/93fe4130-ce74-41dd-8abc-174ff7be8bb6",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.7",
+        "prefLabel" : "Informatief"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.7.21",
+      "prefLabel" : "Informatief-Nieuws/actualiteiten"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/ed98e8ea-7756-4a4b-ae31-185e4d1fe074",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2566910337668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/4298e925-17c3-40af-8655-94061214c086",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2566910530668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/1a5de49a-5ef2-45cb-a201-84b951ec2d72",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "BV_101414120",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a210ecd5-4a13-4a09-978c-20bd14761fae",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/d06e63c3-8de9-4ab7-8f0b-555425a565ee",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2879000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "BVN"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-02T09:35:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/0b4d48f0-cb0c-4418-9fa6-ecd589e4d7c2",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/0d23ce32-f12e-49e0-9b03-a33d078b5908"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/28826bd8-bafb-47c6-875a-a64fcc3aa02c",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/ede05bf4-d918-41d5-8723-3d853aeaa121",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2879000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T21:35:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0b4d48f0-cb0c-4418-9fa6-ecd589e4d7c2",
+      "publishes" : "http://metadatahub.bijnpo.nl/0d23ce32-f12e-49e0-9b03-a33d078b5908"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/f0e7f7c0-7d45-4c48-a37b-879b52d1bded",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/42b69f72-29a7-43ca-9b9f-e486873ce9e9",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2692000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T21:45:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0b4d48f0-cb0c-4418-9fa6-ecd589e4d7c2",
+      "publishes" : "http://metadatahub.bijnpo.nl/0d23ce32-f12e-49e0-9b03-a33d078b5908"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/6cf036ae-67d5-4657-9861-2fbfd1592336",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/41b0911b-f7a0-4d2e-b43c-16f9394121b1",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "2706000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T23:45:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0b4d48f0-cb0c-4418-9fa6-ecd589e4d7c2",
+      "publishes" : "http://metadatahub.bijnpo.nl/0d23ce32-f12e-49e0-9b03-a33d078b5908"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/0571c726-3d77-400a-84b5-a8914c7a8a30",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5572b050-74d7-49b7-bf03-03a82733fef8",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/4e80023e-36eb-4bed-8641-7634eb5a1c73" ],
+        "name" : "BNNVARA"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/cc5f0425-57ed-4692-8142-0c41edd70b24",
+      "@type" : "Season",
+      "contentDescription" : "Talkshow over de actualiteit. Aan tafel voeren afwisselend Jeroen Pauw en Tim de Wit het gesprek van de dag. Er is ruimte voor debat en actuele duiding met de hoofdrolspelers uit de politiek en het nieuws.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2025-11-20T15:00:46.540Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-06T08:00:35.942Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/5736433f-e37a-43f9-b65e-d88640ef91aa",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "BV_101413581",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/c5cd39bf-40a3-4746-9cb1-63af047684b1",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/5572b050-74d7-49b7-bf03-03a82733fef8",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/4a85e03d-d5ae-402c-9190-523afe23f14c",
+        "@type" : "Series",
+        "contentDescription" : "Talkshow over de actualiteit. Aan tafel voeren afwisselend Jeroen Pauw en Tim de Wit het gesprek van de dag. Er is ruimte voor debat en actuele duiding met de hoofdrolspelers uit de politiek en het nieuws.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2025-07-14T12:50:30.399Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-05-06T08:00:35.658Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/b74d0368-1062-4865-bfe2-315129d6d32d" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/1752b50b-6f82-48ac-8b05-71201d05892f" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/0b7e9fa0-eb13-44f8-acbc-f0db237ffa1f" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Pauw & De Wit"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "2"
+      },
+      "title" : "Pauw & De Wit"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/45a8811b-15b9-4ed2-aac2-038ddce72277",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/0b4d48f0-cb0c-4418-9fa6-ecd589e4d7c2"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "Pauw & De Wit"
+  },
+  "error" : ""
+}

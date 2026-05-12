@@ -1,0 +1,396 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/fdfdc28b-49e0-4305-bcfa-2022eb365167",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses.",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "8"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/ffd50e65-05f0-4f8b-a792-a7b45e1499e1",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/ffca89b0-7f79-4513-9d15-aaebaa2ad801",
+        "@type" : "Person",
+        "familyName" : "van 't Hof",
+        "givenName" : "Gert"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-01-12T14:33:53.518Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-03-02T11:03:06.954Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2026"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5838787c-c63b-43c2-9fb2-f619063f6d7d",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.4",
+        "prefLabel" : "Sport"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.4.82",
+      "prefLabel" : "Sport-Analyse"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/bcaaa0ba-f78f-4dcd-8ede-f1689740c93d",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2555016257668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b0756082-05da-4cb2-8c96-7d402c7133ff",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2553216308668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/42281d20-20e2-43ac-95a0-98c9d21c43f9",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2553216488668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/407c2eda-c368-4fbe-bf99-89b9998bdc6f",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "POW_06002399",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/83b0a31d-fca1-4183-ad78-2badb0ecdccc",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b51a6aa8-921d-4e15-8813-b60641ce7847",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "3295000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/32efdb81-b573-43ae-97ce-bc4fda544d62",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 3 & Zapp"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-02T02:00:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/87df5308-95fe-4122-9379-6e20b8f0175e",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/73308fcf-d45d-4079-9f67-30ce63bddb56",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/ac9e930a-5015-407c-9dcc-f2c7d464f300",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "3305000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/32efdb81-b573-43ae-97ce-bc4fda544d62",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T23:15:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/87df5308-95fe-4122-9379-6e20b8f0175e",
+      "publishes" : "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/b6b2f750-c332-47fc-b55f-8dbeff16d61e",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/35c872e7-b421-4907-9ff0-16eff7c010c2",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "3303000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "BVN"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-02T06:05:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/87df5308-95fe-4122-9379-6e20b8f0175e",
+      "publishes" : "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/25c83f7c-6fb2-494b-aa8f-8b1e6a94c0e1",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9e0678c3-94b8-47db-a2bb-3b392894b5be",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "3303000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T18:05:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/87df5308-95fe-4122-9379-6e20b8f0175e",
+      "publishes" : "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/265496ad-01d4-4c91-879c-ee113b4bd291",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9a0d366a-0157-4f37-ae4a-631359af4d26",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "3284000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/fe62b8a6-1abd-4901-94af-2c47e4adc44d",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 1"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-01T18:00:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/87df5308-95fe-4122-9379-6e20b8f0175e",
+      "publishes" : "http://metadatahub.bijnpo.nl/e20d71e7-4b91-4680-8b8f-4e2d8c734655"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/e362e9fb-79dd-43ef-97f9-534417b9e25a",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/e2af2a72-07bf-4feb-99b4-a244afce9273" ],
+        "name" : "NOS"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRights" : {
+      "@id" : "http://metadatahub.bijnpo.nl/1e5e79fa-be2b-4269-9986-d76ec1ea300a",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "PLUSVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7ddbf7d8-fa1b-4f04-8f42-1ab8efa5ca64",
+        "@type" : "Concept",
+        "definition" : "Europese Unie (incl. BES gemeenten, Curacao, St. Maarten en Aruba).",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "EU"
+      }
+    },
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/c22db851-5056-4af9-a2db-890a913f141f",
+      "@type" : "Season",
+      "contentDescription" : "Met uitgebreide samenvattingen van alle eredivisiewedstrijden. Inclusief doelpunten, hoogtepunten en analyses.",
+      "hasAlternativeTitle" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/0600bf4b-fe53-479d-9295-0d1585512d00",
+        "@type" : "AlternativeTitle",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/ac5a51f5-c94d-41b9-b9b5-d3d144778043",
+        "title" : "NOS Studio Sport Voetbal"
+      } ],
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2025-11-24T13:18:59.432Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-05-04T06:20:24.812Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/69aa7423-e7e8-4053-8d98-40c8043bf3ec" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/b0ee23ba-0c4c-4edd-b852-a9e404a97670",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "26stspEreZon",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/03ff1074-9ee0-49fb-9354-8b18178642ba",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/c0efa9f6-341b-469d-a7e9-5c26cbc94e5c",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c44456dc-ccf1-4b48-a87e-0dba8b88d260",
+        "@type" : "Series",
+        "contentDescription" : "Met samenvattingen van de Eredivisieduels.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2016-02-10T09:27:13.264Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-05-05T04:35:37.189Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/e2f22747-62e8-4c71-a631-c76bf29af35f" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/4dfdf462-34f2-4ee2-b694-939c20a3815c", "http://metadatahub.bijnpo.nl/7388322d-913a-414a-878f-b55a0b0df5a9" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/c72b49f6-32a4-4711-a1a5-0a80e2a2e04a" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/37e774a8-d5e1-4bb0-972c-d724c965c624" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/8d00c7c8-19ac-45d5-b691-de6d8cce0115", "http://metadatahub.bijnpo.nl/0df17d7c-c92b-43c8-a8f3-7a7f90e80e74" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "NOS Studio Sport Voetbal"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "26"
+      },
+      "title" : "NOS Studio Sport Voetbal"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/1131b7d7-02a3-4d84-a54b-35c76cfd9b55",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/87df5308-95fe-4122-9379-6e20b8f0175e"
+    },
+    "pubStatus" : "PUBLISHED",
+    "represents" : {
+      "@id" : "http://metadatahub.bijnpo.nl/13904a8a-e62a-48b3-8a88-668709eb8c49",
+      "@type" : "Asset",
+      "hasAccessConditions" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/daa2e895-1843-4ca0-bda2-d1f9329322f0",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "TVVOD:NL"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/8b86184e-2573-4927-ad4b-1f025aaa0a7a",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "PLUSVOD:EU"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/e4568e1d-bc92-48ed-829e-f388371df2d5",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "NLBES"
+      } ]
+    },
+    "title" : "NOS Studio Sport Voetbal"
+  },
+  "error" : ""
+}

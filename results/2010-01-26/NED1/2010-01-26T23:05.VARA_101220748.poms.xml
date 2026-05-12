@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="VARA_101220748" sortDate="2010-01-27T00:15:00+01:00" workflow="PUBLISHED" creationDate="2013-02-17T12:10:44.825+01:00" lastModified="2013-02-17T12:10:44.946+01:00" publishDate="2022-06-09T06:12:03.719+02:00" urn="urn:vpro:media:program:21274054">
+    <crid>crid://tmp.program.omroep.nl/10576799</crid>
+    <broadcaster id="NPS">NPS</broadcaster>
+    <broadcaster id="VARA">VARA</broadcaster>
+    <title owner="NEBO" type="MAIN">Pauw &amp; Witteman</title>
+    <description owner="NEBO" type="SHORT">Te gast: -Dr. Frank, van 'de grootste afvalrace' en het boek 'Gezond slank'. -De eigenaresse van het modemerk Supertrash, Olcay Gulsen, over de start van de Amsterdam International Fashion Week.</description>
+    <description owner="NEBO" type="SUB">Te gast: -Dr. Frank, van 'de grootste afvalrace' en het boek 'Gezond slank'. Zijn streven is om met 100.000 deelnemers 1 miljoen kilo af te vallen in tien weken tijd. -De eigenaresse van het modemerk Supertrash, Olcay Gulsen, over de start van de Amsterdam International Fashion Week.</description>
+    <description owner="NEBO" type="EPISODE">Actuele talkshow. Te gast: -Dr. Frank, van 'de grootste afvalrace' en het boek 'Gezond slank'. Zijn streven is om met 100.000 deelnemers 1 miljoen kilo af te vallen in tien weken tijd. -De eigenaresse van het modemerk Supertrash, Olcay Gulsen, over de start van de Amsterdam International Fashion Week. Presentatie: Jeroen Pauw, Paul Witteman.</description>
+    <genre id="3.0.1.6">
+        <term>Amusement</term>
+    </genre>
+    <genre id="3.0.1.7">
+        <term>Informatief</term>
+    </genre>
+    <avAttributes>
+        <bitrate>0</bitrate>
+        <avFileFormat>MP4</avFileFormat>
+        <videoAttributes>
+            <videoCoding>MP4</videoCoding>
+            <aspectRatio>16:9</aspectRatio>
+        </videoAttributes>
+    </avAttributes>
+    <duration>P0DT0H55M0.000S</duration>
+    <credits>
+        <person role="PRESENTER">
+            <givenName>Paul</givenName>
+            <familyName>Witteman</familyName>
+        </person>
+        <person role="PRESENTER">
+            <givenName>Jeroen</givenName>
+            <familyName>Pauw</familyName>
+        </person>
+    </credits>
+    <descendantOf urnRef="urn:vpro:media:group:21273719" midRef="VARA_101220593" type="SEASON"/>
+    <descendantOf urnRef="urn:vpro:media:group:3033449" midRef="POMS_S_VARA_059932" type="SERIES"/>
+    <website>http://www.pauwenwitteman.nl</website>
+    <prediction state="REALIZED" publishStart="2010-01-27T00:06:02+01:00">INTERNETVOD</prediction>
+    <locations>
+        <location owner="NEBO" platform="INTERNETVOD" workflow="PUBLISHED" creationDate="2013-02-17T12:10:44.828+01:00" lastModified="2013-02-17T12:10:44.840+01:00" publishStart="2010-01-27T00:06:02+01:00" urn="urn:vpro:media:location:21274063">
+            <programUrl>odi+http://odi.omroep.nl/video/h264_bb/VARA_101220748</programUrl>
+            <avAttributes>
+                <bitrate>512000</bitrate>
+                <avFileFormat>MP4</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>MP4</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+        </location>
+    </locations>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED1" midRef="VARA_101220748" urnRef="urn:vpro:media:program:21274054">
+            <avAttributes>
+                <bitrate>0</bitrate>
+                <avFileFormat>MP4</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>MP4</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-26T23:05:00+01:00</start>
+            <duration>P0DT0H55M0.000S</duration>
+            <poProgID>VARA_101220748</poProgID>
+        </scheduleEvent>
+        <scheduleEvent channel="NED1" midRef="VARA_101220748" urnRef="urn:vpro:media:program:21274054">
+            <avAttributes>
+                <bitrate>0</bitrate>
+                <avFileFormat>MP4</avFileFormat>
+                <videoAttributes>
+                    <videoCoding>MP4</videoCoding>
+                    <aspectRatio>16:9</aspectRatio>
+                </videoAttributes>
+            </avAttributes>
+            <textSubtitles>Teletekst ondertitels</textSubtitles>
+            <guideDay>2010-01-26+01:00</guideDay>
+            <start>2010-01-27T00:15:00+01:00</start>
+            <duration>P0DT0H55M0.000S</duration>
+            <poProgID>VARA_101220748</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf added="2013-02-17T12:10:44.889+01:00" highlighted="false" midRef="VARA_101220593" index="11" type="SEASON" urnRef="urn:vpro:media:group:21273719">
+        <memberOf midRef="POMS_S_VARA_059932" type="SERIES" index="7"/>
+    </episodeOf>
+    <segments/>
+</program>

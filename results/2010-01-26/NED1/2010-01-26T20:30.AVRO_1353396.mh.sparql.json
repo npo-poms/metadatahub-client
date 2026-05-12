@@ -1,0 +1,36 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/8ece3825-a426-467f-a70d-0b9ab8e72cee" } ,
+        "title": { "type": "literal" , "value": "Op de bon" } ,
+        "description": { "type": "literal" , "value": "Alles en meer over het meest gehate gele papiertje: de bekeuring. Verkeersboetes, wildplassen, controle op illegaal vuurwerk, alcoholgebruik in het verkeer tijdens de donkere dagen rondom kerst én in de metro zonder kaartje, allemaal dingen die niet mogen, maar wel gebeuren. Verder: de kantonrechter. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht. Over emoties en de verhalen achter de bekeuring." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Alles en meer over het meest gehate gele papiertje: de bekeuring. Ook volgen we iedere week de belevenissen van de nooddienst 112 van Breda. Op de Bon over recht en onrecht." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2013-02-15T10:39:16.713Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://tmp.program.omroep.nl/10576810" } ,
+        "scheduleEvents": { "type": "literal" , "value": "INTERNETVOD,2013-02-15T10:39:16.716Z,|INTERNETVOD,2013-02-15T10:39:16.715Z,|NPO 1,2010-01-26T19:30:00.000Z,2100000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "AVRO" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.6" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "" } ,
+        "contentRatings": { "type": "literal" , "value": "Grof taalgebruik" } ,
+        "persons": { "type": "literal" , "value": "Sipke Jan Bousema\tPresenter\t" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "4,AVRO_1344189" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

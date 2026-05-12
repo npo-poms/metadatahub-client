@@ -1,0 +1,406 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/490aada8-72ba-4302-ad95-f131e7855ee7",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "In deze kennisquiz beantwoorden slimme spelers pittige vragen, terwijl de seconden wegtikken. Wordt het een mooi geldbedrag of een klokje?",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/afc0a6bd-9554-4de3-8ae9-5e7db77432fd",
+        "@type" : [ "Concept", "NamedIndividual" ],
+        "definition" : "The short description of the work.",
+        "inScheme" : {
+          "@id" : "npo_o:alternativeContentDescriptionTypes"
+        },
+        "prefLabel" : "Short description"
+      }
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.",
+    "episodeNumberInSeason" : {
+      "@type" : "integer",
+      "@value" : "22"
+    },
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/bc79fd1b-d14e-4c0a-96a8-fc96f8d7e016",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9796630f-bdd5-44d2-a06f-1d5b5f04a218",
+        "@type" : "Person",
+        "familyName" : "Dijkstra",
+        "givenName" : "Erik"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f2627a7f-9503-430e-8bb4-110ad67f5c14",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person who introduces or hosts a programme, acting as the central moderator responsible for guiding the programme toward the audience.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "25.10",
+        "prefLabel" : "Presenter"
+      }
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-02-11T14:41:08.337Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-04-01T09:00:58.257Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2026"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/9b848c75-022b-4bae-9385-0a03edcf8542",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.6",
+        "prefLabel" : "Amusement"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.6.19",
+      "prefLabel" : "Amusement-Spel/quiz"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/187bf8ef-5695-4fab-b670-eff7c19160e9",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2562757804668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/54ef91ed-d421-43fc-9512-827824340657",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "BV_101413694",
+      "name" : "PRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/5568ec4a-f139-4068-93b0-a84259f78c0e",
+      "@type" : "Identifier",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+      "identifierValue" : "crid://npo/programmagegevens/2562758162668",
+      "name" : "CRID"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/e0a672d5-a6b0-4477-a1aa-05384cf7e21b",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/6471efac-203f-4902-979c-b6b3e4868329",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1563000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "BVN"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-31T22:35:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/0406e7cc-8cf8-44ca-85bc-b88ed46a6bb2",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/f48d1b06-e8bb-4644-86e3-f540fd4e1486",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/913523a4-6b0c-4923-b3c2-8438583289a3",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1563000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/390db5f2-0b43-4e4c-8178-ce33571cdab0",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T10:35:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0406e7cc-8cf8-44ca-85bc-b88ed46a6bb2",
+      "publishes" : "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/1fe20e6f-3a51-4096-89d4-69b8629c05ab",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/302449f2-fc0a-4e90-90b6-5ed8c705d08f",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1619000.0"
+        }
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 2"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T14:30:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0406e7cc-8cf8-44ca-85bc-b88ed46a6bb2",
+      "publishes" : "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/ee87e70f-bf96-41e9-bc99-c47b11988c43",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/476ca85b-3f52-4704-a115-da26bd4a78ee",
+        "@type" : "TimelinePoint",
+        "equivalentTime" : {
+          "@type" : "float",
+          "@value" : "1636000.0"
+        }
+      },
+      "hasPublicationChannel" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-03-31T17:55:00.000Z"
+      },
+      "playsOut" : "http://metadatahub.bijnpo.nl/0406e7cc-8cf8-44ca-85bc-b88ed46a6bb2",
+      "publishes" : "http://metadatahub.bijnpo.nl/8235f907-3119-47f1-88b2-8af8bf5ac951"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/defa0239-df13-4737-aabe-bf850e60177c",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/5572b050-74d7-49b7-bf03-03a82733fef8",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/4e80023e-36eb-4bed-8641-7634eb5a1c73" ],
+        "name" : "BNNVARA"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/de5dc134-ff0b-4134-bd08-7ee3adc37a2c",
+      "@type" : "AudienceRating",
+      "description" : "Suitable for all ages",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/86e458ed-a4dc-4bcb-a24c-bc192ca836c2",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Alle leeftijden"
+        }, {
+          "@language" : "en",
+          "@value" : "Suitable for all ages"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.1",
+        "prefLabel" : "AL"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/38a39f2b-2ae3-4852-8252-b90af8953104",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "AL"
+    } ],
+    "hasRights" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/61ba7bdc-848a-439a-bd08-647bb178b672",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/97746efe-30be-4271-a730-a0719cd2e67d",
+        "@type" : "Concept",
+        "definition" : "Expliciet geen geo-restricties.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "Wereld"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/f24b4902-c09d-4270-ad79-988e9f757ceb",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "PLUSVOD"
+      },
+      "hasRightsTerritoryIncludes" : "http://metadatahub.bijnpo.nl/97746efe-30be-4271-a730-a0719cd2e67d"
+    } ],
+    "isEpisodeOfSeason" : {
+      "@id" : "http://metadatahub.bijnpo.nl/bc45f350-e619-4d80-926c-3e35edfcff41",
+      "@type" : "Season",
+      "contentDescription" : "Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.",
+      "hasDateCreated" : {
+        "@type" : "dateTime",
+        "@value" : "2025-11-25T13:40:17.230Z"
+      },
+      "hasDateModified" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-17T15:10:34.979Z"
+      },
+      "hasGenre" : [ "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" ],
+      "hasIdentifier" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/c8dfb237-471d-4661-813f-149a38c1b504",
+        "@type" : "Identifier",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "identifierValue" : "BV_101413672",
+        "name" : "PRID"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/60d06975-e1e5-44f7-864d-a910140d3302",
+        "@type" : "Identifier",
+        "identifierValue" : "SEASON",
+        "name" : "Original POMS type"
+      } ],
+      "hasPublisher" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/828f59b5-c544-4ad1-b68b-3066b7eaf06d",
+        "@type" : "Involvement",
+        "hasAgent" : "http://metadatahub.bijnpo.nl/5572b050-74d7-49b7-bf03-03a82733fef8",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9"
+      } ],
+      "isSeasonOf" : {
+        "@id" : "http://metadatahub.bijnpo.nl/f983ef2b-e020-4ec6-aadf-c92c7968d6bd",
+        "@type" : "Series",
+        "hasAlternativeContentDescription" : [ "http://metadatahub.bijnpo.nl/bbb03bb0-4ac7-49df-b408-ac1e9813b9ea" ],
+        "contentDescription" : "Twee kandidaten testen onder hoge druk hun kennis in verschillende categorieën. Hoe zetten zij hun jokers in, hoeveel rondes zullen de spelers het volhouden en met welk bedrag gaan de spelers uiteindelijk naar huis? Met elke dag aan het begin van de uitzending de kijkersvraag.",
+        "hasDateCreated" : {
+          "@type" : "dateTime",
+          "@value" : "2016-02-10T08:28:24.897Z"
+        },
+        "hasDateModified" : {
+          "@type" : "dateTime",
+          "@value" : "2026-04-17T10:00:36.144Z"
+        },
+        "hasGenre" : [ "http://metadatahub.bijnpo.nl/a257617f-fca0-4ec7-9fdd-745090fa8489" ],
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/2418f52d-f307-483a-ba41-cdc267c9aae9", "http://metadatahub.bijnpo.nl/0363c260-ae04-4171-8e70-b0010521acc5", "http://metadatahub.bijnpo.nl/bde2e50f-7cf0-4a58-bb4e-da3f030a47e6" ],
+        "hasPublisher" : [ "http://metadatahub.bijnpo.nl/d18c99dc-923c-4208-b6eb-cad6a3982d70" ],
+        "hasRelatedPicture" : [ "http://metadatahub.bijnpo.nl/92834bbf-c681-4fd8-b8db-9588cdec4fff", "http://metadatahub.bijnpo.nl/dfa54166-b0ca-431e-812e-9eab2e0b8b7b", "http://metadatahub.bijnpo.nl/e9d30226-8d11-4ca3-a0ed-7c4043b71d74", "http://metadatahub.bijnpo.nl/f9b7220b-b3ed-4f8f-9714-2ed892cb1a27" ],
+        "isMemberOf" : [ "http://metadatahub.bijnpo.nl/62ed210f-1c6a-4a0a-b95d-7ea93dc603df", "http://metadatahub.bijnpo.nl/46057b2b-94e9-4688-9351-d4d3d5ce2cbb" ],
+        "orderedFlag" : {
+          "@type" : "boolean",
+          "@value" : "true"
+        },
+        "pubStatus" : "PUBLISHED",
+        "title" : "Per Seconde Wijzer"
+      },
+      "orderedFlag" : {
+        "@type" : "boolean",
+        "@value" : "true"
+      },
+      "pubStatus" : "PUBLISHED",
+      "seasonNumber" : {
+        "@type" : "integer",
+        "@value" : "64"
+      },
+      "title" : "Per Seconde Wijzer"
+    },
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/fb78a927-b9cf-4223-8af0-d2f0ae60c9c7",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/0406e7cc-8cf8-44ca-85bc-b88ed46a6bb2"
+    },
+    "pubStatus" : "PUBLISHED",
+    "represents" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/7ca44731-d2f4-4a2f-8e3c-06404ddb2d6c",
+      "@type" : "Asset",
+      "hasAccessConditions" : [ {
+        "@id" : "http://metadatahub.bijnpo.nl/337696fb-b5c0-481e-83b3-13665f4dd037",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "PLUSVOD:WR"
+      }, {
+        "@id" : "http://metadatahub.bijnpo.nl/c473921f-ca66-4d47-8128-bf7ae2bc024e",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "NLALL"
+      } ]
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/61875370-732f-4162-ba49-2c10e334a7ea",
+      "@type" : "Asset",
+      "hasAccessConditions" : {
+        "@id" : "http://metadatahub.bijnpo.nl/150c7dc0-0b7e-4f5d-a5ff-b703a01e6097",
+        "@type" : "AccessConditions",
+        "ec:hasGeoBlockingWhitelist" : "WR"
+      }
+    } ],
+    "title" : "Per Seconde Wijzer"
+  },
+  "error" : ""
+}

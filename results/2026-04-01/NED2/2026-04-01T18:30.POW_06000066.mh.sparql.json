@@ -1,0 +1,35 @@
+{ "head": {
+    "vars": [ "entity" , "title" , "description" , "alternativeDescriptions" , "dateCreated" , "ebuFormat" , "crids" , "scheduleEvents" , "broadcasters" , "countries" , "languages" , "genres" , "targetGroups" , "ageRating" , "contentRatings" , "persons" , "episodeOfSeasons" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "entity": { "type": "uri" , "value": "http://metadatahub.bijnpo.nl/74f2d7aa-c728-4640-abed-1f093a8d7337" } ,
+        "title": { "type": "literal" , "value": "Trugkieke - Dwars Door De Delta - Klik mei de natuer" } ,
+        "description": { "type": "literal" , "value": "Trugkieke gaat over het Zeeland van toen en nu. Domburg is de oudste badplaats van Zeeland. Ooit een kuuroord voor welgestelden en een inspiratiebron voor kunstenaars. Dwars Door De Delta: Falco en Maas wandelen door het nieuwste Unesco Geopark van Nederland; Geopark Schelde Delta. Klik! mei de natuer: Laura gaat op zoek naar reptielen en amfibieën." } ,
+        "alternativeDescriptions": { "type": "literal" , "value": "Short description:Domburg is de oudste badplaats van Zeeland, een dorp aan zee met de charme van weleer. Falco en Maas wandelen door Geopark Schelde Delta. In Klik! mei de natuer zoeken we naar reptielen en amfibieën." } ,
+        "dateCreated": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTime" , "value": "2026-02-11T14:41:12.379Z" } ,
+        "ebuFormat": { "type": "uri" , "value": "http://www.ebu.ch/metadata/ontologies/ebucoreplus#VideoFormat" } ,
+        "crids": { "type": "literal" , "value": "crid://npo/programmagegevens/2562758124668|crid://npo/programmagegevens/2570972053668" } ,
+        "scheduleEvents": { "type": "literal" , "value": "NPO 2,2026-04-01T16:30:00.000Z,1820000.0|NPO 2,2026-04-02T08:40:00.000Z,1769000.0" } ,
+        "broadcasters": { "type": "literal" , "value": "MAX" } ,
+        "countries": { "type": "literal" , "value": "" } ,
+        "languages": { "type": "literal" , "value": "" } ,
+        "genres": { "type": "literal" , "value": "3.0.1.7" } ,
+        "targetGroups": { "type": "literal" , "value": "" } ,
+        "ageRating": { "type": "literal" , "value": "AL" } ,
+        "contentRatings": { "type": "literal" , "value": "" } ,
+        "episodeOfSeasons": { "type": "literal" , "value": "51,POW_06000015" }
+      }
+    ]
+  }
+}
+{ "head": {
+    "vars": [ "entity" , "prid" , "title" , "description" , "dateCreated" , "broadcasters" ]
+  } ,
+  "results": {
+    "bindings": [
+      
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<program xmlns="urn:vpro:media:2009" xmlns:shared="urn:vpro:shared:2009" type="BROADCAST" avType="VIDEO" embeddable="true" mid="POW_05973524" sortDate="2026-04-01T09:00:00+02:00" workflow="FOR PUBLICATION" creationDate="2026-02-11T15:40:58.075+01:00">
+    <crid>crid://metadatahub.bijnpo.nl/c9a30539-0ef5-42c0-b3cb-1c390c66d3f8</crid>
+    <crid>crid://npo/programmagegevens/2562758189668</crid>
+    <broadcaster id="NOS">NOS</broadcaster>
+    <title owner="AUTHORITY" type="MAIN">NOS Journaal met gebarentaal</title>
+    <description owner="AUTHORITY" type="MAIN">Met het laatste nieuws en de weersverwachting.</description>
+    <description owner="AUTHORITY" type="SHORT">Met het laatste nieuws en de weersverwachting.</description>
+    <genre id="3.0.1.7.21">
+        <term>Informatief</term>
+        <term>Nieuws/actualiteiten</term>
+    </genre>
+    <credits/>
+    <descendantOf midRef="26Jnl0900n2Geb"/>
+    <locations/>
+    <images/>
+    <scheduleEvents>
+        <scheduleEvent channel="NED2" midRef="POW_05973524">
+            <guideDay>2026-04-01+02:00</guideDay>
+            <start>2026-04-01T09:00:00+02:00</start>
+            <duration>P18Y9M27DT0H0M0.000S</duration>
+            <poProgID>POW_05973524</poProgID>
+        </scheduleEvent>
+    </scheduleEvents>
+    <episodeOf highlighted="false" midRef="26Jnl0900n2Geb" index="65"/>
+    <segments/>
+</program>

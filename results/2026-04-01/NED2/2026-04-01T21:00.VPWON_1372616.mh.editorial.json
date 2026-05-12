@@ -1,0 +1,278 @@
+{
+  "success" : true,
+  "statusCode" : 200,
+  "data" : {
+    "@context" : "https://ontology.metadatahub.bijnpo.nl/context.json",
+    "@id" : "http://metadatahub.bijnpo.nl/1de471f9-21a2-41ef-a644-b06de317f308",
+    "@type" : "Programme",
+    "hasAlternativeContentDescription" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/0149eb49-eac4-4466-8c1c-d9b468d8700a",
+      "@type" : "AlternativeContentDescription",
+      "contentDescription" : "Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Is het wel normaal dat één mens zoveel lijden moet zien?",
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/alternative-content-description-type/2"
+    } ],
+    "hasProductionCountry" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/747889dd-cd33-4ef8-bd0b-424bc4df7532",
+      "@type" : "CountryCode",
+      "altLabel" : "NL",
+      "prefLabel" : "Nederland"
+    } ],
+    "contentDescription" : "Op allerlei plekken in de stad ziet een voormalig ambulancebroeder beelden voor zich van de momenten waarop hij hulp verleende. Na 23 jaar op de ambulance staat een verzameling verhalen en gezichten op zijn netvlies gebrand. Hier lag het 'binkie' op de bouwplaats dat om zijn moeder bleef roepen. Daar het jongetje dat frontaal door een stadsbus werd geschept. Daar het meisje met de vlechten dat verdronk in het kanaal. Als eerste ter plaatse, was hij voor vele mensen de laatste die hun hand vasthield. Is het wel normaal dat één mens zoveel lijden moet zien?",
+    "hasContributor" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/06917a45-1c7a-4063-bfae-759cc673c768",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/10e2694e-a525-485b-a8e1-395a3b7aba3a",
+        "@type" : "Person",
+        "familyName" : "Varwijk",
+        "givenName" : "Jefta"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/d18c56b6-672f-4752-8e30-869777a57b06",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "The person mainly responsible for the artistic result of the work, including directing performances, selecting locations, and managing technical details such as camera positioning, lighting, and soundtrack.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "20.20",
+        "prefLabel" : "Director"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/8510a66c-b8ac-4d08-8f62-53949c1d1685",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c0aff11b-abbe-42ce-94c9-95e93de8d091",
+        "@type" : "Person",
+        "familyName" : "van Heusden",
+        "givenName" : "Jaap"
+      },
+      "hasObjectType" : "http://metadatahub.bijnpo.nl/d18c56b6-672f-4752-8e30-869777a57b06"
+    } ],
+    "hasDateCreated" : {
+      "@type" : "dateTime",
+      "@value" : "2026-03-06T10:20:41.556Z"
+    },
+    "hasDateModified" : {
+      "@type" : "dateTime",
+      "@value" : "2026-05-06T05:30:48.306Z"
+    },
+    "hasDateProduced" : {
+      "@type" : "gYear",
+      "@value" : "2022"
+    },
+    "hasGenre" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/032901af-be63-46e8-979d-c5d6fc5198a1",
+      "@type" : "Genre",
+      "broader" : {
+        "@id" : "http://metadatahub.bijnpo.nl/70335fa3-7405-412b-b641-69d192f8bf83",
+        "@type" : "Genre",
+        "inScheme" : {
+          "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+        },
+        "notation" : "3.0.1.8",
+        "prefLabel" : "Documentaire"
+      },
+      "inScheme" : {
+        "@id" : "http://metadatahub.bijnpo.nl/GenreScheme"
+      },
+      "notation" : "3.0.1.8.40",
+      "prefLabel" : "Documentaire-Human Interest"
+    } ],
+    "hasIdentifier" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/b4e0202b-883a-4821-a8fc-3a3bdae29a82",
+      "@type" : "Identifier",
+      "identifierValue" : "BROADCAST",
+      "name" : "Original POMS type"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/9c647f6e-c11a-4570-a965-4f6781112943",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bacaa8e3-e7cc-48d3-a2fe-fdd92d803a92",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "ETSI. Content Reference identifier. A globally unique identifier defined by TV-Anytime.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "3.1",
+        "prefLabel" : "Crid"
+      },
+      "identifierValue" : "crid://npo/programmagegevens/2563287760668",
+      "name" : "CRID"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/fe9b7280-17f5-462a-ae5a-e31fcfc7062d",
+      "@type" : "Identifier",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/240895a4-7c12-4224-b5c0-8fe1837904d3",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "An identifying number issued by the organisation supplying the material (in this case a complete programme) and recognised by them as such.",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:IdentifierTypeCodeCS"
+        },
+        "notation" : "1.6",
+        "prefLabel" : "Programme Number"
+      },
+      "identifierValue" : "VPWON_1372616",
+      "name" : "PRID"
+    } ],
+    "hasOriginalLanguage" : {
+      "@id" : "http://metadatahub.bijnpo.nl/f2dd127b-f190-4016-a5c2-bcb7a53b7922",
+      "@type" : "Language",
+      "notation" : "nl",
+      "prefLabel" : "Nederlands"
+    },
+    "hasPublication" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/e676ea48-0684-4549-9183-306c6d846cd6",
+      "@type" : "PublicationEvent",
+      "hasDuration" : {
+        "@id" : "http://metadatahub.bijnpo.nl/27b04dca-340c-4fed-be49-0fd590e84f8a",
+        "@type" : "NormalPlayTime",
+        "isoDuration" : "PT17M33S"
+      },
+      "hasPublicationChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b69adfea-3e30-4dd9-90b1-bcae480e8236",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/135769ac-af17-48b1-ad24-297d7369605e"
+        },
+        "name" : "NPO 2"
+      },
+      "hasStartDateTime" : {
+        "@type" : "dateTime",
+        "@value" : "2026-04-01T19:00:00.000Z"
+      },
+      "playsOut" : {
+        "@id" : "http://metadatahub.bijnpo.nl/d6ae789b-7128-4931-9c09-39390b643a26",
+        "@type" : "Essence",
+        "hasFormat" : "http://metadatahub.bijnpo.nl/4ddc7c30-33d5-40db-816f-53038f012b08"
+      },
+      "publishes" : "http://metadatahub.bijnpo.nl/1de471f9-21a2-41ef-a644-b06de317f308"
+    } ],
+    "hasPublisher" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/56a2e163-d12e-4928-a863-5f6ea261ea66",
+      "@type" : "Involvement",
+      "hasAgent" : {
+        "@id" : "http://metadatahub.bijnpo.nl/d3a37ce3-007a-4f39-92a9-2d432030e95e",
+        "@type" : "Agent",
+        "hasIdentifier" : [ "http://metadatahub.bijnpo.nl/fb283507-d2ac-4eb9-8840-c8d4ffa82959" ],
+        "name" : "HUMAN"
+      },
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/bb054996-02e3-4b19-9550-74d9d99866b9",
+        "@type" : "Concept",
+        "date" : "2007-04-12",
+        "definition" : "A person or organisation that sends out or communicates material, especially by radio or television",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:RoleCodeCS"
+        },
+        "notation" : "10.9.1",
+        "prefLabel" : "Broadcaster"
+      }
+    } ],
+    "hasRating" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/0decacd5-0d97-4361-856d-8262f3ef5e62",
+      "@type" : "Rating",
+      "description" : "Scary",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/7f02a9b6-a66d-4e49-8632-dcbc902e0221",
+        "@type" : "Concept",
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.2.3",
+        "prefLabel" : [ {
+          "@language" : "nl",
+          "@value" : "Angst"
+        }, {
+          "@language" : "en",
+          "@value" : "Scary"
+        } ]
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/724702e8-ee7a-4b08-a43f-e0b9e94593c1",
+        "@type" : "Organisation",
+        "hasObjectType" : "http://metadatahub.bijnpo.nl/40ad78cf-3079-4a5d-85c1-446da49e258c",
+        "label" : "NICAM (Kijkwijzer)",
+        "homepage" : "http://www.kijkwijzer.nl/"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "Angst"
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/be12c9fd-8a96-414c-a37b-14bb14eea50a",
+      "@type" : "AudienceRating",
+      "description" : "Not recommended for viewers younger than 9 years",
+      "hasObjectType" : {
+        "@id" : "http://metadatahub.bijnpo.nl/291e7c70-dc33-4b49-b388-56b1e9d4a279",
+        "@type" : "Concept",
+        "definition" : [ {
+          "@language" : "nl",
+          "@value" : "Let op met kinderen tot 9 jaar"
+        }, {
+          "@language" : "en",
+          "@value" : "Not recommended for viewers younger than 9 years"
+        } ],
+        "inScheme" : {
+          "@id" : "urn:ebu:metadata-cs:ContentAlertSchemeCodeCS"
+        },
+        "notation" : "37.1.3",
+        "prefLabel" : "9"
+      },
+      "ratingProvider" : {
+        "@id" : "http://metadatahub.bijnpo.nl/724702e8-ee7a-4b08-a43f-e0b9e94593c1"
+      },
+      "ratingSystemName" : "NL-NICAM",
+      "ratingValue" : "9"
+    } ],
+    "hasRights" : [ {
+      "@id" : "http://metadatahub.bijnpo.nl/43e7840b-ede1-4895-a397-e06f2a4c920a",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/8aa838a6-a14d-41d9-87cb-92d22d4c38d3",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "INTERNETVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/c5069a78-40fc-4b9f-91f2-b02a8a9eb509",
+        "@type" : "Concept",
+        "definition" : "Expliciet geen geo-restricties.",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "Wereld"
+      }
+    }, {
+      "@id" : "http://metadatahub.bijnpo.nl/1f13e922-922d-4d33-a249-f3c78f13bcb5",
+      "@type" : "Rights",
+      "hasRightsTargetChannel" : {
+        "@id" : "http://metadatahub.bijnpo.nl/102b2a29-7d41-4c36-b6a7-76d7b4a7545c",
+        "@type" : "PublicationChannel",
+        "hasPublicationPlatform" : {
+          "@id" : "http://metadatahub.bijnpo.nl/8ba0d9a7-f2dc-4cad-ac81-05f5bb72bbc1"
+        },
+        "name" : "PLUSVOD"
+      },
+      "hasRightsTerritoryIncludes" : {
+        "@id" : "http://metadatahub.bijnpo.nl/b6f2eaad-1633-4a83-95b6-86b8d7bda5c9",
+        "@type" : "Concept",
+        "definition" : "Europese Unie (incl. BES gemeenten, Curacao, St. Maarten en Aruba).",
+        "inScheme" : {
+          "@id" : "urn:npo:metadata-cs:TerritoryCodeCS"
+        },
+        "prefLabel" : "EU"
+      }
+    } ],
+    "isInstantiatedBy" : {
+      "@id" : "http://metadatahub.bijnpo.nl/c008f474-e358-4ab7-a66a-3ed4fcdba646",
+      "@type" : "MediaResource",
+      "hasRelatedEssence" : "http://metadatahub.bijnpo.nl/d6ae789b-7128-4931-9c09-39390b643a26"
+    },
+    "pubStatus" : "PUBLISHED",
+    "title" : "NPO Doc: Blauw Licht - Herinneringen van een Ambulancebroeder"
+  },
+  "error" : ""
+}
